@@ -47,6 +47,7 @@ category_amount_range = {
 
 bank_expense_options = ['ATM Withdrawal', 'Bill Payment', 'Wire Transfer', 'Loan Payment']
 
+
 def get_amount_for_category(category):
     low, high = category_amount_range.get(category, (20, 100))
     return round(random.uniform(low, high), 2)
@@ -158,6 +159,8 @@ def generate_user_data(user_id):
     card_df.to_csv(os.path.join(OUTPUT_DIR, f'card_user_{user_id:04d}.csv'), index=False)
 
 # ------------------- RUN SCRIPT -------------------
+
+
 for user_id in range(1, NUM_USERS + 1):
     generate_user_data(user_id)
 
