@@ -53,6 +53,8 @@ def get_amount_for_category(category):
     return round(random.uniform(low, high), 2)
 
 # ------------------- GENERATOR -------------------
+
+
 def generate_user_data(user_id):
     start_date = datetime(2023, 1, 1)
     balance = random.uniform(1000, 10000)
