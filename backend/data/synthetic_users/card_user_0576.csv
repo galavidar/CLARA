@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walmart,69.88,69.88,Groceries
+2023-01-06,Cline Inc,438.98,438.98,Travel
+2023-01-08,Delgado-Ferguson,385.74,385.74,Travel
+2023-01-11,Nike,112.31,37.44,Clothing
+2023-01-13,Walmart,129.3,129.3,Groceries
+2023-01-14,Delta Airlines,414.25,414.25,Travel
+2023-01-16,Apple,706.22,706.22,Electronics
+2023-01-18,CVS,75.52,75.52,Health
+2023-01-22,Contreras-Chen,82.24,82.24,Clothing
+2023-01-25,Solomon Group,25.02,8.34,Health
+2023-01-26,Uber,248.39,124.19,Travel
+2023-02-02,Mendoza-Black,20.89,20.89,Dining
+2023-02-04,Dunn Inc,31.59,31.59,Dining
+2023-02-09,Zara,46.63,46.63,Clothing
+2023-02-11,Uber,91.23,91.23,Travel
+2023-02-14,Amazon,988.84,988.84,Electronics
+2023-02-17,Walgreens,31.3,31.3,Health
+2023-02-20,Target,40.25,40.25,Groceries
+2023-02-23,Smith PLC,183.35,183.35,Electronics
+2023-02-24,McDonald's,48.51,48.51,Dining
+2023-03-04,IKEA,116.41,116.41,Home
+2023-03-06,Serrano Inc,112.75,37.58,Travel
+2023-03-09,Ross-Mitchell,61.52,61.52,Entertainment
+2023-03-14,Delta Airlines,195.99,98.0,Travel
+2023-03-16,H&M,182.01,182.01,Clothing
+2023-03-19,Ferrell LLC,80.05,80.05,Health
+2023-03-20,IKEA,164.92,164.92,Home
+2023-03-24,CVS,56.78,56.78,Health
+2023-03-28,Apple,253.95,126.97,Electronics
+2023-03-29,Morrison-Cuevas,33.34,33.34,Dining
+2023-03-30,Delta Airlines,466.74,466.74,Travel

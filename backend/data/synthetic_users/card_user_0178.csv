@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Barnes-Wade,333.44,333.44,Home
+2023-01-04,Warner LLC,415.67,415.67,Electronics
+2023-01-05,"Wells, Barnes and Glover",44.74,44.74,Dining
+2023-01-06,Ryan-Gonzalez,84.4,84.4,Clothing
+2023-01-11,Adidas,86.93,28.98,Clothing
+2023-01-12,H&M,173.98,173.98,Clothing
+2023-01-16,IKEA,135.16,135.16,Home
+2023-01-23,Apple,320.79,320.79,Electronics
+2023-01-24,Nike,135.01,135.01,Clothing
+2023-01-26,Amazon,383.59,383.59,Electronics
+2023-01-28,H&M,117.49,117.49,Clothing
+2023-02-08,Amazon,298.83,298.83,Electronics
+2023-02-11,IKEA,150.57,150.57,Home
+2023-02-12,Amazon,685.61,685.61,Electronics
+2023-02-14,Zara,91.19,91.19,Clothing
+2023-03-01,Walmart,125.54,125.54,Groceries
+2023-03-02,"Davis, Munoz and Ferguson",27.66,27.66,Dining
+2023-03-03,CVS,58.76,58.76,Health
+2023-03-05,Uber,460.64,460.64,Travel
+2023-03-07,Adidas,156.56,52.19,Clothing
+2023-03-10,Apple,680.22,680.22,Electronics
+2023-03-18,Wiggins-Gonzales,168.64,168.64,Clothing
+2023-03-20,IKEA,248.63,248.63,Home
+2023-03-25,Amazon,135.7,135.7,Electronics
+2023-03-26,CVS,83.6,83.6,Health
+2023-03-27,"Flores, Parker and Dougherty",165.72,55.24,Clothing
+2023-03-28,Walton LLC,55.39,55.39,Entertainment
+2023-03-30,"Palmer, Wolfe and Mann",129.0,129.0,Home

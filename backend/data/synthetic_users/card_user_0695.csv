@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Starbucks,11.0,11.0,Dining
+2023-01-07,Morgan LLC,353.52,353.52,Travel
+2023-01-15,Target,22.92,22.92,Groceries
+2023-01-24,Collier Ltd,37.29,18.64,Clothing
+2023-01-26,Starbucks,11.03,11.03,Dining
+2023-01-27,"Moore, Gray and Anderson",76.82,76.82,Clothing
+2023-01-30,Uber,445.37,445.37,Travel
+2023-02-02,Delta Airlines,470.56,470.56,Travel
+2023-02-04,Target,108.54,108.54,Groceries
+2023-02-05,Walgreens,99.98,49.99,Health
+2023-02-06,Delta Airlines,240.79,240.79,Travel
+2023-02-08,Hawkins PLC,62.19,62.19,Home
+2023-02-09,Walgreens,54.74,54.74,Health
+2023-02-12,H&M,172.17,172.17,Clothing
+2023-02-15,CVS,41.12,41.12,Health
+2023-02-16,Martinez-Thomas,56.85,56.85,Groceries
+2023-02-18,H&M,166.47,55.49,Clothing
+2023-02-19,Adidas,180.92,60.31,Clothing
+2023-02-21,Adidas,195.02,195.02,Clothing
+2023-02-22,McDonald's,56.09,28.05,Dining
+2023-02-24,"Martin, Evans and Bishop",41.96,20.98,Health
+2023-02-25,Apple,308.71,308.71,Electronics
+2023-02-27,Delta Airlines,103.38,103.38,Travel
+2023-02-28,Amazon,587.79,587.79,Electronics
+2023-03-06,Edwards PLC,87.79,87.79,Travel
+2023-03-09,Nike,145.77,145.77,Clothing
+2023-03-10,Delta Airlines,410.48,410.48,Travel
+2023-03-13,Walgreens,23.15,23.15,Health
+2023-03-15,Delta Airlines,327.73,327.73,Travel
+2023-03-16,Walmart,47.52,47.52,Groceries
+2023-03-17,Amazon,963.9,321.3,Electronics
+2023-03-19,"Velez, Jensen and Lucero",62.31,20.77,Entertainment
+2023-03-20,Delta Airlines,454.72,454.72,Travel
+2023-03-22,Delta Airlines,432.82,432.82,Travel
+2023-03-25,Uber,435.8,145.27,Travel
+2023-03-26,Amazon,878.05,878.05,Electronics
+2023-03-28,Amazon,927.89,927.89,Electronics

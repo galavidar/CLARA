@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Rodriguez, Park and Douglas",83.46,83.46,Clothing
+2023-01-04,Torres and Sons,116.63,116.63,Groceries
+2023-01-07,Apple,429.34,429.34,Electronics
+2023-01-11,Amazon,102.1,102.1,Electronics
+2023-01-13,Taylor-Lyons,35.74,35.74,Clothing
+2023-01-18,Adidas,39.67,39.67,Clothing
+2023-01-23,Nike,64.77,64.77,Clothing
+2023-01-25,Target,47.3,15.77,Groceries
+2023-02-06,H&M,136.08,136.08,Clothing
+2023-02-09,Starbucks,45.11,45.11,Dining
+2023-02-11,Rodriguez Ltd,233.77,233.77,Travel
+2023-02-12,Delta Airlines,210.44,210.44,Travel
+2023-02-15,Starbucks,55.91,55.91,Dining
+2023-02-17,Uber,242.13,242.13,Travel
+2023-02-18,Nike,64.38,64.38,Clothing
+2023-02-20,Starbucks,33.9,33.9,Dining
+2023-02-24,Apple,505.08,252.54,Electronics
+2023-02-25,H&M,55.62,27.81,Clothing
+2023-02-28,Target,32.87,32.87,Groceries
+2023-03-03,Zara,57.95,57.95,Clothing
+2023-03-07,"Crawford, Webster and Gonzales",25.99,25.99,Dining
+2023-03-08,Walgreens,23.81,23.81,Health
+2023-03-12,Singh Group,360.93,360.93,Electronics
+2023-03-15,Hernandez Inc,324.07,108.02,Home
+2023-03-16,CVS,49.16,49.16,Health
+2023-03-18,CVS,71.64,71.64,Health
+2023-03-20,Munoz LLC,82.33,82.33,Entertainment
+2023-03-21,Page-Morris,128.71,128.71,Groceries
+2023-03-25,Delta Airlines,273.68,273.68,Travel
+2023-03-28,"Gross, Alvarado and Gonzales",19.33,19.33,Dining

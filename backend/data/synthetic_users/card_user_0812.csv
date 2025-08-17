@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Apple,273.21,273.21,Electronics
+2023-01-03,CVS,58.11,19.37,Health
+2023-01-05,Marks-Cabrera,196.89,196.89,Clothing
+2023-01-08,Nike,62.35,62.35,Clothing
+2023-01-09,"Vance, Conley and Jenkins",33.65,33.65,Health
+2023-01-10,Walmart,135.05,135.05,Groceries
+2023-01-12,Rangel-Holmes,102.66,102.66,Clothing
+2023-01-13,"Jefferson, Mcintyre and Cain",13.42,13.42,Dining
+2023-01-15,Zara,52.02,52.02,Clothing
+2023-01-18,Jackson-Martinez,124.3,124.3,Home
+2023-01-19,"Schaefer, Steele and Castillo",40.17,40.17,Dining
+2023-01-21,Amazon,748.11,748.11,Electronics
+2023-01-23,Flores Group,313.32,156.66,Electronics
+2023-01-29,IKEA,169.91,169.91,Home
+2023-01-31,Zara,100.48,33.49,Clothing
+2023-02-02,CVS,67.38,33.69,Health
+2023-02-10,Starbucks,10.21,5.11,Dining
+2023-02-14,Target,70.78,70.78,Groceries
+2023-02-15,McDonald's,11.78,11.78,Dining
+2023-02-16,House PLC,34.46,34.46,Entertainment
+2023-02-22,Mercer-Wells,135.81,45.27,Clothing
+2023-02-23,King-Robinson,41.42,41.42,Dining
+2023-02-24,H&M,59.43,59.43,Clothing
+2023-02-25,H&M,118.86,118.86,Clothing
+2023-02-26,"Allen, Webb and Arnold",145.06,145.06,Home
+2023-02-28,Walmart,110.26,110.26,Groceries
+2023-03-01,Glenn Group,16.31,5.44,Dining
+2023-03-02,H&M,57.31,57.31,Clothing
+2023-03-03,Amazon,570.35,570.35,Electronics
+2023-03-04,Adidas,64.1,64.1,Clothing
+2023-03-07,Hubbard and Sons,207.21,69.07,Electronics
+2023-03-09,Target,148.28,148.28,Groceries
+2023-03-10,Amazon,328.12,328.12,Electronics
+2023-03-11,"Walker, Rogers and Garcia",92.22,92.22,Groceries
+2023-03-13,Brown PLC,99.48,33.16,Entertainment
+2023-03-18,Amazon,595.46,595.46,Electronics
+2023-03-19,Rios Ltd,96.11,96.11,Clothing
+2023-03-21,Walgreens,52.27,52.27,Health
+2023-03-25,Apple,608.45,202.82,Electronics
+2023-03-27,H&M,99.3,99.3,Clothing
+2023-03-28,Apple,564.08,564.08,Electronics
+2023-03-30,Walgreens,84.45,84.45,Health

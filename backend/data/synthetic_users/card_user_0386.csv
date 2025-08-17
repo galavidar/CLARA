@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-12,Allison-Gallagher,77.66,77.66,Health
+2023-01-16,McDonald's,48.33,48.33,Dining
+2023-01-19,Wilson-Luna,40.02,40.02,Dining
+2023-01-21,Amazon,315.4,315.4,Electronics
+2023-01-22,"Martin, Bennett and Miller",134.57,134.57,Clothing
+2023-01-25,Amazon,128.21,128.21,Electronics
+2023-01-26,Starbucks,47.06,47.06,Dining
+2023-01-28,Adidas,71.44,71.44,Clothing
+2023-01-30,Cole Inc,784.64,784.64,Electronics
+2023-01-31,Green Inc,53.44,53.44,Groceries
+2023-02-01,Walgreens,32.99,32.99,Health
+2023-02-05,Apple,722.87,722.87,Electronics
+2023-02-06,Williams-Davis,254.54,84.85,Travel
+2023-02-08,Walgreens,29.26,29.26,Health
+2023-02-09,Walmart,66.38,66.38,Groceries
+2023-02-10,Amazon,237.9,79.3,Electronics
+2023-02-11,Patel-Barton,112.93,112.93,Home
+2023-02-20,Freeman Inc,134.19,134.19,Groceries
+2023-02-21,"Sutton, Pugh and Cox",134.2,134.2,Electronics
+2023-02-23,Williams PLC,55.16,55.16,Groceries
+2023-02-24,Zara,77.1,77.1,Clothing
+2023-02-26,Delta Airlines,345.86,172.93,Travel
+2023-03-01,IKEA,328.08,328.08,Home
+2023-03-03,IKEA,132.64,132.64,Home
+2023-03-04,"Schneider, Richardson and Parks",95.89,95.89,Entertainment
+2023-03-06,Zara,91.25,91.25,Clothing
+2023-03-14,"Jackson, Hamilton and Richardson",58.37,58.37,Health
+2023-03-15,"Rodriguez, Adams and Colon",91.65,91.65,Home
+2023-03-16,Uber,370.43,123.48,Travel
+2023-03-17,Walmart,111.36,111.36,Groceries
+2023-03-18,"Heath, Dixon and Smith",162.84,162.84,Clothing
+2023-03-20,Walmart,122.82,122.82,Groceries
+2023-03-24,Uber,357.25,357.25,Travel
+2023-03-28,Nike,178.6,178.6,Clothing
+2023-03-29,Amazon,939.13,313.04,Electronics
+2023-03-31,Miller LLC,58.71,19.57,Clothing

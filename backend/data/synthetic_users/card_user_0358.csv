@@ -1,0 +1,26 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-08,White-Castro,337.39,112.46,Travel
+2023-01-15,Walmart,50.36,50.36,Groceries
+2023-01-17,Mitchell and Sons,282.22,94.07,Home
+2023-01-26,Young Inc,111.96,111.96,Clothing
+2023-01-29,CVS,21.34,21.34,Health
+2023-02-01,"Hill, Gonzales and Turner",165.59,165.59,Electronics
+2023-02-02,Chaney-Chapman,76.88,76.88,Travel
+2023-02-04,IKEA,392.19,392.19,Home
+2023-02-05,Zara,188.45,62.82,Clothing
+2023-02-07,CVS,75.27,25.09,Health
+2023-02-12,Nash-Ortiz,37.21,37.21,Groceries
+2023-02-13,Obrien Ltd,343.5,343.5,Home
+2023-02-18,Gomez Group,84.17,84.17,Health
+2023-02-19,Mitchell LLC,121.42,60.71,Home
+2023-02-21,IKEA,250.07,250.07,Home
+2023-02-22,Nike,76.74,76.74,Clothing
+2023-02-23,Zara,65.31,65.31,Clothing
+2023-02-24,Zara,72.21,72.21,Clothing
+2023-02-25,Walmart,112.75,112.75,Groceries
+2023-02-28,Walgreens,81.27,81.27,Health
+2023-03-15,Contreras-Gonzales,46.91,46.91,Dining
+2023-03-20,Prince and Sons,33.19,33.19,Health
+2023-03-22,H&M,131.56,131.56,Clothing
+2023-03-26,H&M,91.32,91.32,Clothing
+2023-03-30,Crane-Marshall,29.84,29.84,Health

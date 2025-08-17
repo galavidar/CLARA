@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Walgreens,49.32,24.66,Health
+2023-01-04,"Santos, Chandler and Watkins",70.72,70.72,Health
+2023-01-08,"Davis, Barrett and Gonzalez",426.56,426.56,Electronics
+2023-01-09,Target,37.94,37.94,Groceries
+2023-01-11,Apple,971.9,485.95,Electronics
+2023-01-12,Uber,201.1,100.55,Travel
+2023-01-13,Mays Inc,27.35,27.35,Dining
+2023-01-14,Zara,146.41,146.41,Clothing
+2023-01-17,Target,20.45,10.22,Groceries
+2023-01-21,IKEA,87.17,43.59,Home
+2023-01-23,"Lynch, Rodriguez and Webb",84.92,42.46,Home
+2023-01-31,Adidas,88.25,88.25,Clothing
+2023-02-01,Target,87.41,87.41,Groceries
+2023-02-02,Zara,59.7,59.7,Clothing
+2023-02-03,Apple,274.25,274.25,Electronics
+2023-02-06,Morton Inc,65.93,65.93,Entertainment
+2023-02-07,Zara,71.34,71.34,Clothing
+2023-02-08,H&M,56.53,56.53,Clothing
+2023-02-14,"Hodges, Knight and Johnson",561.71,561.71,Electronics
+2023-02-15,"Smith, Farmer and Perez",212.8,212.8,Home
+2023-02-19,Apple,420.26,420.26,Electronics
+2023-02-22,Apple,229.21,229.21,Electronics
+2023-02-23,Apple,852.05,852.05,Electronics
+2023-02-24,"Duke, Hicks and Chavez",93.59,93.59,Entertainment
+2023-02-26,CVS,81.3,81.3,Health
+2023-02-28,Frazier Inc,270.93,270.93,Home
+2023-03-02,Adidas,131.35,131.35,Clothing
+2023-03-03,Reese-Smith,20.44,20.44,Groceries
+2023-03-09,CVS,50.88,50.88,Health
+2023-03-11,Apple,951.41,951.41,Electronics
+2023-03-12,Huynh and Sons,45.3,45.3,Entertainment
+2023-03-17,Amazon,807.28,807.28,Electronics
+2023-03-18,Amazon,481.88,240.94,Electronics
+2023-03-19,Adidas,58.05,58.05,Clothing
+2023-03-21,Walgreens,39.58,39.58,Health
+2023-03-22,Walmart,125.34,125.34,Groceries
+2023-03-23,"Scott, Gardner and Benton",40.79,40.79,Health
+2023-03-24,CVS,39.46,39.46,Health
+2023-03-25,Walgreens,81.83,81.83,Health
+2023-03-28,Apple,565.46,565.46,Electronics
+2023-03-30,McDonald's,41.84,41.84,Dining
+2023-03-31,Amazon,940.85,940.85,Electronics

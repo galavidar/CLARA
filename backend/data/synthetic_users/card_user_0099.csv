@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,McDonald's,51.56,51.56,Dining
+2023-01-06,Joseph and Sons,98.03,98.03,Entertainment
+2023-01-07,Baker PLC,585.7,585.7,Electronics
+2023-01-09,Nike,164.22,82.11,Clothing
+2023-01-14,H&M,98.97,49.48,Clothing
+2023-01-16,"Johnson, Nelson and Burton",493.8,493.8,Travel
+2023-01-18,Delta Airlines,471.6,471.6,Travel
+2023-01-19,"Andrews, Harrison and Johnson",135.64,45.21,Travel
+2023-01-23,Uber,369.39,123.13,Travel
+2023-01-25,Apple,428.32,428.32,Electronics
+2023-01-27,Amazon,235.07,78.36,Electronics
+2023-01-28,IKEA,304.72,101.57,Home
+2023-01-31,Amazon,430.49,143.5,Electronics
+2023-02-04,Johnson-Armstrong,57.42,57.42,Entertainment
+2023-02-07,Walmart,61.24,61.24,Groceries
+2023-02-08,Walgreens,55.07,55.07,Health
+2023-02-10,Apple,499.3,499.3,Electronics
+2023-02-12,"Lopez, Hunter and Smith",108.71,108.71,Groceries
+2023-02-14,CVS,83.3,41.65,Health
+2023-02-18,Uber,66.55,33.27,Travel
+2023-02-23,"Gonzales, Robinson and Warren",33.36,16.68,Health
+2023-02-25,Zara,152.88,152.88,Clothing
+2023-02-28,H&M,193.27,193.27,Clothing
+2023-03-02,Zara,54.56,54.56,Clothing
+2023-03-03,"Pineda, Smith and Taylor",103.75,103.75,Groceries
+2023-03-04,Walmart,74.95,74.95,Groceries
+2023-03-06,Brown PLC,45.18,15.06,Health
+2023-03-14,McDonald's,10.59,10.59,Dining
+2023-03-19,Walmart,110.41,110.41,Groceries
+2023-03-20,H&M,172.43,172.43,Clothing
+2023-03-26,Delta Airlines,366.07,366.07,Travel
+2023-03-27,Target,47.85,23.93,Groceries
+2023-03-30,CVS,80.91,80.91,Health
+2023-03-31,H&M,105.98,35.33,Clothing

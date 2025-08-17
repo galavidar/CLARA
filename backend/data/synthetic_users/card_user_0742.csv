@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Lynch-Miller,196.41,196.41,Clothing
+2023-01-03,Zara,142.53,47.51,Clothing
+2023-01-10,Uber,445.95,445.95,Travel
+2023-01-11,Zara,176.5,88.25,Clothing
+2023-01-13,CVS,65.97,65.97,Health
+2023-01-14,Manning and Sons,404.59,404.59,Travel
+2023-01-18,Zara,144.3,72.15,Clothing
+2023-01-19,Mcguire-Burns,98.93,98.93,Entertainment
+2023-01-22,McDonald's,11.03,11.03,Dining
+2023-01-24,Starbucks,17.84,17.84,Dining
+2023-01-25,"Fisher, Weaver and Hansen",136.74,136.74,Groceries
+2023-01-31,"Michael, Wood and Rivera",11.69,3.9,Dining
+2023-02-04,Jones-Taylor,639.77,639.77,Electronics
+2023-02-07,IKEA,235.93,235.93,Home
+2023-02-08,Walmart,35.83,17.91,Groceries
+2023-02-09,Nike,71.08,23.69,Clothing
+2023-02-10,Sanchez-Reynolds,58.33,58.33,Dining
+2023-02-12,Delta Airlines,99.3,33.1,Travel
+2023-02-13,Jones-Brown,73.78,73.78,Entertainment
+2023-02-22,Uber,432.24,432.24,Travel
+2023-02-26,"Robertson, Rogers and Wilson",85.64,85.64,Travel
+2023-02-28,Adidas,188.69,188.69,Clothing
+2023-03-02,Mckenzie Group,50.55,25.27,Dining
+2023-03-05,Delta Airlines,470.71,470.71,Travel
+2023-03-06,Manning-Martin,79.9,79.9,Groceries
+2023-03-12,Adidas,166.17,166.17,Clothing
+2023-03-14,Target,63.08,63.08,Groceries
+2023-03-15,Target,37.36,37.36,Groceries
+2023-03-19,Uber,334.81,167.41,Travel
+2023-03-21,Adidas,61.02,61.02,Clothing
+2023-03-22,Rogers-Smith,171.0,171.0,Electronics
+2023-03-23,Brown-Mitchell,54.96,54.96,Dining
+2023-03-27,Nike,89.3,89.3,Clothing
+2023-03-28,H&M,48.82,48.82,Clothing
+2023-03-31,H&M,79.23,79.23,Clothing

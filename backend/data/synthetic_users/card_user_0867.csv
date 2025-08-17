@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Zara,80.27,80.27,Clothing
+2023-01-03,"Harrington, Cisneros and Meyer",750.68,750.68,Electronics
+2023-01-05,"Stewart, Delgado and Morrison",98.68,98.68,Entertainment
+2023-01-08,H&M,109.78,109.78,Clothing
+2023-01-11,"Walsh, Mcclure and Sutton",192.09,192.09,Clothing
+2023-01-12,"Brown, Small and Powers",681.58,681.58,Electronics
+2023-01-13,Uber,138.96,138.96,Travel
+2023-01-16,Target,113.57,113.57,Groceries
+2023-01-17,Hoffman-Griffith,106.51,106.51,Groceries
+2023-01-22,"Turner, Chavez and Davis",18.17,18.17,Dining
+2023-01-24,Amazon,350.97,350.97,Electronics
+2023-01-26,Schwartz-Bailey,154.81,154.81,Clothing
+2023-02-05,CVS,28.76,28.76,Health
+2023-02-07,Starbucks,17.0,17.0,Dining
+2023-02-09,Huynh-Hurley,175.48,175.48,Electronics
+2023-02-10,Vasquez Ltd,66.48,22.16,Health
+2023-02-13,IKEA,221.81,221.81,Home
+2023-02-15,IKEA,347.41,115.8,Home
+2023-02-16,Delta Airlines,57.45,57.45,Travel
+2023-02-18,"Wood, Alexander and Davis",93.96,93.96,Entertainment
+2023-02-19,Nike,121.16,121.16,Clothing
+2023-02-24,Barker Group,28.43,28.43,Dining
+2023-02-25,Walton Ltd,478.46,239.23,Travel
+2023-02-28,Apple,411.7,411.7,Electronics
+2023-03-05,IKEA,344.37,344.37,Home
+2023-03-07,Walmart,121.34,121.34,Groceries
+2023-03-08,IKEA,263.9,263.9,Home
+2023-03-10,Target,138.21,69.11,Groceries
+2023-03-12,Amazon,999.56,499.78,Electronics
+2023-03-13,CVS,68.69,22.9,Health
+2023-03-14,Bailey-Williams,90.32,90.32,Clothing
+2023-03-16,CVS,90.88,90.88,Health
+2023-03-17,"Warner, Campbell and Smith",146.29,146.29,Groceries
+2023-03-18,CVS,10.97,5.49,Health
+2023-03-22,Apple,281.98,281.98,Electronics
+2023-03-23,Walmart,144.17,144.17,Groceries
+2023-03-26,"Valencia, Valencia and Thompson",77.71,25.9,Groceries
+2023-03-29,Uber,141.61,141.61,Travel

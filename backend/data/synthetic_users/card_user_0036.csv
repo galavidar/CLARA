@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-09,"Brown, Mullins and Johnson",91.65,91.65,Entertainment
+2023-01-10,"Kaufman, Cabrera and Moore",35.07,35.07,Health
+2023-01-11,Walgreens,22.53,22.53,Health
+2023-01-14,George-Franco,138.56,138.56,Clothing
+2023-01-16,H&M,188.52,188.52,Clothing
+2023-01-17,Walmart,145.65,145.65,Groceries
+2023-01-18,Uber,164.66,164.66,Travel
+2023-01-21,White Ltd,250.25,250.25,Home
+2023-01-22,IKEA,311.25,311.25,Home
+2023-01-25,Target,113.54,113.54,Groceries
+2023-01-27,Amazon,598.34,598.34,Electronics
+2023-01-28,Starbucks,14.56,14.56,Dining
+2023-01-29,Walmart,52.01,52.01,Groceries
+2023-02-02,Hess Inc,74.12,74.12,Health
+2023-02-03,Zara,33.91,33.91,Clothing
+2023-02-07,Apple,382.79,382.79,Electronics
+2023-02-09,Warner Ltd,680.93,340.46,Electronics
+2023-02-10,Nike,104.17,104.17,Clothing
+2023-02-12,"Scott, Berry and Pena",111.35,55.67,Clothing
+2023-02-18,Amazon,615.35,615.35,Electronics
+2023-02-20,Zara,182.14,182.14,Clothing
+2023-02-21,"Bean, Martinez and Curry",48.64,48.64,Dining
+2023-02-24,Starbucks,22.28,11.14,Dining
+2023-02-25,Amazon,454.43,151.48,Electronics
+2023-02-27,Starbucks,45.51,45.51,Dining
+2023-03-09,Reyes-Deleon,43.83,43.83,Health
+2023-03-10,Zara,161.76,161.76,Clothing
+2023-03-12,Gill and Sons,32.0,16.0,Health
+2023-03-13,CVS,51.87,51.87,Health
+2023-03-16,Zara,43.28,43.28,Clothing
+2023-03-18,H&M,186.74,93.37,Clothing
+2023-03-19,Adidas,93.12,93.12,Clothing
+2023-03-21,Walgreens,56.53,18.84,Health
+2023-03-25,Harris-Jackson,69.46,69.46,Entertainment
+2023-03-26,Uber,138.35,138.35,Travel
+2023-03-27,Zara,126.78,126.78,Clothing
+2023-03-28,H&M,198.37,198.37,Clothing
+2023-03-29,CVS,53.44,17.81,Health
+2023-03-30,Walmart,30.4,30.4,Groceries

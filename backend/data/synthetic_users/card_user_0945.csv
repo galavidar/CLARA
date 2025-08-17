@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,CVS,39.9,39.9,Health
+2023-01-14,Nike,100.89,100.89,Clothing
+2023-01-17,Walmart,142.46,142.46,Groceries
+2023-01-21,Target,132.87,132.87,Groceries
+2023-01-22,Delta Airlines,258.94,258.94,Travel
+2023-01-27,"Wilson, Davis and Benson",69.01,69.01,Travel
+2023-01-28,H&M,63.53,31.77,Clothing
+2023-01-31,Amazon,558.57,558.57,Electronics
+2023-02-04,Delta Airlines,126.49,126.49,Travel
+2023-02-06,Summers-Watts,953.87,953.87,Electronics
+2023-02-10,Morgan-Bailey,23.53,23.53,Health
+2023-02-12,Walgreens,22.52,22.52,Health
+2023-02-14,Delta Airlines,197.69,65.9,Travel
+2023-02-17,H&M,141.48,141.48,Clothing
+2023-02-18,H&M,106.67,106.67,Clothing
+2023-02-19,Nike,156.84,156.84,Clothing
+2023-02-20,Apple,430.7,430.7,Electronics
+2023-02-22,"Wiggins, Dawson and Shannon",35.01,35.01,Entertainment
+2023-02-24,Adidas,56.85,18.95,Clothing
+2023-02-26,Zara,47.04,47.04,Clothing
+2023-03-01,"Gallagher, Henderson and Jackson",861.23,861.23,Electronics
+2023-03-05,Apple,791.31,791.31,Electronics
+2023-03-07,"Kennedy, Becker and Townsend",193.88,193.88,Home
+2023-03-09,"Pace, Hogan and Nguyen",87.67,87.67,Home
+2023-03-10,Nike,137.34,137.34,Clothing
+2023-03-13,Uber,245.49,245.49,Travel
+2023-03-14,Adidas,129.33,64.67,Clothing
+2023-03-17,Cole and Sons,86.27,86.27,Groceries
+2023-03-20,Delta Airlines,498.19,498.19,Travel
+2023-03-24,Delta Airlines,190.03,190.03,Travel
+2023-03-27,Thomas-Pratt,30.13,30.13,Health
+2023-03-28,"Mitchell, Stephens and Williams",149.0,149.0,Clothing
+2023-03-31,CVS,11.37,5.68,Health

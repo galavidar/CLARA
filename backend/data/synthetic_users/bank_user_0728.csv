@@ -1,0 +1,27 @@
+date,income,expense,balance,description
+2023-01-01,4451.76,0.0,5941.81,Salary
+2023-01-03,0.0,67.63,5874.18,Bill Payment
+2023-01-08,0.0,131.13,5743.05,ATM Withdrawal
+2023-01-12,0.0,23.88,5719.17,Bill Payment
+2023-01-20,0.0,119.74,5599.43,ATM Withdrawal
+2023-01-21,0.0,112.71,5486.72,Bill Payment
+2023-01-22,9.15,0.0,5495.87,Interest Payment
+2023-01-22,0.0,139.82,5356.05,ATM Withdrawal
+2023-01-28,0.0,1722.99,11572.07,Credit Card Payment
+2023-02-01,4479.34,0.0,9835.39,Salary
+2023-02-08,0.0,91.72,9743.67,ATM Withdrawal
+2023-02-18,0.0,111.48,9632.19,Bill Payment
+2023-02-22,8.49,0.0,9640.68,Interest Payment
+2023-02-25,0.0,92.69,9547.99,ATM Withdrawal
+2023-02-27,0.0,107.12,9440.87,Bill Payment
+2023-02-28,0.0,1824.42,9747.65,Credit Card Payment
+2023-03-01,4312.49,0.0,13753.36,Salary
+2023-03-02,0.0,113.86,13639.5,Loan Payment
+2023-03-11,0.0,56.36,13583.14,ATM Withdrawal
+2023-03-12,0.0,112.59,13470.55,ATM Withdrawal
+2023-03-21,0.0,56.15,13414.4,Bill Payment
+2023-03-22,9.99,0.0,13424.39,Interest Payment
+2023-03-27,0.0,129.33,13295.06,ATM Withdrawal
+2023-03-28,0.0,1646.98,8100.67,Credit Card Payment
+2023-04-28,0.0,429.36,7671.31,Credit Card Payment
+2023-05-28,0.0,31.82,7639.49,Credit Card Payment

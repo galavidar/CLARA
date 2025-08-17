@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,81.58,27.19,Health
+2023-01-02,Target,136.97,136.97,Groceries
+2023-01-06,Amazon,373.41,373.41,Electronics
+2023-01-09,Amazon,675.38,675.38,Electronics
+2023-01-11,Delta Airlines,401.78,401.78,Travel
+2023-01-12,Gallegos-Sanford,243.06,243.06,Electronics
+2023-01-13,Parsons-Garcia,95.54,47.77,Health
+2023-01-16,Amazon,217.15,217.15,Electronics
+2023-01-20,Jones-Garcia,59.92,59.92,Dining
+2023-01-21,Nike,179.56,179.56,Clothing
+2023-01-24,Freeman PLC,47.62,47.62,Entertainment
+2023-01-27,H&M,82.25,82.25,Clothing
+2023-01-28,CVS,69.66,69.66,Health
+2023-01-29,Zara,32.9,16.45,Clothing
+2023-01-30,IKEA,132.25,132.25,Home
+2023-02-02,Adidas,180.66,180.66,Clothing
+2023-02-04,Welch and Sons,636.14,636.14,Electronics
+2023-02-12,Adidas,60.48,60.48,Clothing
+2023-02-13,Starbucks,29.35,29.35,Dining
+2023-02-16,Target,127.95,127.95,Groceries
+2023-02-22,"Wood, Hogan and Butler",123.44,123.44,Groceries
+2023-02-23,Uber,488.49,488.49,Travel
+2023-02-25,Walmart,100.2,100.2,Groceries
+2023-02-27,Zara,132.96,132.96,Clothing
+2023-03-01,"Oliver, Bartlett and Mills",28.87,28.87,Dining
+2023-03-06,Amazon,447.6,447.6,Electronics
+2023-03-10,IKEA,161.06,161.06,Home
+2023-03-11,Gonzalez LLC,392.94,392.94,Home
+2023-03-13,"Ibarra, Johnson and Martinez",54.34,54.34,Dining
+2023-03-14,"Garrett, Barnes and Howe",107.77,107.77,Clothing
+2023-03-19,"Sanford, Evans and Arnold",76.67,76.67,Health
+2023-03-20,Uber,346.05,346.05,Travel
+2023-03-21,McDonald's,54.29,54.29,Dining
+2023-03-23,Sparks-Ortiz,125.53,125.53,Groceries
+2023-03-24,Potts Group,722.01,722.01,Electronics
+2023-03-26,"Mills, Boyle and Lang",89.28,44.64,Groceries
+2023-03-29,Apple,723.31,723.31,Electronics
+2023-03-31,Walmart,55.06,55.06,Groceries

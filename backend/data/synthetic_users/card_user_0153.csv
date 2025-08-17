@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,"Fletcher, Burton and Johnson",359.79,119.93,Travel
+2023-01-03,Walgreens,18.97,18.97,Health
+2023-01-04,Target,66.38,66.38,Groceries
+2023-01-05,"Robinson, Ferrell and Lee",41.92,41.92,Clothing
+2023-01-07,Walmart,103.97,103.97,Groceries
+2023-01-08,Adidas,63.96,21.32,Clothing
+2023-01-09,Delta Airlines,81.77,81.77,Travel
+2023-01-10,Delta Airlines,476.71,476.71,Travel
+2023-01-12,Apple,530.39,176.8,Electronics
+2023-01-13,King Inc,39.32,39.32,Entertainment
+2023-01-15,Cordova PLC,58.51,58.51,Dining
+2023-01-16,Starbucks,51.41,25.7,Dining
+2023-01-18,H&M,192.24,192.24,Clothing
+2023-01-19,Nguyen-Clayton,101.25,50.62,Clothing
+2023-01-22,Adidas,48.53,48.53,Clothing
+2023-01-23,CVS,32.01,32.01,Health
+2023-01-24,Walmart,85.18,85.18,Groceries
+2023-01-25,IKEA,126.54,126.54,Home
+2023-01-28,McDonald's,27.02,27.02,Dining
+2023-02-01,Williams-Brown,448.08,448.08,Electronics
+2023-02-02,Zara,157.26,157.26,Clothing
+2023-02-03,IKEA,143.86,71.93,Home
+2023-02-04,"Spencer, Torres and Horn",906.0,906.0,Electronics
+2023-02-06,Henderson-Hill,48.42,48.42,Dining
+2023-02-08,Adidas,141.81,141.81,Clothing
+2023-02-13,Coleman LLC,72.77,72.77,Groceries
+2023-02-14,"Vaughn, Williams and Garcia",12.39,12.39,Health
+2023-02-15,"Rogers, Wilkerson and Martinez",658.17,658.17,Electronics
+2023-02-18,"Welch, Rice and Gomez",47.77,47.77,Entertainment
+2023-02-23,Target,134.02,134.02,Groceries
+2023-02-26,Target,115.31,115.31,Groceries
+2023-02-28,Starbucks,38.92,12.97,Dining
+2023-03-01,Jones Ltd,106.02,106.02,Clothing
+2023-03-02,Zara,48.75,48.75,Clothing
+2023-03-04,"Alvarez, Lopez and Sutton",389.97,389.97,Home
+2023-03-05,Target,141.57,141.57,Groceries
+2023-03-07,McDonald's,51.36,51.36,Dining
+2023-03-09,IKEA,384.42,384.42,Home
+2023-03-10,Adidas,67.01,67.01,Clothing
+2023-03-11,Walmart,105.27,52.63,Groceries
+2023-03-20,Starbucks,23.23,23.23,Dining
+2023-03-25,Starbucks,40.57,40.57,Dining

@@ -1,0 +1,50 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,125.92,62.96,Clothing
+2023-01-03,Zara,56.64,56.64,Clothing
+2023-01-04,Adidas,106.69,106.69,Clothing
+2023-01-07,Zara,88.32,29.44,Clothing
+2023-01-09,Ross Group,52.47,52.47,Health
+2023-01-14,Uber,233.26,233.26,Travel
+2023-01-18,Apple,828.63,414.31,Electronics
+2023-01-19,Nike,194.91,194.91,Clothing
+2023-01-23,Curry-Johnston,143.07,143.07,Clothing
+2023-01-24,Amazon,599.31,199.77,Electronics
+2023-01-25,Gregory-Lang,369.93,369.93,Electronics
+2023-01-26,Hudson-Mcdaniel,92.58,92.58,Entertainment
+2023-01-27,"Bell, Miller and Anderson",150.02,150.02,Clothing
+2023-01-28,"Davis, Nicholson and Hill",225.3,225.3,Home
+2023-01-29,IKEA,256.48,128.24,Home
+2023-01-31,Delta Airlines,92.16,92.16,Travel
+2023-02-01,Davis-Palmer,63.26,31.63,Clothing
+2023-02-02,Walmart,105.12,52.56,Groceries
+2023-02-04,Walmart,133.56,44.52,Groceries
+2023-02-06,CVS,87.54,87.54,Health
+2023-02-07,CVS,15.82,15.82,Health
+2023-02-10,Walgreens,37.42,37.42,Health
+2023-02-11,Allison PLC,45.4,15.13,Groceries
+2023-02-12,Uber,102.91,102.91,Travel
+2023-02-13,Jacobson-Diaz,142.21,142.21,Home
+2023-02-14,Starbucks,25.52,25.52,Dining
+2023-02-15,"Frey, Shannon and Travis",25.55,12.78,Dining
+2023-02-17,CVS,12.84,12.84,Health
+2023-02-19,Starbucks,59.85,59.85,Dining
+2023-02-20,Carter-Richards,24.74,24.74,Dining
+2023-02-23,"Perez, Evans and Lewis",84.87,84.87,Groceries
+2023-02-28,McDonald's,30.8,30.8,Dining
+2023-03-01,Amazon,848.62,282.87,Electronics
+2023-03-05,Walmart,40.16,40.16,Groceries
+2023-03-07,Zara,57.36,57.36,Clothing
+2023-03-09,Garcia-Newman,603.84,603.84,Electronics
+2023-03-10,Gonzalez PLC,11.5,11.5,Health
+2023-03-11,McDonald's,15.56,7.78,Dining
+2023-03-13,IKEA,94.57,94.57,Home
+2023-03-14,H&M,112.58,112.58,Clothing
+2023-03-15,Kelley-Franklin,52.06,26.03,Groceries
+2023-03-16,CVS,89.71,89.71,Health
+2023-03-20,Lewis LLC,53.13,53.13,Groceries
+2023-03-23,Long-Thornton,54.01,18.0,Health
+2023-03-26,Starbucks,14.54,4.85,Dining
+2023-03-27,Amazon,105.47,105.47,Electronics
+2023-03-28,Delta Airlines,347.32,347.32,Travel
+2023-03-29,Peterson-Griffith,88.07,88.07,Clothing
+2023-03-30,"Bennett, Shaw and Harrison",27.71,27.71,Dining

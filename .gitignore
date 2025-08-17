@@ -2,3 +2,4 @@ venv/
 .env
 __pycache__/
 .ipynb_checkpoints/
+backend/ts_experiments_processing.ipynb

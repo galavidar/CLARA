@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Zara,180.69,90.34,Clothing
+2023-01-04,Target,119.17,119.17,Groceries
+2023-01-05,IKEA,99.64,99.64,Home
+2023-01-07,Target,83.55,83.55,Groceries
+2023-01-08,Rivera-Richardson,704.77,704.77,Electronics
+2023-01-09,Jones Group,94.87,94.87,Groceries
+2023-01-12,Nike,69.61,69.61,Clothing
+2023-01-13,McDonald's,22.54,22.54,Dining
+2023-01-25,Adidas,176.03,176.03,Clothing
+2023-01-28,Weber-Washington,297.15,148.57,Travel
+2023-02-01,McDonald's,39.12,39.12,Dining
+2023-02-05,Baker-Wallace,510.16,510.16,Electronics
+2023-02-08,Orr-Thomas,20.62,20.62,Groceries
+2023-02-09,Delta Airlines,497.68,165.89,Travel
+2023-02-13,Marquez-Rogers,77.42,77.42,Entertainment
+2023-02-14,Target,112.45,112.45,Groceries
+2023-02-15,Williams Ltd,49.85,49.85,Dining
+2023-02-18,CVS,94.57,94.57,Health
+2023-02-22,"Hall, Mason and Scott",209.57,209.57,Travel
+2023-02-24,Walgreens,67.17,67.17,Health
+2023-02-26,"Carlson, Gibbs and Hall",58.16,58.16,Groceries
+2023-02-28,Nike,127.86,127.86,Clothing
+2023-03-01,CVS,96.17,32.06,Health
+2023-03-10,Walgreens,52.07,52.07,Health
+2023-03-13,Castillo Ltd,91.93,91.93,Health
+2023-03-14,"Cobb, Moore and Ellison",406.83,406.83,Travel
+2023-03-17,Apple,762.3,381.15,Electronics
+2023-03-24,Walmart,49.07,49.07,Groceries
+2023-03-27,Hogan PLC,233.94,233.94,Travel
+2023-03-29,Mendez Group,330.3,330.3,Travel
+2023-03-31,Walgreens,27.19,27.19,Health

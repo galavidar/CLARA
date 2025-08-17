@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Adidas,52.05,52.05,Clothing
+2023-01-03,IKEA,71.39,71.39,Home
+2023-01-04,Zara,183.09,183.09,Clothing
+2023-01-06,Nike,143.61,143.61,Clothing
+2023-01-08,Uber,147.25,147.25,Travel
+2023-01-10,Zara,184.82,184.82,Clothing
+2023-01-12,Target,93.5,93.5,Groceries
+2023-01-13,Nike,89.57,89.57,Clothing
+2023-01-14,CVS,21.15,21.15,Health
+2023-01-15,IKEA,40.9,40.9,Home
+2023-01-20,Hernandez and Sons,79.64,79.64,Groceries
+2023-01-21,Walmart,120.46,120.46,Groceries
+2023-01-22,CVS,28.99,28.99,Health
+2023-01-24,Bowen-Moore,23.46,23.46,Dining
+2023-01-25,Nike,162.86,162.86,Clothing
+2023-01-27,Stevenson Ltd,35.87,35.87,Dining
+2023-01-29,CVS,34.82,34.82,Health
+2023-01-30,Townsend Group,318.74,318.74,Home
+2023-02-04,Zara,63.76,63.76,Clothing
+2023-02-10,Delta Airlines,473.41,236.71,Travel
+2023-02-11,Walmart,114.85,114.85,Groceries
+2023-02-13,Target,122.28,122.28,Groceries
+2023-02-14,Walgreens,69.63,69.63,Health
+2023-02-18,Walmart,86.91,86.91,Groceries
+2023-02-24,"Eaton, Reynolds and Taylor",45.6,45.6,Dining
+2023-03-04,McDonald's,11.16,5.58,Dining
+2023-03-05,Nike,145.13,145.13,Clothing
+2023-03-07,Uber,368.76,368.76,Travel
+2023-03-08,Target,88.14,88.14,Groceries
+2023-03-09,Walmart,98.99,98.99,Groceries
+2023-03-10,H&M,187.91,187.91,Clothing
+2023-03-11,White-Baker,31.06,10.35,Dining
+2023-03-16,IKEA,181.23,60.41,Home
+2023-03-18,CVS,18.14,9.07,Health
+2023-03-21,CVS,20.69,20.69,Health
+2023-03-24,CVS,41.58,41.58,Health
+2023-03-25,IKEA,50.22,50.22,Home

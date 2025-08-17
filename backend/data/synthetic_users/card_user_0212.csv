@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walmart,46.61,46.61,Groceries
+2023-01-06,Hill Inc,630.12,630.12,Electronics
+2023-01-08,"Sullivan, Fernandez and Garcia",73.9,36.95,Entertainment
+2023-01-13,IKEA,393.46,393.46,Home
+2023-01-21,Walgreens,90.23,45.12,Health
+2023-01-24,Starbucks,51.27,51.27,Dining
+2023-01-26,Starbucks,17.6,17.6,Dining
+2023-01-28,McDonald's,17.95,17.95,Dining
+2023-01-30,CVS,18.41,18.41,Health
+2023-02-07,Uber,53.54,26.77,Travel
+2023-02-08,Walmart,99.44,33.15,Groceries
+2023-02-09,Target,24.17,12.09,Groceries
+2023-02-10,Walmart,21.72,21.72,Groceries
+2023-02-12,Delta Airlines,227.51,227.51,Travel
+2023-02-14,IKEA,108.35,36.12,Home
+2023-02-18,Amazon,271.42,271.42,Electronics
+2023-02-23,Nash PLC,83.85,83.85,Health
+2023-02-26,"Norris, Murphy and Moss",255.67,255.67,Travel
+2023-03-01,Ross Group,99.33,99.33,Health
+2023-03-04,CVS,89.49,89.49,Health
+2023-03-05,Target,51.27,51.27,Groceries
+2023-03-08,Uber,192.18,192.18,Travel
+2023-03-09,Brown-Moore,374.29,374.29,Home
+2023-03-10,McDonald's,15.59,15.59,Dining
+2023-03-13,"Orr, Shah and Taylor",87.55,29.18,Groceries
+2023-03-23,H&M,101.65,101.65,Clothing
+2023-03-25,Nike,142.6,71.3,Clothing
+2023-03-26,Apple,609.89,203.3,Electronics
+2023-03-29,CVS,42.62,42.62,Health
+2023-03-31,Gonzalez-Mcmillan,53.73,17.91,Clothing

@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,McDonald's,45.98,45.98,Dining
+2023-01-06,Adidas,70.12,70.12,Clothing
+2023-01-09,Adidas,54.74,54.74,Clothing
+2023-01-11,Adidas,103.03,51.52,Clothing
+2023-01-12,"Nielsen, Jackson and Adams",60.53,60.53,Home
+2023-01-14,CVS,38.86,38.86,Health
+2023-01-15,CVS,15.0,5.0,Health
+2023-01-16,Santiago PLC,59.61,59.61,Dining
+2023-01-18,Delta Airlines,397.79,132.6,Travel
+2023-01-28,Carter-Morris,394.84,197.42,Travel
+2023-01-30,H&M,86.61,86.61,Clothing
+2023-02-04,Starbucks,26.9,13.45,Dining
+2023-02-06,Gardner-Fletcher,45.07,45.07,Entertainment
+2023-02-07,Apple,354.59,354.59,Electronics
+2023-02-08,Nike,132.62,132.62,Clothing
+2023-02-09,Starbucks,20.08,20.08,Dining
+2023-02-10,Evans-Scott,57.86,57.86,Dining
+2023-02-11,IKEA,154.69,154.69,Home
+2023-02-12,Walmart,80.33,80.33,Groceries
+2023-02-13,Nike,153.86,76.93,Clothing
+2023-02-16,IKEA,242.97,242.97,Home
+2023-02-21,H&M,115.79,115.79,Clothing
+2023-02-23,"Anderson, Carter and Cooper",46.67,46.67,Dining
+2023-03-03,Adidas,67.75,67.75,Clothing
+2023-03-05,Walmart,24.08,12.04,Groceries
+2023-03-07,Target,75.55,75.55,Groceries
+2023-03-12,Starbucks,21.1,21.1,Dining
+2023-03-15,CVS,11.63,11.63,Health
+2023-03-19,Best-Dunn,80.94,80.94,Groceries
+2023-03-21,"Morales, Ewing and Campbell",63.63,63.63,Groceries
+2023-03-30,Starbucks,34.35,34.35,Dining

@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Zara,141.95,141.95,Clothing
+2023-01-11,IKEA,168.64,168.64,Home
+2023-01-15,Uber,421.23,421.23,Travel
+2023-01-16,Starbucks,40.88,13.63,Dining
+2023-01-22,Copeland-Hill,118.18,39.39,Groceries
+2023-01-24,Long PLC,185.58,185.58,Travel
+2023-01-27,Delta Airlines,363.97,363.97,Travel
+2023-01-29,Zara,172.43,172.43,Clothing
+2023-01-31,Walgreens,37.43,37.43,Health
+2023-02-01,IKEA,298.68,298.68,Home
+2023-02-02,IKEA,299.21,299.21,Home
+2023-02-06,Apple,357.01,357.01,Electronics
+2023-02-08,Zara,53.95,53.95,Clothing
+2023-02-10,Walgreens,98.29,98.29,Health
+2023-02-11,Walmart,21.97,21.97,Groceries
+2023-02-15,Uber,221.03,221.03,Travel
+2023-02-24,Starbucks,53.69,26.84,Dining
+2023-02-25,Snyder-Beard,215.7,215.7,Home
+2023-02-27,Williams-White,50.26,50.26,Dining
+2023-03-01,Amazon,540.57,540.57,Electronics
+2023-03-02,Target,127.68,127.68,Groceries
+2023-03-05,"Franklin, Owens and Burton",383.02,383.02,Travel
+2023-03-07,Starbucks,51.46,51.46,Dining
+2023-03-09,Zara,149.41,149.41,Clothing
+2023-03-18,Walmart,21.5,21.5,Groceries
+2023-03-20,H&M,115.68,115.68,Clothing
+2023-03-22,Delta Airlines,295.86,295.86,Travel
+2023-03-23,Uber,409.06,204.53,Travel
+2023-03-24,Uber,133.27,133.27,Travel

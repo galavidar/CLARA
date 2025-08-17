@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Adidas,109.38,109.38,Clothing
+2023-01-05,Uber,265.3,265.3,Travel
+2023-01-08,Johnson-Morales,45.12,45.12,Groceries
+2023-01-17,"Peterson, Clayton and Hernandez",52.36,52.36,Entertainment
+2023-01-18,Apple,335.68,335.68,Electronics
+2023-01-20,Uber,82.29,82.29,Travel
+2023-01-21,McDonald's,52.09,52.09,Dining
+2023-01-23,McDonald's,22.67,22.67,Dining
+2023-01-25,Zara,108.73,36.24,Clothing
+2023-01-27,Uber,218.33,72.78,Travel
+2023-01-30,Delta Airlines,130.96,130.96,Travel
+2023-01-31,Walmart,85.06,42.53,Groceries
+2023-02-02,"Weber, Hunt and Higgins",83.4,83.4,Entertainment
+2023-02-04,Hampton-Rodriguez,19.41,19.41,Dining
+2023-02-09,Nguyen Group,360.24,360.24,Home
+2023-02-15,"Townsend, Hodge and Smith",94.58,94.58,Groceries
+2023-02-20,Walgreens,37.05,37.05,Health
+2023-02-21,"Baker, Reeves and Gilbert",165.44,165.44,Clothing
+2023-02-24,"Green, Byrd and Martinez",69.02,69.02,Entertainment
+2023-02-26,"Hernandez, Stanton and Lee",70.23,35.12,Health
+2023-02-27,Uber,253.41,253.41,Travel
+2023-02-28,"Smith, Robertson and Schwartz",12.39,12.39,Health
+2023-03-02,H&M,179.71,179.71,Clothing
+2023-03-03,King-Pierce,226.29,226.29,Electronics
+2023-03-09,Uber,111.29,111.29,Travel
+2023-03-12,Nike,122.39,122.39,Clothing
+2023-03-13,Uber,76.32,76.32,Travel
+2023-03-18,Haas-Mayo,150.58,150.58,Home
+2023-03-19,Baker-Schmitt,82.74,82.74,Entertainment
+2023-03-21,H&M,56.74,56.74,Clothing
+2023-03-24,Amazon,820.28,273.43,Electronics
+2023-03-25,"Martin, Patrick and Macdonald",220.11,220.11,Travel
+2023-03-28,Kim Inc,155.9,155.9,Travel

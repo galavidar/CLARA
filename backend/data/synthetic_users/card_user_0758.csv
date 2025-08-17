@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,McDonald's,39.27,13.09,Dining
+2023-01-04,Amazon,914.8,914.8,Electronics
+2023-01-06,Delta Airlines,96.51,96.51,Travel
+2023-01-07,Coleman-Long,260.12,260.12,Travel
+2023-01-09,Apple,306.46,306.46,Electronics
+2023-01-11,H&M,83.68,83.68,Clothing
+2023-01-16,H&M,119.51,119.51,Clothing
+2023-01-20,Amazon,486.6,486.6,Electronics
+2023-01-22,H&M,149.38,149.38,Clothing
+2023-01-24,Apple,118.81,118.81,Electronics
+2023-01-28,Uber,319.21,319.21,Travel
+2023-01-30,Apple,752.24,752.24,Electronics
+2023-02-04,Target,87.98,87.98,Groceries
+2023-02-07,Nike,187.95,187.95,Clothing
+2023-02-09,Apple,627.93,627.93,Electronics
+2023-02-12,Target,136.88,136.88,Groceries
+2023-02-13,Amazon,436.95,145.65,Electronics
+2023-02-15,Target,83.73,41.87,Groceries
+2023-02-17,Target,105.38,105.38,Groceries
+2023-02-21,H&M,58.48,58.48,Clothing
+2023-02-22,Starbucks,35.96,11.99,Dining
+2023-02-26,CVS,63.66,63.66,Health
+2023-02-28,Walgreens,43.81,43.81,Health
+2023-03-01,Howell-Smith,267.68,267.68,Travel
+2023-03-02,"Buchanan, Williams and Thomas",423.46,423.46,Electronics
+2023-03-05,McDonald's,12.1,12.1,Dining
+2023-03-06,"Curtis, Reyes and Pope",78.39,26.13,Health
+2023-03-07,Gonzalez LLC,167.32,167.32,Clothing
+2023-03-09,Uber,146.6,146.6,Travel
+2023-03-11,Starbucks,35.43,35.43,Dining
+2023-03-12,McDonald's,41.81,41.81,Dining
+2023-03-13,Carter Ltd,129.01,129.01,Groceries
+2023-03-17,Delta Airlines,63.61,21.2,Travel
+2023-03-18,CVS,99.95,99.95,Health
+2023-03-29,Walgreens,55.53,55.53,Health

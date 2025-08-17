@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Martin-Christian,20.9,20.9,Groceries
+2023-01-06,Delta Airlines,465.43,465.43,Travel
+2023-01-07,Uber,449.32,149.77,Travel
+2023-01-08,McDonald's,23.97,23.97,Dining
+2023-01-13,Hernandez Group,11.02,11.02,Entertainment
+2023-01-15,Walmart,68.96,68.96,Groceries
+2023-01-16,McDonald's,46.15,46.15,Dining
+2023-01-18,"Sanchez, Nelson and Nguyen",257.22,257.22,Travel
+2023-01-19,H&M,67.28,67.28,Clothing
+2023-01-20,Walgreens,63.27,63.27,Health
+2023-01-21,"Chapman, Castro and Scott",55.97,55.97,Entertainment
+2023-01-22,"Fleming, Long and Edwards",25.89,25.89,Dining
+2023-01-25,Ortiz-Baird,25.6,25.6,Health
+2023-01-29,Walgreens,66.85,66.85,Health
+2023-01-30,IKEA,119.71,119.71,Home
+2023-01-31,Walmart,58.2,58.2,Groceries
+2023-02-03,Small Ltd,721.89,721.89,Electronics
+2023-02-04,Walmart,71.58,71.58,Groceries
+2023-02-12,Adidas,37.75,12.58,Clothing
+2023-02-15,Starbucks,41.09,41.09,Dining
+2023-02-19,Walmart,137.26,45.75,Groceries
+2023-02-22,"Vazquez, Mercer and Nichols",238.81,238.81,Travel
+2023-02-26,Starbucks,23.42,11.71,Dining
+2023-02-28,Jackson Group,160.3,160.3,Home
+2023-03-07,CVS,20.41,20.41,Health
+2023-03-10,Owens PLC,16.35,5.45,Entertainment
+2023-03-11,"Stewart, Shepherd and Bates",32.94,16.47,Health
+2023-03-14,Target,108.04,108.04,Groceries
+2023-03-15,H&M,114.69,114.69,Clothing
+2023-03-17,Day-Floyd,95.37,95.37,Groceries
+2023-03-20,CVS,69.91,69.91,Health
+2023-03-22,CVS,81.68,81.68,Health
+2023-03-23,McDonald's,18.23,18.23,Dining
+2023-03-24,"Mosley, Cantu and Barnes",164.03,164.03,Travel
+2023-03-27,McDonald's,45.2,45.2,Dining
+2023-03-28,H&M,156.71,78.36,Clothing
+2023-03-29,Zara,151.06,151.06,Clothing
+2023-03-31,H&M,33.55,33.55,Clothing

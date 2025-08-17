@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Starbucks,49.2,49.2,Dining
+2023-01-03,Starbucks,34.31,11.44,Dining
+2023-01-06,Walgreens,97.72,32.57,Health
+2023-01-08,Zara,77.59,77.59,Clothing
+2023-01-10,CVS,44.04,22.02,Health
+2023-01-11,"Moreno, Levine and Li",43.08,43.08,Groceries
+2023-01-15,Delta Airlines,449.71,449.71,Travel
+2023-01-19,Mason PLC,313.35,313.35,Home
+2023-01-21,Baker Ltd,827.38,827.38,Electronics
+2023-01-23,H&M,41.96,41.96,Clothing
+2023-01-25,"Moore, Hays and West",69.69,69.69,Home
+2023-01-29,IKEA,391.13,391.13,Home
+2023-01-30,Martinez PLC,59.44,59.44,Health
+2023-02-03,Rodriguez-Mckay,782.99,782.99,Electronics
+2023-02-04,Apple,970.79,970.79,Electronics
+2023-02-05,Zara,50.6,50.6,Clothing
+2023-02-07,H&M,138.34,46.11,Clothing
+2023-02-10,Adidas,65.27,65.27,Clothing
+2023-02-12,Zara,187.68,187.68,Clothing
+2023-02-13,Delta Airlines,175.94,87.97,Travel
+2023-02-22,Target,31.89,31.89,Groceries
+2023-02-23,Hogan-Henderson,87.49,87.49,Health
+2023-02-24,Graves-Adams,79.15,79.15,Health
+2023-02-25,CVS,28.75,28.75,Health
+2023-02-26,Apple,161.5,161.5,Electronics
+2023-03-01,Cruz-Duncan,27.44,27.44,Dining
+2023-03-03,Adidas,36.85,36.85,Clothing
+2023-03-04,Uber,451.77,451.77,Travel
+2023-03-07,Hale and Sons,99.85,99.85,Clothing
+2023-03-08,IKEA,339.94,339.94,Home
+2023-03-09,McDonald's,43.78,21.89,Dining
+2023-03-10,Zara,109.41,109.41,Clothing
+2023-03-11,H&M,61.98,61.98,Clothing
+2023-03-14,Taylor-Fritz,10.93,10.93,Dining
+2023-03-15,Walmart,105.74,105.74,Groceries
+2023-03-17,CVS,41.79,41.79,Health
+2023-03-20,Ryan-Bryant,366.21,366.21,Travel
+2023-03-21,Jenkins and Sons,223.07,223.07,Travel
+2023-03-23,Adidas,46.46,15.49,Clothing
+2023-03-26,Tucker PLC,362.94,362.94,Home
+2023-03-27,Delta Airlines,255.31,255.31,Travel
+2023-03-29,Starbucks,13.05,6.53,Dining
+2023-03-30,Zara,190.15,63.38,Clothing

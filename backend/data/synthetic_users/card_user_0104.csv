@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,381.3,190.65,Travel
+2023-01-02,Daniels LLC,36.79,36.79,Health
+2023-01-06,Uber,489.03,489.03,Travel
+2023-01-08,"Stewart, Miller and Holmes",38.56,38.56,Home
+2023-01-10,"Zuniga, Anderson and Daniels",742.96,742.96,Electronics
+2023-01-12,Target,55.82,55.82,Groceries
+2023-01-17,Luna-Davies,182.47,182.47,Clothing
+2023-01-19,Target,110.74,110.74,Groceries
+2023-01-21,Delta Airlines,185.31,185.31,Travel
+2023-01-25,Amazon,189.0,189.0,Electronics
+2023-02-01,H&M,101.94,101.94,Clothing
+2023-02-03,IKEA,213.98,213.98,Home
+2023-02-05,Apple,664.21,221.4,Electronics
+2023-02-08,Wood-Torres,24.24,24.24,Dining
+2023-02-10,Delta Airlines,195.38,195.38,Travel
+2023-02-13,"Davis, Powell and Mcdonald",299.06,299.06,Home
+2023-02-14,Medina and Sons,26.28,26.28,Entertainment
+2023-02-18,Zara,93.5,93.5,Clothing
+2023-02-23,IKEA,42.4,14.13,Home
+2023-02-25,IKEA,81.85,81.85,Home
+2023-02-26,"Coleman, Daniels and Horn",356.0,356.0,Electronics
+2023-02-27,Zara,32.53,32.53,Clothing
+2023-03-05,Walgreens,96.8,96.8,Health
+2023-03-06,Walgreens,87.6,87.6,Health
+2023-03-10,"Thomas, Smith and Ford",305.11,305.11,Electronics
+2023-03-16,Starbucks,49.35,49.35,Dining
+2023-03-17,"Wright, Smith and Fowler",38.15,12.72,Dining
+2023-03-19,Nike,125.04,125.04,Clothing
+2023-03-20,H&M,52.29,26.14,Clothing
+2023-03-24,Target,94.49,31.5,Groceries
+2023-03-25,"Bryant, Wells and Dillon",497.26,497.26,Travel
+2023-03-29,Cunningham-Weber,175.67,175.67,Clothing
+2023-03-30,Delta Airlines,105.58,105.58,Travel
+2023-03-31,Walmart,146.38,146.38,Groceries

@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,"Durham, Collier and Austin",271.64,271.64,Home
+2023-01-09,Apple,850.49,425.25,Electronics
+2023-01-11,Walgreens,85.88,85.88,Health
+2023-01-13,Adidas,170.37,170.37,Clothing
+2023-01-16,Uber,337.17,112.39,Travel
+2023-01-18,IKEA,30.79,30.79,Home
+2023-01-21,Giles Group,830.7,830.7,Electronics
+2023-01-22,"Stone, Oliver and Rogers",79.74,79.74,Groceries
+2023-01-24,Walmart,59.16,59.16,Groceries
+2023-01-25,"Lewis, Chaney and Adams",17.56,17.56,Dining
+2023-01-26,Allison-Bryant,341.64,341.64,Electronics
+2023-01-28,Sharp-Thomas,63.09,63.09,Health
+2023-01-31,Adidas,50.21,50.21,Clothing
+2023-02-04,Apple,593.15,593.15,Electronics
+2023-02-05,Starbucks,31.58,31.58,Dining
+2023-02-06,IKEA,138.67,138.67,Home
+2023-02-07,CVS,98.66,49.33,Health
+2023-02-09,Roberts and Sons,138.96,138.96,Clothing
+2023-02-10,Apple,413.83,413.83,Electronics
+2023-02-11,Starbucks,18.64,18.64,Dining
+2023-02-12,Stanley LLC,28.75,28.75,Entertainment
+2023-02-13,Ellis LLC,107.33,107.33,Travel
+2023-02-14,Walgreens,73.83,73.83,Health
+2023-02-17,Cole and Sons,111.1,37.03,Home
+2023-02-18,Zara,126.24,126.24,Clothing
+2023-02-21,Amazon,309.39,309.39,Electronics
+2023-02-22,Baker LLC,312.13,312.13,Travel
+2023-02-23,Delta Airlines,260.35,260.35,Travel
+2023-02-24,Walmart,110.24,55.12,Groceries
+2023-02-25,Gentry-Griffin,55.39,55.39,Dining
+2023-03-03,CVS,83.54,83.54,Health
+2023-03-10,Uber,332.35,332.35,Travel
+2023-03-15,Medina Group,277.8,92.6,Travel
+2023-03-16,McDonald's,58.91,58.91,Dining
+2023-03-17,Target,96.98,96.98,Groceries
+2023-03-21,H&M,81.7,81.7,Clothing
+2023-03-22,Walmart,59.27,29.64,Groceries
+2023-03-23,Target,56.02,56.02,Groceries
+2023-03-24,CVS,98.38,98.38,Health
+2023-03-30,McDonald's,17.26,17.26,Dining

@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Moreno-Henderson,31.02,31.02,Groceries
+2023-01-04,Nike,30.47,30.47,Clothing
+2023-01-08,Walmart,114.19,38.06,Groceries
+2023-01-12,Amazon,394.77,197.38,Electronics
+2023-01-14,IKEA,40.39,13.46,Home
+2023-01-17,"Taylor, Guerrero and Lewis",329.05,329.05,Travel
+2023-01-19,CVS,68.86,68.86,Health
+2023-01-20,IKEA,250.15,250.15,Home
+2023-01-21,"Hall, Powell and Scott",205.95,205.95,Travel
+2023-01-24,Paul PLC,496.73,165.58,Electronics
+2023-01-31,IKEA,213.67,71.22,Home
+2023-02-03,H&M,76.39,76.39,Clothing
+2023-02-05,Target,100.24,100.24,Groceries
+2023-02-06,"Elliott, Gentry and Foster",14.86,7.43,Dining
+2023-02-09,Uber,280.26,280.26,Travel
+2023-02-10,Starbucks,13.82,13.82,Dining
+2023-02-11,Amazon,836.86,836.86,Electronics
+2023-02-14,Cervantes Group,56.33,56.33,Clothing
+2023-02-23,Uber,255.05,85.02,Travel
+2023-02-25,Nike,61.14,61.14,Clothing
+2023-03-05,Uber,324.67,324.67,Travel
+2023-03-07,"Costa, Erickson and Peters",109.86,109.86,Groceries
+2023-03-11,H&M,173.05,173.05,Clothing
+2023-03-14,Adidas,166.56,83.28,Clothing
+2023-03-15,Alexander-Pierce,40.44,40.44,Home
+2023-03-19,Delta Airlines,248.0,248.0,Travel
+2023-03-22,Delta Airlines,208.46,104.23,Travel
+2023-03-23,Apple,589.25,294.62,Electronics
+2023-03-25,Walmart,61.46,61.46,Groceries
+2023-03-31,McDonald's,36.17,36.17,Dining

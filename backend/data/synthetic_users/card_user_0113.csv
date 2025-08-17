@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,CVS,50.23,50.23,Health
+2023-01-02,Zara,33.37,33.37,Clothing
+2023-01-04,IKEA,228.97,228.97,Home
+2023-01-07,Apple,505.92,505.92,Electronics
+2023-01-09,CVS,99.01,99.01,Health
+2023-01-10,Roberts-Elliott,145.4,48.47,Groceries
+2023-01-16,Amazon,238.47,79.49,Electronics
+2023-01-18,Mason Ltd,173.51,173.51,Home
+2023-01-19,Uber,386.29,386.29,Travel
+2023-01-20,Starbucks,39.62,39.62,Dining
+2023-01-21,Starbucks,14.73,14.73,Dining
+2023-01-22,CVS,30.5,30.5,Health
+2023-01-25,"Johnson, George and Matthews",121.12,60.56,Clothing
+2023-01-29,Gonzalez Inc,82.25,82.25,Entertainment
+2023-01-30,Amazon,103.84,103.84,Electronics
+2023-02-02,Adidas,165.1,165.1,Clothing
+2023-02-03,Adidas,40.76,40.76,Clothing
+2023-02-06,"Taylor, Odonnell and Good",53.95,53.95,Entertainment
+2023-02-08,CVS,97.25,97.25,Health
+2023-02-11,Zara,88.99,88.99,Clothing
+2023-02-13,Adidas,188.66,188.66,Clothing
+2023-02-15,H&M,60.89,60.89,Clothing
+2023-02-20,Walgreens,18.18,18.18,Health
+2023-02-22,Starbucks,50.79,50.79,Dining
+2023-02-24,Brown-Aguilar,336.21,336.21,Travel
+2023-02-25,Amazon,233.8,233.8,Electronics
+2023-02-26,Apple,216.47,216.47,Electronics
+2023-02-28,Amazon,676.62,676.62,Electronics
+2023-03-02,McDonald's,57.05,57.05,Dining
+2023-03-04,Walgreens,58.36,58.36,Health
+2023-03-08,"Hunter, Parker and Campos",439.05,219.53,Electronics
+2023-03-14,Dougherty-Moore,291.85,291.85,Home
+2023-03-15,"Young, Wells and Moran",78.81,78.81,Travel
+2023-03-16,"Brock, Townsend and Moyer",277.11,277.11,Electronics
+2023-03-17,IKEA,252.51,126.25,Home
+2023-03-18,CVS,36.21,36.21,Health
+2023-03-21,Starbucks,22.58,22.58,Dining
+2023-03-22,McDonald's,38.36,38.36,Dining
+2023-03-25,"Clark, King and Mills",49.2,49.2,Clothing
+2023-03-28,Adidas,139.47,139.47,Clothing
+2023-03-29,"Ramirez, Smith and Wagner",64.24,64.24,Groceries

@@ -1,0 +1,46 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,88.62,88.62,Groceries
+2023-01-02,Nike,192.83,192.83,Clothing
+2023-01-03,Ford Group,46.28,46.28,Entertainment
+2023-01-05,Starbucks,58.41,29.2,Dining
+2023-01-08,Starbucks,10.29,10.29,Dining
+2023-01-10,McDonald's,35.93,35.93,Dining
+2023-01-11,Hall-Stephens,210.02,210.02,Electronics
+2023-01-12,Apple,791.19,791.19,Electronics
+2023-01-16,Wright Inc,152.12,152.12,Travel
+2023-01-17,Harris-Weaver,428.05,428.05,Electronics
+2023-01-19,Walgreens,33.11,33.11,Health
+2023-01-21,Starbucks,35.97,35.97,Dining
+2023-01-23,Walgreens,63.87,63.87,Health
+2023-01-24,Gross-Wong,143.17,143.17,Travel
+2023-01-26,"Erickson, Blake and Miller",45.06,45.06,Entertainment
+2023-01-27,Target,47.65,23.82,Groceries
+2023-01-28,Adidas,130.5,43.5,Clothing
+2023-01-29,Delta Airlines,387.51,387.51,Travel
+2023-02-04,"Weaver, Herrera and Scott",544.99,544.99,Electronics
+2023-02-06,Starbucks,35.08,35.08,Dining
+2023-02-07,CVS,97.26,97.26,Health
+2023-02-08,Walgreens,15.78,5.26,Health
+2023-02-16,Walgreens,46.68,46.68,Health
+2023-02-20,Coleman-Cunningham,457.52,457.52,Electronics
+2023-02-22,Robinson-Wheeler,403.16,403.16,Travel
+2023-02-24,"Brown, Mccoy and Williams",487.32,243.66,Travel
+2023-02-25,Nike,90.14,90.14,Clothing
+2023-02-28,Adidas,150.55,150.55,Clothing
+2023-03-03,H&M,77.02,77.02,Clothing
+2023-03-05,Martinez Group,53.86,53.86,Groceries
+2023-03-06,Apple,183.49,183.49,Electronics
+2023-03-07,H&M,177.21,177.21,Clothing
+2023-03-08,Zara,40.92,40.92,Clothing
+2023-03-10,Delta Airlines,209.0,209.0,Travel
+2023-03-11,CVS,42.22,42.22,Health
+2023-03-13,Walgreens,81.79,81.79,Health
+2023-03-15,Zara,147.67,147.67,Clothing
+2023-03-17,Apple,868.44,434.22,Electronics
+2023-03-18,IKEA,269.56,269.56,Home
+2023-03-20,Adidas,199.61,99.81,Clothing
+2023-03-24,H&M,54.05,54.05,Clothing
+2023-03-25,Zara,126.37,126.37,Clothing
+2023-03-26,Walmart,101.45,101.45,Groceries
+2023-03-27,Target,24.96,8.32,Groceries
+2023-03-29,Target,141.13,141.13,Groceries

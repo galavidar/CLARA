@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Walmart,115.84,115.84,Groceries
+2023-01-06,IKEA,178.53,89.27,Home
+2023-01-07,Zara,116.53,38.84,Clothing
+2023-01-09,Walmart,120.66,120.66,Groceries
+2023-01-10,Castaneda-Gonzalez,83.38,83.38,Home
+2023-01-11,Starbucks,39.57,39.57,Dining
+2023-01-12,Delta Airlines,165.44,82.72,Travel
+2023-01-14,McDonald's,43.5,43.5,Dining
+2023-01-16,Walmart,91.73,91.73,Groceries
+2023-01-19,Nelson Group,161.73,80.86,Clothing
+2023-01-23,"Figueroa, Harris and Lee",305.28,305.28,Travel
+2023-01-24,Walmart,103.85,103.85,Groceries
+2023-01-25,Adidas,54.45,54.45,Clothing
+2023-01-26,Adidas,198.1,66.03,Clothing
+2023-01-29,IKEA,226.99,113.5,Home
+2023-01-30,Carroll Ltd,107.21,107.21,Clothing
+2023-01-31,Amazon,901.24,901.24,Electronics
+2023-02-04,Target,55.77,55.77,Groceries
+2023-02-06,Walgreens,11.39,11.39,Health
+2023-02-08,Green-Parker,72.88,72.88,Health
+2023-02-09,Kim LLC,161.61,161.61,Clothing
+2023-02-10,Martin Group,348.58,348.58,Home
+2023-02-12,Walmart,102.73,102.73,Groceries
+2023-02-15,CVS,21.99,21.99,Health
+2023-02-16,Target,120.48,120.48,Groceries
+2023-02-18,Amazon,850.61,850.61,Electronics
+2023-02-19,Apple,722.64,240.88,Electronics
+2023-02-20,Patrick LLC,704.74,704.74,Electronics
+2023-02-22,Navarro and Sons,134.24,134.24,Groceries
+2023-02-23,Amazon,540.03,540.03,Electronics
+2023-02-24,"Moore, Doyle and West",459.76,459.76,Travel
+2023-02-26,Amazon,348.54,348.54,Electronics
+2023-02-27,Target,80.72,40.36,Groceries
+2023-02-28,Newman PLC,285.92,285.92,Travel
+2023-03-01,Stewart Group,252.09,252.09,Home
+2023-03-03,Zara,160.0,160.0,Clothing
+2023-03-12,Walmart,69.61,69.61,Groceries
+2023-03-14,Zara,109.48,109.48,Clothing
+2023-03-15,Starbucks,49.37,16.46,Dining
+2023-03-23,Walgreens,85.54,85.54,Health
+2023-03-24,Starbucks,17.8,17.8,Dining
+2023-03-25,Target,144.15,144.15,Groceries
+2023-03-30,Adidas,58.27,19.42,Clothing

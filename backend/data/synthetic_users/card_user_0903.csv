@@ -1,0 +1,25 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Apple,432.48,432.48,Electronics
+2023-01-07,IKEA,231.17,231.17,Home
+2023-01-09,Zara,56.34,56.34,Clothing
+2023-01-11,Ortiz PLC,64.29,64.29,Entertainment
+2023-01-15,Adidas,134.46,134.46,Clothing
+2023-01-20,McDonald's,44.81,44.81,Dining
+2023-01-24,Blankenship-Taylor,49.53,49.53,Dining
+2023-01-26,Adidas,85.08,85.08,Clothing
+2023-01-27,Nguyen LLC,23.64,23.64,Entertainment
+2023-01-31,Adidas,81.47,81.47,Clothing
+2023-02-01,Target,100.29,100.29,Groceries
+2023-02-10,"Evans, Scott and Baker",50.91,50.91,Health
+2023-02-12,Walgreens,81.32,81.32,Health
+2023-02-14,Target,120.29,120.29,Groceries
+2023-02-17,Starbucks,18.71,18.71,Dining
+2023-02-22,Dennis Ltd,55.03,55.03,Dining
+2023-02-26,Target,60.58,60.58,Groceries
+2023-02-27,Apple,113.2,37.73,Electronics
+2023-03-01,IKEA,219.11,219.11,Home
+2023-03-06,Walgreens,14.08,14.08,Health
+2023-03-08,Cardenas-Morrison,64.37,64.37,Groceries
+2023-03-16,Uber,358.94,119.65,Travel
+2023-03-22,Amazon,153.86,153.86,Electronics
+2023-03-29,CVS,15.22,15.22,Health

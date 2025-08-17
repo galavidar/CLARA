@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Todd PLC,292.66,146.33,Travel
+2023-01-10,"Brewer, Woods and Parker",110.77,110.77,Home
+2023-01-15,CVS,94.61,94.61,Health
+2023-01-22,Apple,535.6,535.6,Electronics
+2023-01-23,McDonald's,21.42,21.42,Dining
+2023-01-24,H&M,76.57,76.57,Clothing
+2023-01-26,Apple,148.87,49.62,Electronics
+2023-01-27,Delta Airlines,331.46,331.46,Travel
+2023-01-28,Nike,148.44,74.22,Clothing
+2023-01-30,Brown-Weaver,301.12,301.12,Travel
+2023-02-03,Apple,264.96,264.96,Electronics
+2023-02-04,Walker-Mosley,472.47,472.47,Travel
+2023-02-07,Adidas,83.59,27.86,Clothing
+2023-02-09,Nike,67.64,67.64,Clothing
+2023-02-11,Clark Inc,78.0,78.0,Entertainment
+2023-02-12,"Harris, Edwards and Murillo",31.12,31.12,Entertainment
+2023-02-14,Nike,124.22,124.22,Clothing
+2023-02-15,Vincent-Weber,821.41,821.41,Electronics
+2023-02-17,Morris-Yoder,394.14,394.14,Travel
+2023-02-20,"Jenkins, Spears and Rivas",84.96,84.96,Entertainment
+2023-02-24,McDonald's,40.79,40.79,Dining
+2023-02-27,"Vincent, Clark and Strong",88.19,88.19,Clothing
+2023-03-02,McDonald's,47.98,47.98,Dining
+2023-03-06,Walmart,111.95,111.95,Groceries
+2023-03-08,Davis-Dillon,87.63,87.63,Travel
+2023-03-10,Hammond Inc,165.21,55.07,Clothing
+2023-03-12,Apple,686.99,686.99,Electronics
+2023-03-14,H&M,186.78,186.78,Clothing
+2023-03-16,"Miller, Houston and Becker",35.4,17.7,Entertainment
+2023-03-18,Williams and Sons,63.47,63.47,Entertainment
+2023-03-23,Adidas,107.76,35.92,Clothing
+2023-03-24,Target,110.65,110.65,Groceries
+2023-03-28,Adidas,39.19,39.19,Clothing
+2023-03-30,IKEA,180.83,180.83,Home

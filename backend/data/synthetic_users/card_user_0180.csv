@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Walmart,52.13,17.38,Groceries
+2023-01-05,CVS,47.15,47.15,Health
+2023-01-06,Delta Airlines,242.35,242.35,Travel
+2023-01-12,"Sanchez, Hayes and Kelly",158.53,158.53,Clothing
+2023-01-15,Jones-Howard,99.11,49.55,Groceries
+2023-01-21,Henderson and Sons,294.34,294.34,Home
+2023-01-22,Delta Airlines,219.92,219.92,Travel
+2023-01-27,Howe-Alexander,58.03,58.03,Dining
+2023-01-29,Ross-Olsen,24.94,24.94,Entertainment
+2023-01-30,Hayes and Sons,174.61,174.61,Clothing
+2023-02-02,Apple,160.49,80.25,Electronics
+2023-02-03,Cohen PLC,106.65,106.65,Clothing
+2023-02-04,Uber,65.07,65.07,Travel
+2023-02-07,Nike,152.37,152.37,Clothing
+2023-02-08,Uber,470.0,470.0,Travel
+2023-02-09,Apple,208.09,208.09,Electronics
+2023-02-10,IKEA,211.64,105.82,Home
+2023-02-13,McDonald's,48.73,48.73,Dining
+2023-02-24,Walmart,137.03,137.03,Groceries
+2023-02-25,Uber,273.39,273.39,Travel
+2023-02-28,CVS,10.34,5.17,Health
+2023-03-03,Starbucks,38.94,38.94,Dining
+2023-03-11,H&M,75.18,25.06,Clothing
+2023-03-15,Starbucks,34.67,34.67,Dining
+2023-03-18,"Ryan, Ramos and Weaver",44.76,44.76,Dining
+2023-03-21,West LLC,368.4,368.4,Electronics
+2023-03-22,Bryant Group,369.9,123.3,Home
+2023-03-25,Warren-Lopez,372.46,372.46,Electronics
+2023-03-27,Starbucks,27.46,27.46,Dining
+2023-03-29,Delta Airlines,231.34,231.34,Travel

@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Rodriguez and Sons,123.4,123.4,Clothing
+2023-01-03,Kramer Ltd,93.42,93.42,Entertainment
+2023-01-04,Dorsey Inc,138.88,138.88,Groceries
+2023-01-10,Uber,444.41,222.21,Travel
+2023-01-12,Delta Airlines,308.03,308.03,Travel
+2023-01-14,Carroll PLC,98.85,98.85,Home
+2023-01-19,Walmart,55.92,55.92,Groceries
+2023-01-20,Adidas,104.57,104.57,Clothing
+2023-01-21,Walmart,29.63,29.63,Groceries
+2023-01-22,"Robinson, Hancock and Rogers",56.72,56.72,Entertainment
+2023-01-24,Walgreens,14.15,14.15,Health
+2023-01-25,Olson LLC,25.31,25.31,Groceries
+2023-01-26,Apple,136.9,136.9,Electronics
+2023-01-28,"White, Young and Castillo",356.32,118.77,Travel
+2023-01-29,Roberts and Sons,142.75,142.75,Clothing
+2023-01-30,Amazon,705.07,705.07,Electronics
+2023-02-03,McDonald's,38.88,38.88,Dining
+2023-02-07,H&M,134.2,67.1,Clothing
+2023-02-08,H&M,43.6,43.6,Clothing
+2023-02-11,Walmart,60.84,60.84,Groceries
+2023-02-15,Walgreens,36.39,12.13,Health
+2023-02-20,Nike,50.8,50.8,Clothing
+2023-02-24,"Olson, Brown and Walsh",96.56,96.56,Health
+2023-02-27,H&M,136.19,136.19,Clothing
+2023-03-02,Lopez PLC,34.84,34.84,Dining
+2023-03-04,Uber,481.18,481.18,Travel
+2023-03-05,Gutierrez-Clark,103.61,51.8,Groceries
+2023-03-09,Walgreens,30.27,10.09,Health
+2023-03-10,Amazon,603.33,603.33,Electronics
+2023-03-11,Delta Airlines,216.27,216.27,Travel
+2023-03-17,Adidas,50.29,50.29,Clothing
+2023-03-20,Walmart,144.41,144.41,Groceries
+2023-03-21,Morris-Bright,82.73,82.73,Health
+2023-03-24,Walmart,51.89,51.89,Groceries
+2023-03-29,Mcguire-Wilson,58.84,58.84,Groceries
+2023-03-30,McDonald's,49.07,49.07,Dining

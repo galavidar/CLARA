@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Johnson Ltd,248.87,248.87,Travel
+2023-01-07,"Sanchez, White and Roy",167.64,83.82,Electronics
+2023-01-08,Moreno and Sons,341.73,113.91,Travel
+2023-01-11,Target,66.58,66.58,Groceries
+2023-01-12,"Rodriguez, Jordan and Flynn",843.42,843.42,Electronics
+2023-01-13,Apple,263.25,263.25,Electronics
+2023-01-16,Zara,83.46,83.46,Clothing
+2023-01-18,Delta Airlines,345.28,345.28,Travel
+2023-01-19,CVS,71.24,71.24,Health
+2023-01-22,Starbucks,20.67,20.67,Dining
+2023-01-24,Chavez-Howard,121.1,121.1,Clothing
+2023-01-25,Delta Airlines,380.85,380.85,Travel
+2023-01-29,Target,31.09,31.09,Groceries
+2023-02-01,IKEA,127.65,127.65,Home
+2023-02-07,McDonald's,33.04,16.52,Dining
+2023-02-15,Adidas,81.58,81.58,Clothing
+2023-02-16,Adidas,50.22,25.11,Clothing
+2023-02-17,Sweeney-Gray,24.49,24.49,Health
+2023-02-20,Adidas,170.79,170.79,Clothing
+2023-02-25,H&M,74.13,74.13,Clothing
+2023-02-26,Starbucks,42.77,14.26,Dining
+2023-02-27,Amazon,598.31,598.31,Electronics
+2023-02-28,Starbucks,42.69,21.34,Dining
+2023-03-01,Nike,102.54,102.54,Clothing
+2023-03-02,"Brown, Johnson and White",88.37,88.37,Health
+2023-03-05,Ortega-Powell,210.46,210.46,Home
+2023-03-07,Jones Ltd,63.21,63.21,Entertainment
+2023-03-08,IKEA,112.05,112.05,Home
+2023-03-12,Walmart,29.63,29.63,Groceries
+2023-03-13,Cox Group,96.8,96.8,Home
+2023-03-14,Walmart,71.56,71.56,Groceries
+2023-03-18,Uber,318.11,318.11,Travel
+2023-03-28,H&M,154.82,77.41,Clothing

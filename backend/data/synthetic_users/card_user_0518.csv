@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Apple,116.27,116.27,Electronics
+2023-01-02,Delta Airlines,443.51,443.51,Travel
+2023-01-05,H&M,143.27,143.27,Clothing
+2023-01-10,McDonald's,14.4,4.8,Dining
+2023-01-11,Starbucks,29.14,14.57,Dining
+2023-01-12,Adidas,104.43,104.43,Clothing
+2023-01-15,CVS,97.21,32.4,Health
+2023-01-21,Apple,731.33,731.33,Electronics
+2023-01-23,Brooks Inc,647.96,647.96,Electronics
+2023-01-24,Apple,809.26,809.26,Electronics
+2023-01-25,H&M,123.46,123.46,Clothing
+2023-01-30,Nike,164.98,164.98,Clothing
+2023-01-31,Walmart,40.81,40.81,Groceries
+2023-02-01,Amazon,461.14,461.14,Electronics
+2023-02-04,Walters-Edwards,132.42,132.42,Clothing
+2023-02-07,Apple,181.03,181.03,Electronics
+2023-02-10,Uber,337.89,337.89,Travel
+2023-02-14,"Black, Cortez and Davies",17.21,17.21,Dining
+2023-02-15,Zara,79.05,79.05,Clothing
+2023-02-16,CVS,31.66,31.66,Health
+2023-02-22,Morales-Jensen,38.96,38.96,Health
+2023-02-24,H&M,197.62,65.87,Clothing
+2023-02-25,Zara,97.92,97.92,Clothing
+2023-03-01,Gray-Day,221.87,73.96,Electronics
+2023-03-07,Walgreens,12.89,4.3,Health
+2023-03-12,Adidas,159.26,159.26,Clothing
+2023-03-13,"Mercado, Clay and Steele",139.22,139.22,Clothing
+2023-03-15,Walgreens,71.5,71.5,Health
+2023-03-18,Adidas,113.0,37.67,Clothing
+2023-03-20,CVS,30.2,30.2,Health
+2023-03-21,"Adams, Charles and Fisher",376.83,376.83,Travel
+2023-03-23,H&M,80.8,40.4,Clothing
+2023-03-24,McDonald's,14.66,7.33,Dining
+2023-03-27,Zara,57.59,57.59,Clothing

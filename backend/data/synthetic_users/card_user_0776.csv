@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Amazon,613.24,613.24,Electronics
+2023-01-02,Adidas,138.03,138.03,Clothing
+2023-01-03,Delta Airlines,216.76,216.76,Travel
+2023-01-05,Fox and Sons,64.84,64.84,Entertainment
+2023-01-11,McDonald's,24.95,24.95,Dining
+2023-01-12,Apple,986.77,328.92,Electronics
+2023-01-13,Delta Airlines,239.73,79.91,Travel
+2023-01-20,CVS,79.88,26.63,Health
+2023-01-21,"Singh, Jordan and Watts",31.76,15.88,Dining
+2023-01-25,McDonald's,19.6,6.53,Dining
+2023-01-26,IKEA,332.8,332.8,Home
+2023-01-28,Amazon,513.47,513.47,Electronics
+2023-01-29,Holmes Inc,39.69,39.69,Groceries
+2023-02-01,Burke-Sullivan,56.84,28.42,Entertainment
+2023-02-03,Apple,970.65,970.65,Electronics
+2023-02-04,Zara,48.91,48.91,Clothing
+2023-02-08,Ritter Group,91.84,45.92,Groceries
+2023-02-12,Delta Airlines,88.87,88.87,Travel
+2023-02-14,Adidas,154.81,77.41,Clothing
+2023-02-15,Zara,187.82,187.82,Clothing
+2023-02-18,Nike,36.6,36.6,Clothing
+2023-02-21,Delta Airlines,369.75,369.75,Travel
+2023-02-23,Barker-Mccoy,86.58,86.58,Clothing
+2023-03-02,"Carr, Taylor and Gregory",41.99,14.0,Health
+2023-03-04,Target,126.02,126.02,Groceries
+2023-03-13,Walgreens,52.11,52.11,Health
+2023-03-29,Nike,43.41,43.41,Clothing
+2023-03-31,Walmart,92.24,46.12,Groceries

@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Zimmerman Group,69.95,69.95,Groceries
+2023-01-03,CVS,69.5,69.5,Health
+2023-01-04,"Santiago, Scott and Smith",188.91,62.97,Home
+2023-01-05,IKEA,167.4,167.4,Home
+2023-01-07,IKEA,356.21,178.1,Home
+2023-01-12,McDonald's,54.56,54.56,Dining
+2023-01-16,CVS,84.93,42.47,Health
+2023-01-17,H&M,45.88,45.88,Clothing
+2023-01-19,Starbucks,52.6,52.6,Dining
+2023-01-20,McDonald's,26.99,26.99,Dining
+2023-01-21,Eaton-Vaughn,229.67,229.67,Home
+2023-01-22,Zara,95.1,95.1,Clothing
+2023-01-27,Amazon,599.26,299.63,Electronics
+2023-01-28,H&M,125.93,125.93,Clothing
+2023-01-29,McDonald's,45.37,45.37,Dining
+2023-01-31,Vazquez-Ryan,107.15,35.72,Groceries
+2023-02-01,Walgreens,40.04,40.04,Health
+2023-02-03,Russo Inc,24.38,24.38,Dining
+2023-02-04,IKEA,276.66,276.66,Home
+2023-02-05,Zara,62.42,62.42,Clothing
+2023-02-06,"Hampton, Adams and Frederick",332.95,332.95,Travel
+2023-02-11,Starbucks,47.55,47.55,Dining
+2023-02-12,Walgreens,27.79,27.79,Health
+2023-02-14,Small-Atkins,46.72,46.72,Groceries
+2023-02-15,CVS,65.88,21.96,Health
+2023-02-18,Strickland LLC,846.75,846.75,Electronics
+2023-02-23,Adidas,110.47,110.47,Clothing
+2023-02-26,Starbucks,36.29,12.1,Dining
+2023-02-27,Thomas LLC,352.34,352.34,Home
+2023-02-28,Walgreens,82.78,27.59,Health
+2023-03-01,Simmons-Rodriguez,395.3,197.65,Travel
+2023-03-02,"Henson, Davis and Thompson",34.37,34.37,Clothing
+2023-03-03,Walgreens,78.38,78.38,Health
+2023-03-12,Starbucks,22.1,22.1,Dining
+2023-03-13,IKEA,282.87,94.29,Home
+2023-03-15,Anderson-Cooley,171.17,171.17,Clothing
+2023-03-17,Walgreens,93.68,93.68,Health
+2023-03-18,Wells-Simmons,172.96,57.65,Home
+2023-03-19,Ellis Ltd,161.2,161.2,Travel
+2023-03-20,"Serrano, Thompson and Lindsey",59.13,59.13,Entertainment
+2023-03-23,Zara,121.16,121.16,Clothing
+2023-03-25,Macdonald Ltd,375.69,375.69,Electronics

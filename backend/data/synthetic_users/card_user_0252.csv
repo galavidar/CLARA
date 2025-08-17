@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Foster, Mosley and Conley",337.37,337.37,Travel
+2023-01-03,Adidas,80.95,26.98,Clothing
+2023-01-04,Dudley PLC,277.41,138.71,Home
+2023-01-05,Starbucks,32.39,32.39,Dining
+2023-01-07,Smith PLC,177.35,177.35,Travel
+2023-01-09,Apple,346.75,346.75,Electronics
+2023-01-10,Delta Airlines,458.31,458.31,Travel
+2023-01-11,Nike,58.02,58.02,Clothing
+2023-01-13,Walgreens,85.76,85.76,Health
+2023-01-17,Jones LLC,138.34,46.11,Groceries
+2023-01-18,Starbucks,41.64,41.64,Dining
+2023-01-19,Bishop-Hopkins,37.8,18.9,Dining
+2023-01-20,Target,46.76,46.76,Groceries
+2023-01-21,"Brown, Roberts and Graham",388.57,388.57,Electronics
+2023-01-25,Walmart,114.75,114.75,Groceries
+2023-01-27,Tyler-Owens,461.53,461.53,Electronics
+2023-02-03,Castro-Munoz,146.19,146.19,Clothing
+2023-02-04,Walgreens,48.19,24.09,Health
+2023-02-09,Starbucks,20.23,6.74,Dining
+2023-02-10,White PLC,126.62,126.62,Groceries
+2023-02-12,Delta Airlines,361.85,361.85,Travel
+2023-02-16,CVS,81.2,27.07,Health
+2023-02-19,Amazon,677.39,677.39,Electronics
+2023-02-20,Amazon,713.16,237.72,Electronics
+2023-02-21,CVS,60.17,60.17,Health
+2023-02-24,Target,70.41,70.41,Groceries
+2023-02-27,Apple,341.78,170.89,Electronics
+2023-03-01,Walmart,103.01,103.01,Groceries
+2023-03-04,Gutierrez-Phillips,402.19,201.09,Travel
+2023-03-10,IKEA,79.28,39.64,Home
+2023-03-12,Walgreens,31.15,31.15,Health
+2023-03-13,Adidas,178.8,178.8,Clothing
+2023-03-19,Uber,121.45,121.45,Travel
+2023-03-21,Apple,988.59,988.59,Electronics
+2023-03-23,Apple,857.19,857.19,Electronics
+2023-03-24,Apple,271.46,271.46,Electronics
+2023-03-25,Walmart,29.82,29.82,Groceries
+2023-03-26,Nike,194.31,194.31,Clothing
+2023-03-27,Taylor-Russell,81.11,81.11,Groceries

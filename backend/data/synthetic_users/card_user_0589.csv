@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,103.95,103.95,Groceries
+2023-01-06,CVS,59.85,59.85,Health
+2023-01-07,Adidas,81.75,40.88,Clothing
+2023-01-08,Amazon,969.95,969.95,Electronics
+2023-01-09,Adidas,90.49,45.24,Clothing
+2023-01-12,Vega Inc,94.49,94.49,Home
+2023-01-21,Target,73.21,73.21,Groceries
+2023-01-23,Adidas,51.67,51.67,Clothing
+2023-01-24,Zara,170.08,56.69,Clothing
+2023-01-25,Adidas,149.21,149.21,Clothing
+2023-01-28,"Evans, White and Hughes",87.54,87.54,Health
+2023-01-29,IKEA,224.76,224.76,Home
+2023-02-01,Amazon,336.87,336.87,Electronics
+2023-02-02,Starbucks,31.92,15.96,Dining
+2023-02-11,Target,112.16,112.16,Groceries
+2023-02-13,McDonald's,21.54,21.54,Dining
+2023-02-14,Zara,161.43,161.43,Clothing
+2023-02-15,McDonald's,32.2,32.2,Dining
+2023-02-19,IKEA,374.8,374.8,Home
+2023-02-21,IKEA,202.03,202.03,Home
+2023-02-22,IKEA,392.52,392.52,Home
+2023-02-24,Walmart,62.58,62.58,Groceries
+2023-02-25,"Jacobson, Montes and Schmidt",468.75,468.75,Travel
+2023-02-26,McDonald's,27.15,27.15,Dining
+2023-02-27,Walmart,90.39,90.39,Groceries
+2023-03-02,"Keith, Kennedy and Strickland",37.32,37.32,Dining
+2023-03-07,Williams PLC,39.61,39.61,Health
+2023-03-18,Lee Group,170.79,170.79,Clothing
+2023-03-19,Cantrell-Gutierrez,31.17,10.39,Dining
+2023-03-20,Starbucks,31.18,31.18,Dining
+2023-03-23,McDonald's,14.68,14.68,Dining
+2023-03-24,Nike,93.06,46.53,Clothing
+2023-03-26,Uber,171.89,171.89,Travel

@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Bennett, Hamilton and Burton",103.45,51.73,Groceries
+2023-01-04,Adidas,53.55,53.55,Clothing
+2023-01-08,CVS,60.96,60.96,Health
+2023-01-12,Uber,423.15,141.05,Travel
+2023-01-13,Oliver PLC,394.92,394.92,Travel
+2023-01-14,Dalton-Harris,22.6,7.53,Dining
+2023-01-15,Walgreens,37.97,37.97,Health
+2023-01-16,Starbucks,33.92,33.92,Dining
+2023-01-17,Williams LLC,59.92,19.97,Dining
+2023-01-18,Delta Airlines,325.35,325.35,Travel
+2023-01-19,Carter-Golden,57.5,57.5,Health
+2023-01-25,McDonald's,23.99,8.0,Dining
+2023-01-27,"Delacruz, Nichols and Woods",376.71,376.71,Travel
+2023-01-31,CVS,93.92,31.31,Health
+2023-02-03,Kennedy-Dickerson,410.27,410.27,Electronics
+2023-02-04,"Bennett, Meza and Rodriguez",355.11,177.56,Travel
+2023-02-05,McDonald's,25.89,25.89,Dining
+2023-02-07,Uber,350.54,350.54,Travel
+2023-02-09,Adidas,37.31,37.31,Clothing
+2023-02-10,Nike,64.83,64.83,Clothing
+2023-02-11,Walgreens,54.97,54.97,Health
+2023-02-12,"Wiggins, Norman and Holloway",53.91,53.91,Dining
+2023-02-19,IKEA,181.12,181.12,Home
+2023-02-24,Amazon,462.39,462.39,Electronics
+2023-02-25,Tran-Huffman,78.81,78.81,Entertainment
+2023-02-26,McDonald's,17.96,17.96,Dining
+2023-03-03,Target,144.14,144.14,Groceries
+2023-03-10,"Stone, Rojas and Sparks",184.16,184.16,Travel
+2023-03-12,IKEA,197.19,197.19,Home
+2023-03-15,Uber,294.79,294.79,Travel
+2023-03-17,Taylor-Snow,131.71,131.71,Home
+2023-03-18,Nike,114.13,114.13,Clothing
+2023-03-19,Uber,246.41,246.41,Travel
+2023-03-23,Apple,431.81,431.81,Electronics
+2023-03-28,Rojas LLC,400.27,400.27,Travel
+2023-03-29,"Allen, Yates and Austin",51.46,51.46,Health
+2023-03-30,Starbucks,44.18,44.18,Dining

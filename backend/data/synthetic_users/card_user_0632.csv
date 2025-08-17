@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Walgreens,72.15,72.15,Health
+2023-01-04,Apple,183.12,183.12,Electronics
+2023-01-05,"Wilson, Moran and Smith",11.5,11.5,Dining
+2023-01-06,Adidas,48.88,24.44,Clothing
+2023-01-08,Amazon,396.09,396.09,Electronics
+2023-01-10,Adidas,82.87,82.87,Clothing
+2023-01-12,"Wong, Watts and Wilson",110.63,110.63,Travel
+2023-01-13,Amazon,851.64,425.82,Electronics
+2023-01-15,Gould and Sons,263.7,87.9,Electronics
+2023-01-18,Target,57.7,57.7,Groceries
+2023-01-19,Apple,170.69,170.69,Electronics
+2023-01-23,"Stewart, Roman and Davis",13.75,13.75,Entertainment
+2023-01-24,Walmart,143.05,47.68,Groceries
+2023-01-26,Garza-Andersen,81.3,81.3,Health
+2023-01-29,Amazon,157.44,157.44,Electronics
+2023-02-08,McDonald's,48.31,48.31,Dining
+2023-02-09,Amazon,854.46,854.46,Electronics
+2023-02-10,Starbucks,58.27,19.42,Dining
+2023-02-13,Fletcher-Wood,109.89,36.63,Groceries
+2023-02-15,Walgreens,11.37,11.37,Health
+2023-02-20,Guzman-Graham,34.41,34.41,Health
+2023-02-21,Zara,170.4,170.4,Clothing
+2023-02-24,Rodriguez Group,30.98,30.98,Health
+2023-02-25,Walgreens,44.15,44.15,Health
+2023-02-27,Smith-Medina,104.5,104.5,Groceries
+2023-02-28,Delta Airlines,376.7,376.7,Travel
+2023-03-02,Blankenship-Owens,35.79,17.89,Entertainment
+2023-03-10,Travis-Lee,52.29,17.43,Groceries
+2023-03-13,McDonald's,25.41,25.41,Dining
+2023-03-14,McDonald's,39.58,13.19,Dining
+2023-03-15,McDonald's,12.28,4.09,Dining
+2023-03-18,Zara,109.08,54.54,Clothing
+2023-03-19,Sanders-Garza,395.62,197.81,Home
+2023-03-20,Apple,250.01,125.0,Electronics
+2023-03-24,H&M,118.57,118.57,Clothing
+2023-03-27,Parrish-Gomez,333.87,333.87,Home
+2023-03-29,Wright LLC,130.25,130.25,Clothing
+2023-03-30,Simon and Sons,60.74,60.74,Groceries

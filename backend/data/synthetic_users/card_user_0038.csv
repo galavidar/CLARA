@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,CVS,36.98,12.33,Health
+2023-01-04,H&M,160.56,160.56,Clothing
+2023-01-05,H&M,173.05,173.05,Clothing
+2023-01-10,Vargas Ltd,18.37,18.37,Health
+2023-01-11,Target,20.52,20.52,Groceries
+2023-01-12,Adidas,182.15,182.15,Clothing
+2023-01-13,Kelley Ltd,41.54,20.77,Dining
+2023-01-14,Arnold Ltd,990.68,330.23,Electronics
+2023-01-17,Sparks-Lucero,88.53,88.53,Clothing
+2023-01-19,McDonald's,40.26,20.13,Dining
+2023-01-20,Starbucks,38.83,38.83,Dining
+2023-01-21,"Kim, Deleon and Cox",998.33,998.33,Electronics
+2023-01-25,Apple,502.37,251.19,Electronics
+2023-01-26,McDonald's,35.94,35.94,Dining
+2023-01-29,H&M,104.37,104.37,Clothing
+2023-01-30,Galvan PLC,117.28,117.28,Groceries
+2023-01-31,Walgreens,11.24,11.24,Health
+2023-02-04,Apple,494.32,247.16,Electronics
+2023-02-05,Padilla Ltd,99.42,99.42,Travel
+2023-02-08,Walgreens,31.99,31.99,Health
+2023-02-12,Ashley Inc,79.16,79.16,Entertainment
+2023-02-13,Starbucks,15.42,15.42,Dining
+2023-02-14,Smith PLC,665.96,665.96,Electronics
+2023-02-16,Uber,160.2,53.4,Travel
+2023-02-20,"Shepherd, Richardson and Daniels",469.66,156.55,Electronics
+2023-02-21,Adidas,105.02,52.51,Clothing
+2023-02-25,"Harris, Burns and Cruz",14.68,14.68,Dining
+2023-02-27,H&M,121.98,121.98,Clothing
+2023-02-28,Smith-Compton,816.15,816.15,Electronics
+2023-03-03,"Murphy, James and Jones",106.75,53.38,Groceries
+2023-03-04,Amazon,695.5,695.5,Electronics
+2023-03-05,Uber,392.49,392.49,Travel
+2023-03-07,Starbucks,28.73,28.73,Dining
+2023-03-09,Apple,729.72,243.24,Electronics
+2023-03-10,Scott-Good,958.26,958.26,Electronics
+2023-03-13,Zara,161.33,161.33,Clothing
+2023-03-14,CVS,73.02,73.02,Health
+2023-03-16,Adidas,178.89,178.89,Clothing
+2023-03-20,Bruce-Le,35.9,35.9,Dining
+2023-03-22,H&M,198.77,198.77,Clothing
+2023-03-24,"Mccann, Silva and Lee",14.13,7.07,Dining
+2023-03-26,Target,23.36,7.79,Groceries
+2023-03-30,Walgreens,16.89,5.63,Health

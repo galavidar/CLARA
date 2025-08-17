@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Amazon,793.15,264.38,Electronics
+2023-01-05,Target,43.26,43.26,Groceries
+2023-01-10,Amazon,718.38,718.38,Electronics
+2023-01-12,Target,109.08,109.08,Groceries
+2023-01-13,IKEA,30.4,30.4,Home
+2023-01-14,Adidas,50.83,50.83,Clothing
+2023-01-15,Delta Airlines,210.17,70.06,Travel
+2023-01-17,Walgreens,87.84,87.84,Health
+2023-01-18,Target,96.39,96.39,Groceries
+2023-01-19,Walmart,62.06,62.06,Groceries
+2023-01-21,Rasmussen PLC,139.99,139.99,Clothing
+2023-01-24,IKEA,236.92,236.92,Home
+2023-01-25,Adidas,145.33,145.33,Clothing
+2023-01-26,Starbucks,47.95,47.95,Dining
+2023-01-27,Walmart,37.18,18.59,Groceries
+2023-01-28,Uber,355.06,177.53,Travel
+2023-01-30,"Owens, Williams and Scott",250.49,250.49,Travel
+2023-02-01,Smith PLC,45.25,45.25,Groceries
+2023-02-03,Mcgee-Ramos,618.09,618.09,Electronics
+2023-02-04,Neal Ltd,45.1,45.1,Entertainment
+2023-02-06,Uber,210.78,105.39,Travel
+2023-02-09,Zara,165.2,165.2,Clothing
+2023-02-15,Adidas,132.06,132.06,Clothing
+2023-02-20,"Foster, King and Snyder",281.14,281.14,Home
+2023-02-21,Walgreens,90.71,90.71,Health
+2023-02-23,Williams-Jefferson,820.98,820.98,Electronics
+2023-02-25,McDonald's,54.28,27.14,Dining
+2023-02-26,Starbucks,39.32,39.32,Dining
+2023-03-03,Zara,79.19,79.19,Clothing
+2023-03-05,Amazon,105.77,105.77,Electronics
+2023-03-06,Uber,428.02,428.02,Travel
+2023-03-12,Walmart,36.13,12.04,Groceries
+2023-03-16,Amazon,663.76,663.76,Electronics
+2023-03-17,George-Yu,60.57,60.57,Entertainment
+2023-03-22,Walmart,55.07,55.07,Groceries
+2023-03-24,Starbucks,33.65,33.65,Dining
+2023-03-26,Apple,244.42,244.42,Electronics
+2023-03-27,Adidas,128.08,128.08,Clothing
+2023-03-28,Nike,130.33,130.33,Clothing
+2023-03-29,H&M,127.63,127.63,Clothing
+2023-03-30,Adidas,180.4,90.2,Clothing

@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,95.01,95.01,Groceries
+2023-01-03,Starbucks,17.64,17.64,Dining
+2023-01-07,IKEA,148.54,148.54,Home
+2023-01-09,Amazon,562.19,562.19,Electronics
+2023-01-12,McDonald's,47.15,15.72,Dining
+2023-01-18,Adidas,118.3,118.3,Clothing
+2023-01-19,Delta Airlines,385.65,385.65,Travel
+2023-01-25,Alexander Inc,97.93,97.93,Groceries
+2023-01-26,"Adams, Allen and Allen",67.47,67.47,Entertainment
+2023-02-05,Tyler PLC,498.25,498.25,Electronics
+2023-02-08,Robinson-Davis,13.91,13.91,Entertainment
+2023-02-10,"Liu, Fischer and Hubbard",39.47,13.16,Groceries
+2023-02-11,Colon Inc,161.67,161.67,Clothing
+2023-02-13,Nike,40.79,40.79,Clothing
+2023-02-15,Walgreens,15.27,15.27,Health
+2023-02-17,Walgreens,40.42,40.42,Health
+2023-02-21,McDonald's,12.22,12.22,Dining
+2023-02-22,Apple,295.01,98.34,Electronics
+2023-02-24,Delta Airlines,61.66,61.66,Travel
+2023-02-26,"Padilla, Lewis and Brown",28.92,28.92,Groceries
+2023-02-27,Uber,218.65,109.33,Travel
+2023-03-01,"Stewart, Cordova and Duncan",13.26,13.26,Entertainment
+2023-03-14,Target,133.3,133.3,Groceries
+2023-03-15,Delta Airlines,145.94,145.94,Travel
+2023-03-17,Adidas,31.17,31.17,Clothing
+2023-03-18,CVS,21.82,10.91,Health
+2023-03-22,Adidas,103.38,103.38,Clothing
+2023-03-29,Dunn-Chapman,203.52,203.52,Electronics

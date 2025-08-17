@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Delta Airlines,238.88,238.88,Travel
+2023-01-03,Cross-Crosby,174.28,87.14,Clothing
+2023-01-05,Walmart,133.85,133.85,Groceries
+2023-01-06,Target,69.32,34.66,Groceries
+2023-01-07,Delta Airlines,221.44,221.44,Travel
+2023-01-09,Carter Group,383.01,191.5,Electronics
+2023-01-10,Zara,87.68,87.68,Clothing
+2023-01-15,Brown Ltd,35.32,35.32,Dining
+2023-01-16,Zara,171.0,171.0,Clothing
+2023-01-20,CVS,67.84,67.84,Health
+2023-01-24,Starbucks,15.29,15.29,Dining
+2023-02-04,Target,116.61,116.61,Groceries
+2023-02-06,IKEA,353.63,353.63,Home
+2023-02-09,McDonald's,10.34,3.45,Dining
+2023-02-11,Young-Gonzales,131.79,131.79,Travel
+2023-02-14,IKEA,246.81,246.81,Home
+2023-02-16,Starbucks,48.55,48.55,Dining
+2023-02-17,Ponce LLC,200.81,100.41,Home
+2023-02-25,"Buckley, Taylor and Hart",103.23,103.23,Travel
+2023-02-27,McDonald's,40.68,40.68,Dining
+2023-03-05,Walgreens,48.66,48.66,Health
+2023-03-10,Apple,755.69,377.85,Electronics
+2023-03-12,"Garcia, Brown and Oconnor",30.81,30.81,Dining
+2023-03-14,H&M,190.87,190.87,Clothing
+2023-03-15,Zara,85.17,28.39,Clothing
+2023-03-17,Nike,114.78,114.78,Clothing
+2023-03-18,Amazon,400.57,400.57,Electronics
+2023-03-20,H&M,71.26,35.63,Clothing
+2023-03-25,"Garcia, Clayton and Clarke",41.77,41.77,Clothing

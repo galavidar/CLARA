@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,66.75,66.75,Health
+2023-01-03,Delta Airlines,358.43,179.22,Travel
+2023-01-04,Target,56.65,56.65,Groceries
+2023-01-07,Apple,212.86,212.86,Electronics
+2023-01-09,McDonald's,52.32,52.32,Dining
+2023-01-16,Delta Airlines,91.65,91.65,Travel
+2023-01-22,Walgreens,61.91,61.91,Health
+2023-01-23,Target,20.22,10.11,Groceries
+2023-01-31,Target,52.62,26.31,Groceries
+2023-02-03,CVS,22.99,11.49,Health
+2023-02-14,Alvarez Group,23.1,11.55,Dining
+2023-02-17,Apple,975.11,975.11,Electronics
+2023-02-18,Nike,108.84,108.84,Clothing
+2023-02-19,Apple,498.8,498.8,Electronics
+2023-02-24,IKEA,309.51,309.51,Home
+2023-02-26,Walmart,98.43,98.43,Groceries
+2023-02-27,Delta Airlines,59.53,59.53,Travel
+2023-03-04,Allen-Green,39.05,39.05,Clothing
+2023-03-05,Huang-Hart,108.45,108.45,Travel
+2023-03-08,"Frey, Perez and Gamble",30.09,30.09,Groceries
+2023-03-09,Nike,162.27,162.27,Clothing
+2023-03-12,Walgreens,71.41,71.41,Health
+2023-03-13,H&M,163.94,163.94,Clothing
+2023-03-15,Garcia-Stevens,126.62,126.62,Groceries
+2023-03-17,Target,64.68,64.68,Groceries
+2023-03-19,"Dixon, Anderson and Moore",111.73,111.73,Clothing
+2023-03-22,CVS,19.59,19.59,Health
+2023-03-24,Delta Airlines,372.81,186.41,Travel
+2023-03-25,Zara,192.76,192.76,Clothing
+2023-03-28,Starbucks,33.61,33.61,Dining
+2023-03-29,Delta Airlines,204.27,204.27,Travel
+2023-03-30,Daniels LLC,694.55,347.27,Electronics

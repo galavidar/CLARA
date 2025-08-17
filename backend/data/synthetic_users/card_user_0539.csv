@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,88.86,88.86,Groceries
+2023-01-05,Ford-Brady,895.34,895.34,Electronics
+2023-01-06,Zara,49.12,49.12,Clothing
+2023-01-10,Adidas,188.64,188.64,Clothing
+2023-01-11,Smith-Raymond,87.7,87.7,Home
+2023-01-14,Target,46.96,46.96,Groceries
+2023-01-17,H&M,125.86,62.93,Clothing
+2023-01-19,IKEA,338.86,112.95,Home
+2023-01-20,"Martinez, Vargas and Flores",65.63,65.63,Clothing
+2023-01-25,Delta Airlines,221.54,221.54,Travel
+2023-01-26,Myers-Hill,313.15,313.15,Home
+2023-01-27,McDonald's,49.57,49.57,Dining
+2023-01-29,H&M,65.36,65.36,Clothing
+2023-01-31,Walgreens,49.78,16.59,Health
+2023-02-01,"Gonzales, Reynolds and Hudson",73.72,36.86,Entertainment
+2023-02-03,CVS,56.67,56.67,Health
+2023-02-05,"Villegas, Rodriguez and Petersen",291.21,291.21,Travel
+2023-02-06,"Bowman, Bell and Bowers",16.74,16.74,Health
+2023-02-07,Uber,183.78,183.78,Travel
+2023-02-08,Apple,305.0,305.0,Electronics
+2023-02-09,Zara,40.78,40.78,Clothing
+2023-02-11,Martinez Group,274.16,91.39,Travel
+2023-02-13,Starbucks,51.07,17.02,Dining
+2023-02-16,Kirk LLC,312.79,312.79,Travel
+2023-02-17,Figueroa Ltd,330.1,330.1,Electronics
+2023-02-21,Delta Airlines,245.06,245.06,Travel
+2023-02-25,Target,36.7,18.35,Groceries
+2023-02-27,Nike,117.14,117.14,Clothing
+2023-02-28,Lopez and Sons,54.64,54.64,Health
+2023-03-07,Walmart,99.76,49.88,Groceries
+2023-03-08,Hanna and Sons,57.13,57.13,Dining
+2023-03-09,Uber,314.14,314.14,Travel
+2023-03-13,Apple,843.61,843.61,Electronics
+2023-03-15,Adidas,90.49,90.49,Clothing
+2023-03-20,Zara,168.75,168.75,Clothing
+2023-03-26,H&M,180.47,180.47,Clothing
+2023-03-28,"Terrell, Simpson and Trujillo",26.96,26.96,Groceries
+2023-03-30,Walsh LLC,296.6,296.6,Home

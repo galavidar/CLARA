@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Starbucks,47.35,47.35,Dining
+2023-01-02,Adidas,160.58,160.58,Clothing
+2023-01-03,Delta Airlines,394.1,197.05,Travel
+2023-01-04,Amazon,193.61,193.61,Electronics
+2023-01-06,Delta Airlines,409.41,409.41,Travel
+2023-01-09,Nike,164.88,164.88,Clothing
+2023-01-13,"Murray, Brown and Jackson",449.03,224.51,Travel
+2023-01-15,Nike,58.05,58.05,Clothing
+2023-01-18,Uber,74.46,74.46,Travel
+2023-01-24,McDonald's,15.91,15.91,Dining
+2023-01-26,H&M,45.03,15.01,Clothing
+2023-01-27,Amazon,816.08,816.08,Electronics
+2023-01-28,Uber,362.05,120.68,Travel
+2023-01-29,Delta Airlines,455.87,455.87,Travel
+2023-01-30,"Howard, Willis and Smith",50.2,50.2,Home
+2023-01-31,Price-Gonzalez,127.47,42.49,Groceries
+2023-02-01,Uber,212.17,212.17,Travel
+2023-02-02,CVS,10.93,10.93,Health
+2023-02-04,"Rojas, Parker and Nichols",306.23,306.23,Home
+2023-02-05,Maldonado PLC,102.74,102.74,Travel
+2023-02-06,Welch-Hunt,99.27,99.27,Groceries
+2023-02-11,"Curtis, Castillo and Cruz",991.47,991.47,Electronics
+2023-02-13,McDonald's,23.84,23.84,Dining
+2023-02-14,Nike,50.87,16.96,Clothing
+2023-02-20,Uber,296.01,296.01,Travel
+2023-03-01,Walmart,140.65,140.65,Groceries
+2023-03-02,Barron-Yang,120.73,120.73,Groceries
+2023-03-03,Russell PLC,41.53,41.53,Entertainment
+2023-03-04,Apple,496.76,496.76,Electronics
+2023-03-11,Delta Airlines,90.13,90.13,Travel
+2023-03-16,Walgreens,62.94,62.94,Health
+2023-03-20,Amazon,483.81,483.81,Electronics
+2023-03-21,Uber,404.96,404.96,Travel
+2023-03-23,Adidas,117.66,117.66,Clothing

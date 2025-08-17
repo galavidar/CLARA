@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Amazon,526.33,526.33,Electronics
+2023-01-02,"Ellison, Taylor and Knight",966.54,966.54,Electronics
+2023-01-04,Uber,334.4,334.4,Travel
+2023-01-06,Nike,171.36,171.36,Clothing
+2023-01-07,Apple,513.5,513.5,Electronics
+2023-01-11,Walgreens,54.59,54.59,Health
+2023-01-14,"Bryant, Brown and Grant",30.21,30.21,Health
+2023-01-16,CVS,33.02,16.51,Health
+2023-01-17,Amazon,271.6,271.6,Electronics
+2023-01-20,Adidas,139.21,46.4,Clothing
+2023-01-21,"Hansen, Osborn and Anderson",397.04,132.35,Home
+2023-01-25,Zara,100.54,50.27,Clothing
+2023-01-28,"Morgan, Simpson and Miller",108.06,108.06,Clothing
+2023-02-01,IKEA,104.17,104.17,Home
+2023-02-03,Molina LLC,427.39,142.46,Electronics
+2023-02-05,"Garcia, Guerrero and Torres",188.79,188.79,Electronics
+2023-02-07,McDonald's,39.5,39.5,Dining
+2023-02-08,Apple,353.81,353.81,Electronics
+2023-02-14,Adidas,117.14,117.14,Clothing
+2023-02-15,Apple,214.63,214.63,Electronics
+2023-02-17,Evans-Thornton,98.2,32.73,Groceries
+2023-02-22,Target,126.36,126.36,Groceries
+2023-02-26,"Stevens, Rivera and Mcmillan",15.72,15.72,Dining
+2023-02-28,Apple,254.76,254.76,Electronics
+2023-03-03,Neal LLC,89.85,89.85,Health
+2023-03-04,Henderson-Vargas,383.74,191.87,Home
+2023-03-06,Smith LLC,57.56,57.56,Clothing
+2023-03-07,Walgreens,31.2,31.2,Health
+2023-03-10,H&M,186.33,186.33,Clothing
+2023-03-11,Gonzalez Inc,381.36,381.36,Travel
+2023-03-13,Target,31.64,31.64,Groceries
+2023-03-17,Delta Airlines,458.01,229.0,Travel
+2023-03-19,Target,145.33,145.33,Groceries
+2023-03-22,Zara,116.01,116.01,Clothing
+2023-03-24,Robertson-Goodwin,391.17,391.17,Home
+2023-03-25,Walmart,115.82,38.61,Groceries
+2023-03-26,Zara,151.43,151.43,Clothing
+2023-03-27,Sullivan Inc,81.32,81.32,Entertainment
+2023-03-30,Nike,196.81,196.81,Clothing
+2023-03-31,McDonald's,18.06,18.06,Dining

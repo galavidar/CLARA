@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Starbucks,53.02,53.02,Dining
+2023-01-02,Zara,132.31,44.1,Clothing
+2023-01-05,Amazon,952.11,952.11,Electronics
+2023-01-06,Starbucks,14.86,14.86,Dining
+2023-01-08,McDonald's,11.12,11.12,Dining
+2023-01-09,Uber,469.51,469.51,Travel
+2023-01-10,McDonald's,49.64,49.64,Dining
+2023-01-11,CVS,31.13,31.13,Health
+2023-01-14,Delta Airlines,259.57,129.78,Travel
+2023-01-15,Walgreens,88.87,88.87,Health
+2023-01-16,McDonald's,23.6,23.6,Dining
+2023-01-20,Montoya-Miller,57.25,19.08,Groceries
+2023-01-23,Zara,93.26,93.26,Clothing
+2023-01-24,Uber,272.53,272.53,Travel
+2023-01-27,Walgreens,58.53,58.53,Health
+2023-01-28,"Moody, Herrera and Morton",319.46,319.46,Travel
+2023-01-29,Williams-Moore,489.75,489.75,Travel
+2023-01-30,"Reynolds, Clarke and Parks",59.53,59.53,Dining
+2023-02-08,Walgreens,97.24,97.24,Health
+2023-02-10,"Martinez, Ferguson and Frazier",170.29,170.29,Clothing
+2023-02-11,Starbucks,51.38,51.38,Dining
+2023-02-13,IKEA,173.47,173.47,Home
+2023-02-16,CVS,52.62,52.62,Health
+2023-02-22,Walmart,30.79,30.79,Groceries
+2023-02-24,"Butler, Collins and Coffey",61.97,61.97,Groceries
+2023-02-26,Target,132.15,132.15,Groceries
+2023-03-01,"Powell, Drake and Mccall",52.92,17.64,Groceries
+2023-03-02,Zara,48.64,24.32,Clothing
+2023-03-03,Carson Inc,397.61,198.81,Travel
+2023-03-06,Starbucks,47.02,47.02,Dining
+2023-03-11,McDonald's,27.88,27.88,Dining
+2023-03-13,Target,44.28,14.76,Groceries
+2023-03-16,Apple,232.65,77.55,Electronics
+2023-03-17,Target,88.97,88.97,Groceries
+2023-03-18,Nike,166.21,55.4,Clothing
+2023-03-19,Adidas,137.68,137.68,Clothing
+2023-03-20,Adidas,54.72,54.72,Clothing
+2023-03-25,Adams PLC,45.17,45.17,Entertainment
+2023-03-30,Walmart,111.58,111.58,Groceries
+2023-03-31,H&M,108.97,108.97,Clothing

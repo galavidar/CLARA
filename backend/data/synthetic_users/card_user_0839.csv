@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,67.67,33.84,Groceries
+2023-01-03,Adidas,155.83,155.83,Clothing
+2023-01-07,Uber,320.21,320.21,Travel
+2023-01-11,Wolfe-Taylor,63.64,63.64,Clothing
+2023-01-12,"Berg, Smith and Houston",40.42,40.42,Health
+2023-01-15,Walmart,55.71,55.71,Groceries
+2023-01-17,McDonald's,52.67,17.56,Dining
+2023-01-23,CVS,93.21,93.21,Health
+2023-01-25,"Castillo, Rios and Gibson",139.85,139.85,Home
+2023-01-26,Zara,193.55,193.55,Clothing
+2023-01-28,Starbucks,58.28,58.28,Dining
+2023-01-29,Lozano-Gomez,190.13,190.13,Electronics
+2023-01-30,Bailey Group,43.56,43.56,Groceries
+2023-01-31,Amazon,482.94,482.94,Electronics
+2023-02-03,"Brewer, Anderson and Jones",12.16,12.16,Dining
+2023-02-06,Delta Airlines,147.59,147.59,Travel
+2023-02-09,Walmart,73.82,73.82,Groceries
+2023-02-10,McDonald's,37.44,37.44,Dining
+2023-02-11,Apple,105.52,105.52,Electronics
+2023-02-14,Starbucks,19.8,19.8,Dining
+2023-02-15,Amazon,659.63,659.63,Electronics
+2023-02-16,Rivas PLC,89.74,89.74,Groceries
+2023-02-20,"Banks, Jones and Martin",25.87,25.87,Health
+2023-03-02,Haney Group,25.94,25.94,Dining
+2023-03-03,Stevens Group,94.74,94.74,Entertainment
+2023-03-04,Lee Inc,98.64,98.64,Home
+2023-03-05,Adidas,109.81,109.81,Clothing
+2023-03-06,Moore-Frazier,964.84,964.84,Electronics
+2023-03-09,Walgreens,91.77,45.88,Health
+2023-03-10,IKEA,345.83,115.28,Home
+2023-03-11,Delta Airlines,357.62,357.62,Travel
+2023-03-14,CVS,66.98,66.98,Health
+2023-03-16,Zara,125.82,41.94,Clothing
+2023-03-17,"Horn, Stone and Rodriguez",11.76,11.76,Entertainment
+2023-03-19,Apple,580.31,290.15,Electronics
+2023-03-21,Nike,186.74,186.74,Clothing
+2023-03-23,Delta Airlines,474.01,474.01,Travel
+2023-03-26,IKEA,52.71,52.71,Home
+2023-03-28,McDonald's,51.42,25.71,Dining

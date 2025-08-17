@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,191.06,191.06,Clothing
+2023-01-02,McDonald's,53.19,26.59,Dining
+2023-01-03,Starbucks,54.89,54.89,Dining
+2023-01-05,Amazon,983.37,491.69,Electronics
+2023-01-09,CVS,12.85,12.85,Health
+2023-01-12,Zara,50.23,50.23,Clothing
+2023-01-13,Walgreens,44.8,44.8,Health
+2023-01-17,Apple,686.57,228.86,Electronics
+2023-01-18,Target,149.58,149.58,Groceries
+2023-01-20,Poole-Perez,61.04,61.04,Entertainment
+2023-01-21,IKEA,295.4,295.4,Home
+2023-01-23,Lee Ltd,105.81,105.81,Groceries
+2023-01-27,Amazon,429.85,429.85,Electronics
+2023-01-28,Smith and Sons,61.37,61.37,Health
+2023-01-29,Nike,192.71,192.71,Clothing
+2023-01-31,"Kaufman, Coffey and Davis",61.21,20.4,Entertainment
+2023-02-04,McDonald's,24.96,24.96,Dining
+2023-02-05,Tran-Rush,142.5,142.5,Groceries
+2023-02-06,Apple,508.3,508.3,Electronics
+2023-02-11,IKEA,40.6,13.53,Home
+2023-02-13,Apple,575.0,575.0,Electronics
+2023-02-15,"Smith, Bishop and Young",52.82,52.82,Dining
+2023-02-17,Nike,101.72,101.72,Clothing
+2023-02-19,Delta Airlines,423.11,141.04,Travel
+2023-02-22,"Holmes, King and Ellis",53.31,53.31,Entertainment
+2023-02-25,"Martinez, Watkins and Smith",74.99,74.99,Travel
+2023-02-27,Apple,448.15,149.38,Electronics
+2023-02-28,H&M,96.83,96.83,Clothing
+2023-03-03,"Garcia, Lee and Gonzalez",49.33,49.33,Dining
+2023-03-06,Uber,466.66,466.66,Travel
+2023-03-07,Mercado-Soto,198.09,198.09,Clothing
+2023-03-09,Target,58.0,29.0,Groceries
+2023-03-11,Clarke-Harper,62.12,62.12,Groceries
+2023-03-16,Delta Airlines,413.73,413.73,Travel
+2023-03-24,Dickerson-Thomas,326.03,163.01,Home
+2023-03-26,Walmart,65.96,65.96,Groceries
+2023-03-30,Zara,148.45,74.22,Clothing

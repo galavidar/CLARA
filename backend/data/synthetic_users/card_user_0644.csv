@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,IKEA,92.86,92.86,Home
+2023-01-05,Nike,174.63,174.63,Clothing
+2023-01-06,"Jenkins, Griffin and Shaffer",66.65,66.65,Health
+2023-01-10,Walmart,115.98,115.98,Groceries
+2023-01-12,Carter Ltd,129.82,129.82,Travel
+2023-01-15,"Castro, Meza and Wallace",44.75,44.75,Dining
+2023-01-19,"Graham, Banks and Barber",26.66,26.66,Entertainment
+2023-01-22,Walker PLC,291.34,291.34,Home
+2023-01-23,McDonald's,28.47,28.47,Dining
+2023-01-24,Delta Airlines,427.61,427.61,Travel
+2023-01-27,CVS,19.46,19.46,Health
+2023-01-31,Target,47.99,47.99,Groceries
+2023-02-06,"Huffman, Franco and Schmitt",884.64,884.64,Electronics
+2023-02-11,"Nichols, Shelton and Wells",81.39,40.7,Groceries
+2023-02-13,Starbucks,21.95,21.95,Dining
+2023-02-17,Zara,154.33,154.33,Clothing
+2023-02-18,Walmart,57.66,19.22,Groceries
+2023-02-20,Delta Airlines,381.85,381.85,Travel
+2023-02-23,Delta Airlines,467.75,467.75,Travel
+2023-02-25,"Vega, Lynch and Mayer",121.99,121.99,Clothing
+2023-03-02,Apple,135.21,67.61,Electronics
+2023-03-03,Delta Airlines,152.41,152.41,Travel
+2023-03-04,Amazon,772.53,772.53,Electronics
+2023-03-07,IKEA,57.27,57.27,Home
+2023-03-09,H&M,124.72,124.72,Clothing
+2023-03-10,Apple,139.18,139.18,Electronics
+2023-03-15,Nike,162.63,162.63,Clothing
+2023-03-16,Camacho PLC,149.83,149.83,Groceries
+2023-03-17,Torres LLC,120.81,120.81,Groceries
+2023-03-21,Adidas,67.78,67.78,Clothing
+2023-03-23,Eaton Inc,213.09,71.03,Electronics
+2023-03-24,Fuentes and Sons,81.61,40.8,Entertainment
+2023-03-27,"Hess, Donovan and Wise",230.75,230.75,Home
+2023-03-29,Graham Inc,72.05,24.02,Health
+2023-03-30,Uber,453.72,453.72,Travel

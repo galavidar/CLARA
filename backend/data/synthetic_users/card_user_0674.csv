@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,172.33,172.33,Clothing
+2023-01-02,Starbucks,40.36,40.36,Dining
+2023-01-03,H&M,171.4,171.4,Clothing
+2023-01-05,Levy-Rojas,57.41,57.41,Dining
+2023-01-06,Amazon,314.7,314.7,Electronics
+2023-01-07,Zara,52.84,52.84,Clothing
+2023-01-08,Lynch-Rodriguez,25.95,25.95,Health
+2023-01-09,Amazon,412.23,412.23,Electronics
+2023-01-18,IKEA,355.53,355.53,Home
+2023-01-21,IKEA,360.55,360.55,Home
+2023-01-24,Walgreens,31.46,31.46,Health
+2023-01-28,Miller Ltd,78.17,78.17,Clothing
+2023-01-31,Amazon,404.8,404.8,Electronics
+2023-02-02,CVS,57.78,57.78,Health
+2023-02-04,Walgreens,47.86,47.86,Health
+2023-02-06,Uber,225.72,225.72,Travel
+2023-02-07,Delta Airlines,136.76,136.76,Travel
+2023-02-09,Walmart,27.8,27.8,Groceries
+2023-02-11,Target,64.63,21.54,Groceries
+2023-02-12,Hansen and Sons,770.2,770.2,Electronics
+2023-02-14,Starbucks,36.44,36.44,Dining
+2023-02-15,Adidas,35.85,35.85,Clothing
+2023-02-18,McDonald's,22.53,22.53,Dining
+2023-02-20,Walgreens,69.27,23.09,Health
+2023-02-22,Brown Inc,112.95,112.95,Groceries
+2023-02-24,Brown and Sons,90.39,90.39,Health
+2023-02-26,Nike,191.08,191.08,Clothing
+2023-03-02,Nike,181.1,181.1,Clothing
+2023-03-09,Hernandez-Carpenter,289.34,289.34,Travel
+2023-03-10,Delta Airlines,321.95,321.95,Travel
+2023-03-13,Uber,181.15,60.38,Travel
+2023-03-14,IKEA,370.49,370.49,Home
+2023-03-18,Zara,56.19,56.19,Clothing
+2023-03-26,Adidas,164.67,164.67,Clothing
+2023-03-28,Tran Inc,347.17,347.17,Home
+2023-03-30,Zara,191.65,95.83,Clothing

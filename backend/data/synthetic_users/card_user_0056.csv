@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,76.67,76.67,Health
+2023-01-02,Walgreens,94.85,94.85,Health
+2023-01-06,Weber-Hall,159.06,159.06,Home
+2023-01-07,Walgreens,34.6,34.6,Health
+2023-01-08,Adidas,193.65,193.65,Clothing
+2023-01-09,Adidas,50.53,50.53,Clothing
+2023-01-11,Wells-Johnson,159.56,159.56,Clothing
+2023-01-14,Amazon,311.26,311.26,Electronics
+2023-01-18,Walmart,67.58,67.58,Groceries
+2023-01-19,CVS,67.13,22.38,Health
+2023-01-20,Adidas,104.81,52.41,Clothing
+2023-01-21,H&M,105.2,105.2,Clothing
+2023-01-23,Walgreens,38.79,38.79,Health
+2023-02-01,Uber,195.02,195.02,Travel
+2023-02-03,CVS,72.47,72.47,Health
+2023-02-04,Delta Airlines,52.69,52.69,Travel
+2023-02-05,Delta Airlines,114.65,114.65,Travel
+2023-02-06,Apple,608.97,608.97,Electronics
+2023-02-12,Swanson LLC,150.73,150.73,Travel
+2023-02-13,McDonald's,19.12,19.12,Dining
+2023-02-15,H&M,114.09,57.05,Clothing
+2023-02-16,IKEA,333.35,333.35,Home
+2023-02-17,Uber,225.05,225.05,Travel
+2023-02-20,Rodgers-Howell,197.4,197.4,Clothing
+2023-02-24,"Perez, Carter and Chen",89.8,89.8,Health
+2023-02-26,Uber,411.19,137.06,Travel
+2023-03-02,Delta Airlines,245.45,245.45,Travel
+2023-03-03,Starbucks,28.56,28.56,Dining
+2023-03-05,Walgreens,55.75,55.75,Health
+2023-03-09,IKEA,250.15,250.15,Home
+2023-03-14,CVS,55.55,18.52,Health
+2023-03-15,CVS,82.04,82.04,Health
+2023-03-17,Apple,977.82,977.82,Electronics
+2023-03-18,Adidas,129.57,129.57,Clothing
+2023-03-21,Starbucks,44.25,44.25,Dining
+2023-03-24,Starbucks,51.34,51.34,Dining
+2023-03-28,McDonald's,37.3,37.3,Dining
+2023-03-30,Zara,148.58,148.58,Clothing
+2023-03-31,CVS,98.16,98.16,Health

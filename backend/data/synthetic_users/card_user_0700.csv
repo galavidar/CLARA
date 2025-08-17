@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,156.93,156.93,Clothing
+2023-01-05,Walmart,58.77,58.77,Groceries
+2023-01-07,Nike,60.24,60.24,Clothing
+2023-01-08,McDonald's,47.93,47.93,Dining
+2023-01-09,Martinez Inc,305.82,305.82,Travel
+2023-01-12,Apple,696.45,696.45,Electronics
+2023-01-14,Adidas,80.64,80.64,Clothing
+2023-01-16,Walgreens,71.24,71.24,Health
+2023-01-20,Zara,158.55,158.55,Clothing
+2023-01-21,Walmart,96.48,96.48,Groceries
+2023-01-22,Walmart,39.38,39.38,Groceries
+2023-01-25,Target,39.14,39.14,Groceries
+2023-01-27,Adidas,167.08,167.08,Clothing
+2023-01-28,H&M,150.22,150.22,Clothing
+2023-01-31,Amazon,727.33,727.33,Electronics
+2023-02-06,Target,105.02,105.02,Groceries
+2023-02-08,Amazon,942.89,942.89,Electronics
+2023-02-10,Walmart,127.26,127.26,Groceries
+2023-02-11,Delta Airlines,168.07,168.07,Travel
+2023-02-12,Wright-Lee,40.99,20.5,Health
+2023-02-14,Nike,135.05,135.05,Clothing
+2023-02-16,H&M,37.29,18.64,Clothing
+2023-02-17,Delta Airlines,214.95,214.95,Travel
+2023-02-18,Target,33.09,33.09,Groceries
+2023-02-28,CVS,51.9,51.9,Health
+2023-03-04,Lloyd Ltd,325.87,325.87,Home
+2023-03-06,Adidas,81.33,40.66,Clothing
+2023-03-07,Schultz-Dixon,94.47,47.23,Home
+2023-03-11,"Smith, Nelson and West",102.17,102.17,Groceries
+2023-03-13,Johnson PLC,540.05,540.05,Electronics
+2023-03-15,Apple,697.94,348.97,Electronics
+2023-03-17,H&M,187.03,187.03,Clothing
+2023-03-21,Adidas,194.34,194.34,Clothing
+2023-03-22,"Kerr, Lawson and Murphy",190.19,190.19,Clothing
+2023-03-27,Amazon,111.74,111.74,Electronics
+2023-03-28,Quinn-Olson,105.76,105.76,Travel

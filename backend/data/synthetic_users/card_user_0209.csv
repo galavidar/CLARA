@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Walgreens,56.74,56.74,Health
+2023-01-09,Uber,479.38,479.38,Travel
+2023-01-10,"Morgan, Gonzales and Zimmerman",54.06,54.06,Dining
+2023-01-11,"Watkins, Short and Wheeler",123.32,61.66,Groceries
+2023-01-13,Macias-Walker,39.62,39.62,Dining
+2023-01-15,Apple,552.02,552.02,Electronics
+2023-01-18,Nike,90.5,90.5,Clothing
+2023-01-21,"Brown, Brown and Chandler",412.82,412.82,Travel
+2023-01-22,Uber,370.26,370.26,Travel
+2023-01-24,Nike,43.79,21.89,Clothing
+2023-01-25,Delta Airlines,359.81,359.81,Travel
+2023-01-26,Target,80.0,80.0,Groceries
+2023-01-29,"Snyder, Dickson and Riley",37.83,37.83,Dining
+2023-02-01,Apple,748.82,748.82,Electronics
+2023-02-03,Fitzgerald LLC,669.04,669.04,Electronics
+2023-02-04,Zara,133.37,133.37,Clothing
+2023-02-06,Adidas,71.36,35.68,Clothing
+2023-02-08,Williams and Sons,125.18,125.18,Electronics
+2023-02-09,Adidas,42.49,21.25,Clothing
+2023-02-10,"Brown, Bowen and Ramos",90.18,90.18,Entertainment
+2023-02-11,Nike,167.83,167.83,Clothing
+2023-02-14,IKEA,149.44,149.44,Home
+2023-02-18,Harrison-Pham,31.24,31.24,Health
+2023-02-28,"Murphy, George and Martin",938.29,938.29,Electronics
+2023-03-03,Target,108.87,108.87,Groceries
+2023-03-05,Uber,457.84,152.61,Travel
+2023-03-06,IKEA,164.38,164.38,Home
+2023-03-07,H&M,57.37,57.37,Clothing
+2023-03-09,Walgreens,54.09,18.03,Health
+2023-03-22,Adidas,150.44,150.44,Clothing
+2023-03-23,IKEA,162.46,54.15,Home
+2023-03-24,Uber,232.99,232.99,Travel
+2023-03-26,Delta Airlines,435.62,435.62,Travel
+2023-03-27,Rodriguez Inc,67.07,22.36,Groceries
+2023-03-28,Amazon,327.67,327.67,Electronics
+2023-03-29,Brennan-Taylor,338.67,338.67,Home
+2023-03-30,Starbucks,33.7,33.7,Dining
+2023-03-31,CVS,84.22,84.22,Health

@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,167.34,167.34,Clothing
+2023-01-02,Walgreens,86.62,86.62,Health
+2023-01-04,"Padilla, Grimes and Dixon",782.31,782.31,Electronics
+2023-01-07,Edwards Inc,403.92,201.96,Travel
+2023-01-08,Zara,41.78,41.78,Clothing
+2023-01-14,Wilson Ltd,186.6,62.2,Home
+2023-01-16,Frazier-Kaufman,156.37,156.37,Home
+2023-01-21,"Page, Smith and Kane",94.94,94.94,Groceries
+2023-01-31,Mills-Richardson,248.67,248.67,Electronics
+2023-02-05,McDonald's,39.34,19.67,Dining
+2023-02-07,Joyce-Bridges,140.44,140.44,Clothing
+2023-02-08,Cruz-Jones,282.38,282.38,Home
+2023-02-09,Starbucks,28.83,28.83,Dining
+2023-02-11,Walmart,121.56,60.78,Groceries
+2023-02-14,Walmart,143.14,143.14,Groceries
+2023-02-18,Ramsey Ltd,129.34,64.67,Home
+2023-02-19,CVS,49.42,16.47,Health
+2023-02-21,Nielsen Inc,185.25,92.62,Travel
+2023-02-22,Walmart,59.51,19.84,Groceries
+2023-02-23,Delta Airlines,495.44,495.44,Travel
+2023-03-02,Adidas,112.14,112.14,Clothing
+2023-03-04,"Duran, Smith and Smith",606.82,606.82,Electronics
+2023-03-07,Zara,187.42,187.42,Clothing
+2023-03-16,"Wong, Garcia and Barajas",259.49,259.49,Travel
+2023-03-17,Uber,428.08,428.08,Travel
+2023-03-19,Amazon,539.78,539.78,Electronics
+2023-03-20,H&M,115.74,38.58,Clothing
+2023-03-21,Starbucks,45.39,45.39,Dining

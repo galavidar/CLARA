@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,"Jackson, Stevenson and Meyer",23.71,23.71,Dining
+2023-01-06,Nike,148.81,148.81,Clothing
+2023-01-07,Jensen Inc,748.55,748.55,Electronics
+2023-01-10,Salazar-Park,47.04,47.04,Entertainment
+2023-01-11,Amazon,143.97,143.97,Electronics
+2023-01-13,Jones LLC,61.07,61.07,Entertainment
+2023-01-15,Apple,652.2,652.2,Electronics
+2023-01-18,Starbucks,46.69,23.34,Dining
+2023-01-21,H&M,103.56,34.52,Clothing
+2023-01-25,Walmart,146.87,48.96,Groceries
+2023-01-27,IKEA,244.25,244.25,Home
+2023-01-28,Apple,383.82,383.82,Electronics
+2023-02-01,Walmart,108.87,108.87,Groceries
+2023-02-04,"Simpson, Green and Hall",230.44,230.44,Electronics
+2023-02-05,McDonald's,55.15,55.15,Dining
+2023-02-07,Delta Airlines,198.04,99.02,Travel
+2023-02-08,Amazon,482.04,482.04,Electronics
+2023-02-09,Kirby Inc,84.09,84.09,Entertainment
+2023-02-11,"Henderson, Walker and Walls",53.47,53.47,Health
+2023-02-14,Delta Airlines,338.7,338.7,Travel
+2023-02-22,Walgreens,49.86,49.86,Health
+2023-02-25,CVS,45.26,22.63,Health
+2023-03-02,Uber,401.35,401.35,Travel
+2023-03-04,"Grant, Wood and Robinson",142.26,71.13,Clothing
+2023-03-08,Dean Ltd,95.22,95.22,Health
+2023-03-09,Walmart,27.79,27.79,Groceries
+2023-03-10,Target,121.53,121.53,Groceries
+2023-03-16,Target,33.89,33.89,Groceries
+2023-03-17,Mcguire-Bray,59.45,59.45,Clothing
+2023-03-21,IKEA,90.16,90.16,Home
+2023-03-22,Starbucks,47.64,47.64,Dining
+2023-03-25,Tucker-Hernandez,63.37,31.68,Clothing
+2023-03-30,Zara,76.36,76.36,Clothing
+2023-03-31,Walgreens,39.16,39.16,Health

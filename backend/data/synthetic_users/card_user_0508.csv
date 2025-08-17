@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,CVS,68.52,68.52,Health
+2023-01-03,"Duarte, Medina and Villarreal",157.22,157.22,Travel
+2023-01-04,H&M,77.93,77.93,Clothing
+2023-01-05,Delta Airlines,126.63,126.63,Travel
+2023-01-07,Sellers Ltd,294.6,98.2,Home
+2023-01-08,Amazon,668.04,334.02,Electronics
+2023-01-10,Apple,294.73,294.73,Electronics
+2023-01-11,Walmart,50.32,50.32,Groceries
+2023-01-13,Taylor-Vargas,93.34,46.67,Travel
+2023-01-15,George-Cunningham,284.11,284.11,Electronics
+2023-01-20,Uber,338.49,338.49,Travel
+2023-01-26,Walgreens,81.68,81.68,Health
+2023-01-30,H&M,63.26,63.26,Clothing
+2023-01-31,IKEA,298.34,298.34,Home
+2023-02-02,Walmart,99.62,99.62,Groceries
+2023-02-04,Uber,84.55,84.55,Travel
+2023-02-08,Target,116.73,116.73,Groceries
+2023-02-12,Potts-Bush,290.03,290.03,Home
+2023-02-18,Jones PLC,80.63,80.63,Groceries
+2023-02-19,CVS,11.99,11.99,Health
+2023-02-20,Delta Airlines,70.34,70.34,Travel
+2023-02-21,Davies-Davis,58.13,58.13,Dining
+2023-02-24,Zara,41.35,13.78,Clothing
+2023-03-04,Evans Ltd,265.33,265.33,Travel
+2023-03-05,McDonald's,49.47,49.47,Dining
+2023-03-07,"Peterson, Thomas and Paul",131.03,131.03,Groceries
+2023-03-09,Nike,58.38,58.38,Clothing
+2023-03-15,CVS,62.45,20.82,Health
+2023-03-20,"Reeves, Smith and Guzman",367.51,367.51,Travel
+2023-03-24,McDonald's,37.26,37.26,Dining
+2023-03-25,Rogers-Diaz,15.63,15.63,Entertainment
+2023-03-28,McDonald's,36.7,36.7,Dining
+2023-03-31,Starbucks,38.81,38.81,Dining

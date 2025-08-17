@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,CVS,90.78,90.78,Health
+2023-01-05,Martinez Group,355.86,355.86,Home
+2023-01-07,Target,98.29,98.29,Groceries
+2023-01-08,Uber,274.56,274.56,Travel
+2023-01-09,Starbucks,56.79,56.79,Dining
+2023-01-14,H&M,122.14,40.71,Clothing
+2023-01-17,Bonilla and Sons,161.68,161.68,Clothing
+2023-01-18,Turner LLC,211.62,211.62,Travel
+2023-01-19,Adidas,143.7,143.7,Clothing
+2023-01-20,Starbucks,21.22,21.22,Dining
+2023-01-24,Nike,152.38,50.79,Clothing
+2023-01-26,CVS,57.05,57.05,Health
+2023-01-29,Delta Airlines,350.3,350.3,Travel
+2023-02-03,Target,138.17,138.17,Groceries
+2023-02-04,Delta Airlines,162.51,162.51,Travel
+2023-02-05,Delta Airlines,484.21,484.21,Travel
+2023-02-06,Parks-Cantu,67.25,67.25,Entertainment
+2023-02-07,Delta Airlines,128.8,64.4,Travel
+2023-02-13,Phillips-Cox,445.53,445.53,Travel
+2023-02-15,"Hardy, Rubio and Stone",184.85,184.85,Clothing
+2023-02-17,Cole and Sons,268.21,268.21,Travel
+2023-02-24,Walgreens,93.24,93.24,Health
+2023-02-26,Adidas,151.9,151.9,Clothing
+2023-03-03,Richardson LLC,33.93,33.93,Health
+2023-03-04,"Nelson, Hurley and Curtis",141.67,141.67,Groceries
+2023-03-05,Weaver and Sons,46.27,46.27,Health
+2023-03-07,Uber,375.36,375.36,Travel
+2023-03-08,IKEA,304.49,304.49,Home
+2023-03-11,Walmart,55.73,55.73,Groceries
+2023-03-13,McDonald's,49.07,49.07,Dining
+2023-03-14,"Burns, Christensen and Thornton",24.06,24.06,Dining
+2023-03-15,Adidas,182.78,182.78,Clothing
+2023-03-16,Nike,51.61,25.8,Clothing
+2023-03-19,"Davis, Anderson and Lopez",216.61,108.31,Home
+2023-03-21,Gallegos Inc,243.83,243.83,Travel
+2023-03-26,Jenkins Group,66.41,66.41,Health

@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Nike,126.74,126.74,Clothing
+2023-01-10,CVS,56.81,56.81,Health
+2023-01-11,Amazon,434.14,434.14,Electronics
+2023-01-12,Apple,765.87,765.87,Electronics
+2023-01-20,IKEA,90.94,90.94,Home
+2023-01-26,Walgreens,89.96,44.98,Health
+2023-01-30,Delta Airlines,197.15,197.15,Travel
+2023-02-06,Amazon,304.25,304.25,Electronics
+2023-02-07,Carpenter LLC,109.37,109.37,Home
+2023-02-09,Walmart,39.88,39.88,Groceries
+2023-02-10,Carter-Shea,23.86,7.95,Groceries
+2023-02-11,McDonald's,16.3,16.3,Dining
+2023-02-12,Target,50.97,50.97,Groceries
+2023-02-15,Lewis-Morrison,86.96,43.48,Health
+2023-02-16,IKEA,382.85,382.85,Home
+2023-02-20,H&M,33.07,33.07,Clothing
+2023-02-21,Starbucks,37.01,37.01,Dining
+2023-02-22,CVS,56.78,56.78,Health
+2023-02-23,Starbucks,51.06,25.53,Dining
+2023-03-01,H&M,88.2,88.2,Clothing
+2023-03-04,Walgreens,82.22,82.22,Health
+2023-03-07,Nike,172.66,86.33,Clothing
+2023-03-10,Target,126.53,126.53,Groceries
+2023-03-11,Foster-Welch,43.3,43.3,Groceries
+2023-03-14,Warner PLC,161.81,161.81,Travel
+2023-03-16,Apple,985.65,985.65,Electronics
+2023-03-18,"Santana, Ferrell and Becker",19.02,19.02,Dining
+2023-03-21,Target,134.38,44.79,Groceries
+2023-03-27,Adidas,124.26,124.26,Clothing
+2023-03-28,McDonald's,37.08,37.08,Dining
+2023-03-30,Starbucks,47.12,47.12,Dining

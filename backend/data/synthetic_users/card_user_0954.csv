@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Smith, Thompson and Garcia",38.67,38.67,Clothing
+2023-01-04,Jackson-Anderson,95.6,95.6,Entertainment
+2023-01-06,Mueller Inc,10.58,3.53,Dining
+2023-01-10,Fernandez PLC,83.49,83.49,Clothing
+2023-01-13,Nike,95.78,95.78,Clothing
+2023-01-14,"Robinson, Perry and Williams",355.37,177.69,Home
+2023-01-15,"Mccoy, Palmer and Nielsen",19.06,19.06,Dining
+2023-01-17,CVS,80.32,80.32,Health
+2023-01-21,Apple,452.52,452.52,Electronics
+2023-01-23,Target,49.14,49.14,Groceries
+2023-01-25,IKEA,173.07,173.07,Home
+2023-02-02,IKEA,119.3,119.3,Home
+2023-02-06,Adidas,124.69,124.69,Clothing
+2023-02-07,"Shepard, Graham and Smith",203.26,203.26,Travel
+2023-02-11,Morgan-Cuevas,23.02,23.02,Health
+2023-02-15,Amazon,360.03,360.03,Electronics
+2023-02-16,Walgreens,89.78,44.89,Health
+2023-02-17,H&M,46.71,15.57,Clothing
+2023-02-19,Starbucks,17.23,17.23,Dining
+2023-02-21,IKEA,371.34,371.34,Home
+2023-02-22,Apple,364.85,364.85,Electronics
+2023-02-23,Starbucks,47.95,47.95,Dining
+2023-02-26,IKEA,279.97,279.97,Home
+2023-03-01,H&M,191.87,191.87,Clothing
+2023-03-05,Huang-Phillips,210.93,105.47,Travel
+2023-03-07,"Hernandez, Armstrong and Stevenson",132.69,132.69,Clothing
+2023-03-08,Freeman-Campbell,229.76,229.76,Home
+2023-03-13,Adidas,176.39,176.39,Clothing
+2023-03-17,IKEA,278.91,278.91,Home
+2023-03-19,Walgreens,16.56,16.56,Health
+2023-03-23,Adams LLC,33.47,33.47,Dining
+2023-03-24,CVS,62.52,62.52,Health
+2023-03-26,McDonald's,54.38,54.38,Dining
+2023-03-29,Apple,144.06,144.06,Electronics

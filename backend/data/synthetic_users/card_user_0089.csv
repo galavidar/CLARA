@@ -1,0 +1,47 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,60.06,60.06,Clothing
+2023-01-02,Uber,490.16,490.16,Travel
+2023-01-03,"Marquez, Bowman and Burgess",17.82,5.94,Health
+2023-01-04,Adidas,95.64,95.64,Clothing
+2023-01-07,Apple,712.16,712.16,Electronics
+2023-01-11,H&M,38.0,38.0,Clothing
+2023-01-13,CVS,27.16,27.16,Health
+2023-01-18,Starbucks,18.0,18.0,Dining
+2023-01-19,McDonald's,17.66,17.66,Dining
+2023-01-20,"Jackson, Wood and Freeman",832.32,832.32,Electronics
+2023-01-21,Walgreens,10.44,10.44,Health
+2023-01-22,Target,138.97,138.97,Groceries
+2023-01-25,"Nguyen, Davis and Walsh",21.01,10.51,Groceries
+2023-01-27,Delta Airlines,204.24,204.24,Travel
+2023-01-29,Delta Airlines,279.64,279.64,Travel
+2023-02-02,Adidas,194.45,194.45,Clothing
+2023-02-03,McDonald's,59.56,59.56,Dining
+2023-02-04,Target,103.4,51.7,Groceries
+2023-02-06,Walmart,91.03,30.34,Groceries
+2023-02-07,Herrera-Mclean,89.72,29.91,Travel
+2023-02-08,Adidas,192.28,192.28,Clothing
+2023-02-09,"Pittman, Hughes and Ross",50.13,16.71,Health
+2023-02-15,Starbucks,12.04,12.04,Dining
+2023-02-16,Amazon,354.62,354.62,Electronics
+2023-02-17,H&M,162.48,54.16,Clothing
+2023-02-19,Uber,270.22,90.07,Travel
+2023-02-21,McDonald's,46.3,46.3,Dining
+2023-02-23,IKEA,151.24,151.24,Home
+2023-02-26,Amazon,206.02,206.02,Electronics
+2023-02-27,Walmart,117.68,58.84,Groceries
+2023-02-28,Uber,328.08,164.04,Travel
+2023-03-01,CVS,84.87,84.87,Health
+2023-03-02,Amazon,701.46,701.46,Electronics
+2023-03-05,Starbucks,54.71,54.71,Dining
+2023-03-07,Apple,588.17,588.17,Electronics
+2023-03-09,"Burch, Robinson and Roberts",54.99,54.99,Health
+2023-03-12,Starbucks,49.51,49.51,Dining
+2023-03-13,Buchanan-Evans,310.6,155.3,Home
+2023-03-15,Starbucks,32.02,32.02,Dining
+2023-03-16,Target,139.26,139.26,Groceries
+2023-03-17,Target,92.23,92.23,Groceries
+2023-03-20,Martin-Richardson,359.95,359.95,Home
+2023-03-25,Ward-Pitts,81.65,81.65,Health
+2023-03-29,Delta Airlines,151.59,151.59,Travel
+2023-03-30,Starbucks,12.83,4.28,Dining
+2023-03-31,Chapman Ltd,28.72,28.72,Dining

@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Hess Inc,188.7,188.7,Clothing
+2023-01-06,"Jackson, Miller and Hunt",94.54,94.54,Groceries
+2023-01-08,IKEA,218.11,72.7,Home
+2023-01-09,H&M,189.89,63.3,Clothing
+2023-01-10,Delta Airlines,462.39,462.39,Travel
+2023-01-11,Target,60.23,60.23,Groceries
+2023-01-12,IKEA,62.7,31.35,Home
+2023-01-14,Nike,113.33,37.78,Clothing
+2023-01-17,"Perry, Jones and Cooper",26.42,26.42,Entertainment
+2023-01-20,"Howe, Mendoza and Hall",294.72,294.72,Travel
+2023-01-22,Amazon,156.25,156.25,Electronics
+2023-01-25,Delta Airlines,251.08,251.08,Travel
+2023-01-26,CVS,29.26,9.75,Health
+2023-01-29,Adidas,89.75,29.92,Clothing
+2023-02-01,Larson-Padilla,65.23,65.23,Clothing
+2023-02-04,Williams-Dominguez,58.95,58.95,Dining
+2023-02-07,"Holmes, Harrington and Lopez",15.83,15.83,Dining
+2023-02-09,Perez Group,30.0,30.0,Entertainment
+2023-02-17,H&M,126.52,126.52,Clothing
+2023-02-20,Starbucks,34.78,34.78,Dining
+2023-02-21,IKEA,80.75,26.92,Home
+2023-02-24,Starbucks,54.2,27.1,Dining
+2023-02-25,Walmart,128.75,64.38,Groceries
+2023-02-27,Walker Group,145.72,72.86,Groceries
+2023-02-28,Lowe PLC,46.85,46.85,Dining
+2023-03-01,Zara,133.62,133.62,Clothing
+2023-03-04,Adidas,117.34,117.34,Clothing
+2023-03-05,CVS,92.55,46.27,Health
+2023-03-06,Wolfe Ltd,141.21,141.21,Travel
+2023-03-07,CVS,23.49,23.49,Health
+2023-03-08,Uber,59.77,59.77,Travel
+2023-03-09,Walker-Haynes,84.07,28.02,Health
+2023-03-10,Holland Ltd,43.59,43.59,Clothing
+2023-03-11,Walgreens,46.27,46.27,Health
+2023-03-18,Starbucks,21.0,21.0,Dining
+2023-03-19,Zara,63.2,63.2,Clothing
+2023-03-24,Jones and Sons,779.47,779.47,Electronics
+2023-03-26,IKEA,205.66,205.66,Home
+2023-03-28,Apple,377.99,189.0,Electronics
+2023-03-30,Amazon,487.47,487.47,Electronics
+2023-03-31,Zara,99.6,99.6,Clothing

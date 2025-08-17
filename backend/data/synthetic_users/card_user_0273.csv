@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Nike,104.41,104.41,Clothing
+2023-01-06,Nike,54.54,54.54,Clothing
+2023-01-08,Amazon,819.66,409.83,Electronics
+2023-01-12,Nike,120.17,120.17,Clothing
+2023-01-13,Uber,453.31,226.66,Travel
+2023-01-14,H&M,44.19,44.19,Clothing
+2023-01-16,Nike,69.66,69.66,Clothing
+2023-01-18,Nike,94.05,94.05,Clothing
+2023-01-20,Walmart,122.45,61.23,Groceries
+2023-01-24,IKEA,148.5,148.5,Home
+2023-01-25,McDonald's,43.05,43.05,Dining
+2023-01-28,Nike,150.08,150.08,Clothing
+2023-01-31,Amazon,582.16,582.16,Electronics
+2023-02-01,Walgreens,51.15,51.15,Health
+2023-02-02,Amazon,134.06,67.03,Electronics
+2023-02-04,Nike,150.94,150.94,Clothing
+2023-02-06,Zara,152.67,152.67,Clothing
+2023-02-09,Apple,603.06,603.06,Electronics
+2023-02-10,Zara,61.39,30.7,Clothing
+2023-02-15,"Martin, Parker and Dunn",162.64,162.64,Clothing
+2023-02-16,Walmart,101.41,101.41,Groceries
+2023-02-17,Walgreens,75.39,37.7,Health
+2023-02-23,Uber,176.57,176.57,Travel
+2023-02-24,Apple,874.9,874.9,Electronics
+2023-02-26,Uber,415.75,415.75,Travel
+2023-02-28,Jacobs-Madden,128.78,128.78,Groceries
+2023-03-05,Amazon,622.53,207.51,Electronics
+2023-03-08,Wilson-Flores,146.54,146.54,Clothing
+2023-03-09,CVS,64.29,64.29,Health
+2023-03-10,Uber,81.46,40.73,Travel
+2023-03-12,Walmart,132.86,132.86,Groceries
+2023-03-16,Wilson-Duncan,33.09,33.09,Home
+2023-03-17,McDonald's,30.83,30.83,Dining
+2023-03-18,Nike,196.75,196.75,Clothing
+2023-03-19,Lane Ltd,178.16,178.16,Clothing
+2023-03-20,Marshall-Harris,19.52,19.52,Health
+2023-03-21,Adidas,82.12,82.12,Clothing
+2023-03-22,CVS,47.24,47.24,Health
+2023-03-27,Young-Walker,93.91,93.91,Travel
+2023-03-29,Nike,73.57,73.57,Clothing
+2023-03-30,Michael PLC,81.79,81.79,Groceries

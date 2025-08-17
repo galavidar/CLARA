@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,IKEA,242.12,121.06,Home
+2023-01-04,Walgreens,46.52,46.52,Health
+2023-01-12,Starbucks,16.18,16.18,Dining
+2023-01-13,Graham-Rowland,49.19,49.19,Dining
+2023-01-15,Amazon,301.81,301.81,Electronics
+2023-01-20,IKEA,378.16,378.16,Home
+2023-01-22,Target,86.56,86.56,Groceries
+2023-01-25,Apple,840.5,840.5,Electronics
+2023-01-26,McDonald's,42.45,42.45,Dining
+2023-01-30,McDonald's,48.59,48.59,Dining
+2023-02-01,H&M,65.94,65.94,Clothing
+2023-02-03,"Johnson, Patel and Lynch",66.8,22.27,Entertainment
+2023-02-07,Soto-Aguirre,258.79,258.79,Electronics
+2023-02-09,Uber,207.48,69.16,Travel
+2023-02-12,H&M,47.23,47.23,Clothing
+2023-02-19,Zara,35.92,35.92,Clothing
+2023-02-22,Uber,248.92,248.92,Travel
+2023-02-24,Starbucks,13.49,4.5,Dining
+2023-02-25,Starbucks,16.39,5.46,Dining
+2023-02-27,Starbucks,39.35,13.12,Dining
+2023-03-03,Zara,57.3,57.3,Clothing
+2023-03-11,"Jones, Lara and Chan",312.93,312.93,Travel
+2023-03-12,Uber,246.76,246.76,Travel
+2023-03-18,CVS,64.26,64.26,Health
+2023-03-22,IKEA,192.18,192.18,Home
+2023-03-24,Amazon,687.7,687.7,Electronics
+2023-03-27,Zara,131.86,131.86,Clothing
+2023-03-28,Uber,408.86,408.86,Travel
+2023-03-29,Walgreens,13.76,6.88,Health
+2023-03-31,Delta Airlines,475.52,475.52,Travel

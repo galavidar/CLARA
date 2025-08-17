@@ -1,0 +1,28 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Cooper LLC,86.74,86.74,Entertainment
+2023-01-20,Starbucks,14.33,14.33,Dining
+2023-01-21,Steele PLC,21.63,21.63,Entertainment
+2023-01-22,Nike,176.93,176.93,Clothing
+2023-01-24,Ray-Munoz,96.21,96.21,Entertainment
+2023-01-25,Nike,177.59,59.2,Clothing
+2023-01-26,Nike,199.99,100.0,Clothing
+2023-01-27,Zara,79.89,79.89,Clothing
+2023-01-28,Nike,155.48,51.83,Clothing
+2023-01-31,Uber,135.14,135.14,Travel
+2023-02-01,Walmart,145.38,145.38,Groceries
+2023-02-04,Target,35.53,35.53,Groceries
+2023-02-08,Apple,239.31,79.77,Electronics
+2023-02-09,Myers Group,117.47,117.47,Groceries
+2023-02-15,Glover Group,95.94,95.94,Health
+2023-02-16,Starbucks,13.17,13.17,Dining
+2023-02-18,Hill-Ryan,70.58,70.58,Health
+2023-02-19,Jones Group,148.53,148.53,Home
+2023-03-04,Starbucks,52.85,52.85,Dining
+2023-03-05,"Smith, Jenkins and Adams",77.31,77.31,Groceries
+2023-03-13,"Klein, Lee and Martin",312.83,312.83,Home
+2023-03-15,Zara,114.2,114.2,Clothing
+2023-03-23,"Wilson, Kelly and Mills",682.04,682.04,Electronics
+2023-03-24,Farrell and Sons,285.7,142.85,Home
+2023-03-25,Uber,346.1,346.1,Travel
+2023-03-27,"James, Green and Clark",32.74,32.74,Health
+2023-03-30,Apple,867.36,867.36,Electronics

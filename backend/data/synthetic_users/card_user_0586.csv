@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Crosby-Wilson,29.73,29.73,Health
+2023-01-04,Adams Ltd,739.99,739.99,Electronics
+2023-01-12,Griffin PLC,265.64,265.64,Travel
+2023-01-14,Apple,274.24,274.24,Electronics
+2023-01-16,H&M,150.1,150.1,Clothing
+2023-01-18,Starbucks,17.24,8.62,Dining
+2023-01-20,Adidas,123.66,123.66,Clothing
+2023-01-21,Cox-Nelson,659.42,659.42,Electronics
+2023-01-23,"Mccarthy, Blankenship and Martinez",99.11,33.04,Groceries
+2023-01-24,Soto-Peterson,54.52,54.52,Groceries
+2023-01-25,Starbucks,55.6,18.53,Dining
+2023-01-27,Robinson LLC,154.18,154.18,Home
+2023-01-29,IKEA,238.2,119.1,Home
+2023-02-01,CVS,84.18,84.18,Health
+2023-02-02,Nike,93.11,93.11,Clothing
+2023-02-04,CVS,63.39,63.39,Health
+2023-02-07,Davis-Washington,208.8,208.8,Home
+2023-02-08,"Hardin, Walker and Ellison",140.39,140.39,Clothing
+2023-02-13,Amazon,629.07,629.07,Electronics
+2023-02-14,Zara,96.48,96.48,Clothing
+2023-02-20,CVS,51.74,51.74,Health
+2023-03-08,CVS,10.92,10.92,Health
+2023-03-11,Delta Airlines,394.94,394.94,Travel
+2023-03-12,Apple,681.67,681.67,Electronics
+2023-03-19,Coleman LLC,59.51,29.75,Health
+2023-03-20,Uber,201.45,201.45,Travel
+2023-03-22,Delta Airlines,84.06,84.06,Travel
+2023-03-24,Target,94.47,31.49,Groceries
+2023-03-25,Walmart,126.42,42.14,Groceries
+2023-03-26,Cox Inc,175.69,175.69,Clothing
+2023-03-27,Walgreens,89.74,89.74,Health
+2023-03-28,Apple,547.75,547.75,Electronics
+2023-03-31,Amazon,840.79,840.79,Electronics

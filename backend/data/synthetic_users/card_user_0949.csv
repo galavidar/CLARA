@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Delacruz, Cordova and Hester",177.81,177.81,Electronics
+2023-01-05,Nike,47.9,47.9,Clothing
+2023-01-10,Walgreens,87.31,87.31,Health
+2023-01-11,CVS,14.95,7.47,Health
+2023-01-13,Barnett-Warner,145.8,72.9,Groceries
+2023-01-14,Uber,62.31,62.31,Travel
+2023-01-16,"Phillips, Johnson and Green",98.91,98.91,Groceries
+2023-01-19,"Shepard, Williams and Reed",106.15,106.15,Groceries
+2023-01-21,Walmart,44.17,44.17,Groceries
+2023-01-24,Apple,550.1,550.1,Electronics
+2023-01-25,Perez and Sons,49.91,49.91,Home
+2023-01-31,Cooley Ltd,121.03,121.03,Travel
+2023-02-06,Uber,110.98,110.98,Travel
+2023-02-07,Adidas,71.87,71.87,Clothing
+2023-02-09,CVS,46.25,15.42,Health
+2023-02-13,Walgreens,31.57,10.52,Health
+2023-02-14,Starbucks,29.27,29.27,Dining
+2023-02-15,Nike,36.13,36.13,Clothing
+2023-02-18,Target,89.39,89.39,Groceries
+2023-02-19,Walgreens,62.73,20.91,Health
+2023-02-23,Amazon,974.01,974.01,Electronics
+2023-02-24,Uber,469.09,469.09,Travel
+2023-02-27,Apple,173.86,173.86,Electronics
+2023-02-28,"Edwards, Carter and Spencer",53.18,53.18,Dining
+2023-03-01,"Rogers, Sandoval and Hughes",33.28,33.28,Dining
+2023-03-04,Nike,49.61,49.61,Clothing
+2023-03-05,CVS,69.65,34.83,Health
+2023-03-07,Delta Airlines,215.03,71.68,Travel
+2023-03-10,Flores LLC,19.98,19.98,Health
+2023-03-12,Anderson Inc,112.13,112.13,Clothing
+2023-03-15,Dyer and Sons,209.66,209.66,Home
+2023-03-17,George and Sons,81.38,81.38,Health
+2023-03-21,Delta Airlines,357.26,357.26,Travel
+2023-03-22,Amazon,989.04,989.04,Electronics
+2023-03-23,Delta Airlines,496.73,496.73,Travel
+2023-03-28,Target,81.82,81.82,Groceries

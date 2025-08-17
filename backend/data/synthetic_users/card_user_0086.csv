@@ -1,0 +1,22 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Zara,51.4,51.4,Clothing
+2023-01-09,IKEA,123.71,123.71,Home
+2023-01-14,Holmes and Sons,70.16,70.16,Entertainment
+2023-01-16,McDonald's,51.26,51.26,Dining
+2023-01-20,Delta Airlines,274.72,274.72,Travel
+2023-01-26,Smith LLC,34.65,34.65,Dining
+2023-02-03,Adidas,94.22,94.22,Clothing
+2023-02-04,Blanchard-Adams,289.35,289.35,Travel
+2023-02-06,Tran Ltd,249.06,249.06,Travel
+2023-02-13,Nike,104.97,34.99,Clothing
+2023-02-19,Starbucks,10.22,10.22,Dining
+2023-02-20,Target,148.46,74.23,Groceries
+2023-02-23,"Holland, Bell and Williams",47.1,47.1,Dining
+2023-03-01,Nike,44.52,22.26,Clothing
+2023-03-03,McDonald's,44.98,44.98,Dining
+2023-03-12,"Pearson, Poole and Gardner",50.7,50.7,Clothing
+2023-03-15,IKEA,381.31,127.1,Home
+2023-03-16,H&M,135.16,135.16,Clothing
+2023-03-17,Nike,60.26,60.26,Clothing
+2023-03-19,"Saunders, Gillespie and Sharp",686.17,686.17,Electronics
+2023-03-26,Amazon,497.46,497.46,Electronics

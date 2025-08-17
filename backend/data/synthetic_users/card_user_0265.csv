@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Torres and Sons,48.33,48.33,Dining
+2023-01-04,McDonald's,11.59,11.59,Dining
+2023-01-07,McDonald's,46.68,46.68,Dining
+2023-01-09,Amazon,410.73,410.73,Electronics
+2023-01-14,Crosby LLC,71.82,71.82,Health
+2023-01-16,IKEA,353.37,353.37,Home
+2023-01-18,Walgreens,13.3,4.43,Health
+2023-01-21,Nike,30.21,30.21,Clothing
+2023-01-25,Target,25.14,25.14,Groceries
+2023-01-26,Cook-Gutierrez,102.99,102.99,Groceries
+2023-01-28,Walgreens,35.2,35.2,Health
+2023-02-03,Walmart,38.36,38.36,Groceries
+2023-02-06,Chen-Gay,176.14,176.14,Clothing
+2023-02-07,Apple,899.46,899.46,Electronics
+2023-02-10,Ray PLC,78.06,78.06,Groceries
+2023-02-12,Zara,92.92,92.92,Clothing
+2023-02-13,Target,130.38,130.38,Groceries
+2023-02-14,"Nolan, Cruz and Robinson",325.45,108.48,Electronics
+2023-02-15,Apple,991.9,991.9,Electronics
+2023-02-17,Zara,148.71,74.36,Clothing
+2023-02-19,"Smith, Turner and Joseph",52.91,52.91,Entertainment
+2023-02-20,Walmart,28.94,28.94,Groceries
+2023-02-22,Adidas,163.4,81.7,Clothing
+2023-02-28,CVS,55.48,55.48,Health
+2023-03-02,McDonald's,28.34,14.17,Dining
+2023-03-03,McDonald's,32.46,10.82,Dining
+2023-03-05,Garrett Inc,264.51,88.17,Travel
+2023-03-07,Target,58.35,29.18,Groceries
+2023-03-08,Hernandez Inc,443.26,443.26,Travel
+2023-03-09,McDonald's,25.87,25.87,Dining
+2023-03-15,Apple,673.22,673.22,Electronics
+2023-03-18,Walgreens,85.07,42.53,Health
+2023-03-21,Davila-Richmond,86.1,86.1,Groceries
+2023-03-22,Zara,172.38,172.38,Clothing
+2023-03-23,Nike,181.62,181.62,Clothing
+2023-03-26,Gates and Sons,49.24,49.24,Entertainment
+2023-03-27,Zara,111.09,111.09,Clothing
+2023-03-30,Amazon,752.5,752.5,Electronics

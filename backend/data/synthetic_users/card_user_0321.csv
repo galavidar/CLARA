@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,IKEA,160.14,53.38,Home
+2023-01-02,Walmart,145.86,145.86,Groceries
+2023-01-05,CVS,92.26,92.26,Health
+2023-01-07,Uber,182.49,182.49,Travel
+2023-01-08,Davis-Jordan,108.42,108.42,Groceries
+2023-01-13,Silva and Sons,56.62,56.62,Dining
+2023-01-14,Hickman-Peterson,448.56,448.56,Electronics
+2023-01-16,"Robles, Young and Fisher",50.07,16.69,Dining
+2023-01-17,Starbucks,31.62,31.62,Dining
+2023-01-18,Zara,31.91,31.91,Clothing
+2023-01-21,"Green, Johnson and Gibson",38.93,38.93,Dining
+2023-01-23,Target,128.17,64.08,Groceries
+2023-01-26,Uber,331.7,331.7,Travel
+2023-01-28,IKEA,213.61,213.61,Home
+2023-02-03,Uber,126.19,126.19,Travel
+2023-02-04,Adidas,75.25,25.08,Clothing
+2023-02-08,IKEA,212.04,212.04,Home
+2023-02-15,H&M,142.57,142.57,Clothing
+2023-02-18,Hill and Sons,413.24,137.75,Travel
+2023-02-19,Delta Airlines,490.88,490.88,Travel
+2023-02-21,Target,56.15,56.15,Groceries
+2023-03-03,"Davis, Mcguire and Bolton",140.23,140.23,Home
+2023-03-07,H&M,106.81,106.81,Clothing
+2023-03-08,Uber,200.39,200.39,Travel
+2023-03-09,Boone-Bailey,821.75,821.75,Electronics
+2023-03-11,Smith PLC,582.32,291.16,Electronics
+2023-03-15,Starbucks,50.32,25.16,Dining
+2023-03-16,Uber,80.11,80.11,Travel
+2023-03-17,"Williams, Williams and Davis",73.73,73.73,Groceries
+2023-03-24,Starbucks,11.08,5.54,Dining
+2023-03-27,Jackson-Andrade,374.64,374.64,Home
+2023-03-28,Stewart-Miller,18.46,18.46,Dining
+2023-03-30,"Clark, Coleman and Mercado",54.37,54.37,Health
+2023-03-31,Allen Ltd,83.89,41.95,Entertainment

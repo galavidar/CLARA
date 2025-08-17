@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Mcclure Inc,304.95,304.95,Electronics
+2023-01-06,IKEA,226.36,113.18,Home
+2023-01-08,H&M,31.44,31.44,Clothing
+2023-01-10,H&M,113.98,37.99,Clothing
+2023-01-12,Zara,133.49,44.5,Clothing
+2023-01-13,"Arias, Hernandez and Allen",163.51,163.51,Home
+2023-01-15,Smith PLC,142.54,142.54,Electronics
+2023-01-17,Starbucks,10.31,10.31,Dining
+2023-01-20,McDonald's,33.88,33.88,Dining
+2023-01-22,Zara,152.93,152.93,Clothing
+2023-01-23,Walgreens,15.39,7.7,Health
+2023-01-24,Walgreens,96.96,96.96,Health
+2023-01-26,Starbucks,43.55,43.55,Dining
+2023-01-30,Maldonado-Chang,62.41,31.2,Clothing
+2023-01-31,McDonald's,52.56,52.56,Dining
+2023-02-03,Delta Airlines,224.36,224.36,Travel
+2023-02-06,Walgreens,63.71,63.71,Health
+2023-02-09,Uber,253.65,253.65,Travel
+2023-02-12,Johnson Inc,56.69,56.69,Dining
+2023-02-13,Walmart,119.99,119.99,Groceries
+2023-02-14,Martinez Inc,96.38,96.38,Groceries
+2023-02-15,Davis-Rodriguez,251.45,83.82,Home
+2023-02-16,H&M,40.68,20.34,Clothing
+2023-02-17,Target,25.33,25.33,Groceries
+2023-02-19,Jones-Padilla,68.44,68.44,Clothing
+2023-02-22,Peterson Ltd,120.25,120.25,Clothing
+2023-02-27,Nike,83.78,41.89,Clothing
+2023-03-04,Nike,84.91,84.91,Clothing
+2023-03-07,Zara,34.67,34.67,Clothing
+2023-03-11,Wiley-Glenn,863.6,287.87,Electronics
+2023-03-12,IKEA,387.87,387.87,Home
+2023-03-14,IKEA,83.13,83.13,Home
+2023-03-15,Johnson-Davila,91.74,91.74,Entertainment
+2023-03-17,Walmart,23.89,23.89,Groceries
+2023-03-18,Delta Airlines,451.04,225.52,Travel
+2023-03-19,Le-Simmons,13.14,6.57,Dining
+2023-03-21,Target,79.1,26.37,Groceries
+2023-03-23,McDonald's,56.12,56.12,Dining
+2023-03-24,Walmart,93.64,93.64,Groceries
+2023-03-26,Nike,111.71,111.71,Clothing
+2023-03-27,Target,42.86,42.86,Groceries
+2023-03-31,Walgreens,34.74,34.74,Health

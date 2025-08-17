@@ -1,0 +1,28 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Walgreens,89.87,89.87,Health
+2023-01-07,H&M,31.33,31.33,Clothing
+2023-01-10,Smith-Evans,58.08,58.08,Travel
+2023-01-14,McDonald's,40.11,20.05,Dining
+2023-01-18,H&M,93.01,93.01,Clothing
+2023-01-19,Amazon,872.02,872.02,Electronics
+2023-01-21,Cox Inc,243.08,243.08,Home
+2023-01-22,Walmart,24.5,8.17,Groceries
+2023-01-24,"Warner, Moss and Riley",56.43,56.43,Entertainment
+2023-01-25,Amazon,653.73,653.73,Electronics
+2023-01-30,CVS,30.22,30.22,Health
+2023-02-01,IKEA,128.88,128.88,Home
+2023-02-10,Starbucks,22.56,22.56,Dining
+2023-02-12,Walgreens,17.48,17.48,Health
+2023-02-15,Moss and Sons,377.07,377.07,Electronics
+2023-02-16,Target,59.45,59.45,Groceries
+2023-02-25,Peters and Sons,11.79,11.79,Dining
+2023-02-26,White PLC,40.83,40.83,Dining
+2023-03-10,Adidas,117.32,58.66,Clothing
+2023-03-16,Zara,36.43,36.43,Clothing
+2023-03-20,Maddox and Sons,95.49,95.49,Clothing
+2023-03-21,Target,102.23,51.12,Groceries
+2023-03-22,CVS,61.13,61.13,Health
+2023-03-24,Zara,55.96,55.96,Clothing
+2023-03-25,Starbucks,11.82,11.82,Dining
+2023-03-26,Amazon,576.92,576.92,Electronics
+2023-03-29,H&M,56.25,56.25,Clothing

@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,"Smith, Watson and Bennett",41.41,41.41,Health
+2023-01-03,Walgreens,18.43,9.21,Health
+2023-01-04,CVS,95.24,95.24,Health
+2023-01-05,"Garcia, Scott and Holmes",346.68,346.68,Travel
+2023-01-06,Walmart,146.64,146.64,Groceries
+2023-01-12,Bernard LLC,536.35,536.35,Electronics
+2023-01-17,Zara,38.38,38.38,Clothing
+2023-01-21,Yang-Saunders,33.97,33.97,Dining
+2023-01-22,Nike,125.87,62.94,Clothing
+2023-01-26,Phelps LLC,71.93,71.93,Health
+2023-01-27,Starbucks,40.93,40.93,Dining
+2023-01-31,Zara,78.44,78.44,Clothing
+2023-02-01,Amazon,275.05,275.05,Electronics
+2023-02-02,Shelton-Leonard,212.8,212.8,Home
+2023-02-06,Robles PLC,18.38,18.38,Entertainment
+2023-02-08,Hoffman Ltd,255.39,255.39,Home
+2023-02-10,Walmart,103.55,103.55,Groceries
+2023-02-11,IKEA,67.6,67.6,Home
+2023-02-13,McDonald's,51.66,51.66,Dining
+2023-02-19,Lopez Inc,245.08,245.08,Electronics
+2023-02-21,Amazon,586.39,586.39,Electronics
+2023-02-22,Gibbs Group,137.71,137.71,Travel
+2023-02-25,"Simmons, Ferguson and Flores",89.54,89.54,Groceries
+2023-03-01,Crawford PLC,109.87,36.62,Travel
+2023-03-02,Jones-Oliver,43.16,43.16,Groceries
+2023-03-03,Cooper and Sons,117.37,117.37,Home
+2023-03-04,"Watson, Cobb and Lee",55.4,18.47,Entertainment
+2023-03-06,McDonald's,52.55,52.55,Dining
+2023-03-07,Walmart,77.87,38.94,Groceries
+2023-03-09,Apple,158.23,158.23,Electronics
+2023-03-11,Adidas,156.7,156.7,Clothing
+2023-03-15,Walmart,86.07,86.07,Groceries
+2023-03-16,Walgreens,29.49,29.49,Health
+2023-03-18,Walgreens,89.74,44.87,Health
+2023-03-19,Amazon,851.36,851.36,Electronics
+2023-03-20,CVS,66.66,66.66,Health
+2023-03-21,Delta Airlines,56.0,56.0,Travel
+2023-03-25,IKEA,268.03,268.03,Home

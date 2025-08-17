@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Nike,110.36,110.36,Clothing
+2023-01-03,Clark Group,27.87,27.87,Health
+2023-01-05,Hill-Novak,185.72,185.72,Travel
+2023-01-07,IKEA,332.58,332.58,Home
+2023-01-08,Amazon,213.8,213.8,Electronics
+2023-01-10,Starbucks,45.97,45.97,Dining
+2023-01-12,Apple,244.05,244.05,Electronics
+2023-01-13,Rogers PLC,33.28,33.28,Entertainment
+2023-01-23,"Barrett, Esparza and Lee",405.02,405.02,Electronics
+2023-01-26,Jordan Ltd,475.67,475.67,Travel
+2023-01-28,"Clark, Walsh and Rowe",15.62,7.81,Dining
+2023-01-29,Walgreens,94.24,94.24,Health
+2023-01-30,Adidas,141.83,141.83,Clothing
+2023-01-31,"Mendez, Hoffman and King",717.22,717.22,Electronics
+2023-02-02,Walmart,22.2,22.2,Groceries
+2023-02-06,Zara,148.1,74.05,Clothing
+2023-02-09,Walmart,82.24,82.24,Groceries
+2023-02-10,CVS,12.3,6.15,Health
+2023-02-14,Holder-Gomez,46.61,15.54,Dining
+2023-02-16,Walmart,86.2,86.2,Groceries
+2023-02-17,Starbucks,39.83,39.83,Dining
+2023-02-18,IKEA,398.13,398.13,Home
+2023-02-21,IKEA,352.04,352.04,Home
+2023-02-24,Nike,122.73,122.73,Clothing
+2023-02-26,Delta Airlines,272.42,272.42,Travel
+2023-03-04,Zara,151.02,151.02,Clothing
+2023-03-06,Amazon,593.55,593.55,Electronics
+2023-03-10,Zara,178.06,178.06,Clothing
+2023-03-14,Walgreens,78.94,26.31,Health
+2023-03-16,Walmart,122.57,122.57,Groceries
+2023-03-18,Nike,82.41,41.2,Clothing
+2023-03-19,Adidas,199.46,66.49,Clothing
+2023-03-20,IKEA,291.74,291.74,Home
+2023-03-22,Walmart,110.93,110.93,Groceries
+2023-03-23,Uber,365.71,365.71,Travel
+2023-03-24,"Ferguson, Moore and Adams",62.29,62.29,Clothing
+2023-03-29,George-Ward,66.97,66.97,Clothing

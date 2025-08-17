@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Starbucks,38.41,12.8,Dining
+2023-01-03,McDonald's,35.02,35.02,Dining
+2023-01-04,Starbucks,27.46,27.46,Dining
+2023-01-06,Barber Group,113.26,113.26,Groceries
+2023-01-07,Rogers-Hardy,143.79,143.79,Groceries
+2023-01-09,Starbucks,48.51,24.25,Dining
+2023-01-10,Edwards PLC,30.76,30.76,Clothing
+2023-01-11,Zara,57.52,57.52,Clothing
+2023-01-12,Smith Ltd,68.47,68.47,Groceries
+2023-01-14,H&M,161.66,161.66,Clothing
+2023-01-15,Delta Airlines,378.25,126.08,Travel
+2023-01-17,Adidas,101.55,101.55,Clothing
+2023-01-18,Haley Ltd,44.52,44.52,Dining
+2023-01-21,Delta Airlines,140.67,140.67,Travel
+2023-01-25,White-Cook,91.24,91.24,Clothing
+2023-01-26,Nike,153.78,153.78,Clothing
+2023-01-29,Apple,596.13,596.13,Electronics
+2023-02-01,"Oliver, Riggs and Giles",239.09,239.09,Travel
+2023-02-03,Kirk LLC,82.29,82.29,Groceries
+2023-02-13,Jones Group,37.44,37.44,Dining
+2023-02-14,Gomez-Costa,252.25,252.25,Home
+2023-02-19,Starbucks,36.44,36.44,Dining
+2023-02-22,Gibson-Henson,29.6,29.6,Entertainment
+2023-02-25,Cook Ltd,11.2,11.2,Entertainment
+2023-02-26,Nike,99.11,99.11,Clothing
+2023-03-01,Adidas,133.56,133.56,Clothing
+2023-03-03,Adidas,132.07,44.02,Clothing
+2023-03-06,Franco and Sons,92.26,92.26,Health
+2023-03-07,Webb-Powers,106.37,106.37,Clothing
+2023-03-08,Walmart,34.77,34.77,Groceries
+2023-03-09,McDonald's,36.85,36.85,Dining
+2023-03-10,"Hall, Smith and Gill",33.29,33.29,Dining
+2023-03-12,Uber,195.48,195.48,Travel
+2023-03-13,Walmart,38.73,38.73,Groceries
+2023-03-14,Uber,377.43,377.43,Travel
+2023-03-16,Amazon,382.68,382.68,Electronics
+2023-03-20,Adidas,94.8,94.8,Clothing
+2023-03-21,Williams Group,81.41,81.41,Clothing
+2023-03-24,IKEA,167.24,167.24,Home
+2023-03-27,Smith Inc,370.16,370.16,Home
+2023-03-30,Delta Airlines,124.19,124.19,Travel
+2023-03-31,Farmer Group,94.2,94.2,Groceries

@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Moore Group,47.03,15.68,Dining
+2023-01-02,Target,102.49,102.49,Groceries
+2023-01-03,Jackson LLC,61.71,61.71,Health
+2023-01-07,Delta Airlines,417.37,139.12,Travel
+2023-01-13,Starbucks,47.56,23.78,Dining
+2023-01-18,Adidas,58.06,29.03,Clothing
+2023-01-20,"Meyers, Clay and Small",332.9,332.9,Home
+2023-01-23,H&M,103.48,103.48,Clothing
+2023-01-25,Uber,436.78,436.78,Travel
+2023-01-26,H&M,160.83,53.61,Clothing
+2023-01-30,McDonald's,35.26,35.26,Dining
+2023-02-03,Apple,789.45,789.45,Electronics
+2023-02-05,Starbucks,57.09,57.09,Dining
+2023-02-11,Nike,78.54,78.54,Clothing
+2023-02-12,Walmart,134.06,134.06,Groceries
+2023-02-14,Amazon,335.89,335.89,Electronics
+2023-02-15,Starbucks,55.75,55.75,Dining
+2023-02-24,Allen-Perez,810.44,270.15,Electronics
+2023-02-26,H&M,153.49,153.49,Clothing
+2023-02-28,Johnson-Fleming,53.03,53.03,Clothing
+2023-03-03,"Johnson, Bautista and Raymond",164.06,164.06,Home
+2023-03-04,McDonald's,49.17,16.39,Dining
+2023-03-05,Marshall Group,58.53,58.53,Entertainment
+2023-03-07,Walmart,51.41,51.41,Groceries
+2023-03-08,"Moore, Jackson and Lee",318.07,318.07,Electronics
+2023-03-10,"Payne, Brown and Carson",261.53,261.53,Travel
+2023-03-11,Starbucks,35.93,35.93,Dining
+2023-03-13,Walgreens,62.75,62.75,Health
+2023-03-14,IKEA,270.15,270.15,Home
+2023-03-15,"Jones, Price and Lee",378.22,378.22,Travel
+2023-03-18,Blake Group,327.33,327.33,Travel
+2023-03-24,White-Harris,17.48,17.48,Dining
+2023-03-31,Uber,146.12,146.12,Travel

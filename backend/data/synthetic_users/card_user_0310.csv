@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,75.55,25.18,Travel
+2023-01-04,Smith-Johnson,894.7,894.7,Electronics
+2023-01-08,Zara,97.34,97.34,Clothing
+2023-01-13,Adidas,106.42,106.42,Clothing
+2023-01-14,Nike,104.92,104.92,Clothing
+2023-01-16,Vasquez Inc,77.86,38.93,Health
+2023-01-19,Adidas,137.76,137.76,Clothing
+2023-01-21,McDonald's,59.74,29.87,Dining
+2023-01-23,Delta Airlines,58.84,58.84,Travel
+2023-01-25,Walmart,36.27,36.27,Groceries
+2023-02-01,Walmart,93.91,93.91,Groceries
+2023-02-03,Zara,172.28,172.28,Clothing
+2023-02-05,"Thompson, Carroll and Morrison",86.66,86.66,Clothing
+2023-02-06,Delta Airlines,60.52,60.52,Travel
+2023-02-12,Lee Group,95.14,95.14,Entertainment
+2023-02-13,CVS,89.89,89.89,Health
+2023-02-14,Delta Airlines,263.99,263.99,Travel
+2023-02-17,Apple,751.0,751.0,Electronics
+2023-02-18,Uber,397.72,397.72,Travel
+2023-02-20,Nike,94.81,94.81,Clothing
+2023-02-21,Walgreens,97.83,97.83,Health
+2023-02-22,Patterson-Melton,38.53,38.53,Groceries
+2023-02-23,McDonald's,38.31,38.31,Dining
+2023-02-24,"Shelton, Smith and Higgins",32.17,16.09,Dining
+2023-02-26,McDonald's,26.99,9.0,Dining
+2023-03-05,Walmart,38.26,12.75,Groceries
+2023-03-07,Zara,143.6,143.6,Clothing
+2023-03-10,Walmart,66.07,33.03,Groceries
+2023-03-11,H&M,128.28,42.76,Clothing
+2023-03-12,H&M,165.33,165.33,Clothing
+2023-03-13,Uber,207.57,207.57,Travel
+2023-03-14,IKEA,188.26,188.26,Home
+2023-03-16,Perez PLC,43.97,43.97,Clothing
+2023-03-20,Adidas,37.74,37.74,Clothing
+2023-03-24,Walgreens,46.7,15.57,Health
+2023-03-26,Delta Airlines,496.97,496.97,Travel
+2023-03-27,CVS,69.3,69.3,Health
+2023-03-28,CVS,97.77,97.77,Health
+2023-03-30,Uber,220.35,220.35,Travel
+2023-03-31,Amazon,618.1,618.1,Electronics

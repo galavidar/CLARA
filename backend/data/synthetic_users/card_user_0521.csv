@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,"Williams, Jimenez and Bass",48.47,48.47,Groceries
+2023-01-03,Thomas-Davis,59.47,59.47,Health
+2023-01-05,IKEA,398.99,398.99,Home
+2023-01-07,Nike,193.27,193.27,Clothing
+2023-01-11,Walgreens,58.96,58.96,Health
+2023-01-12,"Ryan, Green and Miller",12.43,4.14,Entertainment
+2023-01-13,Walmart,86.13,28.71,Groceries
+2023-01-16,Parks-Ramirez,384.19,384.19,Travel
+2023-01-19,Amazon,833.06,416.53,Electronics
+2023-01-20,Holden LLC,229.01,114.5,Home
+2023-01-21,Drake and Sons,47.0,47.0,Dining
+2023-01-24,Wilson LLC,68.82,68.82,Home
+2023-01-25,Neal-Melendez,157.13,157.13,Electronics
+2023-01-27,CVS,22.19,22.19,Health
+2023-01-28,Walmart,124.34,124.34,Groceries
+2023-02-02,Apple,392.07,130.69,Electronics
+2023-02-05,Lindsey-Perez,42.47,14.16,Dining
+2023-02-07,Amazon,928.05,928.05,Electronics
+2023-02-10,Target,53.89,53.89,Groceries
+2023-02-11,Klein Group,94.9,94.9,Entertainment
+2023-02-12,Target,53.04,53.04,Groceries
+2023-02-14,Target,96.53,96.53,Groceries
+2023-02-15,Walmart,93.73,93.73,Groceries
+2023-02-21,"Willis, Kelly and Bartlett",146.95,73.47,Home
+2023-02-25,"Holt, Mckinney and Patterson",265.18,265.18,Home
+2023-02-28,Maynard-Foster,89.99,89.99,Entertainment
+2023-03-01,Adidas,115.03,115.03,Clothing
+2023-03-04,Walgreens,85.06,42.53,Health
+2023-03-05,Amazon,889.39,889.39,Electronics
+2023-03-07,CVS,89.45,89.45,Health
+2023-03-08,Garcia-Atkinson,276.89,276.89,Travel
+2023-03-09,Adidas,56.25,56.25,Clothing
+2023-03-10,Adidas,111.88,111.88,Clothing
+2023-03-13,Target,123.37,123.37,Groceries
+2023-03-16,Harper LLC,647.5,647.5,Electronics
+2023-03-17,White Inc,225.07,225.07,Travel
+2023-03-19,Target,97.15,48.58,Groceries
+2023-03-21,Zara,106.58,106.58,Clothing
+2023-03-24,Zara,150.21,150.21,Clothing
+2023-03-30,Moore-Martin,205.23,205.23,Travel

@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,McDonald's,22.93,22.93,Dining
+2023-01-05,Adidas,140.52,140.52,Clothing
+2023-01-08,Zara,100.78,33.59,Clothing
+2023-01-10,Amazon,918.71,918.71,Electronics
+2023-01-14,"Scott, Reed and Cole",72.56,72.56,Entertainment
+2023-01-21,Starbucks,39.38,19.69,Dining
+2023-01-22,Lane PLC,98.54,98.54,Groceries
+2023-01-23,Uber,308.05,308.05,Travel
+2023-01-24,Target,146.92,73.46,Groceries
+2023-01-26,Walgreens,39.0,13.0,Health
+2023-01-31,Adidas,165.3,82.65,Clothing
+2023-02-01,Zara,179.65,179.65,Clothing
+2023-02-02,Apple,443.77,147.92,Electronics
+2023-02-04,Amazon,175.8,175.8,Electronics
+2023-02-05,Zara,66.95,66.95,Clothing
+2023-02-09,IKEA,216.69,72.23,Home
+2023-02-12,Williams LLC,120.34,120.34,Groceries
+2023-02-21,Delta Airlines,463.49,463.49,Travel
+2023-02-22,Uber,394.98,394.98,Travel
+2023-02-25,Starbucks,15.25,15.25,Dining
+2023-02-27,Delta Airlines,428.81,142.94,Travel
+2023-02-28,Uber,68.99,68.99,Travel
+2023-03-02,Johnson Group,31.88,31.88,Dining
+2023-03-05,IKEA,265.02,265.02,Home
+2023-03-07,Dalton-Guerra,23.03,7.68,Dining
+2023-03-10,Apple,915.77,915.77,Electronics
+2023-03-12,IKEA,146.1,146.1,Home
+2023-03-13,McDonald's,38.37,38.37,Dining
+2023-03-14,H&M,138.59,138.59,Clothing
+2023-03-16,Fowler-Ramos,83.55,83.55,Entertainment
+2023-03-19,Adidas,107.87,107.87,Clothing
+2023-03-20,Target,142.76,142.76,Groceries
+2023-03-21,"Ward, Johnson and Mccarthy",14.01,14.01,Health
+2023-03-22,Walgreens,54.05,54.05,Health
+2023-03-24,Adidas,67.43,67.43,Clothing
+2023-03-26,Zara,173.97,86.98,Clothing
+2023-03-30,Delta Airlines,149.8,74.9,Travel

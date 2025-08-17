@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,CVS,11.79,11.79,Health
+2023-01-04,Zara,86.99,86.99,Clothing
+2023-01-09,Kim Group,56.97,56.97,Groceries
+2023-01-10,Walmart,118.08,118.08,Groceries
+2023-01-11,Target,99.97,49.98,Groceries
+2023-01-13,IKEA,103.4,103.4,Home
+2023-01-15,Walmart,41.6,41.6,Groceries
+2023-01-16,Walmart,34.21,34.21,Groceries
+2023-01-17,McDonald's,53.13,53.13,Dining
+2023-01-18,Smith Inc,421.35,421.35,Travel
+2023-01-20,"Romero, Casey and Martin",376.71,376.71,Home
+2023-01-21,Fowler Ltd,24.5,24.5,Health
+2023-01-23,"Castro, Lee and Lowe",33.45,33.45,Groceries
+2023-01-25,Hansen-Gordon,141.45,141.45,Clothing
+2023-01-26,Target,113.49,113.49,Groceries
+2023-01-27,Amazon,246.27,246.27,Electronics
+2023-01-30,"White, Garcia and Green",81.24,81.24,Health
+2023-01-31,IKEA,323.86,323.86,Home
+2023-02-03,Cole Inc,172.6,172.6,Clothing
+2023-02-09,Nike,162.3,162.3,Clothing
+2023-02-12,Starbucks,23.34,23.34,Dining
+2023-02-15,CVS,43.69,43.69,Health
+2023-02-16,Johnson Ltd,46.57,46.57,Groceries
+2023-02-17,Target,142.42,142.42,Groceries
+2023-02-19,Zara,62.77,62.77,Clothing
+2023-02-25,"King, Bowman and Reyes",43.84,43.84,Groceries
+2023-03-03,Adidas,161.16,161.16,Clothing
+2023-03-07,Martin Ltd,89.14,89.14,Health
+2023-03-09,"Sutton, Kirk and Gonzalez",59.28,59.28,Dining
+2023-03-10,H&M,91.4,91.4,Clothing
+2023-03-12,Carpenter-Villa,73.99,36.99,Health
+2023-03-14,"Jenkins, Hodges and Weber",200.9,200.9,Travel
+2023-03-15,Target,125.31,125.31,Groceries
+2023-03-18,Starbucks,44.68,44.68,Dining
+2023-03-25,IKEA,372.09,372.09,Home
+2023-03-26,H&M,159.18,159.18,Clothing
+2023-03-27,CVS,90.52,90.52,Health
+2023-03-30,Target,112.08,112.08,Groceries

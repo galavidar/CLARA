@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,"Reynolds, Wood and Butler",59.99,59.99,Dining
+2023-01-06,Adidas,156.44,78.22,Clothing
+2023-01-11,Zara,117.38,117.38,Clothing
+2023-01-12,Apple,978.81,326.27,Electronics
+2023-01-13,Zara,51.65,51.65,Clothing
+2023-01-14,"Wilcox, Black and Hunt",281.73,140.87,Travel
+2023-01-15,Target,27.25,27.25,Groceries
+2023-01-16,Target,127.69,127.69,Groceries
+2023-01-17,Delta Airlines,97.41,48.7,Travel
+2023-01-20,Walmart,90.12,90.12,Groceries
+2023-01-21,Adidas,104.22,104.22,Clothing
+2023-01-25,H&M,148.62,148.62,Clothing
+2023-01-27,Uber,452.5,226.25,Travel
+2023-01-31,Delta Airlines,84.91,84.91,Travel
+2023-02-01,Starbucks,26.87,26.87,Dining
+2023-02-02,"Brown, Jackson and Quinn",512.36,512.36,Electronics
+2023-02-03,Wright-Dalton,73.19,73.19,Clothing
+2023-02-06,"Diaz, Barnes and Burton",42.19,14.06,Dining
+2023-02-07,Moody PLC,714.11,714.11,Electronics
+2023-02-08,Adidas,162.01,162.01,Clothing
+2023-02-09,"Bush, Brown and Lopez",147.01,49.0,Groceries
+2023-02-11,"Willis, Lucas and Young",32.26,32.26,Clothing
+2023-02-16,McDonald's,51.74,51.74,Dining
+2023-02-19,Zara,61.12,61.12,Clothing
+2023-02-22,McDonald's,35.24,35.24,Dining
+2023-02-25,"Foster, Ortiz and Smith",11.67,11.67,Health
+2023-02-27,Lara LLC,177.22,88.61,Electronics
+2023-02-28,Target,76.23,76.23,Groceries
+2023-03-01,Delta Airlines,287.4,287.4,Travel
+2023-03-03,Starbucks,54.87,54.87,Dining
+2023-03-06,"Roy, Sullivan and Novak",379.82,126.61,Electronics
+2023-03-12,McDonald's,15.69,5.23,Dining
+2023-03-13,Walmart,64.63,64.63,Groceries
+2023-03-14,Adidas,178.14,178.14,Clothing
+2023-03-16,"Marsh, Strong and Willis",194.89,194.89,Clothing
+2023-03-22,"Thomas, Bell and Daniels",21.12,21.12,Entertainment
+2023-03-25,IKEA,192.27,192.27,Home
+2023-03-26,Zara,50.67,50.67,Clothing
+2023-03-30,Amazon,284.56,94.85,Electronics

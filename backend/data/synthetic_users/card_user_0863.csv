@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nguyen-Hinton,272.84,272.84,Travel
+2023-01-02,H&M,53.15,53.15,Clothing
+2023-01-05,Apple,646.06,646.06,Electronics
+2023-01-07,Nike,97.84,97.84,Clothing
+2023-01-11,Palmer Ltd,242.37,80.79,Home
+2023-01-14,IKEA,272.65,272.65,Home
+2023-01-15,Delta Airlines,297.22,297.22,Travel
+2023-01-26,Bell Group,683.34,683.34,Electronics
+2023-01-27,Rodriguez-Moore,13.46,13.46,Dining
+2023-01-29,H&M,71.8,71.8,Clothing
+2023-01-30,Walmart,64.35,32.17,Groceries
+2023-02-01,"Landry, Gallagher and Morales",165.46,165.46,Travel
+2023-02-03,Ray Inc,73.15,73.15,Groceries
+2023-02-05,Williams LLC,167.57,167.57,Home
+2023-02-07,Amazon,336.73,336.73,Electronics
+2023-02-08,H&M,79.02,79.02,Clothing
+2023-02-09,Nike,139.42,139.42,Clothing
+2023-02-10,Target,60.81,60.81,Groceries
+2023-02-11,Walmart,85.72,85.72,Groceries
+2023-02-12,Fernandez and Sons,72.42,72.42,Groceries
+2023-02-15,Apple,578.46,289.23,Electronics
+2023-02-20,Uber,176.57,176.57,Travel
+2023-02-21,McDonald's,12.44,12.44,Dining
+2023-02-23,Starbucks,38.17,38.17,Dining
+2023-02-27,"Anderson, Allen and Marshall",415.32,415.32,Travel
+2023-03-02,Uber,109.18,109.18,Travel
+2023-03-05,Uber,264.14,264.14,Travel
+2023-03-07,Baker-Hayes,278.53,278.53,Home
+2023-03-09,H&M,140.13,140.13,Clothing
+2023-03-11,Target,147.02,49.01,Groceries
+2023-03-13,Adidas,34.35,34.35,Clothing
+2023-03-14,Target,47.38,47.38,Groceries
+2023-03-18,"Chandler, Cooper and Buchanan",241.06,241.06,Home
+2023-03-21,Russell PLC,25.79,12.89,Entertainment
+2023-03-22,Frost-Trujillo,185.69,185.69,Clothing
+2023-03-23,Uber,306.41,306.41,Travel
+2023-03-25,Suarez LLC,91.34,91.34,Health
+2023-03-28,IKEA,109.03,36.34,Home
+2023-03-29,Apple,493.7,493.7,Electronics
+2023-03-30,Walmart,44.0,44.0,Groceries
+2023-03-31,Amazon,170.87,85.44,Electronics

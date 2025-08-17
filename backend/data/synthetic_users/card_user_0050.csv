@@ -1,0 +1,46 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Colon and Sons,425.03,425.03,Travel
+2023-01-06,Delta Airlines,241.35,241.35,Travel
+2023-01-09,Curtis and Sons,119.94,119.94,Groceries
+2023-01-11,"Cox, Lewis and Reed",433.77,433.77,Travel
+2023-01-13,"Anderson, Chapman and Lopez",94.62,94.62,Groceries
+2023-01-15,Starbucks,24.97,24.97,Dining
+2023-01-19,Adidas,152.51,152.51,Clothing
+2023-01-20,IKEA,231.48,231.48,Home
+2023-01-22,Saunders-Jensen,276.29,92.1,Home
+2023-01-23,Starbucks,27.85,27.85,Dining
+2023-01-27,Starbucks,37.24,37.24,Dining
+2023-01-28,Uber,162.22,81.11,Travel
+2023-01-29,CVS,71.47,35.73,Health
+2023-01-31,Combs-Miller,58.19,58.19,Entertainment
+2023-02-01,"Harmon, Montgomery and Hernandez",11.87,11.87,Dining
+2023-02-02,"Stokes, Wheeler and Wright",54.33,54.33,Groceries
+2023-02-04,Kirk Inc,632.78,632.78,Electronics
+2023-02-06,H&M,148.18,148.18,Clothing
+2023-02-09,Delta Airlines,175.2,175.2,Travel
+2023-02-10,IKEA,71.4,71.4,Home
+2023-02-18,Apple,631.58,631.58,Electronics
+2023-02-20,CVS,31.06,31.06,Health
+2023-02-22,Porter-Graham,100.95,33.65,Groceries
+2023-02-24,Starbucks,27.43,27.43,Dining
+2023-02-26,Amazon,751.75,751.75,Electronics
+2023-02-27,Leon-Nelson,10.98,10.98,Dining
+2023-03-03,Campbell-Martin,114.89,114.89,Travel
+2023-03-04,Rangel Ltd,85.88,85.88,Home
+2023-03-05,Nike,173.14,173.14,Clothing
+2023-03-07,Adidas,170.83,85.42,Clothing
+2023-03-09,Nike,148.06,74.03,Clothing
+2023-03-10,Walgreens,31.28,31.28,Health
+2023-03-11,Apple,468.34,468.34,Electronics
+2023-03-12,Nike,71.38,71.38,Clothing
+2023-03-14,"Reese, Gibson and Gonzales",105.07,52.53,Groceries
+2023-03-15,Uber,84.01,84.01,Travel
+2023-03-16,"Adams, Glenn and Burgess",156.39,156.39,Clothing
+2023-03-17,Walgreens,99.35,49.67,Health
+2023-03-18,Starbucks,51.25,51.25,Dining
+2023-03-19,McDonald's,29.87,14.94,Dining
+2023-03-20,Hall-Chase,95.83,95.83,Groceries
+2023-03-22,Apple,706.96,706.96,Electronics
+2023-03-23,Zara,43.41,43.41,Clothing
+2023-03-26,Walmart,69.69,34.84,Groceries
+2023-03-27,Wilson-Hansen,18.54,18.54,Dining

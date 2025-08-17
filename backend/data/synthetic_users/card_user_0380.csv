@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Wells-Dixon,85.42,85.42,Entertainment
+2023-01-06,Nike,84.6,84.6,Clothing
+2023-01-07,CVS,50.08,50.08,Health
+2023-01-09,Walgreens,52.49,52.49,Health
+2023-01-11,Zara,93.31,93.31,Clothing
+2023-01-13,Walgreens,93.93,93.93,Health
+2023-01-14,IKEA,375.14,375.14,Home
+2023-01-16,McDonald's,47.27,47.27,Dining
+2023-01-19,IKEA,203.48,203.48,Home
+2023-01-20,Uber,110.54,110.54,Travel
+2023-01-22,CVS,61.55,61.55,Health
+2023-01-24,CVS,11.69,11.69,Health
+2023-01-26,Uber,317.75,317.75,Travel
+2023-01-27,IKEA,389.49,389.49,Home
+2023-01-30,CVS,11.13,3.71,Health
+2023-02-01,Target,20.73,20.73,Groceries
+2023-02-02,Zara,76.61,76.61,Clothing
+2023-02-03,McDonald's,30.92,30.92,Dining
+2023-02-05,Smith-Williams,95.87,31.96,Entertainment
+2023-02-07,Sutton Inc,149.52,74.76,Groceries
+2023-02-11,McDonald's,45.59,15.2,Dining
+2023-02-12,Graham-Hobbs,130.69,130.69,Clothing
+2023-02-13,CVS,14.18,14.18,Health
+2023-02-14,West Ltd,449.2,449.2,Electronics
+2023-02-22,Walgreens,47.56,47.56,Health
+2023-02-24,Uber,190.5,190.5,Travel
+2023-03-02,Moore-Bender,111.05,111.05,Clothing
+2023-03-03,Delta Airlines,227.98,227.98,Travel
+2023-03-05,"Benjamin, Taylor and Williams",48.52,48.52,Entertainment
+2023-03-07,Adidas,152.03,152.03,Clothing
+2023-03-09,Martinez-Wallace,303.44,101.15,Travel
+2023-03-10,"Garner, Henderson and Marshall",250.03,250.03,Travel
+2023-03-12,McDonald's,12.6,12.6,Dining
+2023-03-14,Hamilton and Sons,96.61,96.61,Groceries
+2023-03-17,Murphy-Young,32.81,32.81,Health
+2023-03-18,Stone-Esparza,88.62,88.62,Entertainment
+2023-03-21,Williams-Williams,475.9,475.9,Travel
+2023-03-22,Target,75.17,75.17,Groceries
+2023-03-23,Uber,374.26,374.26,Travel
+2023-03-27,Walmart,25.75,12.88,Groceries
+2023-03-28,Walgreens,62.51,20.84,Health
+2023-03-29,Starbucks,40.96,40.96,Dining
+2023-03-30,McDonald's,27.35,27.35,Dining

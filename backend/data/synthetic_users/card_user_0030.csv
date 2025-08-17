@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Garcia Inc,465.76,155.25,Travel
+2023-01-06,Zara,195.62,195.62,Clothing
+2023-01-10,Nike,146.34,146.34,Clothing
+2023-01-11,Apple,865.28,288.43,Electronics
+2023-01-12,CVS,92.92,92.92,Health
+2023-01-17,McDonald's,30.32,30.32,Dining
+2023-01-18,"Powers, Cantrell and Berry",180.17,180.17,Clothing
+2023-01-27,Starbucks,55.65,55.65,Dining
+2023-01-28,"Norton, Johnson and Gonzales",308.43,308.43,Home
+2023-01-31,Amazon,298.92,298.92,Electronics
+2023-02-01,Lee-Parker,305.44,305.44,Travel
+2023-02-03,Delta Airlines,222.9,222.9,Travel
+2023-02-08,Le and Sons,269.9,269.9,Home
+2023-02-11,CVS,81.03,81.03,Health
+2023-02-16,IKEA,217.74,217.74,Home
+2023-02-18,Martinez Ltd,239.68,239.68,Home
+2023-02-20,Adidas,77.17,77.17,Clothing
+2023-02-22,Apple,304.83,304.83,Electronics
+2023-02-25,Walmart,81.88,40.94,Groceries
+2023-02-26,Zara,176.39,58.8,Clothing
+2023-02-27,Robertson Inc,397.13,397.13,Home
+2023-02-28,IKEA,217.7,217.7,Home
+2023-03-01,"Gilbert, White and Glenn",407.03,407.03,Electronics
+2023-03-03,Uber,488.46,488.46,Travel
+2023-03-04,Richard Group,156.7,156.7,Home
+2023-03-05,Apple,291.89,291.89,Electronics
+2023-03-13,IKEA,336.82,336.82,Home
+2023-03-15,Warren-Meyers,145.93,145.93,Groceries
+2023-03-17,Copeland LLC,695.85,695.85,Electronics
+2023-03-18,Zara,85.37,85.37,Clothing
+2023-03-22,CVS,96.38,96.38,Health
+2023-03-23,IKEA,132.14,132.14,Home
+2023-03-24,CVS,16.66,16.66,Health

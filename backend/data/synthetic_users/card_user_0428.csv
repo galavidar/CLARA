@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walmart,77.3,77.3,Groceries
+2023-01-07,Lara-Perez,66.05,22.02,Clothing
+2023-01-12,Zara,93.63,31.21,Clothing
+2023-01-14,"Waters, Larson and Hunter",67.38,67.38,Entertainment
+2023-01-19,Schmidt-Davis,13.1,13.1,Dining
+2023-01-22,Nike,59.51,19.84,Clothing
+2023-01-23,Stone PLC,390.16,390.16,Home
+2023-01-31,"Smith, Gomez and Porter",59.25,29.62,Groceries
+2023-02-03,"Howell, Fox and Lopez",470.05,470.05,Travel
+2023-02-08,Target,51.62,25.81,Groceries
+2023-02-11,Hayes-Durham,104.21,34.74,Clothing
+2023-02-12,"Reid, Rios and Young",58.02,19.34,Entertainment
+2023-02-16,Zara,159.44,53.15,Clothing
+2023-02-20,Novak-Perez,206.42,206.42,Home
+2023-02-22,CVS,22.88,22.88,Health
+2023-02-23,Uber,471.9,471.9,Travel
+2023-02-24,Adidas,58.39,58.39,Clothing
+2023-02-26,"Cross, Rogers and Kelley",86.95,86.95,Groceries
+2023-03-01,Amazon,393.4,393.4,Electronics
+2023-03-06,Smith and Sons,51.28,51.28,Health
+2023-03-07,Nike,53.3,53.3,Clothing
+2023-03-10,Uber,423.73,423.73,Travel
+2023-03-11,H&M,189.08,189.08,Clothing
+2023-03-13,Weeks-Butler,337.67,337.67,Travel
+2023-03-16,Wells-Sanchez,328.42,328.42,Travel
+2023-03-19,Rivers-Smith,60.43,60.43,Groceries
+2023-03-22,Zara,30.87,15.44,Clothing
+2023-03-23,Zara,51.97,51.97,Clothing
+2023-03-29,Adidas,154.9,154.9,Clothing
+2023-03-31,Starbucks,23.09,23.09,Dining

@@ -1,0 +1,46 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Amazon,404.56,404.56,Electronics
+2023-01-03,"Holmes, Williams and Foster",114.84,114.84,Clothing
+2023-01-04,Amazon,727.44,727.44,Electronics
+2023-01-09,Mendoza-Smith,244.65,244.65,Home
+2023-01-11,Uber,339.42,339.42,Travel
+2023-01-16,Zara,58.45,58.45,Clothing
+2023-01-17,Butler Ltd,306.43,306.43,Electronics
+2023-01-18,McDonald's,27.77,27.77,Dining
+2023-01-24,Adidas,127.2,127.2,Clothing
+2023-01-26,IKEA,91.58,45.79,Home
+2023-01-27,Giles Inc,28.51,28.51,Dining
+2023-01-28,Adidas,34.04,34.04,Clothing
+2023-01-29,Scott-Harper,203.72,101.86,Travel
+2023-01-30,Delta Airlines,363.42,363.42,Travel
+2023-01-31,Walmart,145.9,145.9,Groceries
+2023-02-01,Nike,197.4,197.4,Clothing
+2023-02-02,"Floyd, Bradley and Mcdaniel",75.84,75.84,Clothing
+2023-02-06,McDonald's,47.79,47.79,Dining
+2023-02-08,Johnson LLC,81.32,81.32,Groceries
+2023-02-09,Zhang Ltd,375.94,125.31,Home
+2023-02-10,"Vasquez, Wallace and Klein",230.27,115.14,Travel
+2023-02-11,Delta Airlines,468.21,468.21,Travel
+2023-02-15,Nike,153.14,153.14,Clothing
+2023-02-16,McDonald's,49.77,49.77,Dining
+2023-02-18,Wise Inc,78.57,78.57,Groceries
+2023-02-20,Martinez-Gomez,52.39,52.39,Health
+2023-02-22,CVS,64.55,64.55,Health
+2023-02-24,CVS,72.79,72.79,Health
+2023-02-25,Adidas,193.08,193.08,Clothing
+2023-02-27,Walgreens,67.44,67.44,Health
+2023-02-28,Walgreens,82.18,82.18,Health
+2023-03-01,Brock Ltd,352.3,117.43,Travel
+2023-03-02,Walmart,92.18,46.09,Groceries
+2023-03-03,Russell PLC,343.97,343.97,Home
+2023-03-10,H&M,108.9,108.9,Clothing
+2023-03-12,Walgreens,72.98,72.98,Health
+2023-03-18,Bailey-Fox,43.82,43.82,Dining
+2023-03-19,Amazon,984.68,492.34,Electronics
+2023-03-20,Walmart,87.61,87.61,Groceries
+2023-03-21,Wolfe PLC,174.68,174.68,Home
+2023-03-22,Ali PLC,282.68,94.23,Travel
+2023-03-23,H&M,164.37,164.37,Clothing
+2023-03-26,IKEA,255.74,255.74,Home
+2023-03-29,Zara,84.89,84.89,Clothing
+2023-03-30,Nike,194.12,194.12,Clothing

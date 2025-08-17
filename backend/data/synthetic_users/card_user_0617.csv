@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-12,Castro-Ruiz,333.91,333.91,Electronics
+2023-01-15,Parker-Myers,190.38,190.38,Electronics
+2023-01-17,IKEA,333.01,333.01,Home
+2023-01-18,"Perry, Le and Ferguson",16.89,5.63,Dining
+2023-01-19,"Bradford, Li and Jackson",38.36,38.36,Health
+2023-01-20,IKEA,393.66,393.66,Home
+2023-01-21,Adidas,46.95,46.95,Clothing
+2023-01-24,"Cunningham, Brown and Woods",17.26,17.26,Health
+2023-01-25,"Griffin, Thomas and Perry",970.52,970.52,Electronics
+2023-01-27,Adidas,76.34,76.34,Clothing
+2023-01-28,Singleton-Moses,11.52,11.52,Entertainment
+2023-01-29,McDonald's,45.65,45.65,Dining
+2023-02-01,Brown and Sons,107.54,107.54,Clothing
+2023-02-03,Walmart,96.77,96.77,Groceries
+2023-02-04,H&M,126.87,126.87,Clothing
+2023-02-12,Watkins PLC,66.58,66.58,Health
+2023-02-16,H&M,166.66,83.33,Clothing
+2023-02-19,Schaefer-Ward,47.82,47.82,Dining
+2023-02-20,"Howard, Cohen and Jackson",348.89,348.89,Home
+2023-02-23,Adidas,172.83,172.83,Clothing
+2023-02-27,"Long, Smith and Rodriguez",27.98,27.98,Dining
+2023-02-28,Apple,758.73,758.73,Electronics
+2023-03-02,Walgreens,72.1,72.1,Health
+2023-03-09,CVS,68.49,68.49,Health
+2023-03-11,Hess Group,840.66,840.66,Electronics
+2023-03-16,Walmart,38.71,38.71,Groceries
+2023-03-18,IKEA,40.71,40.71,Home
+2023-03-20,"Rivera, Brown and Blevins",44.26,44.26,Dining
+2023-03-21,Walgreens,98.12,98.12,Health
+2023-03-23,"Harrison, Nichols and Flores",63.53,63.53,Home
+2023-03-27,McDonald's,17.16,17.16,Dining
+2023-03-28,Adidas,136.85,136.85,Clothing
+2023-03-29,Mckay LLC,84.9,84.9,Groceries
+2023-03-30,Zara,88.92,88.92,Clothing

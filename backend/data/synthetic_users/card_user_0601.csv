@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Zara,78.26,26.09,Clothing
+2023-01-05,Miller-Hernandez,916.7,916.7,Electronics
+2023-01-06,Nike,138.66,138.66,Clothing
+2023-01-07,Adidas,77.98,25.99,Clothing
+2023-01-09,Target,79.89,26.63,Groceries
+2023-01-15,IKEA,155.82,155.82,Home
+2023-01-17,Thomas-Riley,167.36,167.36,Electronics
+2023-01-19,McDonald's,57.66,57.66,Dining
+2023-01-20,Walmart,28.72,9.57,Groceries
+2023-01-25,Malone Group,25.62,25.62,Groceries
+2023-01-27,Delta Airlines,206.74,206.74,Travel
+2023-02-05,Nike,71.33,71.33,Clothing
+2023-02-07,Delta Airlines,400.91,133.64,Travel
+2023-02-12,Washington-Young,79.77,79.77,Groceries
+2023-02-13,Delta Airlines,249.76,249.76,Travel
+2023-02-19,Nike,187.25,187.25,Clothing
+2023-02-20,Wolfe PLC,160.18,160.18,Clothing
+2023-02-27,Nike,171.98,171.98,Clothing
+2023-02-28,Amazon,203.83,203.83,Electronics
+2023-03-01,Johnson Inc,10.19,10.19,Dining
+2023-03-03,"Cline, Phillips and Perez",126.73,63.37,Clothing
+2023-03-04,White-Johnson,85.78,85.78,Clothing
+2023-03-05,Pratt-Scott,232.23,116.11,Home
+2023-03-06,"Hamilton, Romero and Warren",59.87,59.87,Groceries
+2023-03-12,McDonald's,49.94,49.94,Dining
+2023-03-17,IKEA,360.04,360.04,Home
+2023-03-18,Briggs-Mcmahon,396.53,396.53,Home
+2023-03-19,CVS,31.21,31.21,Health
+2023-03-24,Delta Airlines,249.57,249.57,Travel
+2023-03-28,CVS,97.26,97.26,Health
+2023-03-29,Nike,79.79,79.79,Clothing

@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,H&M,154.41,154.41,Clothing
+2023-01-07,Long Ltd,516.9,516.9,Electronics
+2023-01-11,Apple,615.9,615.9,Electronics
+2023-01-15,Adidas,36.94,36.94,Clothing
+2023-01-16,Delta Airlines,188.33,188.33,Travel
+2023-01-18,Target,93.23,31.08,Groceries
+2023-01-19,H&M,188.16,94.08,Clothing
+2023-01-20,"Peters, Lewis and Hernandez",423.02,423.02,Travel
+2023-01-21,Starbucks,10.22,10.22,Dining
+2023-01-24,Starbucks,59.86,59.86,Dining
+2023-01-25,Walmart,80.35,80.35,Groceries
+2023-01-31,IKEA,189.55,189.55,Home
+2023-02-01,H&M,142.23,142.23,Clothing
+2023-02-02,IKEA,380.76,380.76,Home
+2023-02-04,Walgreens,33.93,33.93,Health
+2023-02-05,Adidas,40.26,40.26,Clothing
+2023-02-06,H&M,163.1,163.1,Clothing
+2023-02-07,Starbucks,28.73,28.73,Dining
+2023-02-11,Nike,68.47,22.82,Clothing
+2023-02-15,CVS,39.5,39.5,Health
+2023-02-19,Adidas,187.51,187.51,Clothing
+2023-02-20,Adidas,102.75,102.75,Clothing
+2023-02-24,"Miller, Morales and Castro",382.15,382.15,Home
+2023-03-01,Delta Airlines,125.36,125.36,Travel
+2023-03-02,CVS,48.91,24.45,Health
+2023-03-03,H&M,177.97,177.97,Clothing
+2023-03-05,Adidas,70.86,70.86,Clothing
+2023-03-09,Brown PLC,123.23,123.23,Travel
+2023-03-10,Walmart,76.26,76.26,Groceries
+2023-03-11,Russo-Pena,96.68,48.34,Clothing
+2023-03-15,Campbell and Sons,147.76,147.76,Groceries
+2023-03-19,Delta Airlines,157.48,157.48,Travel
+2023-03-20,Powell LLC,58.35,58.35,Dining
+2023-03-29,Adidas,101.99,101.99,Clothing

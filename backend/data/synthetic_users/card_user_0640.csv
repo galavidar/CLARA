@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,George-Decker,470.67,470.67,Travel
+2023-01-03,CVS,75.88,75.88,Health
+2023-01-05,CVS,37.35,37.35,Health
+2023-01-09,McDonald's,14.17,14.17,Dining
+2023-01-10,Apple,635.98,635.98,Electronics
+2023-01-11,"Skinner, Cannon and Anthony",51.39,17.13,Clothing
+2023-01-14,Alvarez and Sons,51.89,51.89,Dining
+2023-01-15,Roberts-Moss,258.61,258.61,Electronics
+2023-01-17,Nike,106.45,106.45,Clothing
+2023-01-20,Uber,188.75,188.75,Travel
+2023-01-22,Smith Group,59.13,59.13,Health
+2023-01-25,"Valdez, Elliott and Bates",44.45,44.45,Dining
+2023-01-26,Target,107.13,107.13,Groceries
+2023-01-27,Starbucks,52.69,52.69,Dining
+2023-01-30,H&M,157.34,157.34,Clothing
+2023-02-05,IKEA,293.71,293.71,Home
+2023-02-06,George Group,13.89,13.89,Dining
+2023-02-07,Walmart,25.3,25.3,Groceries
+2023-02-09,"Wilson, Peterson and Moore",81.74,27.25,Groceries
+2023-02-10,Amazon,167.0,55.67,Electronics
+2023-02-11,Delta Airlines,115.64,115.64,Travel
+2023-02-13,"Jackson, Gentry and Harrison",258.48,258.48,Electronics
+2023-02-14,Walgreens,15.11,15.11,Health
+2023-02-16,Uber,481.95,481.95,Travel
+2023-02-20,"Carter, Peterson and Davis",127.26,63.63,Clothing
+2023-02-21,Delta Airlines,344.51,344.51,Travel
+2023-02-25,Nike,82.89,41.45,Clothing
+2023-02-26,"Knapp, Owens and Curry",919.15,919.15,Electronics
+2023-02-28,Zara,116.91,116.91,Clothing
+2023-03-02,Delta Airlines,339.62,339.62,Travel
+2023-03-04,H&M,74.7,74.7,Clothing
+2023-03-07,Walmart,130.72,130.72,Groceries
+2023-03-09,Apple,450.37,450.37,Electronics
+2023-03-13,Walmart,91.22,91.22,Groceries
+2023-03-14,Uber,403.69,403.69,Travel
+2023-03-16,Boyd-Walters,97.85,97.85,Clothing
+2023-03-19,McDonald's,19.09,19.09,Dining
+2023-03-20,McDonald's,48.97,48.97,Dining
+2023-03-21,Adidas,129.29,129.29,Clothing
+2023-03-24,Walmart,73.57,36.78,Groceries
+2023-03-25,Walgreens,23.47,23.47,Health
+2023-03-27,Hall-Robinson,30.2,15.1,Entertainment

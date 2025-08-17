@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Allen, Phillips and Cantu",139.41,139.41,Clothing
+2023-01-03,Nike,131.34,131.34,Clothing
+2023-01-08,Target,81.26,81.26,Groceries
+2023-01-12,Walmart,142.67,142.67,Groceries
+2023-01-17,Nike,128.64,128.64,Clothing
+2023-01-21,Zara,52.48,52.48,Clothing
+2023-01-22,Target,81.8,81.8,Groceries
+2023-01-26,Uber,155.54,155.54,Travel
+2023-01-27,IKEA,123.25,123.25,Home
+2023-02-02,Walmart,141.09,70.55,Groceries
+2023-02-05,Rasmussen Group,277.9,277.9,Home
+2023-02-06,"Juarez, Middleton and Fowler",135.42,135.42,Travel
+2023-02-08,Target,20.84,6.95,Groceries
+2023-02-10,Adidas,109.26,54.63,Clothing
+2023-02-14,"Robertson, Stevens and Davis",38.71,38.71,Groceries
+2023-02-16,CVS,69.75,69.75,Health
+2023-02-20,Smith-Torres,10.17,10.17,Dining
+2023-02-25,Target,42.83,14.28,Groceries
+2023-03-02,Amazon,710.19,710.19,Electronics
+2023-03-05,Gilmore-Pace,371.09,371.09,Travel
+2023-03-07,Target,145.46,145.46,Groceries
+2023-03-13,Walgreens,41.27,41.27,Health
+2023-03-15,Garcia-Sanchez,90.08,90.08,Entertainment
+2023-03-18,"Chavez, Clark and Shannon",23.82,23.82,Dining
+2023-03-20,CVS,48.71,48.71,Health
+2023-03-22,Reyes LLC,26.4,26.4,Groceries
+2023-03-23,Yoder-Clark,277.18,277.18,Home
+2023-03-26,Target,126.99,126.99,Groceries
+2023-03-30,Walgreens,77.9,77.9,Health

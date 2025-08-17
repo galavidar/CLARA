@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Sherman Inc,48.49,48.49,Dining
+2023-01-03,"Mason, Henderson and Mitchell",128.19,128.19,Groceries
+2023-01-04,Delta Airlines,368.41,368.41,Travel
+2023-01-05,Adidas,35.63,35.63,Clothing
+2023-01-08,Adidas,182.17,182.17,Clothing
+2023-01-15,IKEA,155.0,155.0,Home
+2023-01-18,Zara,76.36,38.18,Clothing
+2023-01-19,Walgreens,86.03,86.03,Health
+2023-01-20,IKEA,141.1,141.1,Home
+2023-01-22,Russo-Hudson,34.37,34.37,Clothing
+2023-01-23,Cook Group,62.67,62.67,Groceries
+2023-01-29,Zara,32.6,32.6,Clothing
+2023-01-31,Nike,105.31,105.31,Clothing
+2023-02-06,Decker and Sons,89.1,89.1,Travel
+2023-02-08,Nike,120.53,120.53,Clothing
+2023-02-09,Dougherty-Adams,504.45,252.22,Electronics
+2023-02-10,Walmart,45.61,45.61,Groceries
+2023-02-12,H&M,75.06,75.06,Clothing
+2023-02-15,Zara,39.62,39.62,Clothing
+2023-02-18,Starbucks,40.72,40.72,Dining
+2023-02-19,Amazon,884.5,884.5,Electronics
+2023-02-20,CVS,96.54,32.18,Health
+2023-02-21,Target,112.31,37.44,Groceries
+2023-02-22,Target,140.59,140.59,Groceries
+2023-02-23,Henson-Gordon,96.71,96.71,Entertainment
+2023-02-26,Miller Ltd,20.02,6.67,Entertainment
+2023-03-03,Adidas,100.07,33.36,Clothing
+2023-03-04,Vega Ltd,936.06,468.03,Electronics
+2023-03-05,Target,94.43,31.48,Groceries
+2023-03-06,Uber,63.45,63.45,Travel
+2023-03-07,Walmart,114.77,114.77,Groceries
+2023-03-08,IKEA,216.5,216.5,Home
+2023-03-14,Nike,102.86,102.86,Clothing
+2023-03-15,CVS,31.23,31.23,Health
+2023-03-16,Starbucks,25.43,25.43,Dining
+2023-03-19,IKEA,285.53,285.53,Home
+2023-03-22,Valenzuela LLC,110.54,110.54,Groceries
+2023-03-24,Apple,420.65,420.65,Electronics
+2023-03-25,Zara,38.11,38.11,Clothing

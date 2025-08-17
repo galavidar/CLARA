@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Suarez-Hall,48.98,48.98,Health
+2023-01-04,Adidas,128.87,128.87,Clothing
+2023-01-05,Zara,171.04,171.04,Clothing
+2023-01-06,Harris Ltd,119.47,119.47,Home
+2023-01-07,Starbucks,27.2,27.2,Dining
+2023-01-08,King Group,99.36,99.36,Groceries
+2023-01-09,CVS,71.65,71.65,Health
+2023-01-12,Sanchez-Rose,23.3,23.3,Groceries
+2023-01-15,Amazon,850.48,425.24,Electronics
+2023-01-21,Adidas,199.88,99.94,Clothing
+2023-01-25,"Stafford, Yates and Miller",168.09,168.09,Home
+2023-01-26,Walmart,50.83,50.83,Groceries
+2023-01-31,"Jackson, Miles and Rose",376.0,376.0,Home
+2023-02-03,Nike,77.03,77.03,Clothing
+2023-02-04,"Pierce, Brown and Schwartz",96.47,96.47,Travel
+2023-02-05,Target,83.35,83.35,Groceries
+2023-02-07,Santana-Garcia,144.9,144.9,Groceries
+2023-02-08,Nike,169.69,169.69,Clothing
+2023-02-09,Uber,457.85,228.93,Travel
+2023-02-13,Delta Airlines,190.18,190.18,Travel
+2023-02-14,Adidas,86.91,86.91,Clothing
+2023-02-15,Zara,139.67,139.67,Clothing
+2023-02-16,Walmart,86.03,86.03,Groceries
+2023-02-17,"Higgins, Castillo and Leon",82.63,82.63,Health
+2023-02-19,Dunn Ltd,165.98,82.99,Clothing
+2023-02-21,"Morgan, Rogers and Archer",237.84,237.84,Home
+2023-02-26,H&M,143.94,143.94,Clothing
+2023-03-01,Amazon,117.49,58.74,Electronics
+2023-03-03,Parker-Cooke,293.88,293.88,Travel
+2023-03-08,Adidas,42.1,42.1,Clothing
+2023-03-09,Johnson and Sons,253.26,253.26,Electronics
+2023-03-11,Ayers-Koch,29.97,14.98,Health
+2023-03-17,CVS,53.96,53.96,Health
+2023-03-18,"Young, Davis and Vasquez",19.92,19.92,Dining
+2023-03-19,Delta Airlines,239.95,239.95,Travel
+2023-03-21,Starbucks,40.65,40.65,Dining
+2023-03-25,Ross-Lindsey,106.64,106.64,Home
+2023-03-26,"Hernandez, Perez and Miller",184.79,184.79,Home
+2023-03-27,Snyder-Jones,864.62,864.62,Electronics
+2023-03-28,Adidas,42.88,21.44,Clothing

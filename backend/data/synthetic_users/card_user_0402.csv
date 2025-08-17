@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,CVS,69.8,69.8,Health
+2023-01-05,Walmart,79.82,79.82,Groceries
+2023-01-06,Lewis LLC,71.23,71.23,Health
+2023-01-07,Starbucks,15.03,15.03,Dining
+2023-01-08,Apple,329.56,329.56,Electronics
+2023-01-11,Walker-White,19.23,19.23,Dining
+2023-01-12,IKEA,56.5,56.5,Home
+2023-01-14,IKEA,341.12,341.12,Home
+2023-01-16,Delta Airlines,375.73,375.73,Travel
+2023-01-19,Suarez Ltd,209.43,69.81,Travel
+2023-01-21,IKEA,44.02,44.02,Home
+2023-01-22,Fritz Ltd,477.47,238.74,Electronics
+2023-01-23,Adidas,96.46,48.23,Clothing
+2023-01-25,IKEA,88.57,88.57,Home
+2023-01-29,Zara,96.89,96.89,Clothing
+2023-01-31,IKEA,164.38,82.19,Home
+2023-02-05,"Newton, Payne and Nunez",49.11,49.11,Home
+2023-02-08,IKEA,137.17,68.58,Home
+2023-02-09,Wilson-Kim,32.61,32.61,Health
+2023-02-11,Walmart,39.34,39.34,Groceries
+2023-02-18,Robbins-Huff,12.81,12.81,Entertainment
+2023-02-26,Delta Airlines,389.7,389.7,Travel
+2023-02-28,Starbucks,14.64,14.64,Dining
+2023-03-02,Garcia-Fitzgerald,54.47,54.47,Groceries
+2023-03-10,Ramirez-Crawford,45.95,45.95,Health
+2023-03-13,"Ayers, Brown and Rowe",680.03,680.03,Electronics
+2023-03-14,Delta Airlines,261.17,261.17,Travel
+2023-03-17,Zara,68.47,68.47,Clothing
+2023-03-19,CVS,46.86,15.62,Health
+2023-03-25,Nike,73.92,73.92,Clothing
+2023-03-28,Walmart,146.79,146.79,Groceries
+2023-03-29,Starbucks,12.0,4.0,Dining

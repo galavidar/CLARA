@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,58.62,19.54,Clothing
+2023-01-09,IKEA,243.13,243.13,Home
+2023-01-12,Nike,89.77,89.77,Clothing
+2023-01-21,Serrano-Snyder,868.68,868.68,Electronics
+2023-01-23,CVS,10.61,10.61,Health
+2023-01-26,Walgreens,64.12,64.12,Health
+2023-02-02,Adidas,138.77,138.77,Clothing
+2023-02-03,Adidas,91.32,91.32,Clothing
+2023-02-04,Amazon,725.77,241.92,Electronics
+2023-02-05,Zara,83.87,83.87,Clothing
+2023-02-08,Apple,915.11,915.11,Electronics
+2023-02-09,Zara,195.08,195.08,Clothing
+2023-02-10,"Wang, Graham and Smith",48.96,16.32,Clothing
+2023-02-12,"Goodman, Marquez and Miller",30.62,30.62,Health
+2023-02-14,Amazon,419.58,419.58,Electronics
+2023-02-18,Walgreens,82.22,82.22,Health
+2023-02-19,Morgan-Evans,30.26,10.09,Entertainment
+2023-02-22,Duran-Miller,197.16,197.16,Travel
+2023-02-24,Nike,78.86,78.86,Clothing
+2023-02-25,CVS,67.94,67.94,Health
+2023-02-28,Zara,176.74,176.74,Clothing
+2023-03-02,CVS,93.86,93.86,Health
+2023-03-03,Walgreens,83.87,83.87,Health
+2023-03-09,Target,111.47,55.73,Groceries
+2023-03-10,Griffith Ltd,72.96,72.96,Clothing
+2023-03-11,McDonald's,56.95,56.95,Dining
+2023-03-13,IKEA,396.04,132.01,Home
+2023-03-14,Wright-Daniels,124.35,124.35,Clothing
+2023-03-15,H&M,175.23,58.41,Clothing
+2023-03-19,Delta Airlines,51.53,51.53,Travel
+2023-03-21,Target,125.73,125.73,Groceries
+2023-03-23,McDonald's,39.02,39.02,Dining
+2023-03-24,McDonald's,14.33,14.33,Dining
+2023-03-28,IKEA,102.11,102.11,Home
+2023-03-31,Amazon,100.83,100.83,Electronics

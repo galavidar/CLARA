@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-07,Lopez-Kennedy,226.12,226.12,Home
+2023-01-10,H&M,52.06,52.06,Clothing
+2023-01-16,Walgreens,45.76,45.76,Health
+2023-01-19,Apple,808.72,808.72,Electronics
+2023-01-23,Delta Airlines,449.46,449.46,Travel
+2023-01-24,Ibarra-Davis,10.37,10.37,Dining
+2023-01-25,"Cooper, Adams and Hicks",35.6,17.8,Dining
+2023-01-27,Amazon,172.63,172.63,Electronics
+2023-01-30,Walmart,27.5,13.75,Groceries
+2023-01-31,Adidas,86.69,86.69,Clothing
+2023-02-01,H&M,85.69,85.69,Clothing
+2023-02-02,Lawrence-Campbell,122.98,40.99,Travel
+2023-02-03,Adidas,34.41,34.41,Clothing
+2023-02-07,Drake Ltd,113.63,113.63,Clothing
+2023-02-08,Mueller-Johnson,25.79,8.6,Dining
+2023-02-12,"Romero, Green and Melton",39.51,39.51,Groceries
+2023-02-13,Lawson and Sons,86.52,86.52,Clothing
+2023-02-14,IKEA,126.93,126.93,Home
+2023-02-17,Cochran Group,82.73,82.73,Travel
+2023-02-22,IKEA,30.86,30.86,Home
+2023-02-23,IKEA,109.1,109.1,Home
+2023-02-25,Uber,357.14,357.14,Travel
+2023-02-26,Weiss and Sons,335.08,335.08,Travel
+2023-02-27,Nike,149.87,49.96,Clothing
+2023-03-01,Zara,48.69,48.69,Clothing
+2023-03-06,Starbucks,46.48,46.48,Dining
+2023-03-07,Starbucks,52.47,26.23,Dining
+2023-03-13,"Osborne, Oliver and Delgado",118.87,118.87,Groceries
+2023-03-17,Franklin Group,284.95,142.47,Travel
+2023-03-20,Walmart,49.61,49.61,Groceries
+2023-03-21,IKEA,37.0,37.0,Home
+2023-03-25,Zara,142.47,71.23,Clothing
+2023-03-26,Adidas,136.59,136.59,Clothing
+2023-03-27,Walmart,43.79,43.79,Groceries
+2023-03-28,Starbucks,12.15,4.05,Dining
+2023-03-29,McDonald's,35.9,35.9,Dining
+2023-03-30,Zavala Ltd,42.87,42.87,Dining

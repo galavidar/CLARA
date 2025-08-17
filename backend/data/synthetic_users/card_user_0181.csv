@@ -1,0 +1,46 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,75.64,75.64,Health
+2023-01-03,Walmart,132.49,132.49,Groceries
+2023-01-07,Walker and Sons,41.94,41.94,Groceries
+2023-01-08,H&M,145.87,145.87,Clothing
+2023-01-10,Walmart,71.1,71.1,Groceries
+2023-01-11,Zara,47.33,47.33,Clothing
+2023-01-13,Uber,394.12,394.12,Travel
+2023-01-14,Zara,93.63,93.63,Clothing
+2023-01-15,Smith Inc,52.92,52.92,Entertainment
+2023-01-18,H&M,33.74,33.74,Clothing
+2023-01-20,Delta Airlines,112.49,112.49,Travel
+2023-01-21,Amazon,953.48,953.48,Electronics
+2023-01-25,Uber,101.48,101.48,Travel
+2023-01-26,"Parker, Reid and Dyer",88.28,88.28,Groceries
+2023-01-28,Cox-Williamson,42.53,14.18,Dining
+2023-01-29,Apple,322.55,107.52,Electronics
+2023-02-01,McDonald's,12.59,12.59,Dining
+2023-02-04,Walgreens,76.43,76.43,Health
+2023-02-06,Uber,456.1,456.1,Travel
+2023-02-08,Target,41.63,41.63,Groceries
+2023-02-10,Eaton Ltd,829.67,414.83,Electronics
+2023-02-11,CVS,53.9,53.9,Health
+2023-02-13,H&M,172.24,172.24,Clothing
+2023-02-14,Uber,276.73,276.73,Travel
+2023-02-17,CVS,75.42,75.42,Health
+2023-02-22,"Ramirez, Anderson and Rhodes",673.12,673.12,Electronics
+2023-02-24,Target,28.43,28.43,Groceries
+2023-02-25,Kelly-Wood,311.62,311.62,Electronics
+2023-02-27,Adidas,47.69,23.84,Clothing
+2023-02-28,Walgreens,39.25,39.25,Health
+2023-03-01,McDonald's,12.59,12.59,Dining
+2023-03-02,H&M,59.23,59.23,Clothing
+2023-03-04,Nike,123.11,123.11,Clothing
+2023-03-09,Walmart,34.71,34.71,Groceries
+2023-03-10,Zara,150.1,150.1,Clothing
+2023-03-11,Apple,711.05,711.05,Electronics
+2023-03-13,Apple,945.19,315.06,Electronics
+2023-03-14,Target,57.52,57.52,Groceries
+2023-03-15,Adidas,109.4,109.4,Clothing
+2023-03-17,Walgreens,91.1,45.55,Health
+2023-03-20,Saunders PLC,97.81,97.81,Health
+2023-03-21,IKEA,143.87,143.87,Home
+2023-03-22,Uber,458.24,458.24,Travel
+2023-03-23,McDonald's,59.56,59.56,Dining
+2023-03-28,Nike,39.22,39.22,Clothing

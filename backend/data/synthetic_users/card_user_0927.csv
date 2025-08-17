@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,CVS,44.79,44.79,Health
+2023-01-07,"Lewis, Chase and Moore",31.08,31.08,Dining
+2023-01-11,IKEA,163.33,163.33,Home
+2023-01-13,Thomas Ltd,97.04,97.04,Clothing
+2023-01-14,Walgreens,90.39,90.39,Health
+2023-01-15,Flowers PLC,96.23,96.23,Groceries
+2023-01-17,Morales-Smith,44.86,44.86,Dining
+2023-01-18,Mitchell-Jimenez,83.87,83.87,Health
+2023-01-19,Johnson-Simmons,231.68,115.84,Travel
+2023-01-20,Zara,126.63,42.21,Clothing
+2023-01-25,Uber,246.73,246.73,Travel
+2023-01-26,Kent Ltd,276.4,276.4,Home
+2023-01-27,Adidas,74.99,74.99,Clothing
+2023-01-29,Zara,38.83,38.83,Clothing
+2023-01-30,CVS,47.25,47.25,Health
+2023-02-01,Delta Airlines,104.47,52.23,Travel
+2023-02-03,Delta Airlines,362.64,362.64,Travel
+2023-02-08,Kim Inc,80.5,80.5,Entertainment
+2023-02-10,Apple,603.83,603.83,Electronics
+2023-02-11,CVS,10.84,10.84,Health
+2023-02-13,"Jackson, Nguyen and Curtis",160.34,160.34,Clothing
+2023-02-16,Starbucks,44.84,44.84,Dining
+2023-02-18,Apple,635.67,317.83,Electronics
+2023-02-22,Delta Airlines,390.45,390.45,Travel
+2023-02-24,Zara,176.78,176.78,Clothing
+2023-02-25,Crawford-Dalton,154.88,154.88,Travel
+2023-02-27,Stanley-Calhoun,45.15,45.15,Health
+2023-03-04,"Rogers, Garza and Blevins",38.66,38.66,Health
+2023-03-10,Zara,40.27,40.27,Clothing
+2023-03-12,IKEA,105.87,105.87,Home
+2023-03-13,Gonzalez PLC,599.8,599.8,Electronics
+2023-03-15,Amazon,879.94,879.94,Electronics
+2023-03-16,Delta Airlines,358.89,358.89,Travel
+2023-03-19,Huynh PLC,68.65,68.65,Entertainment
+2023-03-22,Zara,111.14,111.14,Clothing
+2023-03-23,Uber,263.15,263.15,Travel
+2023-03-27,Nichols LLC,56.4,28.2,Entertainment
+2023-03-28,Walgreens,65.08,65.08,Health
+2023-03-30,Jones Ltd,33.55,16.77,Dining
+2023-03-31,McDonald's,33.75,33.75,Dining

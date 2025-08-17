@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Target,98.86,98.86,Groceries
+2023-01-04,McDonald's,34.78,34.78,Dining
+2023-01-07,IKEA,153.56,153.56,Home
+2023-01-08,"Lee, Stanley and Cross",358.08,179.04,Travel
+2023-01-09,Ramirez PLC,78.28,26.09,Home
+2023-01-10,Walgreens,63.99,63.99,Health
+2023-01-15,Nike,141.57,70.78,Clothing
+2023-01-16,Smith-Robles,653.25,653.25,Electronics
+2023-01-17,Apple,134.95,134.95,Electronics
+2023-01-18,"Obrien, Reed and Lopez",93.65,93.65,Health
+2023-01-20,Juarez PLC,80.1,80.1,Health
+2023-01-23,Target,33.79,33.79,Groceries
+2023-01-24,Starbucks,11.65,11.65,Dining
+2023-01-28,Adidas,83.38,83.38,Clothing
+2023-01-29,Nike,193.8,64.6,Clothing
+2023-01-30,"Lopez, Jones and Hall",71.42,71.42,Entertainment
+2023-01-31,H&M,189.28,189.28,Clothing
+2023-02-13,Jones Inc,57.13,19.04,Dining
+2023-02-15,Walgreens,36.31,36.31,Health
+2023-02-16,Adidas,100.45,50.23,Clothing
+2023-02-18,IKEA,201.4,67.13,Home
+2023-02-19,Fuller-Mills,120.38,120.38,Home
+2023-02-22,"Smith, Diaz and Richardson",118.12,118.12,Groceries
+2023-03-04,Walmart,136.68,136.68,Groceries
+2023-03-06,H&M,34.82,34.82,Clothing
+2023-03-09,Walmart,96.94,96.94,Groceries
+2023-03-11,Delta Airlines,107.87,35.96,Travel
+2023-03-14,H&M,143.86,143.86,Clothing
+2023-03-15,McDonald's,25.63,25.63,Dining
+2023-03-17,Delta Airlines,198.25,198.25,Travel
+2023-03-20,IKEA,52.21,17.4,Home
+2023-03-27,McDonald's,35.42,35.42,Dining
+2023-03-29,Walgreens,84.02,84.02,Health
+2023-03-30,Brock and Sons,210.8,210.8,Home
+2023-03-31,Walgreens,62.86,20.95,Health

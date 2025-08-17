@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Walgreens,72.75,72.75,Health
+2023-01-04,Zara,105.53,105.53,Clothing
+2023-01-06,Ponce-Davis,550.89,550.89,Electronics
+2023-01-12,Walmart,49.71,16.57,Groceries
+2023-01-14,Target,74.09,24.7,Groceries
+2023-01-19,Nike,78.46,78.46,Clothing
+2023-01-21,Starbucks,42.24,42.24,Dining
+2023-01-26,"Spence, Hooper and Brewer",113.66,113.66,Groceries
+2023-02-01,"Garrett, Perry and Hunter",334.83,334.83,Travel
+2023-02-04,Walgreens,75.54,75.54,Health
+2023-02-05,Uber,332.05,332.05,Travel
+2023-02-07,Payne PLC,978.34,978.34,Electronics
+2023-02-09,"Bowers, Lewis and Roth",221.47,221.47,Travel
+2023-02-10,Target,98.19,98.19,Groceries
+2023-02-11,McDonald's,15.55,15.55,Dining
+2023-02-12,Campbell and Sons,260.73,260.73,Home
+2023-02-13,Walmart,76.35,76.35,Groceries
+2023-02-17,CVS,40.81,20.41,Health
+2023-02-19,Starbucks,35.92,35.92,Dining
+2023-02-20,Moore-Harvey,59.04,19.68,Groceries
+2023-02-22,Adidas,92.26,92.26,Clothing
+2023-02-23,CVS,50.58,50.58,Health
+2023-03-02,Walmart,105.97,105.97,Groceries
+2023-03-05,Rodriguez-Best,293.78,293.78,Home
+2023-03-06,Gates-Young,21.84,21.84,Entertainment
+2023-03-10,Malone Inc,98.04,98.04,Entertainment
+2023-03-11,H&M,51.77,51.77,Clothing
+2023-03-13,Amazon,518.0,518.0,Electronics
+2023-03-15,"Warner, Martinez and Gonzalez",34.97,11.66,Health
+2023-03-16,Adidas,120.95,120.95,Clothing
+2023-03-17,H&M,74.33,74.33,Clothing
+2023-03-19,Jimenez-Moore,162.08,162.08,Clothing
+2023-03-20,Walmart,94.04,94.04,Groceries
+2023-03-21,"Harrison, Davis and Coleman",841.6,841.6,Electronics
+2023-03-24,Kelly-Wilson,307.76,307.76,Travel
+2023-03-26,McDonald's,30.41,30.41,Dining
+2023-03-28,Uber,441.32,441.32,Travel
+2023-03-29,Zara,118.49,118.49,Clothing
+2023-03-30,Starbucks,56.21,56.21,Dining

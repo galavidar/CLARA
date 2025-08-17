@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Garcia-Hendrix,57.8,57.8,Dining
+2023-01-05,Target,51.35,51.35,Groceries
+2023-01-09,Nike,176.5,176.5,Clothing
+2023-01-11,Target,69.73,23.24,Groceries
+2023-01-14,Walgreens,85.49,85.49,Health
+2023-01-17,Starbucks,43.86,43.86,Dining
+2023-01-22,Nike,193.32,193.32,Clothing
+2023-01-24,Starbucks,47.75,47.75,Dining
+2023-01-25,Adidas,76.67,25.56,Clothing
+2023-01-29,Delta Airlines,448.81,448.81,Travel
+2023-01-31,IKEA,271.94,271.94,Home
+2023-02-01,McDonald's,28.18,28.18,Dining
+2023-02-02,Uber,107.76,107.76,Travel
+2023-02-03,IKEA,56.45,56.45,Home
+2023-02-08,Ellis-Jones,11.2,11.2,Entertainment
+2023-02-09,Delta Airlines,222.4,222.4,Travel
+2023-02-14,Walmart,147.61,147.61,Groceries
+2023-02-15,Walgreens,86.0,86.0,Health
+2023-02-22,Delta Airlines,383.19,383.19,Travel
+2023-02-23,Apple,606.27,606.27,Electronics
+2023-02-24,IKEA,270.56,90.19,Home
+2023-02-27,Brown LLC,92.43,30.81,Health
+2023-03-06,Nike,162.86,162.86,Clothing
+2023-03-08,Walmart,133.14,133.14,Groceries
+2023-03-10,McDonald's,41.6,20.8,Dining
+2023-03-12,Adams-Mcdaniel,367.33,367.33,Home
+2023-03-13,"Walker, Hoffman and Hall",25.03,25.03,Health
+2023-03-14,Adidas,168.36,168.36,Clothing
+2023-03-15,Solis Ltd,88.59,88.59,Health
+2023-03-17,Walmart,133.1,44.37,Groceries
+2023-03-20,Odom-Cooper,351.57,351.57,Travel
+2023-03-30,"Craig, Potter and Parrish",76.44,25.48,Health
+2023-03-31,Uber,461.76,230.88,Travel

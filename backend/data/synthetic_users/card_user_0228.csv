@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,71.0,71.0,Groceries
+2023-01-05,H&M,180.04,60.01,Clothing
+2023-01-08,Shields-Bradford,147.44,147.44,Groceries
+2023-01-10,Walmart,57.08,57.08,Groceries
+2023-01-14,Adidas,39.26,39.26,Clothing
+2023-01-16,Reese-Clay,64.81,64.81,Clothing
+2023-01-23,IKEA,361.26,361.26,Home
+2023-01-25,McDonald's,17.0,17.0,Dining
+2023-01-26,Target,125.9,125.9,Groceries
+2023-01-27,IKEA,258.01,258.01,Home
+2023-01-28,"Peters, Gonzales and Phelps",47.25,47.25,Groceries
+2023-01-29,H&M,32.06,32.06,Clothing
+2023-01-31,Delta Airlines,456.13,228.06,Travel
+2023-02-02,Walgreens,63.74,21.25,Health
+2023-02-03,Apple,206.97,68.99,Electronics
+2023-02-07,CVS,66.34,22.11,Health
+2023-02-08,Apple,178.72,178.72,Electronics
+2023-02-09,McDonald's,55.51,55.51,Dining
+2023-02-10,Uber,420.14,140.05,Travel
+2023-02-13,Nike,126.75,126.75,Clothing
+2023-02-15,Starbucks,14.5,14.5,Dining
+2023-02-16,Nike,147.65,147.65,Clothing
+2023-02-21,Delta Airlines,481.66,481.66,Travel
+2023-02-25,"Conway, Wilson and Smith",15.72,15.72,Health
+2023-02-28,IKEA,69.37,69.37,Home
+2023-03-03,"Ryan, Brown and Forbes",62.99,62.99,Entertainment
+2023-03-17,Target,116.35,116.35,Groceries
+2023-03-21,CVS,10.32,10.32,Health
+2023-03-23,Walmart,77.79,77.79,Groceries
+2023-03-24,Uber,385.95,385.95,Travel
+2023-03-26,CVS,94.23,94.23,Health
+2023-03-28,"Reyes, Perez and Flores",36.05,36.05,Dining
+2023-03-29,IKEA,171.65,85.83,Home
+2023-03-30,King PLC,318.73,106.24,Electronics

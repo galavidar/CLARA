@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Adidas,86.82,86.82,Clothing
+2023-01-04,"Morales, Salas and Dennis",31.26,31.26,Health
+2023-01-05,Starbucks,51.36,51.36,Dining
+2023-01-07,McDonald's,58.04,58.04,Dining
+2023-01-13,IKEA,337.73,112.58,Home
+2023-01-15,Target,123.98,123.98,Groceries
+2023-01-21,Amazon,241.29,241.29,Electronics
+2023-01-23,H&M,136.71,136.71,Clothing
+2023-01-24,"Fernandez, Braun and Hoover",40.31,40.31,Entertainment
+2023-01-25,H&M,143.43,143.43,Clothing
+2023-01-28,"Jones, Floyd and Mendez",79.43,79.43,Entertainment
+2023-01-29,Zara,66.32,66.32,Clothing
+2023-01-30,Target,24.94,24.94,Groceries
+2023-02-01,McDonald's,32.18,32.18,Dining
+2023-02-02,Starbucks,20.16,20.16,Dining
+2023-02-07,Target,126.61,63.3,Groceries
+2023-02-08,IKEA,201.89,201.89,Home
+2023-02-12,"Ford, Huff and Meyer",94.24,94.24,Home
+2023-02-14,"Williams, Jordan and Schneider",25.03,12.52,Dining
+2023-02-16,H&M,191.67,63.89,Clothing
+2023-02-18,IKEA,133.7,133.7,Home
+2023-02-19,CVS,95.98,95.98,Health
+2023-02-20,Amazon,118.39,118.39,Electronics
+2023-02-22,Amazon,882.66,882.66,Electronics
+2023-02-23,"King, Allen and Miller",28.4,9.47,Dining
+2023-02-25,IKEA,291.32,291.32,Home
+2023-02-26,Zara,99.57,99.57,Clothing
+2023-02-28,Uber,421.12,421.12,Travel
+2023-03-01,Walgreens,10.71,10.71,Health
+2023-03-05,"Freeman, Smith and Mclaughlin",43.72,43.72,Health
+2023-03-07,Stone-Burgess,46.9,46.9,Entertainment
+2023-03-08,"Guzman, Chavez and Alexander",338.13,338.13,Travel
+2023-03-09,Walgreens,57.86,28.93,Health
+2023-03-10,Uber,370.94,370.94,Travel
+2023-03-14,IKEA,55.79,55.79,Home
+2023-03-17,Delta Airlines,117.07,117.07,Travel
+2023-03-24,McDonald's,12.07,12.07,Dining
+2023-03-25,Nike,73.14,73.14,Clothing
+2023-03-27,Nike,180.43,60.14,Clothing
+2023-03-28,Villa-Palmer,14.41,14.41,Dining
+2023-03-29,Walgreens,78.15,78.15,Health

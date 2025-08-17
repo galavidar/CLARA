@@ -1,0 +1,26 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,CVS,99.59,49.8,Health
+2023-01-13,Zara,146.2,146.2,Clothing
+2023-01-21,Zara,93.1,93.1,Clothing
+2023-01-26,Macdonald-Hernandez,13.06,13.06,Entertainment
+2023-01-27,Romero-Soto,116.95,116.95,Home
+2023-01-31,Delta Airlines,295.08,295.08,Travel
+2023-02-02,Figueroa LLC,221.77,221.77,Electronics
+2023-02-10,"Clements, Black and Hogan",86.57,86.57,Groceries
+2023-02-16,"Robinson, Frederick and Moyer",136.19,136.19,Clothing
+2023-02-19,Garcia-Adkins,75.9,75.9,Home
+2023-02-20,McDonald's,25.81,25.81,Dining
+2023-02-22,Walmart,74.28,24.76,Groceries
+2023-02-23,Target,69.33,69.33,Groceries
+2023-02-24,"Sanchez, Finley and Bailey",431.23,431.23,Travel
+2023-02-27,Walgreens,63.87,63.87,Health
+2023-03-03,Apple,926.96,926.96,Electronics
+2023-03-05,Casey-Morales,362.68,362.68,Home
+2023-03-06,Walgreens,98.75,98.75,Health
+2023-03-12,H&M,116.53,116.53,Clothing
+2023-03-13,"Stafford, Hicks and Hernandez",86.25,43.12,Entertainment
+2023-03-14,Amazon,826.36,826.36,Electronics
+2023-03-18,Walgreens,40.8,40.8,Health
+2023-03-24,CVS,33.17,33.17,Health
+2023-03-26,Target,33.48,11.16,Groceries
+2023-03-27,Walgreens,52.48,26.24,Health
