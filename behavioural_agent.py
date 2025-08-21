@@ -1,22 +1,16 @@
 import pandas as pd
 import numpy as np
-import json
 from typing import Dict
-from openai import OpenAI
 from token_logger import log_tokens
-from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_openai import ChatOpenAI
+from pydantic import BaseModel, Field
+from langchain_openai import AzureChatOpenAI
+from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY
+from prompts import build_behavioural_json_prompt
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+import os
+import json
+from datetime import datetime
 
-PROFILE_DEFS = {
-    "discretionary_spending_share": "High share of spending on non-essential categories (entertainment, shopping, leisure).",
-    "liquidity_stress": "Signs of low liquidity such as frequent overdrafts, high CC utilization, or low savings.",
-    "growth_potential": "Evidence that income and savings are trending upwards.",
-    "income_stability": "Consistency of income levels month-to-month.",
-    "expense_volatility": "Fluctuations in monthly spending patterns.",
-    "savings_habit": "Tendency to consistently save from income.",
-    "debt_dependence": "Reliance on credit card spending relative to income or limit.",
-    "category_concentration_risk": "Spending heavily concentrated in one or two categories."
-}
 
 class ProfileOutput(BaseModel):
     profiles: Dict[str, int] = Field(..., description="Mapping of profile name to 0/1 decision")
@@ -71,7 +65,7 @@ def preprocess_user(bank_df: pd.DataFrame, card_df: pd.DataFrame) -> Dict:
         "expense_std": df["expense"].std(),
         "savings_rate_mean": df["savings_rate"].mean(),
         "overdraft_frequency": df["overdraft"].mean(),
-        "discretionary_share": df[[c for c in df.columns if "entertainment" in c or "shopping" in c]].sum().sum() / df["total_card_spend"].sum() if "total_card_spend" in df else 0,
+        "discretionary_share": df[[c for c in df.columns if "Entertainment" in c or "Travel" in c or "Dining" in c]].sum().sum() / df["total_card_spend"].sum() if "total_card_spend" in df else 0,
         "top_category_share": df[categories].sum().max() / df["total_card_spend"].sum() if len(categories) > 0 else 0,
         "category_volatility": df[categories].div(df["total_card_spend"], axis=0).std().mean() if len(categories) > 0 else 0,
         "cc_payment_ratio_mean": df["cc_payment_ratio"].mean(),
@@ -97,71 +91,71 @@ def infer_rule_based_profiles(features: Dict) -> Dict[str, int]:
     profiles["category_concentration_risk"] = int(features["top_category_share"] > 0.4)
     return profiles
 
-def query_llm_for_profiles(client, user_features: Dict, rule_profiles: Dict) -> Dict:
-    prompt = f"""
-    You are a financial analyst agent. 
-    Your task is to infer and validate financial behavioural profiles for a loan applicant.
-
-    Profiles and their definitions:
-    {json.dumps(PROFILE_DEFS, indent=2)}
-
-    You are given:
-    - Structured user features (summary stats + last 3 months)
-    - Rule-based profile decisions (0=No, 1=Yes)
-
-    Instructions:
-    - For each profile, validate the rule-based decision if provided, overriding if necessary.
-    - For profiles not rule-based, infer them directly.
-    - Provide reasoning for each profile.
-
-    Data: {json.dumps(user_features, indent=2)}
-    Rule-based profiles: {json.dumps(rule_profiles, indent=2)}
-
-    Return valid JSON with:
-      - "profiles": mapping profile->0/1
-      - "reasoning": mapping profile->short explanation
+def run_agent(chat_model, user_features, rule_profiles, token_counter=True):
     """
+    Run the LLM agent with JSON prompting for profile inference.
+    Uses LangChain ChatPromptTemplate with structured JSON input/output.
+    Logs tokens and returns the JSON result
+    """
+    prompt = build_behavioural_json_prompt(user_features, rule_profiles)
 
-    resp = client.chat.completions.create(
-        model="gpt-4.1",
-        messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"}
-    )
+    #structured_model = chat_model.with_structured_output(ProfileOutput)
+    resp = chat_model.invoke(prompt)
+
+    usage = resp.response_metadata['token_usage']
+
+    if token_counter:
+        log_tokens(resp.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
     
-    return json.loads(resp.choices[0].message.content)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open('./outputs/behavioural_agent_responses.txt', "a", encoding="utf-8") as f:
+        f.write(f"\n[{timestamp}] Task: Behavioural Profiling\n")
+        f.write(json.dumps(resp.content, indent=2, ensure_ascii=False))
+        f.write("\n")
+    
+    return resp
 
 
-def analyze_user(bank_path: str, card_path: str) -> Dict:
-    bank_df = pd.read_csv(bank_path)
-    card_df = pd.read_csv(card_path)
+def extract_behavioural_features(bank, card):
+    user_features = preprocess_user(bank, card)
+    profiles = infer_rule_based_profiles(user_features)
 
-    features = preprocess_user(bank_df, card_df)
-    rule_profiles = infer_rule_based_profiles(features["summary"])
-    llm_profiles = query_llm_for_profiles(features, rule_profiles)
+    chat_model = AzureChatOpenAI(
+        azure_deployment=CHAT_DEPLOYMENT,
+        azure_endpoint = AZURE_OPENAI_ENDPOINT,
+        api_key = AZURE_OPENAI_API_KEY,
+        openai_api_type = "azure",
+        openai_api_version = API_VERSION,
+        model = 'gpt-4o-mini'
+    )
 
-    return {
-        "features": features,
-        "rule_based_profiles": rule_profiles,
-        "llm_profiles": llm_profiles,
-        "merged_profiles": llm_profiles["profiles"],
-        "reasoning": llm_profiles["reasoning"]
-    }
-
-def langchain_profile_agent():
-    llm = ChatOpenAI(model="gpt-4.1", temperature=0)
-    structured_llm = llm.with_structured_output(ProfileOutput)
-
-    return RunnableMap({
-        "analysis": RunnableLambda(lambda x: analyze_user(x["bank_path"], x["card_path"])),
-        "structured_profiles": structured_llm
-    })
+    response = run_agent(chat_model, user_features, profiles)
+    return response.content
 
 def test():
     bank = pd.read_csv('./backend/data/synthetic_users/bank_user_0001.csv')
     card = pd.read_csv('./backend/data/synthetic_users/card_user_0001.csv')
-    out = preprocess_user(bank, card)
-    out2 = infer_rule_based_profiles(out)
-    print(out2) 
+    out_df = preprocess_user(bank, card)
+    out_prof = infer_rule_based_profiles(out_df)
+
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
+    llm = HuggingFaceEndpoint(
+    repo_id="openai/gpt-oss-120b",
+    task="text-generation",
+    max_new_tokens=512,
+    do_sample=False,
+    repetition_penalty=1.03,
+    provider="auto",  # let Hugging Face choose the best provider for you
+    )
+    chat_model = ChatHuggingFace(llm=llm)
+    
+    r = run_agent(chat_model, out_df, out_prof, token_counter=False)
+    print('******* This is the model response: ********')
+    print(r.content)
+
+    print('')
+    print('******* This is the metadata *******')
+    print(r.response_metadata)
 
 if __name__ == "__main__":
     test()
