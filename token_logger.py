@@ -14,13 +14,13 @@ def log_tokens(model_variant: str = 'gpt-4o-mini', prompt_tokens: int = 0, compl
         total_tokens (int): Total tokens (if only this is available).
     """
 
-    COST_INPUT = 0.15/1000000 if model_variant == 'mini' else 2.5/1000000  # $ per token
-    COST_OUTPUT = 0.6/1000000  if model_variant == 'mini' else 10/1000000  # $ per token
+    COST_INPUT = 0.15/1000000 if 'mini' in model_variant else 2.5/1000000  # $ per token
+    COST_OUTPUT = 0.6/1000000  if 'mini' in model_variant else 10/1000000  # $ per token
 
     # Ensure log file exists
     if not os.path.exists(TOKEN_LOG_FILE):
         with open(TOKEN_LOG_FILE, "w") as f:
-            f.write("timestamp,prompt_tokens,completion_tokens,total_tokens,cost_usd,total_cost_usd\n")
+            f.write("timestamp,prompt_tokens,completion_tokens,total_tokens,cost_usd,cumulative_tokens,total_cost_usd\n")
 
     # Read last total cost if exists
     try:

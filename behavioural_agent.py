@@ -130,7 +130,7 @@ def extract_behavioural_features(bank, card):
     )
 
     response = run_agent(chat_model, user_features, profiles)
-    return response.content
+    return response.content, user_features
 
 def test():
     bank = pd.read_csv('./backend/data/synthetic_users/bank_user_0001.csv')
@@ -150,12 +150,6 @@ def test():
     chat_model = ChatHuggingFace(llm=llm)
     
     r = run_agent(chat_model, out_df, out_prof, token_counter=False)
-    print('******* This is the model response: ********')
-    print(r.content)
-
-    print('')
-    print('******* This is the metadata *******')
-    print(r.response_metadata)
 
 if __name__ == "__main__":
     test()

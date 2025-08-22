@@ -1,0 +1,125 @@
+
+[2025-08-21 15:47:24] Task: Report Generation
+**CONFIDENTIAL – INTERNAL LOAN DECISION REPORT**  
+*Prepared for: Credit Risk Committee*  
+*Prepared by: Financial Reporting Analyst*  
+*Date: 21‑Aug‑2025*  
+
+---
+
+## 1. Applicant Synopsis  
+
+| **Attribute**                | **Detail**                              |
+|------------------------------|----------------------------------------|
+| **Applicant**                | Doctor (10‑year tenure)                |
+| **Requested Loan**           | $10,000 – 36 months (3 years)          |
+| **Loan Purpose**             | Purchase of an automobile               |
+| **Interest Rate**            | 12 % per annum (fixed)                 |
+| **Annual Income**            | $120,000                               |
+| **Home Ownership**           | Own                                    |
+| **Credit Score**             | 750 (Excellent)                        |
+| **Delinquencies / Bankruptcy** | None                                   |
+| **Existing Total Debt**      | $50,000 (primarily credit‑card balances) |
+| **Number of Bank Accounts**  | 5                                      |
+
+The applicant is a high‑earning medical professional with a long, stable employment history and a solid credit profile. The requested financing amount is modest relative to income, and the purpose (vehicle acquisition) is a standard consumer loan.
+
+---
+
+## 2. Behavioural Profile Validation  
+
+| **Behavioural Flag**               | **Score (0 = low risk, 1 = high risk)** | **Rationale**                                                                                                                                                     |
+|------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Liquidity Stress**               | 1                                      | No overdraft activity, but the credit‑card payment‑to‑income ratio exceeds 1 and the savings rate is negative (~‑18 %). This indicates limited liquid buffers.   |
+| **Debt Dependence**                | 1                                      | High reliance on revolving credit; credit‑card payment ratio > 1 suggests the applicant is currently financing consumption with credit.                        |
+| **Category Concentration Risk**    | 1                                      | 46 % of total spend is concentrated in *Electronics* (including high‑value items). This creates exposure to a single expense category.                         |
+| **Discretionary Spending Share**   | 0                                      | No anomalous discretionary spend identified.                                                                                                                     |
+| **Expense Volatility**             | 0                                      | Standard deviation of monthly expenses is modest (≈ 5.6 % of mean); spending pattern is stable.                                                                 |
+| **Savings Habit**                  | 0                                      | Negative average savings rate confirms the applicant is not consistently building cash reserves.                                                               |
+| **Growth Potential** *(qualitative)* | —                                      | Income is trending upward, recent expense reductions, and a positive cash‑flow trend indicate improving financial health.                                      |
+| **Income Stability** *(qualitative)* | —                                      | Income variability is low (≈ 2 % of mean) and the trend is upward, confirming a stable earnings base.                                                            |
+
+**Interpretation:** While the applicant’s credit score, employment stability, and home ownership mitigate risk, the behavioural flags highlight **liquidity strain, reliance on revolving credit, and spending concentration**. These factors are noted for monitoring but are not deemed prohibitive given the applicant’s strong overall credit profile.
+
+---
+
+## 3. Financial Analysis  
+
+### 3.1 Loan Repayment Calculation  
+
+- **Principal:** $10,000  
+- **Annual Rate:** 12 % → **Monthly Rate (r):** 0.12 / 12 = **0.01**  
+- **Term (n):** 36 months  
+
+\[
+\text{Monthly Payment} = \frac{P \times r}{1-(1+r)^{-n}} = \frac{10{,}000 \times 0.01}{1-(1.01)^{-36}} \approx \$332.20
+\]
+
+- **Annual Debt Service (new loan):**  $332.20 × 12 ≈ **$3,986**  
+
+### 3.2 Debt‑to‑Income (DTI) Ratio  
+
+Two perspectives are presented for internal risk sizing:
+
+| **Method** | **Calculation** | **Result** |
+|------------|-----------------|------------|
+| **Simple Debt Load Ratio** (total debt + new loan ÷ annual income) | (50,000 + 10,000) / 120,000 | **0.50 (50 %)** |
+| **Cash‑Flow‑Based DTI** (annual debt service ÷ annual gross income) | 3,986 / 120,000 | **0.033 (3.3 %)** |
+
+*Interpretation:* The cash‑flow‑based DTI is well within the bank’s threshold (≤ 35 %). The simple debt‑load ratio appears high but reflects a large historical credit‑card balance that is already being serviced; the new loan adds modest incremental burden.
+
+### 3.3 Risk Score  
+
+- **Model‑derived Risk Score:** **0.40** (scale 0 = lowest risk, 1 = highest).  
+  This aligns with the applicant’s high credit score, low expense volatility, and strong income stability.  
+
+### 3.4 Overall Risk Assessment  
+
+| **Factor**                 | **Weight** | **Rating** | **Impact** |
+|----------------------------|------------|------------|------------|
+| Credit Score (750)         | High       | Excellent  | Positive |
+| Income Stability           | High       | Low σ      | Positive |
+| Liquidity Stress           | Medium     | 1 (high)   | Negative (mitigated) |
+| Debt Dependence            | Medium     | 1 (high)   | Negative (mitigated) |
+| Category Concentration     | Medium     | 1 (high)   | Negative (mitigated) |
+| Debt‑to‑Income (cash‑flow) | High       | 3.3 %      | Positive |
+| Overall Risk Score (0.40)  | High       | Low‑Medium | Positive |
+
+**Net Result:** The applicant’s creditworthiness outweighs the behavioural concerns. The loan is within acceptable risk parameters for the **Consumer Auto** product line.
+
+---
+
+## 4. Decision & Conditions  
+
+| **Decision** | **Approved** |
+|--------------|--------------|
+
+**Motivation:**  
+- The applicant demonstrates **excellent credit quality, stable high income, and a modest incremental cash‑flow burden**.  
+- The risk model outputs a **low‑to‑medium risk score (0.40)**, comfortably below the internal approval threshold (≤ 0.55).  
+- Although behavioural flags indicate **liquidity stress and reliance on revolving credit**, these are offset by the applicant’s strong asset base (home ownership) and the relatively small loan amount.
+
+**Recommended Monitoring Conditions:**  
+
+1. **Liquidity Check:** Require the applicant to maintain a minimum **liquid reserve of 1 month’s loan payment ($350)** in a checking or savings account.  
+2. **Credit‑Card Management:** Advise the applicant to reduce the credit‑card payment‑to‑income ratio to ≤ 0.7 within the first 12 months; escalated monitoring will be triggered if the ratio exceeds 1 again.  
+3. **Spending Concentration:** Provide a financial‑wellness advisory highlighting diversification of expense categories, particularly reducing the concentration in “Electronics”.  
+4. **Periodic Review:** Conduct a **mid‑term (15‑month) credit review** to reassess DTI and liquidity metrics.
+
+---
+
+## 5. Documentation & Sign‑off  
+
+| **Prepared By** | **Name / Title** | **Date** |
+|-----------------|-------------------|----------|
+| Financial Reporting Analyst | ___________________ | 21‑Aug‑2025 |
+
+| **Approved By** | **Name / Title** | **Date** |
+|-----------------|-------------------|----------|
+| Credit Risk Manager | ___________________ | 21‑Aug‑2025 |
+
+*End of Report*  
+
+---  
+
+**Confidentiality Notice:** This document contains privileged information intended solely for authorized bank personnel. Unauthorized copying, distribution, or disclosure is prohibited.

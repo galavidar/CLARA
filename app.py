@@ -3,32 +3,32 @@ import time
 import json
 import pandas as pd
 
-# -------------------------
+
 # PAGE CONTROL
-# -------------------------
 if "page" not in st.session_state:
     st.session_state.page = "welcome"
 
 def go_to(page_name):
     st.session_state.page = page_name
 
-# -------------------------
+
 # WELCOME PAGE
-# -------------------------
 if st.session_state.page == "welcome":
-    st.title("🏦 Loan Application Assistant")
+    st.title("CLARA")
     st.markdown("""
-    Welcome to the **Loan Application Assistant**.  
-    Our intelligent multi-agent system will analyze your financial data and provide a loan decision with reasoning.  
+    Welcome to **CLARA**, your intelligent loan application assistant.  
+    CLARA will analyze a loan applicant's financial data and help you decide whether to approve or deny the loan.
+    CLARA will also help you draft your report regarding the decision and provide similar cases that back up your decision.
+                
+    Before we begin, you will need to input the applicant's request data, and to upload their bank and credit card statements as .csv files, so make sure to have them handy!
 
     Click **Continue** to get started.
     """)
     if st.button("Continue ➡️"):
         go_to("form")
 
-# -------------------------
+
 # INPUT FORM
-# -------------------------
 elif st.session_state.page == "form":
     st.title("📋 Loan Application Form")
 
@@ -41,7 +41,7 @@ elif st.session_state.page == "form":
 
         home_status = st.selectbox(
             "Home ownership status",
-            ["renting", "mortgage", "owned", "none"]
+            ["RENT", "MORTGAGE", "OWN", "NONE"]
         )
 
         annual_income = st.number_input("Annual income ($)", min_value=0)
@@ -84,7 +84,7 @@ elif st.session_state.page == "form":
                 "loan_amount": loan_amount,
                 "loan_term": loan_term,
                 "job_title": job_title,
-                "job_time": job_time,
+                "job_tenure": job_time,
                 "home_status": home_status,
                 "annual_income": annual_income,
                 "loan_purpose": loan_purpose,
@@ -98,12 +98,11 @@ elif st.session_state.page == "form":
             st.session_state.cc_df = pd.read_csv(cc_file)
             go_to("processing")
 
-# -------------------------
+
 # PROCESSING PAGE
-# -------------------------
 elif st.session_state.page == "processing":
     st.title("⚙️ Processing Your Request...")
-    st.markdown("Our agents are reviewing your financial history. Please wait...")
+    st.markdown("Our agents are reviewing the data and making a decision. Please wait...")
 
     with st.spinner("Analyzing profiles..."):
         time.sleep(3)  # simulate processing
@@ -115,9 +114,7 @@ elif st.session_state.page == "processing":
     st.session_state.decision = decision
     go_to("result")
 
-# -------------------------
 # RESULT PAGE
-# -------------------------
 elif st.session_state.page == "result":
     st.title("✅ Loan Decision")
     decision = st.session_state.decision
