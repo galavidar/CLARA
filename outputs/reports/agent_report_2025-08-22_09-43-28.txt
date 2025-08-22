@@ -1,0 +1,110 @@
+**CONFIDENTIAL – INTERNAL LOAN DECISION REPORT**  
+*Prepared for: Credit Risk Committee*  
+*Prepared by: Financial Reporting – Consumer Lending*  
+*Date: 22‑Aug‑2025*  
+
+---
+
+## 1. Applicant & Request Summary  
+
+| Item | Detail |
+|------|--------|
+| **Applicant Occupation** | Doctor (10‑year tenure) |
+| **Annual Gross Income** | **$120,000** |
+| **Home Ownership** | Own |
+| **Requested Loan Amount** | **$10,000** |
+| **Requested Term** | **36 months** (3 years) |
+| **Purpose of Loan** | Purchase of a motor vehicle (car) |
+| **Current Debt Obligations** | **$50,000** total (primary & credit‑card balances) |
+| **Credit Score** | **750** (Excellent) |
+| **Number of Bank Accounts** | 5 |
+| **Bankruptcy / Delinquencies** | None reported |
+
+The applicant seeks a short‑term, unsecured consumer loan to finance a vehicle purchase.  
+
+---
+
+## 2. Behavioural Profile Validation & Reasoning  
+
+The proprietary behavioural model generated the following flag matrix (1 = concern, 0 = no concern):
+
+| Profile Dimension | Flag | Rationale (derived from supplied justification) |
+|--------------------|------|-------------------------------------------------|
+| **Liquidity Stress** | **1** | No overdraft history, yet the credit‑card payment‑to‑income ratio exceeds 1 and the savings rate is negative (‑18 %). This indicates limited liquid buffers. |
+| **Debt Dependence** | **1** | Credit‑card payment ratio > 1 shows the applicant relies heavily on revolving credit to meet cash‑flow needs. |
+| **Category Concentration Risk** | **1** | “Electronics” accounts for ~37 % of spend and “Travel” ~24 %, together exceeding 60 % of total consumption – a strong concentration in discretionary categories. |
+| **Discretionary‑Spending Share** | 0 | Overall discretionary spend (electronics + travel + entertainment) is within acceptable limits relative to total spend. |
+| **Expense Volatility** | 0 | Standard deviation of expenses is modest (≈ 5.6 % of mean); spending patterns are stable. |
+| **Savings Habit** | 0 | Although the average savings rate is negative, the model treats this as a separate flag; the applicant does not consistently save. |
+| **Growth Potential, Income Stability** | *Not flagged* | Income trend is upward, variability low (≈ 2 % of mean); earnings are stable. |
+
+**Interpretation**  
+The three flagged dimensions highlight *short‑term liquidity pressure* and *high reliance on credit*, but they are *not* severe enough to outweigh the applicant’s strong credit score, high and stable income, and lack of delinquency or bankruptcy. The concentration risk is mitigated by the applicant’s high professional earning power and low expense volatility.
+
+---
+
+## 3. Financial Analysis  
+
+### 3.1 Loan Pricing  
+
+* **Annual Interest Rate (Nominal)**: **12 %**  
+* **Monthly Rate**: 12 % / 12 = **1 %** (0.01)  
+* **Amortisation (36 months)**  
+
+\[
+\text{Monthly Payment} = \frac{P \times r}{1-(1+r)^{-n}} = 
+\frac{10{,}000 \times 0.01}{1-(1.01)^{-36}} \approx \mathbf{\$332.20}
+\]
+
+* **Annual Debt Service for the New Loan**: \$332.20 × 12 ≈ **\$3,986**  
+
+### 3.2 Debt‑to‑Income (DTI)  
+
+| Metric | Calculation | Result |
+|--------|-------------|--------|
+| **Existing Debt / Income** | $50,000 ÷ $120,000 | **41.7 %** |
+| **New Loan Annual Service / Income** | $3,986 ÷ $120,000 | **3.3 %** |
+| **Combined DTI (incl. new loan)** | (Existing Debt + New Service) ÷ Income | **≈ 45 %** |
+
+*Interpretation*: A combined DTI of ~45 % sits at the higher end of our internal acceptable range for high‑earning professionals, but is permissible given the applicant’s excellent credit score, low expense volatility, and lack of repayment history concerns.
+
+### 3.3 Risk Score  
+
+* **Model‑Generated Risk Score**: **0.40** (scale 0 = lowest risk, 1 = highest).  
+  *The score reflects moderate risk primarily driven by liquidity stress and debt dependence flags but is offset by strong credit quality and income stability.*
+
+### 3.4 Capacity & Affordability  
+
+* Net disposable income (post‑tax estimate ~70 % of gross) ≈ **$84,000** → **$7,000/month**.  
+* Monthly loan payment of **$332** represents **≈ 4.7 %** of estimated net monthly income – well within the bank’s affordability threshold (≤ 15 %).  
+
+---
+
+## 4. Decision & Motivation  
+
+| Decision | Approved |
+|----------|----------|
+| **Approved Amount** | $10,000 |
+| **Term** | 36 months |
+| **Interest Rate** | 12 % (fixed) |
+| **Conditions** | – No additional collateral required.<br>– Maintain current repayment schedule for existing obligations.<br>– Monitor credit‑card utilisation; request a voluntary reduction to ≤ 30 % of limit within 6 months. |
+
+### Rationale  
+
+1. **Credit Quality** – A score of 750 places the applicant in the “Excellent” band, indicating a low probability of default.  
+2. **Income Strength & Stability** – $120 k annual earnings with a 10‑year tenure as a medical doctor provide a robust and predictable cash‑flow base.  
+3. **Affordability** – The loan’s monthly payment consumes < 5 % of net monthly income, well beneath internal affordability ceilings.  
+4. **Risk Mitigation** – Although liquidity stress and debt dependence are flagged, the applicant’s overall debt load relative to income remains within acceptable limits for this risk tier.  
+5. **Strategic Consideration** – Approving a modest, short‑term loan supports relationship growth with a high‑value professional client and aligns with the bank’s portfolio diversification goals.  
+
+Given the balance of strong quantitative metrics and manageable behavioural concerns, the loan is **approved** under the terms outlined above. Continuous monitoring of the applicant’s credit‑card utilisation and savings behaviour will be conducted as part of the post‑origination review process.  
+
+---
+
+## 5. Documentation & Sign‑off  
+
+*Prepared by:* ___________________________ (Credit Analyst – Consumer Lending)  
+*Reviewed by:* ___________________________ (Senior Risk Officer)  
+*Approved by:* ___________________________ (Credit Committee Chair)  
+
+**CONFIDENTIAL – This document is intended solely for internal use within the lending institution and must not be disclosed to external parties without proper authorisation.**
