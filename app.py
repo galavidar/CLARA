@@ -96,8 +96,25 @@ elif st.session_state.page == "form":
             }
             st.session_state.bank_df = pd.read_csv(bank_file)
             st.session_state.cc_df = pd.read_csv(cc_file)
-            go_to("processing")
+            go_to("banker_comments")
 
+elif st.session_state.page == "banker_comments":
+    st.title("📝 Banker Comments")
+    st.markdown("Please provide your comments regarding the loan application. " \
+    "This is your opportunity to add any insights or considerations that may not be captured in the application data.")
+
+    with st.form("comments_form"):
+        comments = st.text_area("Comments", height=200)
+        risk_level = st.selectbox(
+            "Please select the bank's current risk tolerance",
+            ["None", "Low", "Medium", "High", "N/A"]
+        )
+        submitted = st.form_submit_button("Submit Comments")
+
+    if submitted:
+        st.session_state.banker_comments = comments
+        st.session_state.risk_level = risk_level
+        go_to("processing")
 
 # PROCESSING PAGE
 elif st.session_state.page == "processing":

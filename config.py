@@ -21,3 +21,4 @@ USE_HF_MODELS = False # change this to use Hugging Face models
 TOKEN_LOG_FILE = "./outputs/total_tokens.txt"
 BEHAVIOURAL_LOG_FILE = "./outputs/behavioural_agent_responses.txt"
 REPORTS_DIR = "./outputs/reports/"
+EVALUATOR_LOG_FILE = "./outputs/evaluator_agent_responses.txt"

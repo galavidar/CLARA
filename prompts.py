@@ -74,7 +74,7 @@ def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_
          Inputs:
          - Loan data (from applicant): {loan_data}
          - Summary of key financial metrics of applicant: {features}
-         - Behavioural profiles: {profiles}
+         - Binary behavioural profiles: {profiles}
          - Reason for profile assignments: {profile_reasons}
          - Interest rate: {interest_rate}
          - Loan term: {loan_term}
@@ -87,15 +87,15 @@ def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_
          2. Integrate behavioural profile validation + reasoning.
          3. Include financial analysis with interest rate, risk score, and debt-to-income ratio.
          4. Provide a final decision with motivation.
-         5. Generate a full professional report suitable for bank internal documentation.
-         6. If provided, pay attention to the user directives when creating the report. 
+         5. Calculate the required monthly installments (with interest) to include in the report.
+         6. Generate a full professional report suitable for bank internal documentation.
+         7. If provided, pay attention to the user directives when creating the report.
          """
         )
     ])
-
     return prompt.format(
         loan_data=json.dumps(loan_data, indent=2),
-        features=json.dumps(features.pop("last3_category_shares", {}), indent=2),
+        features=json.dumps({k: v for k, v in features.items() if k != "last3_category_shares"}, indent=2),
         profiles=json.dumps(profiles.get("profiles", {}), indent=2),
         profile_reasons=json.dumps(profiles.get("reasoning", {}), indent=2),
         interest_rate=interest_rate,
@@ -103,5 +103,61 @@ def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_
         decision=json.dumps(decision, indent=2),
         risk_score=risk_score,
         user_directives=user_directives or "No additional directions provided.",
+    )
+
+def build_evaluation_prompt(loan_data, features, profiles, rate, term, risk_score, decision, user_directives=None, bank_risk_tolerance="medium"):
+    """
+    Build a LangChain ChatPromptTemplate for the evaluator agent.
+    """
+    prompt = ChatPromptTemplate.from_messages([
+        SystemMessagePromptTemplate.from_template(
+            "You are the Evaluator Agent (Bank Manager). "
+            "You oversee all other agents. "
+            "Your job is to ensure the behavioral profiling is logical, "
+            "and the loan decision is fair, consistent with the bank's interests, "
+            "and aligned with the bank's stated goals and risk tolerance."
+        ),
+        HumanMessagePromptTemplate.from_template(
+            """
+            Task: Assess agent outputs for consistency and quality.
+
+            Inputs:
+            - Loan application data: {loan_data}
+            - Summary of key financial metrics of applicant: {features}
+            - Binary behavioural profiles: {profiles}
+            - Reason for profile assignments: {profile_reasons}
+            - Interest rate: {interest_rate}
+            - Loan term: {loan_term}
+            - Risk score: {risk_score}
+            - Loan decision + justification: {decision}
+            - Bank risk tolerance: {bank_risk_tolerance}
+            - User directives (if any): {user_directives}
+
+            Instructions:
+            1. Check if the behavioural profiling is logical and consistent with applicant data.
+            2. Check if the loan decision is fair and aligns with both the profiles and risk tolerance.
+            3. Check if the altering the interest rate or term would be beneficial.
+            4. If profiling is problematic → return: {{"action": "revise_profiles", "comments": "..."}}
+            5. If the decision is problematic → return: {{"action": "revise_decision", "comments": "..."}}
+            6. If the decision is acceptable but the interest rate or term should be changed → return: {{"action": "revise_terms", "comments": "..."}}
+            7. If all are acceptable → return: {{"action": "approve", "comments": "... (short justification)"}}
+
+            Output schema: Always respond in valid JSON with keys: action, comments.
+            """
+
+        )
+    ])
+
+    return prompt.format(
+        loan_data=json.dumps(loan_data, indent=2),
+        features=json.dumps({k: v for k, v in features.items() if k != "last3_category_shares"}, indent=2),
+        profiles=json.dumps(profiles.get("profiles", {}), indent=2),
+        profile_reasons=json.dumps(profiles.get("reasoning", {}), indent=2),
+        interest_rate=rate,
+        loan_term=term,
+        risk_score=risk_score,
+        decision=json.dumps(decision, indent=2),
+        bank_risk_tolerance=bank_risk_tolerance,
+        user_directives=user_directives or "No additional directives provided."
     )
 
