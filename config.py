@@ -1,3 +1,5 @@
+# loads environment variables from .env file and concentrates hard-coded configuration parameters for API
+
 from dotenv import load_dotenv
 import os
 

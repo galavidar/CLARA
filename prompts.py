@@ -1,3 +1,5 @@
+# Prompt templates for various tasks
+
 import json
 from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 

@@ -2,16 +2,10 @@ import os
 import datetime
 from config import TOKEN_LOG_FILE
 
-def log_tokens(model_variant: str = 'gpt-4o-mini', prompt_tokens: int = 0, completion_tokens: int = 0, total_tokens: int = None):
+def log_tokens(task, model_variant: str = 'gpt-4o-mini', prompt_tokens: int = 0, completion_tokens: int = 0, total_tokens: int = None):
     """
     Logs token usage and estimated cost for gpt-4o.
     
-    Parameters:
-        model_variant (str): Model variant, e.g., 'mini', 'standard', etc.
-            - 'mini' uses a different cost rate.
-        prompt_tokens (int): Number of input tokens.
-        completion_tokens (int): Number of output tokens.
-        total_tokens (int): Total tokens (if only this is available).
     """
 
     COST_INPUT = 0.15/1000000 if 'mini' in model_variant else 2.5/1000000  # $ per token
@@ -20,7 +14,7 @@ def log_tokens(model_variant: str = 'gpt-4o-mini', prompt_tokens: int = 0, compl
     # Ensure log file exists
     if not os.path.exists(TOKEN_LOG_FILE):
         with open(TOKEN_LOG_FILE, "w") as f:
-            f.write("timestamp,prompt_tokens,completion_tokens,total_tokens,cost_usd,cumulative_tokens,total_cost_usd\n")
+            f.write("timestamp,task,prompt_tokens,completion_tokens,total_tokens,cost_usd,cumulative_tokens,total_cost_usd\n")
 
     # Read last total cost if exists
     try:
@@ -49,7 +43,7 @@ def log_tokens(model_variant: str = 'gpt-4o-mini', prompt_tokens: int = 0, compl
 
     # Append new log entry
     with open(TOKEN_LOG_FILE, "a") as f:
-        f.write(f"{datetime.datetime.now().isoformat()},{prompt_tokens},{completion_tokens},{total_tokens},{cost:.6f},{cumulative_tokens},{cumulative_cost:.6f}\n")
+        f.write(f"{datetime.datetime.now().isoformat()},{task},{prompt_tokens},{completion_tokens},{total_tokens},{cost:.6f},{cumulative_tokens},{cumulative_cost:.6f}\n")
 
     # Print live update
     print(f"[Token Logger] +{total_tokens} tokens (${cost:.6f}) | Total: {cumulative_tokens} tokens, ${cumulative_cost:.6f}")
