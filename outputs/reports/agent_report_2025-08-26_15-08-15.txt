@@ -1,0 +1,90 @@
+**Internal Loan Decision Report**  
+*Prepared for: Credit Risk & Underwriting Department*  
+*Date: 26 August 2025*  
+
+---
+
+### 1. Applicant Summary  
+
+| Item | Details |
+|------|---------|
+| **Applicant** | Doctor (10 years tenure) |
+| **Loan request** | $10,000 for a car purchase |
+| **Loan term** | 36 months |
+| **Proposed interest rate** | 12 % p.a. (0.01 % per month) |
+| **Annual income** | $120,000 (≈ $10,000 / month) |
+| **Home ownership** | OWN |
+| **Current debt exposure** | $50,000 (all‑other obligations) |
+| **Credit score** | 750 |
+| **Delinquencies / Bankruptcy** | None |
+| **Number of bank accounts** | 5 |
+
+---
+
+### 2. Behavioural Profile Validation  
+
+| Behavioural Flag | Binary Value | Rationale (as supplied) | Interpretation |
+|------------------|--------------|------------------------|----------------|
+| **Discretionary‑spending‑share** | 0 | Discretionary share ≈ 26 % – below the high‑discretionary threshold. | **Not a concern** |
+| **Liquidity‑stress** | 1 | Overdraft = 0, but CC‑payment‑ratio = 1.14 > 1 and average savings rate = ‑18 % → limited liquid buffer, reliance on credit. | **Alert – limited cash cushion** |
+| **Growth‑potential** | 1 | Income trending up (+12 $ per month), expenses down (‑208 $), savings up (+220 $). | **Positive momentum** |
+| **Income‑stability** | 1 | Income std‑dev ≈ 58 $ versus mean ≈ 3,121 $ (≈ 1.9 % CV). | **Highly stable** |
+| **Expense‑volatility** | 0 | Expense std‑dev ≈ 208 $ (≈ 5.6 % CV) and low category volatility (0.053). | **Stable spending** |
+| **Savings‑habit** | 0 | Mean savings rate = ‑18 % → regularly spends more than earned. | **Negative saving behaviour** |
+| **Debt‑dependence** | 1 | CC‑payment‑ratio > 1 indicates heavy reliance on credit to fund expenses. | **High debt reliance** |
+| **Category‑concentration‑risk** | 1 | Top spending category accounts for 46 % of expenses. | **Spending concentration** |
+
+**Overall behavioural impression** – While the applicant exhibits strong income stability and a clear upward income trend (growth potential), the liquidity‑stress, debt‑dependence and concentration risk flags highlight limited cash buffers and a reliance on credit. These factors are balanced by a low overall risk score (0.30) and a solid credit profile (score 750, no delinquencies).
+
+---
+
+### 3. Financial Analysis  
+
+| Metric | Calculation | Value |
+|--------|-------------|-------|
+| **Monthly gross income** | 120 000 / 12 | **$10,000** |
+| **Proposed monthly installment** | \( P \times r /[1-(1+r)^{-n}] \)  with  P = 10 000, r = 0.01, n = 36 | **$332.23** |
+| **Debt‑to‑Income (DTI) – balance‑based** | (Existing debt + New loan) / Annual income | (50 000 + 10 000) / 120 000 = **0.50 (50 %)** |
+| **Debt‑to‑Income (DTI) – payment‑based** | (New loan payment + Assumed existing debt service) / Monthly income* | Assuming existing debt service ≈ $600 / mo → (332.23 + 600) / 10 000 = **9.3 %** |
+| **Interest rate** | Fixed contractual | **12 % p.a.** |
+| **Risk score (model output)** | – | **0.30** (low‑moderate risk) |
+| **Credit utilisation (CC‑payment‑ratio)** | 1.14 (> 1) | **Elevated** |
+
+\*Because the exact payment schedule of the existing $50 k debt is not supplied, the balance‑based DTI is shown for risk‑management reference; the payment‑based DTI demonstrates that the new loan adds a modest ~3.3 % of monthly income.
+
+**Key observations**
+
+* The borrower’s **monthly capacity** ($10 k) comfortably covers the proposed payment ($332).  
+* The **overall DTI** (50 % of annual income) is higher than typical retail‑loan thresholds but is offset by the strong credit score and absence of any adverse credit events.  
+* **Liquidity stress** is the principal concern; however, the applicant’s high‑income profession and long tenure provide confidence in future cash flow stability.
+
+---
+
+### 4. Final Decision  
+
+| Decision Element | Detail |
+|------------------|--------|
+| **Decision** | **Approved** |
+| **Approved amount** | $10,000 |
+| **Term** | 36 months |
+| **Interest rate** | 12 % p.A. (0.01 % per month) |
+| **Monthly repayment** | **$332.23** |
+| **Risk score** | 0.30 |
+| **Motivation** | The applicant matches 7 historically similar cases in the database that were approved and did not default. Financial indicators (high income stability, positive income trend, low credit‑score risk) outweigh the moderate liquidity stress and debt‑dependence flags. The model‑derived risk score of 0.30 signals a low probability of default, supporting an approval under the stipulated terms. |
+
+---
+
+### 5. Monthly Installment Calculation  
+
+\[
+\text{Monthly Rate } r = \frac{0.12}{12}=0.0100
+\]
+
+\[
+\text{Payment } = \frac{P \times r}{1-(1+r)^{-n}} 
+= \frac{10\,000 \times 0.0100}{1-(1.0100)^{-36}} 
+\approx \frac{100}{0.3010}
+\approx \boxed{\$332.23}
+\]
+
+*Total paid over 36 months = 36

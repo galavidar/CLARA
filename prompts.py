@@ -1,7 +1,7 @@
 # Prompt templates for various tasks
 
 import json
-from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
+from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
 
 PROFILE_DEFS = {
     "discretionary_spending_share": "High share of spending on non-essential categories (entertainment, shopping, leisure).",
@@ -14,12 +14,12 @@ PROFILE_DEFS = {
     "category_concentration_risk": "Spending heavily concentrated in one or two categories."
 }
 
-def build_behavioural_json_prompt(user_features, rule_profiles):
+def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comments=None):
     """
     Builds a LangChain chat prompt that instructs the model to validate or infer
     financial profiles, using structured JSON input.
     """
-    prompt = ChatPromptTemplate.from_messages([
+    messages = [
         SystemMessagePromptTemplate.from_template(
             "You are a financial profile inference agent. "
             "Your task is to analyze user financial data and infer profiles based on provided features and rule-based profiles."
@@ -49,15 +49,36 @@ def build_behavioural_json_prompt(user_features, rule_profiles):
                 - profiles: mapping of profile -> 0/1
                 - reasoning: mapping of profile -> short explanation
                 """
+        )]
+    
+    if supervisor_comments:
+        messages.append(
+            AIMessagePromptTemplate.from_template(
+                "\n\n{previous_response}"
+            )
         )
-    ])
+        messages.append(
+            HumanMessagePromptTemplate.from_template(
+                "Supervisor feedback:\n\nAction: {action}\nComments: {comments}\n\n"
+                "Revise your response accordingly, keeping strictly to the JSON schema."
+            )
+        )
+    prompt = ChatPromptTemplate.from_messages(messages)
 
-    return prompt.format(
-        profiles_definitions=json.dumps(PROFILE_DEFS, indent=2),
-        user_features=json.dumps(user_features, indent=2),
-        rule_profiles=json.dumps(rule_profiles, indent=2)
-    )
+    kwargs = {
+        "profiles_definitions": json.dumps(PROFILE_DEFS, indent=2),
+        "user_features": json.dumps(user_features, indent=2),
+        "rule_profiles": json.dumps(rule_profiles, indent=2),
+    }
 
+    if supervisor_comments:
+        kwargs.update({
+            "previous_response": json.dumps(supervisor_comments.get("previous_response", {}), indent=2),
+            "action": supervisor_comments.get("action", ""),
+            "comments": supervisor_comments.get("comments", "")
+        })
+
+    return prompt.format(**kwargs)
 
 def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_term, decision, risk_score, user_directives=None):
     """

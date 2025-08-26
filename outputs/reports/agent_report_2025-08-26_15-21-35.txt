@@ -1,0 +1,121 @@
+**Bank Internal – Loan Decision Report**  
+**Reference No.:** LR‑2025‑08‑26‑001  
+**Date:** 26 August 2025  
+
+---
+
+### 1. Applicant Request Summary  
+
+| Item | Detail |
+|------|--------|
+| **Applicant** | Doctor (10 years tenure) |
+| **Requested loan amount** | **USD 10,000** |
+| **Purpose** | Purchase of a motor vehicle |
+| **Proposed term** | **36 months** |
+| **Offered interest rate** | **12 % p.a.** (fixed) |
+| **Annual income** | **USD 120,000** (≈ USD 10,000/month) |
+| **Current total debt** | **USD 50,000** |
+| **Home ownership** | Own |
+| **Credit score** | 750 (good) |
+| **Delinquencies / Bankruptcy** | None |
+| **Number of credit accounts** | 5 |
+
+---
+
+### 2. Behavioural Profile Validation & Reasoning  
+
+| Binary Profile | Assigned Value | Rationale (as supplied) | Interpretation |
+|----------------|----------------|--------------------------|----------------|
+| **Discretionary Spending Share** | 0 | Discretionary share ≈ 26 % (below the 30 % threshold). | Controlled discretionary spend. |
+| **Liquidity Stress** | 1 | No overdrafts, but negative average savings rate (‑18 %) and expenses exceed income. | Low cash buffer – potential short‑term liquidity strain. |
+| **Growth Potential** | 1 | Positive income trend (+12 ) and savings trend (+220 ) indicate upward trajectory. | Financial growth expected. |
+| **Income Stability** | 1 | Income Std‑Dev ≈ 58 on a mean of 3,121 ; modest positive trend. | Stable earnings. |
+| **Expense Volatility** | 0 | Expense Std‑Dev ≈ 208 on a mean of 3,686 ; no erratic spikes. | Predictable expense pattern. |
+| **Savings Habit** | 0 | Average savings rate negative – applicant does not consistently save. | Weak saving discipline. |
+| **Debt Dependence** | 1 | Credit‑card payment ratio > 1 and negative savings rate imply reliance on credit. | High reliance on revolving credit. |
+| **Category Concentration Risk** | 1 | Top spending category consumes ~46 % of total outflows. | Concentrated spending pattern. |
+
+**Overall behavioural insight** – The applicant shows strong income stability and growth potential, but liquidity stress, debt dependence and a concentrated spending pattern elevate the behavioural risk. These signals are acknowledged but do not outweigh the positive credit fundamentals.
+
+---
+
+### 3. Financial Analysis  
+
+| Metric | Calculation | Result |
+|--------|-------------|--------|
+| **Debt‑to‑Income (DTI) Ratio** | Total debt ÷ Annual income = 50,000 ÷ 120,000 | **41.7 %** (below the typical 45‑50 % ceiling) |
+| **Monthly gross income** | 120,000 ÷ 12 | **USD 10,000** |
+| **Proposed monthly installment (incl. interest)** | \(P \times r \times (1+r)^n \big/ \big((1+r)^n-1\big)\)  <br> where *P* = 10,000, *r* = 0.12/12 = 0.01, *n* = 36 | **USD 332.56** |
+| **Monthly debt service after loan** (approx.) | Existing debt service (not disclosed) + 332.56 | – |
+| **Risk Score (internal model)** | — | **0.30** (low‑medium risk) |
+| **Interest Rate** | Fixed | **12 % p.a.** |
+
+*Note:* The DTI reflects total outstanding obligations relative to income; the additional loan raises the monthly outflow by only 3.3 % of gross income, maintaining a comfortable cushion.
+
+---
+
+### 4. Loan Terms & Payment Schedule  
+
+| Item | Detail |
+|------|--------|
+| **Principal** | USD 10,000 |
+| **Annual interest rate** | 12 % (fixed) |
+| **Term** | 36 months |
+| **Monthly interest rate** | 1 % |
+| **Monthly installment** | **USD 332.56** (rounded to two decimals) |
+| **Total repayment** | 332.56 × 36 = **USD 11,972.16** |
+| **Total interest paid** | **USD 1,972.16** |
+
+---
+
+### 5. Final Decision & Motivation  
+
+| Decision | Approved |
+|----------|----------|
+| **Approved amount** | USD 10,000 |
+| **Term** | 36 months |
+| **Interest rate** | 12 % p.a. |
+| **Risk score** | 0.30 |
+| **Rationale** | • The applicant’s credit profile (score 750, 10‑year professional tenure, no delinquencies) is strong. <br>• DTI is 41.7 %, comfortably within policy limits. <br>• Internal risk model assigns a low‑medium score (0.30). <br>• Historical data show **7 analogous approved loans** with identical underwriting characteristics that have **not defaulted**. <br>• Positive income and savings trends offset behavioural flags (liquidity stress, debt dependence). <br>Consequently, the loan is approved under the stated terms. |
+
+---
+
+### 6. Appendices  
+
+**A. Calculation of Monthly Installment**  
+
+\[
+\begin{aligned}
+r &= \frac{0.12}{12}=0.01\\
+n &= 36\\
+P &= 10{,}000\\[4pt]
+\text{Payment} &= P \times \frac{r(1+r)^{n}}{(1+r)^{n}-1}\\
+&= 10{,}000 \times \frac{0.01 \times 1.01^{36}}{1.01^{36}-1}\\
+&\approx 10{,}000 \times \frac{0.01430}{0.430}\\
+&\approx \mathbf{332.56}
+\end{aligned}
+\]
+
+**B. Behavioural Profile Codebook (internal reference)**  
+
+| Code | Meaning |
+|------|----------|
+| 0 – Low/No risk | Behaviour within acceptable thresholds |
+| 1 – Elevated risk | Flagged for monitoring / mitigated via pricing or covenants |
+
+**C. Risk Model Parameters (summary)**  
+
+- **Credit score weight:** 0.35  
+- **DTI weight:** 0.25  
+- **Behavioural flags weight:** 0.20  
+- **Trend analysis weight:** 0.20  
+
+The aggregated score translates to the final **risk_score = 0.30**.
+
+---
+
+**Prepared by:**  
+Risk Analytics – Consumer Lending Unit  
+(automated generation – reviewed by Senior Credit Officer)
+
+**Distribution:** Credit Committee, Loan Operations, Compliance Archive.

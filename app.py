@@ -141,8 +141,12 @@ elif st.session_state.page == "result":
     else:
         st.error("❌ Your loan has been **Denied**.")
 
+    # Here we need to print the report generated from the previous step. 
+    # There must also be a comments box allowing for an ammended report, and an option to accept/download/email the report.
     st.subheader("Reasoning")
     st.write(decision["reason"])
+    user_directives = st.text_area("Add your comments or directives:")
+
 
     if st.button("🔄 Start Over"):
         st.session_state.clear()

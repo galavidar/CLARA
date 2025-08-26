@@ -4,11 +4,11 @@ import os
 import json
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, EVALUATOR_LOG_FILE
+from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, EVALUATOR_LOG_FILE, COUNT_TOKENS
 from token_logger import log_tokens
 from prompts import build_evaluation_prompt
 
-def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rate, term, risk_score, user_directives=None, bank_risk_tolerance="medium", token_counts=True):
+def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rate, term, risk_score, user_directives=None, bank_risk_tolerance="medium"):
     """
     Run the Evaluator Agent to validate outputs of other agents.
     """
@@ -18,14 +18,14 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
 
     # Extract usage if available
     usage = response.response_metadata['token_usage']
-    if token_counts:
+    if COUNT_TOKENS:
         log_tokens('evaluation', response.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
 
     # Save raw output
     timestamp = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
-    with open(EVALUATOR_LOG_FILE, "w", encoding="utf-8") as f:
+    with open(EVALUATOR_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"\n[{timestamp}] Task: Evaluation\n")
-        f.write(json.dumps(response.content, indent=2, ensure_ascii=False))
+        f.write(json.dumps(json.loads(response.content), indent=2, ensure_ascii=False))
         f.write("\n")
 
     return json.loads(response.content)
@@ -59,7 +59,7 @@ def get_model():
     
     return chat_model
 
-def evaluate_decision(loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, risk_tolerance="medium"):
+def evaluate_outputs(loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, risk_tolerance="medium"):
     """
     Wrapper to run the agent that generates a loan report using the specified parameters.
     """
@@ -74,56 +74,9 @@ def evaluate_decision(loan_data, profiles, user_features, interest_rate, loan_te
         decision=decision,
         risk_score=risk_score,
         user_directives=user_directives,
-        bank_risk_tolerance=risk_tolerance,
-        token_counts=True
+        bank_risk_tolerance=risk_tolerance
     )
     return evaluation_result
-
-def orchestrate_pipeline(chat_model, loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, bank_risk_tolerance="medium"):
-    """
-    Full multi-agent orchestration with Supervisor Agent.
-    """
-    # Step 1: Run supervisor on behavioral + decision outputs
-    supervisor_feedback = run_supervisor_agent(
-        chat_model=chat_model,
-        loan_data=loan_data,
-        profiles=profiles,
-        decision=decision,
-        user_directives=user_directives,
-        bank_risk_tolerance=bank_risk_tolerance
-    )
-
-    action = supervisor_feedback.get("action")
-
-    if action == "revise_profiles":
-        print("Supervisor requests revised behavioral profiles.")
-        # 🔁 Call behavioral profiling agent again here
-        return {"status": "rerun_profiles", "comments": supervisor_feedback["comments"]}
-
-    elif action == "revise_decision":
-        print("Supervisor requests revised loan decision.")
-        # 🔁 Call loan decision agent again here
-        return {"status": "rerun_decision", "comments": supervisor_feedback["comments"]}
-
-    elif action == "approve":
-        print("Supervisor approves. Passing to report generator.")
-        # ✅ Call your `run_agent` (report generator) here
-        final_report = run_agent(
-            chat_model=chat_model,
-            loan_data=loan_data,
-            profiles=profiles,
-            user_features=user_features,
-            interest_rate=interest_rate,
-            loan_term=loan_term,
-            decision=decision,
-            risk_score=risk_score,
-            user_directives=user_directives
-        )
-        return {"status": "approved", "report": final_report, "comments": supervisor_feedback["comments"]}
-
-    else:
-        print("Supervisor returned invalid response.")
-        return {"status": "error", "comments": supervisor_feedback.get("comments", "Unknown issue")}
 
 
 def test():
@@ -181,8 +134,7 @@ def test():
         term=36,
         decision="approved",
         risk_score=0.4,
-        user_directives=None,
-        token_counts=False
+        user_directives=None
     )
 
     print(res)

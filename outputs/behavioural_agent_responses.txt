@@ -1,3 +1,266 @@
 
 [2025-08-21 12:21:59] Task: Behavioural Profiling
 "{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, which is moderate rather than high.\",\n    \"liquidity_stress\": \"No overdrafts but credit‑card payment ratio >1 and negative savings rate indicate limited liquid buffers.\",\n    \"growth_potential\": \"Income is trending upward, expenses are decreasing, and savings are growing, showing positive momentum.\",\n    \"income_stability\": \"Income std is low (≈2% of mean) and trend is positive, confirming stable earnings.\",\n    \"expense_volatility\": \"Expense std is modest (≈5.6% of mean) and category volatility is low, so spending is not highly volatile.\",\n    \"savings_habit\": \"Average savings rate is negative (~‑18%), indicating the user does not consistently save.\",\n    \"debt_dependence\": \"Credit‑card payment ratio exceeds 1, suggesting reliance on credit relative to income/limit.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of spending, a strong concentration risk.\"\n  }\n}"
+
+[2025-08-26 12:35:02] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, below a typical high‑spending threshold.\",\n    \"liquidity_stress\": \"No overdrafts but negative savings rate and credit‑card payment ratio >1 indicate low liquidity.\",\n    \"growth_potential\": \"Positive income trend, decreasing expense trend, and rising savings trend suggest upward growth.\",\n    \"income_stability\": \"Income std dev is only ~1.8% of mean, confirming stable income (rule validated).\",\n    \"expense_volatility\": \"Expense std dev is ~5.6% of mean, not enough to deem volatility high (rule validated).\",\n    \"savings_habit\": \"Mean savings rate is negative, showing no consistent saving behavior (rule validated).\",\n    \"debt_dependence\": \"Credit‑card payment ratio exceeds 1 and expenses surpass income, indicating reliance on debt.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of spending, a clear concentration risk (rule validated).\"\n  }\n}"
+
+[2025-08-26 12:35:41] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, below a typical high‑discretionary threshold (≈30%+), so not flagged.\",\n    \"liquidity_stress\": \"No overdrafts, but credit‑card payment ratio >1 and a negative average savings rate indicate low liquidity and stress.\",\n    \"growth_potential\": \"Both income (+12.1) and savings (+220) show positive trends, suggesting upward growth potential.\",\n    \"income_stability\": \"Income std is low (≈2% of mean) and the income trend is positive, confirming stable earnings.\",\n    \"expense_volatility\": \"Expense std (~5.6% of mean) is modest and expense trend is steadily decreasing, not volatile.\",\n    \"savings_habit\": \"Average savings rate is negative (~‑18%), indicating the user is not consistently saving.\",\n    \"debt_dependence\": \"Credit‑card payment ratio exceeds 1, meaning spending relies heavily on credit relative to limits.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of spending, showing a high concentration risk.\"\n  }\n}"
+
+[2025-08-26 12:36:01] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 1,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26% of spending, indicating a high proportion on non‑essential items.\",\n    \"liquidity_stress\": \"Negative savings rate, credit‑card payment ratio >1 and no savings imply low liquidity.\",\n    \"growth_potential\": \"Income is rising (+12), expenses falling (‑208) and savings increasing (+220), showing upward trend.\",\n    \"income_stability\": \"Low income std (≈2% of mean) shows consistent month‑to‑month earnings.\",\n    \"expense_volatility\": \"Expense std ~5.6% of mean, not enough to flag volatility.\",\n    \"savings_habit\": \"Average savings rate is negative, indicating no regular saving habit.\",\n    \"debt_dependence\": \"CC payment ratio >1 and negative savings suggest reliance on credit for cash flow.\",\n    \"category_concentration_risk\": \"Top category accounts for 46% of spending, a strong concentration risk.\"\n  }\n}"
+
+[2025-08-26 14:32:41] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, below a typical high threshold (e.g., >30%).\",\n    \"liquidity_stress\": \"Negative savings rate (-18%), income below expenses, and credit‑card payment ratio >1 indicate low liquidity.\",\n    \"growth_potential\": \"Positive income trend (+12), decreasing expense trend, and rising savings trend show upward trajectory.\",\n    \"income_stability\": \"Income std is low (≈58 on a mean of 3121), indicating stable month‑to‑month earnings.\",\n    \"expense_volatility\": \"Expense std is modest (≈208 on a mean of 3686) and category volatility is low, so spending is not volatile.\",\n    \"savings_habit\": \"Mean savings rate is negative, showing no consistent saving behavior.\",\n    \"debt_dependence\": \"Credit‑card payment ratio >1 suggests reliance on credit relative to income/limit.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of spending, indicating concentration risk.\"\n  }\n}"
+
+[2025-08-26 14:46:52] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, which is not unusually high for non‑essential spending.\",\n    \"liquidity_stress\": \"No overdrafts but credit‑card payment ratio >1 and negative average savings rate indicate low liquidity and reliance on credit.\",\n    \"growth_potential\": \"Income is increasing (+12), expenses are decreasing (‑208), and savings are rising (+220), showing upward financial trajectory.\",\n    \"income_stability\": \"Income std dev (~58) is low relative to mean (~3120), confirming stable month‑to‑month earnings.\",\n    \"expense_volatility\": \"Expense std dev (~208) is only ~5.6% of expense mean, and category volatility is low (0.053), indicating stable spending.\",\n    \"savings_habit\": \"Average savings rate is negative (‑18%) meaning the user is not consistently saving.\",\n    \"debt_dependence\": \"Credit‑card payment ratio >1 suggests spending exceeds credit limits, indicating dependence on debt.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of spending, a high concentration in a single category.\"\n  }\n}"
+
+[2025-08-26 14:49:55] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, not high enough to flag excessive non‑essential spending.\",\n    \"liquidity_stress\": \"Negative average savings rate, high credit‑card payment ratio (>1) and no savings buffer indicate low liquidity.\",\n    \"growth_potential\": \"Income is trending upward (+12 per month) while expenses are decreasing, leading to rising savings.\",\n    \"income_stability\": \"Income std deviation is low (≈2% of mean), showing consistent earnings month‑to‑month.\",\n    \"expense_volatility\": \"Expense standard deviation is modest (≈5.6% of mean) and category volatility is low, indicating stable spending.\",\n    \"savings_habit\": \"Average savings rate is negative, meaning the user typically spends more than earned.\",\n    \"debt_dependence\": \"Credit‑card payment ratio above 1 suggests reliance on credit to meet expenses.\",\n    \"category_concentration_risk\": \"Top category accounts for ~46% of total spending, showing heavy concentration risk.\"\n  }\n}"
+
+[2025-08-26 14:51:43] Task: Behavioural Profiling
+"{\n  \"profiles\": {\n    \"discretionary_spending_share\": 0,\n    \"liquidity_stress\": 1,\n    \"growth_potential\": 1,\n    \"income_stability\": 1,\n    \"expense_volatility\": 0,\n    \"savings_habit\": 0,\n    \"debt_dependence\": 1,\n    \"category_concentration_risk\": 1\n  },\n  \"reasoning\": {\n    \"discretionary_spending_share\": \"Discretionary share is ~26%, below a typical high threshold for non‑essential spending.\",\n    \"liquidity_stress\": \"Negative average savings rate, expenses exceed income, and credit‑card payment ratio >1 indicate limited liquid resources.\",\n    \"growth_potential\": \"Income trend is positive (+12), expense trend is negative (‑208), and savings trend is positive (+220), showing upward financial momentum.\",\n    \"income_stability\": \"Income standard deviation (~58) is small relative to the mean (~3121), reflecting stable earnings month‑to‑month.\",\n    \"expense_volatility\": \"Expense standard deviation (~208) is only ~5.6% of the mean and category volatility is low, indicating stable spending patterns.\",\n    \"savings_habit\": \"Average savings rate is negative (‑18%), meaning the user does not consistently set aside money.\",\n    \"debt_dependence\": \"Credit‑card payment ratio exceeds 1 and expenses regularly outpace income, suggesting reliance on credit to cover spending.\",\n    \"category_concentration_risk\": \"Top category accounts for 46% of total spending, indicating a high concentration in a single or few categories.\"\n  }\n}"
+
+[2025-08-26 14:55:50] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 0,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is not unusually high.",
+    "liquidity_stress": "No overdrafts and credit‑card payments exceed the minimum, but the average savings rate is negative, indicating limited cash buffers.",
+    "growth_potential": "Income is trending upward (+12 per month), expenses are decreasing, and savings are increasing, showing positive growth.",
+    "income_stability": "Income std deviation is very low relative to the mean, indicating stable earnings.",
+    "expense_volatility": "Expense standard deviation (~5.6% of mean) and low category volatility suggest stable monthly spending.",
+    "savings_habit": "Average savings rate is negative, meaning the user typically saves nothing or spends beyond income.",
+    "debt_dependence": "Credit‑card payment ratio >1 shows the user pays more than the required minimum, suggesting low dependence on credit.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, indicating high concentration risk."
+  }
+}
+
+[2025-08-26 15:01:12] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, not markedly high.",
+    "liquidity_stress": "No overdrafts but negative savings rate and credit‑card payment ratio >1 indicate low liquidity.",
+    "growth_potential": "Positive income and savings trends suggest upward trajectory.",
+    "income_stability": "Income mean variation is low (std ≈ 1.8% of mean), confirming stability.",
+    "expense_volatility": "Expense std is modest (~5.6% of mean), so volatility is not high.",
+    "savings_habit": "Mean savings rate is negative, indicating no consistent saving behavior.",
+    "debt_dependence": "Credit‑card payment ratio exceeds 1, showing reliance on credit relative to income/limit.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, a strong concentration risk."
+  }
+}
+
+[2025-08-26 15:02:19] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is not high enough to be flagged.",
+    "liquidity_stress": "Negative savings rate, expenses exceed income and no overdraft buffer indicate low liquidity.",
+    "growth_potential": "Income is rising (+12), expenses are falling, and savings are increasing (+220), showing upward trend.",
+    "income_stability": "Income standard deviation is very low (≈2% of mean), confirming stable income.",
+    "expense_volatility": "Expense std dev is modest (~5% of mean) and no large swings, so volatility is low.",
+    "savings_habit": "Average savings rate is negative, indicating no consistent saving behavior.",
+    "debt_dependence": "Credit‑card payment ratio >1 and expenses exceed income suggest reliance on credit.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, indicating high concentration."
+  }
+}
+
+[2025-08-26 15:04:23] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is moderate rather than high.",
+    "liquidity_stress": "No overdrafts but negative savings rate and increasing deficits suggest limited liquid buffers.",
+    "growth_potential": "Income is trending upward (+12), expenses are decreasing, and savings are increasing, indicating growth.",
+    "income_stability": "Income std is very low relative to mean, showing consistent monthly income.",
+    "expense_volatility": "Expense std (~5.6% of mean) is modest; volatility is not pronounced.",
+    "savings_habit": "Average savings rate is negative, indicating no regular saving behavior.",
+    "debt_dependence": "Credit‑card payment ratio >1 and negative savings rate imply reliance on credit for spending.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, a clear concentration risk."
+  }
+}
+
+[2025-08-26 15:07:45] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is about 26%, which is below a typical high‑discretionary threshold, so it is not considered high.",
+    "liquidity_stress": "Overdraft frequency is zero, but the credit‑card payment ratio is 1.14 (>1) and the average savings rate is -18%, indicating limited liquid buffers and reliance on credit.",
+    "growth_potential": "Income is trending up (+12), expenses are decreasing (-208), and savings are increasing (+220), showing positive financial momentum.",
+    "income_stability": "Income standard deviation (~58) is small relative to the mean (~3121), reflecting consistent month‑to‑month income.",
+    "expense_volatility": "Expense standard deviation (~208) is modest (≈5.6% of mean) and category volatility is low (0.053), indicating stable spending patterns.",
+    "savings_habit": "Mean savings rate is -0.18 (‑18% of income), meaning the user regularly spends more than they earn rather than saving.",
+    "debt_dependence": "Credit‑card payment ratio exceeds 1, showing the user is relying heavily on credit to cover expenditures.",
+    "category_concentration_risk": "The top spending category accounts for 46% of total expenses, indicating a concentration risk in spending."
+  }
+}
+
+[2025-08-26 15:08:45] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is about 26%, which is not exceptionally high.",
+    "liquidity_stress": "Negative average savings rate and credit‑card payment ratio >1 indicate low liquidity despite no overdrafts.",
+    "growth_potential": "Income and savings trends are positive, showing upward financial momentum.",
+    "income_stability": "Income std is very low relative to the mean, reflecting stable monthly income.",
+    "expense_volatility": "Expense std is only ~5% of the mean, indicating stable spending patterns.",
+    "savings_habit": "Average savings rate is negative, showing a lack of consistent saving behavior.",
+    "debt_dependence": "High credit‑card payment ratio and negative savings suggest reliance on credit to cover expenses.",
+    "category_concentration_risk": "The top spending category accounts for roughly 46% of total expenses, signaling concentration risk."
+  }
+}
+
+[2025-08-26 15:14:39] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is not unusually high.",
+    "liquidity_stress": "Negative average savings rate, positive credit‑card payment ratio, and no overdrafts indicate tight liquidity.",
+    "growth_potential": "Income is trending upward (+12), expenses are decreasing, and savings are increasing, showing growth.",
+    "income_stability": "Income std deviation is low relative to mean, confirming stable income (rule validated).",
+    "expense_volatility": "Expense std deviation (~5.6% of mean) is modest; rule correctly marks no volatility.",
+    "savings_habit": "Average savings rate is negative, showing no consistent saving behavior (rule validated).",
+    "debt_dependence": "Reliance on credit is implied by negative savings and a credit‑card payment ratio above 1, indicating dependence on debt.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, indicating concentration risk (rule validated)."
+  }
+}
+
+[2025-08-26 15:21:15] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is not markedly high relative to typical thresholds (~30%+).",
+    "liquidity_stress": "No overdrafts, but negative savings rate (‑18%) and expenses exceeding income indicate low cash buffers and potential liquidity strain.",
+    "growth_potential": "Both income (+12) and savings (+220) show positive trends, suggesting upward financial growth.",
+    "income_stability": "Income std dev is low (≈58 on a mean of 3121) and trend is modestly positive, confirming stable earnings.",
+    "expense_volatility": "Expense std dev (~208) is modest relative to mean expense and no erratic spikes, indicating low volatility.",
+    "savings_habit": "Average savings rate is negative, showing the user does not consistently save from income.",
+    "debt_dependence": "Credit‑card payment ratio >1 and negative savings rate imply reliance on credit to cover shortfalls.",
+    "category_concentration_risk": "Top category consumes ~46% of spending, indicating high concentration risk."
+  }
+}
+
+[2025-08-26 15:28:53] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, below a typical high‑spending threshold.",
+    "liquidity_stress": "Savings rate is negative, expenses exceed income, and credit‑card payment ratio >1, indicating low liquidity.",
+    "growth_potential": "Positive income trend (+12), decreasing expenses, and rising savings trend show upward financial trajectory.",
+    "income_stability": "Income std is low (≈2% of mean), confirming consistent month‑to‑month earnings.",
+    "expense_volatility": "Expense std is modest (~5.6% of mean) and category volatility low, indicating stable spending.",
+    "savings_habit": "Average savings rate is negative, showing no regular saving behavior.",
+    "debt_dependence": "Credit‑card payment ratio >1 and reliance on credit to cover the deficit point to dependence on debt.",
+    "category_concentration_risk": "Top category accounts for ~46% of spending, indicating concentration risk."
+  }
+}
+
+[2025-08-26 15:33:28] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 0,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "Discretionary share is ~26%, which is not unusually high.",
+    "liquidity_stress": "Negative savings rate, high credit‑card payment ratio (>1) and lack of savings indicate low liquidity.",
+    "growth_potential": "Positive income trend and savings trend with declining expenses suggest upward growth potential.",
+    "income_stability": "Low income standard deviation relative to mean shows stable, consistent income.",
+    "expense_volatility": "Expense standard deviation is low relative to mean, indicating stable spending patterns.",
+    "savings_habit": "Average savings rate is negative, showing no consistent habit of saving.",
+    "debt_dependence": "Credit‑card payment ratio >1 and negative savings rate point to reliance on credit for cash flow.",
+    "category_concentration_risk": "Top category accounts for ~46% of total spending, indicating a concentration risk."
+  }
+}
+
+[2025-08-26 15:35:06] Task: Behavioural Profiling

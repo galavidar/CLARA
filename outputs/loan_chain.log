@@ -1,0 +1,38 @@
+2025-08-26 15:35:01,712 - INFO - 
+--- Initial State ---
+{
+  "input_data": {
+    "loan_amount": 10000,
+    "loan_term": 36,
+    "job_title": "Doctor",
+    "job_tenure": 10,
+    "home_status": "OWN",
+    "annual_income": 120000,
+    "loan_purpose": "car",
+    "total_debt": 50000,
+    "delinquencies": "no",
+    "credit_score": 750,
+    "accounts": 5,
+    "bankruptcy": "no"
+  },
+  "retry_count": 0,
+  "current_step": "behavioral"
+}
+
+2025-08-26 15:35:01,712 - INFO - --- Chat History ---
+[human] Loan application: {
+  "loan_amount": 10000,
+  "loan_term": 36,
+  "job_title": "Doctor",
+  "job_tenure": 10,
+  "home_status": "OWN",
+  "annual_income": 120000,
+  "loan_purpose": "car",
+  "total_debt": 50000,
+  "delinquencies": "no",
+  "credit_score": 750,
+  "accounts": 5,
+  "bankruptcy": "no"
+}
+
+2025-08-26 15:35:06,336 - INFO - HTTP Request: POST https://096290-oai.openai.azure.com/openai/deployments/team7-gpt4o/chat/completions?api-version=2023-05-15 "HTTP/1.1 200 OK"

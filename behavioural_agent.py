@@ -4,7 +4,7 @@ from typing import Dict
 from token_logger import log_tokens
 from pydantic import BaseModel, Field
 from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, BEHAVIOURAL_LOG_FILE, USE_HF_MODELS
+from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, BEHAVIOURAL_LOG_FILE, USE_HF_MODELS, COUNT_TOKENS
 from prompts import build_behavioural_json_prompt
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 import os
@@ -102,19 +102,19 @@ def infer_rule_based_profiles(features: Dict) -> Dict[str, int]:
     profiles["category_concentration_risk"] = int(features["top_category_share"] > 0.4)
     return profiles
 
-def run_agent(chat_model, user_features, rule_profiles, token_counter=True):
+def run_agent(chat_model, user_features, rule_profiles, supervisor_comments=None):
     """
     Run the LLM agent for profile inference.
     Logs tokens and returns the JSON result.
     """
-    prompt = build_behavioural_json_prompt(user_features, rule_profiles)
+    prompt = build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comments)
 
     #structured_model = chat_model.with_structured_output(ProfileOutput)
     resp = chat_model.invoke(prompt)
 
     usage = resp.response_metadata['token_usage']
 
-    if token_counter:
+    if COUNT_TOKENS:
         log_tokens('behavioural_features', resp.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
     
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -153,7 +153,7 @@ def get_model():
     
     return chat_model
 
-def extract_behavioural_features(bank, card):
+def extract_behavioural_features(bank, card, supervisor_comments=None):
     """
     Wrapper to run the behavioural profiling agent
     """
@@ -162,8 +162,8 @@ def extract_behavioural_features(bank, card):
 
     chat_model = get_model()
 
-    response = run_agent(chat_model, user_features, profiles)
-    return response.content, user_features
+    response = run_agent(chat_model, user_features, profiles, supervisor_comments)
+    return json.loads(response.content), user_features
 
 def test():
     bank = pd.read_csv('./backend/data/synthetic_users/bank_user_0001.csv')
@@ -181,8 +181,7 @@ def test():
     provider="auto",  # let Hugging Face choose the best provider for you
     )
     chat_model = ChatHuggingFace(llm=llm)
-    
-    r = run_agent(chat_model, out_df, out_prof, token_counter=False)
+    r = run_agent(chat_model, out_df, out_prof)
     print(r.content)
 
 if __name__ == "__main__":

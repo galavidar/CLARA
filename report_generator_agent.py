@@ -4,11 +4,11 @@ from datetime import datetime
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from token_logger import log_tokens
 from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, REPORTS_DIR
+from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, REPORTS_DIR, COUNT_TOKENS
 from prompts import build_loan_report_prompt
 
 
-def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, token_counts=True):
+def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None):
     """
     Generate a loan decision report.
     """
@@ -26,7 +26,7 @@ def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loa
     response = chat_model.invoke(prompt)
 
     usage = response.response_metadata['token_usage']
-    if token_counts:
+    if COUNT_TOKENS:
         log_tokens('report_generation', response.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
 
 
@@ -79,8 +79,7 @@ def generate_loan_report(loan_data, profiles, user_features, interest_rate, loan
         loan_term=loan_term,
         decision=decision,
         risk_score=risk_score,
-        user_directives=user_directives,
-        token_counts=True
+        user_directives=user_directives
     )
     return report
 
@@ -137,8 +136,7 @@ def test():
         loan_term=36,
         decision="approved",
         risk_score=0.4,
-        user_directives=None,
-        token_counts=True
+        user_directives=None
     )
 
 if __name__ == "__main__":

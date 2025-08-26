@@ -1,0 +1,125 @@
+**Confidential – Internal Credit Assessment Report**  
+**Date:** 26 August 2025  
+**Prepared by:** Credit Analytics Team  
+
+---
+
+## 1. Applicant Request Summary  
+
+| Item                     | Detail                                                            |
+|--------------------------|-------------------------------------------------------------------|
+| **Applicant**            | Doctor (10 years tenure)                                          |
+| **Requested Loan**       | **USD 10,000** – purpose: purchase of a car                        |
+| **Loan Term**            | **36 months** (3 years)                                            |
+| **Proposed Interest**    | **12 % p.a.** (fixed)                                              |
+| **Annual Income**        | **USD 120,000** (≈ USD 10,000 / month)                              |
+| **Home Ownership**       | Own                                                               |
+| **Current Debt**         | **USD 50,000** (total outstanding balances)                        |
+| **Credit History**       | Credit score 750, 5 open accounts, no delinquencies, no bankruptcy |
+| **Risk Score (model)**   | **0.30** (on a 0‑1 scale – lower is better)                        |
+
+The applicant seeks a short‑term, moderate‑size unsecured loan to finance a vehicle purchase.
+
+---
+
+## 2. Behavioural Profile Validation  
+
+| Behavioural Flag | Binary Value | Interpretation (per rationale) | Impact on Credit Decision |
+|------------------|--------------|--------------------------------|---------------------------|
+| **Discretionary Spending Share** | 0 | Discretionary share ≈ 26 % – moderate, not excessive. | Neutral |
+| **Liquidity Stress** | 1 | No overdrafts but a **negative average savings rate (‑18 %)** and growing cash deficits indicate limited liquid buffers. | Slight caution |
+| **Growth Potential** | 1 | **Income trend +12 %** (monthly upward), **expenses decreasing (‑208 )** and **savings trend positive (+220 )** suggest improving financial capacity. | Positive |
+| **Income Stability** | 1 | Income standard deviation is extremely low (≈ 1.9 % of mean), reflecting a highly stable earnings stream. | Positive |
+| **Expense Volatility** | 0 | Expense volatility modest (≈ 5.6 % of mean). | Neutral |
+| **Savings Habit** | 0 | **Average savings rate negative** – the applicant does not habitually set aside surplus funds. | Slight caution |
+| **Debt Dependence** | 1 | **Credit‑card payment ratio > 1** and negative savings rate indicate reliance on revolving credit for consumption. | Caution |
+| **Category Concentration Risk** | 1 | **Top spending category accounts for ~46 %** of total outflows, exposing the applicant to concentration risk. | Caution |
+
+**Overall Behavioural Assessment** – The applicant displays strong income stability and growth potential, offset by limited liquidity, a lack of disciplined saving, and a modest dependence on credit. These factors are **balanced** by the high credit score and absence of delinquencies.
+
+---
+
+## 3. Financial Analysis  
+
+### 3.1 Debt‑to‑Income Ratio (DTI)  
+
+- **Annual Income:** USD 120,000  
+- **Total Debt (outstanding):** USD 50,000  
+
+\[
+\text{DTI (annual)} = \frac{50,000}{120,000}=0.4167\;(41.7\%)
+\]
+
+A DTI below 45 % is generally considered acceptable for unsecured consumer credit. The applicant therefore sits comfortably within the institution’s risk appetite.
+
+### 3.2 Monthly Installment Calculation  
+
+- **Principal (P):** USD 10,000  
+- **Annual Rate (rₐ):** 12 % → **Monthly Rate (rₘ) = 0.12 / 12 = 0.01**  
+- **Number of Payments (n):** 36  
+
+\[
+\text{Payment} = P \times \frac{r_m (1+r_m)^n}{(1+r_m)^n - 1}
+\]
+
+\[
+(1+r_m)^n = (1.01)^{36} \approx 1.430
+\]
+
+\[
+\text{Payment} = 10,000 \times \frac{0.01 \times 1.430}{1.430 - 1}
+               = 10,000 \times \frac{0.01430}{0.430}
+               \approx 10,000 \times 0.03326
+               \approx \boxed{USD 332.56\text{ per month}}
+\]
+
+The monthly obligation represents **3.33 %** of the applicant’s gross monthly income (USD 10,000), well within acceptable limits.
+
+### 3.3 Risk Metrics  
+
+| Metric | Value | Benchmark / Interpretation |
+|--------|-------|----------------------------|
+| **Credit Score** | 750 | Excellent (≥ 720) |
+| **Model Risk Score** | 0.30 | Low‑to‑moderate risk (scale 0‑1) |
+| **Liquidity Stress Flag** | 1 | Indicates need for monitoring of cash buffers |
+| **Debt Dependence Flag** | 1 | Suggests vigilance on revolving‑credit usage |
+
+All quantitative inputs lie in the range that historically correlates with a **low default propensity** for this product class.
+
+---
+
+## 4. Decision & Motivation  
+
+**Decision:** **APPROVED**  
+
+**Loan Terms:**  
+- **Principal:** USD 10,000  
+- **Term:** 36 months  
+- **Interest Rate:** 12 % p.a. (fixed)  
+- **Monthly Repayment:** USD 332.56  
+
+**Rationale:**  
+
+1. **Creditworthiness** – The applicant’s credit score (750), 10‑year professional tenure, and clean delinquency/bankruptcy record present a strong credit profile.  
+2. **Income Profile** – Stable, low‑volatility income with an upward trend provides a solid repayment capacity.  
+3. **DTI** – At 41.7 % the debt burden is comfortably beneath the institution’s threshold for unsecured credit.  
+4. **Behavioural Signals** – While the applicant shows limited savings habit and some reliance on credit, the overall behavioural flags are offset by strong growth potential and income stability.  
+5. **Historical Precedent** – Seven comparable loan cases in the internal database were approved under identical terms and exhibited **no defaults**, supporting a data‑driven confidence in this approval.  
+
+Given the combination of quantitative metrics and qualitative behavioural insights, the loan is approved with the standard 12 % rate and a three‑year amortisation schedule. Ongoing monitoring of liquidity buffers and credit‑card utilization is recommended as part of post‑disbursement risk management.
+
+---
+
+## 5. Attachments & Supporting Documentation  
+
+1. **Credit Score Report** (Experian/Equifax) – attached PDF.  
+2. **Income Verification** – latest 12‑month payslips and tax return summary.  
+3. **Debt Schedule** – breakdown of existing obligations (mortgage, auto loan, credit cards).  
+4. **Behavioural Profile Dashboard** – visualisation of key behavioural flags.  
+
+---  
+
+**Prepared for:** Credit Risk Committee  
+**Prepared by:** Credit Analytics – Automated Decision Engine (validated by Senior Credit Analyst)  
+
+*End of Report*

@@ -1,3 +1,4 @@
 timestamp,task,prompt_tokens,completion_tokens,total_tokens,cost_usd,cumulative_tokens,total_cost_usd
 2025-08-20T11:40:11.437596,behavioural_features,682,323,1005,0.0002961,1005,0.0002961
 2025-08-21T10:46:05.714638,behavioural_features,682,309,991,0.0002877,1996,0.0005838
+2025-08-26T15:35:06.336010,behavioural_features,702,315,1017,0.004905,3013,0.005489
