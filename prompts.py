@@ -22,7 +22,7 @@ def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comme
     messages = [
         SystemMessagePromptTemplate.from_template(
             "You are a financial profile inference agent. "
-            "Your task is to analyze user financial data and infer profiles based on provided features and rule-based profiles."
+            "Your task is to analyze an applicant's financial data and infer profiles based on provided features and rule-based profiles."
             "Your response should be a valid dictionary object with the following schema:\n"
             "- profiles: mapping of profile -> 0/1\n"
             "- reasoning: mapping of profile -> short explanation\n"
@@ -33,7 +33,7 @@ def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comme
                 Profiles definitions:
                 {profiles_definitions}
 
-                User data:
+                Applicant data:
                 {user_features}
 
                 Rule-based profiles:
@@ -182,3 +182,77 @@ def build_evaluation_prompt(loan_data, features, profiles, rate, term, risk_scor
         user_directives=user_directives or "No additional directives provided."
     )
 
+def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score, supervisor_comments=None):
+    """
+    Builds a LangChain chat prompt that instructs the model to decide on a loan application.
+    """
+    messages = [
+        SystemMessagePromptTemplate.from_template(
+            "You are a financial decision-making agent."
+            "Your task is to analyze the applicant's financial data and profiling and make a decision on the loan application. You are provided with a 0-1 risk score from a machine learning model where 0 is risk-free."
+            "Additionally, you are provided with a predicted interest rate and a applicant-requested loan-term. You may change these values if needed."
+            "Your response should be a valid dictionary object with the following schema:\n"
+            "- decision: a final decision -> accepted/rejected \n"
+            "- reason: motivation for decision -> short explanation\n"
+            "- interest_rate: the final interest rate -> float\n"
+            "- loan_term: the final loan term -> int\n"
+        ),
+        HumanMessagePromptTemplate.from_template(
+            """Task: decide on loan application
+
+                Inputs:
+                - Loan application data: {loan_data}
+                - Summary of key financial metrics of applicant: {features}
+                - Binary behavioural profiles: {profiles}
+                - Reason for profile assignments: {profile_reasons}
+                - Interest rate (predicted, allowed to change): {interest_rate}
+                - Loan term (by applicant request): {loan_term}
+                - Risk score (0-1, ML model output): {risk_score}
+
+                Instructions:
+                - Analyse the applicant's data, the provided profiles and the risk score to make a decision.
+                - Consider the potential impact of the loan terms on the applicant's financial situation.
+                - Evaluate if the predicted interest rate aligns with the applicant's risk profile.
+                - Evaluate if the term length is appropriate given the applicant's financial situation.
+                - Recommend adjustments to the loan terms if they do not align with the applicant's risk profile or financial situation.
+
+                Output schema:
+                "- decision: a final decision -> accepted/rejected \n"
+                "- reason: motivation for decision -> short explanation\n"
+                "- interest_rate: the final interest rate -> float\n"
+                "- loan_term: the final loan term -> int\n"
+                """
+        )]
+    
+    if supervisor_comments:
+        messages.append(
+            AIMessagePromptTemplate.from_template(
+                "\n\n{previous_response}"
+            )
+        )
+        messages.append(
+            HumanMessagePromptTemplate.from_template(
+                "Supervisor feedback:\n\nAction: {action}\nComments: {comments}\n\n"
+                "Revise your response accordingly, keeping strictly to the JSON schema."
+            )
+        )
+    prompt = ChatPromptTemplate.from_messages(messages)
+
+    kwargs = {
+        "loan_data": json.dumps(loan_data, indent=2),
+        "features": json.dumps({k: v for k, v in features.items() if k != "last3_category_shares"}, indent=2),
+        "profiles": json.dumps(profiles.get("profiles", {}), indent=2),
+        "profile_reasons": json.dumps(profiles.get("reasoning", {}), indent=2),
+        "interest_rate": rate,
+        "loan_term": term,
+        "risk_score": risk_score,
+    }
+
+    if supervisor_comments:
+        kwargs.update({
+            "previous_response": json.dumps(supervisor_comments.get("previous_response", {}), indent=2),
+            "action": supervisor_comments.get("action", ""),
+            "comments": supervisor_comments.get("comments", "")
+        })
+
+    return prompt.format(**kwargs)
