@@ -6,7 +6,7 @@ from datetime import datetime
 from token_logger import log_tokens
 from pydantic import BaseModel, Field
 from config import BEHAVIOURAL_LOG_FILE, COUNT_TOKENS
-from agents.prompts import build_behavioural_json_prompt
+from prompts import build_behavioural_json_prompt
 from utils import get_model, normalize_json
 
 class ProfileOutput(BaseModel):

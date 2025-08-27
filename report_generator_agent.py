@@ -1,11 +1,10 @@
 import os
 import numpy as np
 from datetime import datetime
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from token_logger import log_tokens
-from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, REPORTS_DIR, COUNT_TOKENS
+from config import REPORTS_DIR, COUNT_TOKENS
 from agents.prompts import build_loan_report_prompt
+from utils import get_model
 
 
 def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None):
@@ -37,34 +36,6 @@ def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loa
     
     return response.content
 
-def get_model():
-    """
-    Determines and initiates the model to be used
-    """
-    if USE_HF_MODELS:
-        os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
-        llm = HuggingFaceEndpoint(
-            repo_id="openai/gpt-oss-120b",  # free OSS model
-            task="text-generation",
-            max_new_tokens=2056,
-            do_sample=False,
-            repetition_penalty=1.03,
-            provider="auto",
-        )
-        chat_model = ChatHuggingFace(llm=llm)
-    
-    else:
-        chat_model = AzureChatOpenAI(
-        azure_deployment=CHAT_DEPLOYMENT,
-        azure_endpoint = AZURE_OPENAI_ENDPOINT,
-        api_key = AZURE_OPENAI_API_KEY,
-        openai_api_type = "azure",
-        openai_api_version = API_VERSION,
-        model = 'gpt-4o-mini'
-        )
-    
-    return chat_model
-
 def generate_loan_report(loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None):
     """
     Wrapper to run the agent that generates a loan report using the specified parameters.
@@ -85,17 +56,8 @@ def generate_loan_report(loan_data, profiles, user_features, interest_rate, loan
 
     
 def test():
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
 
-    llm = HuggingFaceEndpoint(
-        repo_id="openai/gpt-oss-120b",   # free OSS model
-        task="text-generation",
-        max_new_tokens=2056,
-        do_sample=False,
-        repetition_penalty=1.03,
-        provider="auto",
-    )
-    chat_model = ChatHuggingFace(llm=llm)
+    chat_model = get_model()
     report = run_agent(
         chat_model=chat_model,
         loan_data={

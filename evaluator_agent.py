@@ -1,12 +1,10 @@
 from datetime import datetime
 import numpy as np
-import os
 import json
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
-from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, EVALUATOR_LOG_FILE, COUNT_TOKENS
+from config import EVALUATOR_LOG_FILE, COUNT_TOKENS
 from token_logger import log_tokens
-from agents.prompts import build_evaluation_prompt
+from prompts import build_evaluation_prompt
+from utils import get_model, normalize_json
 
 def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rate, term, risk_score, user_directives=None, bank_risk_tolerance="medium"):
     """
@@ -15,7 +13,8 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
     prompt = build_evaluation_prompt(loan_data, applicant_features, profiles, rate, term, risk_score, decision, user_directives, bank_risk_tolerance)
 
     response = chat_model.invoke(prompt)
-    print(response.content)
+    resp_dict = normalize_json(response.content)
+    print(resp_dict)
     # Extract usage if available
     usage = response.response_metadata['token_usage']
     if COUNT_TOKENS:
@@ -25,39 +24,11 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
     timestamp = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
     with open(EVALUATOR_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"\n[{timestamp}] Task: Evaluation\n")
-        f.write(json.dumps(response.content, indent=2, ensure_ascii=False))
+        json.dump(resp_dict, f, indent=2, ensure_ascii=False)
         f.write("\n")
-    
-    return response.content
 
+    return resp_dict
 
-def get_model():
-    """
-    Determines and initiates the model to be used
-    """
-    if USE_HF_MODELS:
-        os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
-        llm = HuggingFaceEndpoint(
-            repo_id="openai/gpt-oss-120b",  # free OSS model
-            task="text-generation",
-            max_new_tokens=512,
-            do_sample=False,
-            repetition_penalty=1.03,
-            provider="auto",
-        )
-        chat_model = ChatHuggingFace(llm=llm)
-    
-    else:
-        chat_model = AzureChatOpenAI(
-        azure_deployment=CHAT_DEPLOYMENT,
-        azure_endpoint = AZURE_OPENAI_ENDPOINT,
-        api_key = AZURE_OPENAI_API_KEY,
-        openai_api_type = "azure",
-        openai_api_version = API_VERSION,
-        model = 'gpt-4o-mini'
-        )
-    
-    return chat_model
 
 def evaluate_outputs(loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, risk_tolerance="medium"):
     """

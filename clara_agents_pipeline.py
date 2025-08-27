@@ -4,10 +4,10 @@ import logging, json
 from langchain.chains.base import Chain
 from langchain.memory import ConversationBufferMemory
 from langchain.schema.runnable import RunnableLambda
-from agents.behavioural_agent import extract_behavioural_features
-from agents.evaluator_agent import evaluate_outputs
-from agents.report_generator_agent import generate_loan_report
-from agents.decision_agent import decide
+from behavioural_agent import extract_behavioural_features
+from evaluator_agent import evaluate_outputs
+from report_generator_agent import generate_loan_report
+from decision_agent import decide
 import pandas as pd
 
 logging.basicConfig(filename="./outputs/loan_chain.log",
