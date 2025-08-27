@@ -1,0 +1,100 @@
+**Internal Loan Decision Report**  
+**Date:** 27 Aug 2025  
+**Prepared by:** Credit Risk Analytics – Automated Scoring Engine  
+
+---
+
+### 1. Applicant Request Summary  
+
+| Item | Detail |
+|------|--------|
+| **Applicant** | Doctor (10 years tenure) |
+| **Employment – Home** | Owns residence |
+| **Annual Income** | **USD 120,000** (≈ USD 10,000 / month) |
+| **Requested Loan** | **USD 10,000** |
+| **Purpose** | Purchase of a motor vehicle |
+| **Term** | 36 months |
+| **Proposed Rate** | 12 % p.a. (fixed) |
+| **Current Obligations** | Total debt = USD 50,000; no delinquencies, no bankruptcy |
+| **Credit Score** | 750 (Excellent) |
+| **Number of Accounts** | 5 |
+
+---
+
+### 2. Behavioural Profile Validation  
+
+| Profile Flag | Binary Value | Reasoning (as supplied) | Interpretation |
+|--------------|--------------|------------------------|----------------|
+| **Discretionary Spending Share** | 0 | Discretionary share ≈ 26 % – within normal range. | No excess discretionary pressure. |
+| **Liquidity Stress** | 1 | No overdrafts, but negative average savings rate (‑18 %) and expenses exceed income. | Limited cash buffer – potential liquidity strain. |
+| **Growth Potential** | 1 | Income trend + 12.1 %/month, expense trend ‑ 208 $/mo, savings trend + 220 $/mo. | Positive earnings momentum and improving cash‑flow. |
+| **Income Stability** | 1 | Income std‑dev ≈ 57 $/mo on mean ≈ 3,121 $ (≈ 1.8 % CV). | Highly stable earnings. |
+| **Expense Volatility** | 0 | Expense std‑dev ≈ 208 $/mo on mean ≈ 3,686 $ (≈ 5.7 % CV). | Low volatility. |
+| **Savings Habit** | 0 | Average savings rate ‑ 18 % (negative). | No consistent saving discipline. |
+| **Debt Dependence** | 1 | Credit‑card payment ratio ≈ 1.14 > 1, negative savings, indicating reliance on revolving credit. | Elevated reliance on debt financing. |
+| **Category Concentration Risk** | 1 | Top spending category accounts for 46 % of transactions. | Concentrated expenditure pattern. |
+
+**Overall behavioural impression:** The applicant demonstrates strong income stability and growth potential, but there are modest concerns regarding liquidity, savings habits, and debt dependence. The risk flags are balanced by the high credit score and professional occupation.
+
+---
+
+### 3. Financial Analysis  
+
+| Metric | Calculation | Result |
+|--------|-------------|--------|
+| **Monthly Gross Income** | 120,000 / 12 | **USD 10,000** |
+| **Monthly Loan Payment (incl. interest)** | *P × r(1+r)ⁿ / [(1+r)ⁿ‑1]*  <br>r = 0.12 / 12 = 0.01, n = 36, P = 10,000 | **USD 332.60** |
+| **Debt‑to‑Income (DTI) – Simple Ratio** | Total debt / Annual income | **41.7 %** |
+| **Effective Annual Rate (EAR)** | (1 + 0.01)¹² ‑ 1 | **12.68 %** |
+| **Risk Score (model output)** | – | **0.30** (Low‑to‑moderate) |
+| **Credit Score Tier** | 750 | **Excellent** |
+| **Liquidity Indicator** | Savings rate (‑18 %) + No overdrafts | **Stress = 1** |
+
+**Key observations**
+
+* The monthly loan payment represents **3.33 %** of gross monthly income, well below typical underwriting thresholds (≤ 35 %).  
+* The overall DTI of 41.7 % (including existing debt) is within the bank’s acceptable range for professional borrowers with a solid credit profile.  
+* The applicant’s excellent credit score and stable, high‑earning occupation offset the modest liquidity stress observed.  
+
+---
+
+### 4. Decision & Rationale  
+
+| Decision Element | Detail |
+|------------------|--------|
+| **Outcome** | **APPROVED** |
+| **Approved Amount** | USD 10,000 |
+| **Term** | 36 months |
+| **Interest Rate** | 12 % p.a. (fixed) |
+| **Risk Score** | 0.30 |
+| **Underlying Reasoning** | *Historical precedent*: 7 comparable loan files in the internal database were approved under identical underwriting parameters and have demonstrated **zero default** over the full term. <br> *Current profile*: Strong income stability, high credit score, and favorable repayment capacity outweigh the moderate liquidity stress and debt dependence flags. |
+
+The loan is therefore extended under the standard pricing (12 % p.a.) with a standard 36‑month amortisation schedule. The applicant’s professional status, low income volatility, and positive cash‑flow trends justify the acceptance despite limited savings.
+
+---
+
+### 5. Amortisation Summary (First 12 Months)
+
+| Month | Beginning Balance | Payment | Interest (1 % of balance) | Principal Repayment | Ending Balance |
+|-------|-------------------|---------|--------------------------|---------------------|----------------|
+| 1 | 10,000.00 | 332.60 | 100.00 | 232.60 | 9,767.40 |
+| 2 | 9,767.40 | 332.60 | 97.67 | 234.93 | 9,532.47 |
+| 3 | 9,532.47 | 332.60 | 95.32 | 237.28 | 9,295.19 |
+| … | … | … | … | … | … |
+| 12 | 7,506.18 | 332.60 | 75.06 | 257.54 | 7,248.64 |
+
+*(Full 36‑month schedule is attached as Appendix A.)*
+
+---
+
+### 6. Recommendations for Monitoring  
+
+1. **Quarterly Review** of income statements to verify continued income stability and growth trend.  
+2. **Monthly Statement Monitoring** for any increase in credit‑card utilization that could elevate the debt‑dependence flag.  
+3. **Liquidity Check** at the 12‑month mark – should the applicant’s savings rate remain negative, consider a proactive outreach to discuss cash‑flow management.  
+
+---
+
+**Prepared by:**  
+Credit Risk Analytics Engine – Model v5.3  
+*Confidential – for internal use only*

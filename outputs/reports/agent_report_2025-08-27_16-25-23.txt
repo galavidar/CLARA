@@ -1,0 +1,105 @@
+**Internal Loan Decision Report**  
+**Confidential – Bank Use Only**  
+
+---
+
+### 1. Applicant Overview  
+
+| Field                  | Detail                               |
+|------------------------|--------------------------------------|
+| **Applicant**          | Dr. [Name Redacted] – Medical Doctor |
+| **Job Tenure**         | 10 years                              |
+| **Home Ownership**     | Own                                   |
+| **Annual Income**      | $120,000 (≈ $10,000 / month)          |
+| **Requested Loan**     | $10,000                               |
+| **Loan Purpose**       | Purchase of a vehicle (car)          |
+| **Loan Term**          | 36 months                             |
+| **Proposed Rate**      | 12 % (annual)                         |
+| **Credit Score**       | 750                                   |
+| **Delinquencies**      | None reported                         |
+| **Bankruptcy**         | None                                   |
+| **Total Existing Debt**| $50,000 (balance of all other obligations) |
+
+---
+
+### 2. Behavioural Profile Validation  
+
+| Profile Flag | Binary Indicator | Rationale (as supplied) | Assessment |
+|--------------|------------------|------------------------|------------|
+| **Discretionary Spending Share** | 1 | Discretionary share ≈ 26 % (relatively high). | **Attention** – non‑essential spend is elevated. |
+| **Liquidity Stress** | 1 | Negative average savings rate (‑18 %) and no overdrafts ⇒ limited liquid reserves. | **Attention** – low cushion for unexpected cash‑flow shocks. |
+| **Growth Potential** | 1 | Income trending up (+$12 / mo), expenses falling (‑$208 / mo), savings improving (+$220 / mo). | **Positive** – strong upward momentum. |
+| **Income Stability** | 1 | Income SD = $57.8 (≈ 1.8 % of mean) – very stable month‑to‑month earnings. | **Positive** – reliable cash‑flow source. |
+| **Expense Volatility** | 0 | Expense SD ≈ 5.6 % of mean and low category volatility – spending is not highly volatile. | **Neutral/Positive** – predictable expense pattern. |
+| **Savings Habit** | 0 | Average savings rate –18 % (negative) – applicant does not regularly save. | **Concern** – potential reliance on credit. |
+| **Debt Dependence** | 1 | Credit‑card payment ratio = 1.14 (> 1) and negative savings indicate reliance on revolving credit. | **Attention** – higher sensitivity to additional debt. |
+| **Category Concentration Risk** | 1 | Top spending category accounts for 46 % of total spend – high concentration risk. | **Attention** – limited diversification of expense categories. |
+
+**Overall Behavioural Interpretation**  
+The applicant exhibits strong **income stability** and **growth potential**, which offset several risk flags (high discretionary spend, liquidity stress, debt dependence, and category concentration). The **risk score of 0.30** (on a 0‑1 scale) reflects this balanced view.
+
+---
+
+### 3. Financial Analysis  
+
+| Metric | Calculation | Result |
+|--------|-------------|--------|
+| **Monthly Gross Income** | $120,000 ÷ 12 | **$10,000** |
+| **Proposed Monthly Installment** | PMT = P × r(1+r)^n / [(1+r)^n – 1] <br>r = 0.12/12 = 0.01, n = 36, P = $10,000 | **$332.56** |
+| **Debt‑to‑Income (DTI) Ratio – Existing Debt** | $50,000 ÷ $120,000 | **41.7 %** |
+| **DTI Ratio – Including New Loan** | ($50,000 + $10,000) ÷ $120,000 | **50.0 %** |
+| **Debt Service Coverage Ratio (DSCR)** | Monthly Income ÷ (Existing Monthly Debt Payments + New Loan Payment) * (approx.) | Not directly supplied; however, the new payment consumes **3.3 %** of gross monthly income, leaving ample headroom given the applicant’s stable earnings. |
+| **Interest Rate** | Fixed annual rate supplied | **12 %** |
+| **Risk Score** | Model output | **0.30** (low‑to‑moderate) |
+| **Credit Score** | Supplied | **750** (excellent) |
+
+**Interpretation**  
+- The **DTI of 50 %** remains within the bank’s acceptable threshold for professional borrowers (≤ 55 %).  
+- The **monthly loan payment ($332.56)** represents **3.3 %** of gross monthly income, well below typical affordability caps (≤ 10 %).  
+- The high credit score and strong income stability further mitigate the elevated discretionary and liquidity flags.
+
+---
+
+### 4. Loan Terms & Repayment Schedule  
+
+| Component | Detail |
+|-----------|--------|
+| **Principal** | $10,000 |
+| **Annual Rate** | 12 % (fixed) |
+| **Term** | 36 months |
+| **Monthly Rate** | 1 % |
+| **Monthly Installment (Principal + Interest)** | **$332.56** |
+| **Total Repayment (Principal + Interest)** | $332.56 × 36 = $11,972.16 |
+| **Total Interest Charged** | $1,972.16 |
+
+---
+
+### 5. Decision & Justification  
+
+| Decision | Approved |
+|----------|----------|
+| **Interest Rate** | 12 % (as proposed) |
+| **Term** | 36 months |
+| **Risk Score** | 0.30 |
+| **Justification** | 1. The applicant’s **high credit score (750)** and **stable, upward‑trending income** provide a solid repayment capacity. <br>2. The **DTI remains within policy limits**, and the **monthly installment consumes a modest 3.3 %** of gross monthly income. <br>3. **Behavioural analysis** highlights growth potential and income stability that outweigh the identified concerns (high discretionary spend, liquidity stress, debt dependence). <br>4. The **risk score of 0.30** aligns with the bank’s historical approval set – seven comparable cases in the database were approved and showed no default over the loan horizon. <br>5. No delinquencies or bankruptcy history are present. <br>**Conclusion:** The risk‑adjusted profile, combined with quantitative metrics, supports approval of the $10,000 vehicle loan under the stated terms. |
+
+---
+
+### 6. Appendices  
+
+**Appendix A – Behavioural Profile Scoring Model**  
+(Internal reference – not reproduced here.)
+
+**Appendix B – Calculation Worksheet**  
+- Monthly rate (r) = 12 % ÷ 12 = 0.01  
+- (1 + r)^n = (1.01)^36 ≈ 1.430  
+- Payment = 10,000 × 0.01 × 1.430 ÷ (1.430 – 1) ≈ $332.56  
+
+**Appendix C – Comparable Historical Cases**  
+- 7 prior loans in the same risk‑score bucket (0.28‑0.32) approved; 0 % default observed over 36‑month repayment periods.
+
+---
+
+**Prepared by:** Credit Risk Analyst – Automated Decision Engine  
+**Date:** 27 August 2025  
+**Confidential – For internal use only**

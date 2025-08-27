@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime
 from token_logger import log_tokens
 from config import REPORTS_DIR, COUNT_TOKENS
-from agents.prompts import build_loan_report_prompt
+from prompts import build_loan_report_prompt
 from utils import get_model
 
 

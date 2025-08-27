@@ -1,0 +1,126 @@
+**CONFIDENTIAL – INTERNAL LOAN DECISION REPORT**  
+*Prepared by: Credit Risk Analytics Team*  
+*Date: 27‑Aug‑2025*  
+
+---  
+
+## 1. Applicant Request Summary  
+
+| Item | Detail |
+|------|--------|
+| **Applicant** | Doctor (10 years tenure) |
+| **Loan amount** | **$10,000** |
+| **Purpose** | Purchase of a car |
+| **Requested term** | **36 months** |
+| **Proposed interest rate** | **12 % p.a.** (fixed) |
+| **Annual income** | **$120,000** |
+| **Home ownership** | **OWN** |
+| **Current total debt** | **$50,000** |
+| **Credit score** | **750** |
+| **Delinquencies / Bankruptcy** | None reported |
+| **Number of banking accounts** | 5 |
+
+The applicant seeks a short‑term, medium‑size consumer loan to finance a vehicle purchase.  
+
+---  
+
+## 2. Financial Analysis  
+
+| Metric | Calculation | Result |
+|--------|-------------|--------|
+| **Debt‑to‑Income (DTI) ratio** | Total debt ÷ Annual income = 50,000 ÷ 120,000 | **41.7 %** |
+| **Monthly installment (principal + interest)** | 𝑃 × r(1+r)ⁿ / [(1+r)ⁿ − 1]  <br>where 𝑃 = 10,000; r = 0.12/12 = 0.01; n = 36 | **$332.15** |
+| **Annualized effective rate** | (1 + 0.01)¹² − 1 | 12.68 % |
+| **Projected annual cash outflow for loan** | 332.15 × 12 = 3,985.80 | **$3,985.80** |
+| **Income‑to‑loan payment ratio** | Annual income ÷ Annual loan payment = 120,000 ÷ 3,985.80 | **30.1 ×** |
+
+*Interpretation* – The DTI of 41.7 % is within the bank’s acceptable range for professional borrowers. The applicant’s income comfortably exceeds the loan‑service requirement (30 × coverage).  
+
+---  
+
+## 3. Behavioural Profile Validation  
+
+| Behavioural Flag | Binary Value | Reasoning (as supplied) | Assessment |
+|------------------|-------------|-------------------------|------------|
+| **Discretionary spending share** | 0 | Discretionary share ≈ 26 % – not unusually high. | **Acceptable** |
+| **Liquidity stress** | 1 | Negative savings rate, credit‑card payment ratio > 1, expenses exceed income. | **Elevated risk (low liquidity)** |
+| **Growth potential** | 1 | Positive income trend (+12 % YoY), decreasing expense trend (‑208 $/mo), positive savings trend (+220 $/mo). | **Positive** |
+| **Income stability** | 1 | Income standard deviation is 57 $/mo on a mean of 3,121 $/mo (≈ 1.85 %). | **Very stable** |
+| **Expense volatility** | 0 | Expense std ≈ 208 $/mo on mean 3,686 $/mo (≈ 5.6 %). | **Modest** |
+| **Savings habit** | 0 | Average savings rate is negative – no consistent saving behaviour. | **Weak** |
+| **Debt dependence** | 1 | Credit‑card payment ratio > 1 indicates heavy reliance on revolving credit. | **Elevated** |
+| **Category concentration risk** | 1 | Top spending category accounts for 46 % of total, top two exceed 60 %. | **Elevated** |
+
+**Overall behavioural view** – The applicant demonstrates strong income stability and growth potential, but liquidity stress, debt dependence, and spending concentration are noted. The binary flags are consistent with the supplied quantitative metrics.  
+
+---  
+
+## 4. Risk Metrics  
+
+| Metric | Value | Bank Benchmark | Verdict |
+|--------|-------|----------------|---------|
+| **Credit score** | 750 | ≥ 720 – low risk | **Low** |
+| **Risk score (model output)** | 0.30 | ≤ 0.35 – acceptable | **Low‑to‑moderate** |
+| **Liquidity stress flag** | 1 | Flaged – requires monitoring | **Watchlist** |
+| **Debt dependence flag** | 1 | Flaged – requires monitoring | **Watchlist** |
+| **Historical performance** | 7 similar approved loans – zero defaults | Positive precedent | **Favourable** |
+
+The composite risk score of 0.30 indicates a low‑to‑moderate probability of default, well within the bank’s underwriting tolerance for a professional borrower.  
+
+---  
+
+## 5. Loan Terms & Repayment Schedule  
+
+| Parameter | Value |
+|-----------|-------|
+| **Principal** | $10,000 |
+| **Annual nominal rate** | 12 % (fixed) |
+| **Monthly rate** | 1.00 % |
+| **Term** | 36 months |
+| **Monthly repayment** | **$332.15** (principal + interest) |
+| **Total interest paid** | $1,957.40 |
+| **Total cost of loan** | $11,957.40 |
+
+The amortisation schedule is attached as **Appendix A**.  
+
+---  
+
+## 6. Final Decision & Rationale  
+
+**Decision:** **APPROVED**  
+
+**Approved terms:** 12 % annual interest, 36‑month term, monthly payment $332.15.  
+
+**Rationale**  
+
+1. **Creditworthiness** – A credit score of 750 and a model risk score of 0.30 place the applicant firmly in the low‑risk segment.  
+2. **Income profile** – Stable, high‑earning professional (doctor) with a highly predictable income stream (σ ≈ 1.85 %).  
+3. **Growth trajectory** – Positive income and savings trends, declining expense trajectory demonstrate improving net cash flow.  
+4. **Comparative precedent** – Seven historically similar loans were approved and have not defaulted, supporting a favourable outcome.  
+5. **Liquidity considerations** – Although liquidity stress and debt dependence flags are present, the absolute monthly cash‑flow capacity (30 × coverage) mitigates the concern.  
+6. **Risk mitigation** – The loan size ($10 k) is modest relative to the applicant’s income and overall balance sheet, limiting exposure.  
+
+Given the overall strong credit profile, stable and growing earnings, and the modest loan size, the applicant is approved under the stated terms. Ongoing monitoring of liquidity and credit‑card utilisation is recommended.  
+
+---  
+
+## 7. Appendices  
+
+**Appendix A – Sample Amortisation Schedule (First 6 months)**  
+
+| Month | Beginning Balance | Payment | Interest (1 % of balance) | Principal Reduction | Ending Balance |
+|------|-------------------|---------|--------------------------|---------------------|----------------|
+| 1 | $10,000.00 | $332.15 | $100.00 | $232.15 | $9,767.85 |
+| 2 | $9,767.85 | $332.15 | $97.68 | $234.47 | $9,533.38 |
+| 3 | $9,533.38 | $332.15 | $95.33 | $236.82 | $9,296.56 |
+| 4 | $9,296.56 | $332.15 | $92.97 | $239.18 | $9,057.38 |
+| 5 | $9,057.38 | $332.15 | $90.57 | $241.58 | $8,815.80 |
+| 6 | $8,815.80 | $332.15 | $88.16 | $244.00 | $8,571.80 |
+| … | … | … | … | … | … |
+| 36 | $332.15 | $332.15 | $3.32 | $328.83 | $0.00 |
+
+(Full 36‑month schedule is stored in the loan management system.)  
+
+---  
+
+*Prepared by the Credit Risk Analytics Team – for internal use only. Confidential.*
