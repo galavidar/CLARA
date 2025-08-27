@@ -23,7 +23,7 @@ def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comme
         SystemMessagePromptTemplate.from_template(
             "You are a financial profile inference agent. "
             "Your task is to analyze user financial data and infer profiles based on provided features and rule-based profiles."
-            "Your response should be a valid JSON object with the following schema:\n"
+            "Your response should be a valid dictionary object with the following schema:\n"
             "- profiles: mapping of profile -> 0/1\n"
             "- reasoning: mapping of profile -> short explanation\n"
         ),
@@ -43,7 +43,7 @@ def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comme
                 - Validate each rule-based profile decision (0=No, 1=Yes), overriding if necessary.
                 - Infer non-rule-based profiles directly.
                 - Provide reasoning for each profile.
-                - Respond ONLY with valid JSON in the specified schema.
+                - Respond ONLY with valid dictionary in the specified schema.
 
                 Output schema:
                 - profiles: mapping of profile -> 0/1
@@ -163,7 +163,7 @@ def build_evaluation_prompt(loan_data, features, profiles, rate, term, risk_scor
             6. If the decision is acceptable but the interest rate or term should be changed → return: {{"action": "revise_terms", "comments": "..."}}
             7. If all are acceptable → return: {{"action": "approve", "comments": "... (short justification)"}}
 
-            Output schema: Always respond in valid JSON with keys: action, comments.
+            Output schema: Always respond in a dictionary with keys: action, comments.
             """
 
         )

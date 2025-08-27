@@ -1,16 +1,13 @@
 import pandas as pd
 import numpy as np
 from typing import Dict
-from token_logger import log_tokens
-from pydantic import BaseModel, Field
-from langchain_openai import AzureChatOpenAI
-from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, BEHAVIOURAL_LOG_FILE, USE_HF_MODELS, COUNT_TOKENS
-from prompts import build_behavioural_json_prompt
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
-import os
 import json
 from datetime import datetime
-
+from token_logger import log_tokens
+from pydantic import BaseModel, Field
+from config import BEHAVIOURAL_LOG_FILE, COUNT_TOKENS
+from agents.prompts import build_behavioural_json_prompt
+from utils import get_model, normalize_json
 
 class ProfileOutput(BaseModel):
     """
@@ -111,7 +108,7 @@ def run_agent(chat_model, user_features, rule_profiles, supervisor_comments=None
 
     #structured_model = chat_model.with_structured_output(ProfileOutput)
     resp = chat_model.invoke(prompt)
-
+    response_dict = normalize_json(resp.content)
     usage = resp.response_metadata['token_usage']
 
     if COUNT_TOKENS:
@@ -120,38 +117,11 @@ def run_agent(chat_model, user_features, rule_profiles, supervisor_comments=None
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(BEHAVIOURAL_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"\n[{timestamp}] Task: Behavioural Profiling\n")
-        f.write(json.dumps(resp.content, indent=2, ensure_ascii=False))
+        json.dump(response_dict, f, indent=2, ensure_ascii=False)
         f.write("\n")
     
-    return resp
+    return response_dict
 
-def get_model():
-    """
-    Determines and initiates the model to be used
-    """
-    if USE_HF_MODELS:
-        os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
-        llm = HuggingFaceEndpoint(
-        repo_id="openai/gpt-oss-120b",
-        task="text-generation",
-        max_new_tokens=512,
-        do_sample=False,
-        repetition_penalty=1.03,
-        provider="auto",  # let Hugging Face choose the best provider for you
-        )
-        chat_model = ChatHuggingFace(llm=llm)
-    
-    else:
-        chat_model = AzureChatOpenAI(
-        azure_deployment=CHAT_DEPLOYMENT,
-        azure_endpoint = AZURE_OPENAI_ENDPOINT,
-        api_key = AZURE_OPENAI_API_KEY,
-        openai_api_type = "azure",
-        openai_api_version = API_VERSION,
-        model = 'gpt-4o-mini'
-        )
-    
-    return chat_model
 
 def extract_behavioural_features(bank, card, supervisor_comments=None):
     """
@@ -163,26 +133,16 @@ def extract_behavioural_features(bank, card, supervisor_comments=None):
     chat_model = get_model()
 
     response = run_agent(chat_model, user_features, profiles, supervisor_comments)
-    return json.loads(response.content), user_features
+    return response, user_features
 
 def test():
-    bank = pd.read_csv('./backend/data/synthetic_users/bank_user_0001.csv')
-    card = pd.read_csv('./backend/data/synthetic_users/card_user_0001.csv')
+    bank = pd.read_csv('./dev/data/synthetic_users/bank_user_0001.csv')
+    card = pd.read_csv('./dev/data/synthetic_users/card_user_0001.csv')
     out_df = preprocess_user(bank, card)
     out_prof = infer_rule_based_profiles(out_df)
-
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
-    llm = HuggingFaceEndpoint(
-    repo_id="openai/gpt-oss-120b",
-    task="text-generation",
-    max_new_tokens=512,
-    do_sample=False,
-    repetition_penalty=1.03,
-    provider="auto",  # let Hugging Face choose the best provider for you
-    )
-    chat_model = ChatHuggingFace(llm=llm)
+    chat_model = get_model()
     r = run_agent(chat_model, out_df, out_prof)
-    print(r.content)
+    print(r)
 
 if __name__ == "__main__":
     test()

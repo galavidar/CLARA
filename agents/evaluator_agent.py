@@ -6,7 +6,7 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_openai import AzureChatOpenAI
 from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, EVALUATOR_LOG_FILE, COUNT_TOKENS
 from token_logger import log_tokens
-from prompts import build_evaluation_prompt
+from agents.prompts import build_evaluation_prompt
 
 def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rate, term, risk_score, user_directives=None, bank_risk_tolerance="medium"):
     """
@@ -15,7 +15,7 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
     prompt = build_evaluation_prompt(loan_data, applicant_features, profiles, rate, term, risk_score, decision, user_directives, bank_risk_tolerance)
 
     response = chat_model.invoke(prompt)
-
+    print(response.content)
     # Extract usage if available
     usage = response.response_metadata['token_usage']
     if COUNT_TOKENS:
@@ -25,10 +25,10 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
     timestamp = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
     with open(EVALUATOR_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"\n[{timestamp}] Task: Evaluation\n")
-        f.write(json.dumps(json.loads(response.content), indent=2, ensure_ascii=False))
+        f.write(json.dumps(response.content, indent=2, ensure_ascii=False))
         f.write("\n")
-
-    return json.loads(response.content)
+    
+    return response.content
 
 
 def get_model():
@@ -80,17 +80,8 @@ def evaluate_outputs(loan_data, profiles, user_features, interest_rate, loan_ter
 
 
 def test():
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_API_KEY
 
-    llm = HuggingFaceEndpoint(
-        repo_id="openai/gpt-oss-120b",   # free OSS model
-        task="text-generation",
-        max_new_tokens=2056,
-        do_sample=False,
-        repetition_penalty=1.03,
-        provider="auto",
-    )
-    chat_model = ChatHuggingFace(llm=llm)
+    chat_model = get_model()
     res = run_agent(
         chat_model=chat_model,
         loan_data={

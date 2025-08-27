@@ -14,8 +14,8 @@ API_VERSION = "2023-05-15"
 VECTOR_DB_URL = "https://your-vector-db-url.com"
 
 HF_API_KEY = os.getenv("HF_API")
-USE_HF_MODELS = False # change this to use Hugging Face models
-COUNT_TOKENS = True # change this to disbale token counting
+USE_HF_MODELS = True # change this to use Hugging Face models
+COUNT_TOKENS = False # change this to disbale token counting
 
 
 # paths to log files

@@ -5,7 +5,7 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from token_logger import log_tokens
 from langchain_openai import AzureChatOpenAI
 from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHAT_DEPLOYMENT, HF_API_KEY, USE_HF_MODELS, REPORTS_DIR, COUNT_TOKENS
-from prompts import build_loan_report_prompt
+from agents.prompts import build_loan_report_prompt
 
 
 def run_agent(chat_model, loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None):
