@@ -14,7 +14,6 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
 
     response = chat_model.invoke(prompt)
     resp_dict = normalize_json(response.content)
-    print(resp_dict)
     # Extract usage if available
     usage = response.response_metadata['token_usage']
     if COUNT_TOKENS:
@@ -28,7 +27,6 @@ def run_agent(chat_model, loan_data, applicant_features, profiles, decision, rat
         f.write("\n")
 
     return resp_dict
-
 
 def evaluate_outputs(loan_data, profiles, user_features, interest_rate, loan_term, decision, risk_score, user_directives=None, risk_tolerance="medium"):
     """
