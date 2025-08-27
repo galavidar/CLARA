@@ -53,7 +53,7 @@ elif st.session_state.page == "form":
              "moving", "other", "small business", "vacation", "wedding"]
         )
 
-        total_debt = st.number_input("Total debt ($)", min_value=0)
+        monthly_debt = st.number_input("Monthly debt ($)", min_value=0)
 
         delinquencies = st.selectbox(
             "Any financial delinquencies in the last 2 years?",
@@ -88,7 +88,7 @@ elif st.session_state.page == "form":
                 "home_status": home_status,
                 "annual_income": annual_income,
                 "loan_purpose": loan_purpose,
-                "total_debt": total_debt,
+                "monthly_debt": monthly_debt,
                 "delinquencies": delinquencies,
                 "credit_score": credit_score,
                 "accounts": accounts,

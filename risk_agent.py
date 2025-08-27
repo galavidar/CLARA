@@ -27,13 +27,34 @@ def parse_term(val):
     digits = ''.join(filter(str.isdigit, s))
     return int(digits) if digits else np.nan
 
+def rename_columns(df):
+    df = df.rename(columns={
+        "loan_amount": "Amount Requested",
+        "loan_term": "term",
+        "job_title": "emp_title",
+        "job_tenure": "Employment Length",
+        "home_status": "home_ownership",
+        "annual_income": "annual_inc",
+        "loan_purpose": "purpose",
+        "delinquencies": "delinq_2yrs",
+        "credit_score": "credit_score",
+        "accounts": "num_actv_bc_tl",
+        "bankruptcy": "pub_rec_bankruptcies",
+    })
+    return df
+
 def risk_assesment(form_data):
     interest_model, risk_model, tfidf_emp, tfidf_purpose, home_ownership_cols = load_weights()
 
     df = pd.DataFrame([form_data])
+    print(df)
+    df = df.drop('credit_score', axis=1)
+    df['bankruptcy'] = df['bankruptcy'].map({"no": 0, "yes": 1})
+    df["delinquencies"] = df["delinquencies"].map({"no": 0, "yes": 1})
+    df['Debt-To-Income Ratio'] = (df['monthly_debt'] / df['annual_income'])
+    df = rename_columns(df)
 
     df.replace({"n/a": np.nan, "N/A": np.nan, "NA": np.nan, "": np.nan}, inplace=True)
-    df["Debt-To-Income Ratio"] = df["Debt-To-Income Ratio"].str.rstrip('%').astype(float) / 100.0
     df["Employment Length"] = df["Employment Length"].apply(parse_emp_length)
     df["term"] = df["term"].apply(parse_term)
 
@@ -69,7 +90,7 @@ def risk_assesment(form_data):
 
     df["clara_risk_score"] = risk_model.predict_proba(X_risk)[:, 1]
 
-    return df["clara_predicted_interest"], df["clara_risk_score"]
+    return df["clara_predicted_interest"]/100, df["clara_risk_score"]
  
 
 def test():
@@ -81,7 +102,7 @@ def test():
                 "home_status": 'OWN',
                 "annual_income": 120000,
                 "loan_purpose": 'car',
-                "total_debt": 50000,
+                "monthly_debt": 4000,
                 "delinquencies": 'no',
                 "credit_score": 750,
                 "accounts": 5,
