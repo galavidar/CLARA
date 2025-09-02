@@ -1,17 +1,47 @@
 from datetime import datetime
 import json
 import numpy as np
-from config import COUNT_TOKENS, DECISIONS_LOG_FILE
+from typing import Dict
+from config import COUNT_TOKENS, DECISIONS_LOG_FILE, VECTOR_DB_URL, VECTOR_DB_API_KEY
+from qdrant_client import QdrantClient
+from sentence_transformers import SentenceTransformer
+from qdrant_client.http.models import Filter
+from time import time
 from token_logger import log_tokens
 from risk_agent import risk_assesment
 from utils import normalize_json, get_model
 from prompts import build_decision_prompt
 
-def run_agent(chat_model, loan_data, user_features, profiles, risk_score, interest_rate, loan_term, evaluator_comments=None):
+def retrieve_similar_cases(client: QdrantClient, collection_name: str, query_vector: np.ndarray, top_k: int = 10, filters: Filter = None):
+    """
+    Retrieves similar loan cases from Qdrant using the given vector.
+    Returns a list of (score, payload) dicts.
+    """
+    try:
+        search_results = client.search(
+            collection_name=collection_name,
+            query_vector=query_vector.tolist(),
+            limit=top_k,
+            query_filter=filters,
+        )
+        return [
+            {
+                "case_id": res.id,
+                "score": res.score,
+                "payload": res.payload
+            }
+            for res in search_results
+        ]
+    except Exception as e:
+        print(f"⚠️ Retrieval error: {e}")
+        return []
+
+
+def run_agent(chat_model, loan_data, user_features, profiles, risk_score, interest_rate, loan_term, evaluator_comments=None, retrieved_cases=None):
     """
     Runs the decision-making agent
     """
-    prompt = build_decision_prompt(loan_data, user_features, profiles, interest_rate, loan_term, risk_score, evaluator_comments)
+    prompt = build_decision_prompt(loan_data, user_features, profiles, interest_rate, loan_term, risk_score, retrieved_cases, evaluator_comments)
     response = chat_model.invoke(prompt)
     resp_dict = normalize_json(response.content)
     # Extract usage if available
@@ -29,10 +59,56 @@ def run_agent(chat_model, loan_data, user_features, profiles, risk_score, intere
     return resp_dict
 
 
+def loan_to_text(loan_data: Dict) -> str:
+    """
+    Convert loan_data dict into a meaningful text representation for embedding.
+    """
+    text_repr = (
+        f"Loan request: {loan_data['loan_amount']} USD over {loan_data['loan_term']} months. "
+        f"Applicant: {loan_data['job_title']} with {loan_data['job_tenure']} years tenure. "
+        f"Home: {loan_data['home_status']}. Annual income: {loan_data['annual_income']}. "
+        f"Purpose: {loan_data['loan_purpose']}. Current debt: {loan_data['monthly_debt']}. "
+        f"Delinquencies: {loan_data['delinquencies']}. Credit score: {loan_data['credit_score']}. "
+        f"Accounts: {loan_data['accounts']}. Bankruptcy history: {loan_data['bankruptcy']}."
+    )
+    return text_repr
+
+def create_embeddings(loan_data: Dict) -> np.ndarray:
+    """
+    Generate embedding for loan_data.
+    """
+    text_input = loan_to_text(loan_data)
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    emb = model.encode(text_input)
+    return np.array(emb)
+
+def get_rag_params(loan_data):
+    client = QdrantClient(
+        url=VECTOR_DB_URL,
+        api_key=VECTOR_DB_API_KEY,
+        timeout=360,
+        prefer_grpc=True
+    )
+    query_vec = create_embeddings(loan_data)
+    return client, query_vec
+
+
 def decide(loan_data, user_features, behavioural_profiles, evaluator_comments=None):
     """
     Wrapper to obtain the risk and run the agent
     """
+    retrieved_cases = []
+    try:
+        client, query_vec = get_rag_params(loan_data)
+        retrieved_cases = retrieve_similar_cases(
+            client=client,
+            collection_name="lending_club_loans",
+            query_vector=query_vec,
+            top_k=10
+            )
+    except Exception as e:
+        print(f"⚠️ Could not retrieve cases: {e}")
+    
     interest, risk_score = risk_assesment(loan_data)
     chat_model = get_model()
     decision = run_agent(
@@ -43,13 +119,30 @@ def decide(loan_data, user_features, behavioural_profiles, evaluator_comments=No
         risk_score=risk_score,
         interest_rate=interest,
         loan_term=loan_data['loan_term'],
-        evaluator_comments=evaluator_comments
+        evaluator_comments=evaluator_comments,
+        retrieved_cases=retrieved_cases
     )
     decision['risk_score'] = risk_score
     return decision
 
+def test_rag():
+    loan_data={"loan_amount": 10000,
+                "loan_term": 36,
+                "job_title": 'Doctor',
+                "job_tenure": 10,
+                "home_status": 'OWN',
+                "annual_income": 120000,
+                "loan_purpose": 'car',
+                "monthly_debt": 50000,
+                "delinquencies": 'no',
+                "credit_score": 750,
+                "accounts": 5,
+                "bankruptcy": 'no',}
+    client, query_vec = get_rag_params(loan_data)
+    rag_res = retrieve_similar_cases(client, 'lending_club_loans', query_vec)
+    print(rag_res)
+
 def test():
-    risk_score = 0.23
     loan_data={
                 "loan_amount": 10000,
                 "loan_term": 36,
@@ -58,17 +151,14 @@ def test():
                 "home_status": 'OWN',
                 "annual_income": 120000,
                 "loan_purpose": 'car',
-                "total_debt": 50000,
+                "monthly_debt": 5000,
                 "delinquencies": 'no',
                 "credit_score": 750,
                 "accounts": 5,
                 "bankruptcy": 'no',
-            },
-    chat_model = get_model()
-    res = run_agent(
-        chat_model=chat_model,
-        loan_data=loan_data,
-        profiles=  {
+            }
+    decision = decide(loan_data=loan_data, 
+        behavioural_profiles=  {
                     "profiles": {
                         "discretionary_spending_share": 0,
                         "liquidity_stress": 1,
@@ -91,13 +181,9 @@ def test():
                     }
                     },
         user_features={'income_mean': np.float64(3121.1), 'income_std': np.float64(57.75629056648284), 'expense_mean': np.float64(3686.3133333333335), 'expense_std': np.float64(208.44803413161108), 'savings_rate_mean': np.float64(-0.18159607641009798), 'overdraft_frequency': np.float64(0.0), 'discretionary_share': np.float64(0.26089677115754273), 'top_category_share': np.float64(0.46020332558401744), 'category_volatility': np.float64(0.05283480965030089), 'cc_payment_ratio_mean': np.float64(1.137476855584842), 'last3_category_shares': {'Clothing': 0.21064161977993687, 'Dining': 0.041776037167873085, 'Electronics': 0.3741130322684745, 'Entertainment': 0.0043969970596531086, 'Groceries': 0.019116141288624964, 'Health': 0.04176493121022646, 'Home': 0.06402692285363044, 'Travel': 0.24416431837158062}, 'income_trend': np.float64(12.104999999999979), 'expense_trend': np.float64(-207.85999999999976), 'savings_trend': np.float64(219.96500000000015)},
-        risk_score=risk_score,
-        interest_rate=np.float64(0.05),
-        loan_term=loan_data['loan_term'],
         evaluator_comments=None
     )
-    res['risk_score'] = risk_score
-    print(res)
+    print(decision)
 
 if __name__ == "__main__":
     test()

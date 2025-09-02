@@ -2,5 +2,8 @@ venv/
 .env
 __pycache__/
 .ipynb_checkpoints/
-dev/ts_experiments_processing.
+dev/ts_experiments_processing.py
 outputs/loan_chain.log
+dev/data/cleaned_combined_lendingclub.csv
+dev/data/cleaned_combined_lendingclub.zip
+dev/data/embeddings/

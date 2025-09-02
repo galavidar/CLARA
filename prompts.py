@@ -182,7 +182,7 @@ def build_evaluation_prompt(loan_data, features, profiles, rate, term, risk_scor
         user_directives=user_directives or "No additional directives provided."
     )
 
-def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score, supervisor_comments=None):
+def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score, retrieved_cases=None, supervisor_comments=None):
     """
     Builds a LangChain chat prompt that instructs the model to decide on a loan application.
     """
@@ -191,9 +191,10 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
             "You are a financial decision-making agent."
             "Your task is to analyze the applicant's financial data and profiling and make a decision on the loan application. You are provided with a 0-1 risk score from a machine learning model where 0 is risk-free."
             "Additionally, you are provided with a predicted interest rate and a applicant-requested loan-term. You may change these values if needed."
+            "You must also reference similar past loan cases retrieved from a database, including the relevant case IDs. "
             "Your response should be a valid dictionary object with the following schema:\n"
             "- decision: a final decision -> accepted/rejected \n"
-            "- reason: motivation for decision -> short explanation\n"
+            "- reason: motivation for decision -> short explanation including an analysis or aggregation of relevant past cases\n"
             "- interest_rate: the final interest rate -> float\n"
             "- loan_term: the final loan term -> int\n"
         ),
@@ -208,9 +209,12 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
                 - Interest rate (predicted, allowed to change): {interest_rate}
                 - Loan term (by applicant request): {loan_term}
                 - Risk score (0-1, ML model output): {risk_score}
+                - Retrieved similar cases (for reference): {retrieved_cases}
 
                 Instructions:
                 - Analyse the applicant's data, the provided profiles and the risk score to make a decision.
+                - Consider retrieved past cases as precedent when motivating your decision.
+                - When referencing past cases, include the relevant case IDs in square brackets.
                 - Consider the potential impact of the loan terms on the applicant's financial situation.
                 - Evaluate if the predicted interest rate aligns with the applicant's risk profile.
                 - Evaluate if the term length is appropriate given the applicant's financial situation.
@@ -218,7 +222,7 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
 
                 Output schema:
                 "- decision: a final decision -> accepted/rejected \n"
-                "- reason: motivation for decision -> short explanation\n"
+                "- reason: motivation for decision -> short explanation including references to relevant past cases\n"
                 "- interest_rate: the final interest rate -> float\n"
                 "- loan_term: the final loan term -> int\n"
                 """
@@ -246,6 +250,7 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
         "interest_rate": rate,
         "loan_term": term,
         "risk_score": risk_score,
+        "retrieved_cases": json.dumps(retrieved_cases or [], indent=2)
     }
 
     if supervisor_comments:

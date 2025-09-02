@@ -47,7 +47,6 @@ def risk_assesment(form_data):
     interest_model, risk_model, tfidf_emp, tfidf_purpose, home_ownership_cols = load_weights()
 
     df = pd.DataFrame([form_data])
-    print(df)
     df = df.drop('credit_score', axis=1)
     df['bankruptcy'] = df['bankruptcy'].map({"no": 0, "yes": 1})
     df["delinquencies"] = df["delinquencies"].map({"no": 0, "yes": 1})

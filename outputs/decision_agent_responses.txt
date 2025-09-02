@@ -1,0 +1,56 @@
+
+[2025-09-02 22-16-37] Task: Evaluation
+{
+  "decision": "accepted",
+  "reason": "The applicant has a high and stable income (120k/yr, credit score 750) and a modest loan amount relative to earnings. Although the risk score is moderate (0.49) and there are signs of liquidity stress and debt dependence, the debt‑to‑income ratio after adding the proposed loan payment would remain just above 50%, which is manageable for a doctor with a secure job. The original predicted rate of 10.85% is higher than warranted for this risk profile; lowering it to 7.0% aligns better with the applicant’s credit quality and improves affordability. No contradictory past cases were found.",
+  "interest_rate": 0.07,
+  "loan_term": 36
+}
+
+[2025-09-02 22-40-33] Task: Evaluation
+{
+  "decision": "rejected",
+  "reason": "Although the applicant has a high and stable income (annual $120k, credit score 750) and a moderate ML risk score (0.49), the behavioural profiles reveal significant liquidity stress and debt dependence (credit‑card payment ratio >1, negative savings rate, and a monthly debt obligation of $5,000, which is ~50% of monthly income). Adding a $10,000 loan at the predicted 10.85% interest would increase monthly outflows by roughly $326, pushing total debt service to >53% of income. This exceeds prudent DTI thresholds for a borrower with limited liquid buffers, indicating a heightened probability of repayment strain. No comparable past cases suggest a safe mitigation, so the prudent action is to reject the request.",
+  "interest_rate": null,
+  "loan_term": null
+}
+
+[2025-09-02 23-06-57] Task: Evaluation
+{
+  "decision": "rejected",
+  "reason": "The applicant has a high monthly debt obligation ($5,0000) relative to his net monthly cash flow (income_mean $3,121). Adding a $10,000 loan at the predicted 10.85% interest over 36 months would increase monthly outflows by ~ $326, pushing the debt‑to‑income ratio well above 150%, which is unsustainable. Behavioural profiles flag liquidity stress, debt dependence, and poor savings habits, while the risk score (0.487) is only moderate. Given these financial pressures, the loan would likely exacerbate cash‑flow strain, so the application is rejected. No directly comparable past cases were found to influence the decision.",
+  "interest_rate": 0.1085,
+  "loan_term": 36
+}
+
+[2025-09-02 23-08-36] Task: Evaluation
+{
+  "decision": "rejected",
+  "reason": "The applicant has a high monthly debt burden ($5,000) relative to income (monthly income ≈ $10,000), resulting in a 50% debt‑to‑income ratio. Behavioral profiles indicate liquidity stress, debt dependence, and a negative savings rate (~‑18%), meaning cash flow is already negative. Adding a $10,000 loan at the predicted 10.85% interest for 36 months would increase monthly obligations by ~ $322, pushing the DTI above 50% and further eroding liquidity. Although the credit score (750) and risk score (0.487) are moderate, the overall financial picture is risky, and no comparable past cases justify approval. Therefore the loan should be rejected.",
+  "interest_rate": null,
+  "loan_term": null
+}
+
+[2025-09-02 23-12-07] Task: Evaluation
+{
+  "decision": "accepted",
+  "reason": "The applicant has a high and stable income (120k/yr) and a strong credit score (750). The proposed $10,000 loan at a 10.85% APR over 36 months results in a monthly payment of about $325, which is well within the applicant's cash flow after accounting for existing debt and expenses. While the behavioural profiles flag liquidity stress, debt dependence, and category concentration risk, the overall risk score (0.487) is moderate and the applicant's professional stability (doctor, 10‑year tenure) offsets these concerns. No directly comparable past cases were retrieved, but the profile aligns with previously accepted mid‑risk medical professional loans. Therefore the loan is approved with the predicted interest rate unchanged.",
+  "interest_rate": 0.108492,
+  "loan_term": 36
+}
+
+[2025-09-02 23-16-20] Task: Evaluation
+{
+  "decision": "accepted",
+  "reason": "The applicant is a high‑earning doctor with a solid credit score (750) and stable employment (10‑year tenure). Although the liquidity‑stress and debt‑dependence flags indicate limited cash buffers and reliance on credit, the requested loan is modest ($10,000) relative to annual income ($120k). Similar past loans with higher Debt‑to‑Income ratios (e.g., case with DTI 25.7% [score 0.8077465295791626] and case with DTI 30.95% [score 0.8058463335037231]) were approved, suggesting the portfolio tolerates this level of risk. To compensate for the identified liquidity stress, we raise the interest rate modestly above the model prediction.",
+  "interest_rate": 0.12,
+  "loan_term": 36
+}
+
+[2025-09-02 23-19-51] Task: Evaluation
+{
+  "decision": "accepted",
+  "reason": "The applicant has a strong income (120k) and a solid credit score (750), but exhibits high debt dependence (monthly debt $5,000) and liquidity stress (negative savings rate, credit‑card payment ratio >1). The ML risk score of 0.487 is borderline. Comparable past loans with similar or higher risk profiles (e.g., car loan case 330001062 accepted at 12.53% interest, and credit‑card cases with DTI up to ~25% such as 271000246) were approved, but our applicant’s DTI (~50%) is considerably higher. To compensate for the elevated risk we raise the interest rate to 15.0% and shorten the term to 24 months, lowering the exposure period while keeping monthly payments (~$480) manageable relative to income.",
+  "interest_rate": 0.15,
+  "loan_term": 24
+}
