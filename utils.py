@@ -27,7 +27,7 @@ def normalize_json(obj):
     except Exception:
         return {"raw_text": str(obj)}
 
-def get_model():
+def get_model(open_ai_model:str="gpt-4o-mini"):
     """
     Determines and initiates the model to be used
     """
@@ -50,7 +50,7 @@ def get_model():
         api_key = AZURE_OPENAI_API_KEY,
         openai_api_type = "azure",
         openai_api_version = API_VERSION,
-        model = 'gpt-4o-mini'
+        model = open_ai_model
         )
     
     return chat_model
