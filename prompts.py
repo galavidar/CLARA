@@ -73,7 +73,7 @@ def build_behavioural_json_prompt(user_features, rule_profiles, supervisor_comme
 
     if supervisor_comments:
         kwargs.update({
-            "previous_response": json.dumps(supervisor_comments.get("previous_response", {}), indent=2),
+            "previous_response": json.dumps(supervisor_comments.get("prev_response_behavioral", {}), indent=2),
             "action": supervisor_comments.get("action", ""),
             "comments": supervisor_comments.get("comments", "")
         })
@@ -256,7 +256,7 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
 
     if supervisor_comments:
         kwargs.update({
-            "previous_response": json.dumps(supervisor_comments.get("previous_response", {}), indent=2),
+            "previous_response": json.dumps(supervisor_comments.get("previous_response_decision", {}), indent=2),
             "action": supervisor_comments.get("action", ""),
             "comments": supervisor_comments.get("comments", "")
         })

@@ -164,7 +164,7 @@ elif st.session_state.page == "result":
     if decision["approved"]:
         st.success("🎉 The loan has been **Approved**!")
         st.write(f"- **Interest Rate**: {decision['interest_rate']}%")
-        st.write(f"- **Loan Term**: {decision['term']} months")
+        st.write(f"- **Loan Term**: {decision['loan_term']} months")
     else:
         st.error("❌ The loan has been **Denied**.")
 

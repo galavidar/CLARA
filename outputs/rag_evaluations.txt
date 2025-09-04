@@ -52,3 +52,75 @@
   "score": 0.9,
   "reasoning": "The model's decision to reject aligns with the retrieved cases, which all show much lower debt‑to‑income ratios than the applicant's ~50% DTI. The model correctly flags high DTI as a risk factor and references similar accepted cases with lower DTI. The interest rate and risk_score are algorithmic outputs, which are allowed to differ from database values. Overall, the response is consistent with the retrieved context."
 }
+
+[2025-09-04 19-59-16] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's answer correctly references retrieved cases (185001419 and 46001148) and does not contradict any database fields. Claims about interest rate and risk_score are algorithmically generated and allowed. No factual inaccuracies are detected."
+}
+
+[2025-09-04 19-59-17] Task: RAG relevance Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The response directly addresses the loan request, references similar cases from the retrieved context (e.g., physician cases), and provides a decision, interest rate, term, and risk score consistent with the instruction that these fields may be algorithmically generated. It stays on topic and uses the context appropriately, making it highly relevant."
+}
+
+[2025-09-04 19-59-18] Task: RAG correctness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's decision ('accepted') is consistent with similar physician cases in the retrieved data, many of which were accepted. The suggested interest rate of 12% falls within the range of rates observed in comparable cases, and the loan term matches the query. Although the risk_score scale differs from the database values, the prompt allows algorithmically generated scores to diverge. Overall, the response aligns well with the context."
+}
+
+[2025-09-04 20-03-01] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.97,
+  "reasoning": "All factual claims about retrieved cases (e.g., case 194003196, 185001419, 8004880) match the database records. The model's statements about the applicant's profile and algorithmic outputs are not required to match the DB, and no contradictions are present."
+}
+
+[2025-09-04 20-03-03] Task: RAG relevance Evaluation 
+{
+  "score": 0.94,
+  "reasoning": "The model's answer directly references several retrieved cases (e.g., 194003196, 185001419, 8004880) and uses their details (income, loan amount, acceptance) to justify the decision, showing strong alignment with the retrieved context. Although the interest rate and risk score are plausible computed values not present in the database, their inclusion is permissible. Overall the response is highly relevant to the retrieved data."
+}
+
+[2025-09-04 20-03-06] Task: RAG correctness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's decision (accepted) aligns with the majority of similar medical‑field cases in the retrieved context, which were also accepted. The cited case IDs exist in the context and the reasoning correctly references comparable income and loan amounts. Although the interest rate and risk score are algorithm‑generated and do not need to match the database, the provided values are plausible given the precedent rates (5.3%–18.5%). The explanation is coherent and consistent with the retrieved data."
+}
+
+[2025-09-04 20-15-22] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's decision and reasoning accurately reflect the retrieved cases (e.g., correctly cites case IDs 220004197 and 46001148 as accepted with DTI ~28-31%). It does not misstate of data; the risk score and interest rate are algorithmic outputs, which is acceptable. No contradictions with the retrieved context are present."
+}
+
+[2025-09-04 20-15-25] Task: RAG relevance Evaluation 
+{
+  "score": 0.92,
+  "reasoning": "The response directly addresses the loan request, provides a decision, reasoning, interest rate, term, and risk score. It correctly references relevant retrieved cases (e.g., 220004197 and 46001148) to justify the decision, aligning with the data. The use of algorithmic fields (interest_rate, risk_score) is acceptable. Overall, the answer is highly relevant to the query and context."
+}
+
+[2025-09-04 20-15-28] Task: RAG correctness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's decision to reject is justified given the applicant's extreme debt-to-income ratio (monthly debt $50k vs monthly income ~$10k) which far exceeds any retrieved comparable cases (e.g., case 220004197 DTI 28.27% and case 46001148 DTI 30.95%) that were accepted. The referenced case IDs and their details match the retrieved context accurately. The risk_score and interest_rate are algorithmic outputs, allowed to differ from DB values. Hence the response is consistent and correct."
+}
+
+[2025-09-04 20-17-11] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's answer correctly references the retrieved cases, accurately reports the DTI of case 46001148 (30.95%) and the interest rate of case 185001419 (5.32%). It does not fabricate any fields from the database; the risk_score and interest_rate it provides are algorithmic outputs, which are allowed to differ. The decision to reject is justified by the applicant's extreme debt‑to‑income ratio, which is consistent with the data. Hence the response is largely faithful to the retrieved context."
+}
+
+[2025-09-04 20-17-14] Task: RAG relevance Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The response directly references specific retrieved cases (e.g., case 46001148 and 185001419) and uses their DTI and interest rate values to justify the decision. It also correctly incorporates the applicant's query data (credit score, income, monthly debt) and aligns with the guideline that risk_score may differ from database values. Hence the answer is highly relevant to the retrieved context."
+}
+
+[2025-09-04 20-17-19] Task: RAG correctness Evaluation 
+{
+  "score": 0.2,
+  "reasoning": "The retrieved database cases with similar loan amount and term are mostly accepted, and there is no record of a high monthly debt or DTI that would justify a rejection. The model's decision relies on inferred data (monthly debt, liquidity stress) not present in the retrieved context, making the justification unsupported by the database. Hence the response is not correct relative to the retrieved data."
+}

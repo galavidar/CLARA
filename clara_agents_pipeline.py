@@ -90,16 +90,19 @@ class LoanEligibilityChain(Chain):
                     }
 
                 elif eval_action == "revise_profiles":
+                    state["evaluation_result"]["prev_response_behavioral"] = state["behavioral_profiles"]
                     state["current_step"] = "behavioral"
                     state["retry_count"] += 1
                     continue
 
                 elif eval_action == "revise_decision":
+                    state["evaluation_result"]["prev_response_decision"] = state["decision"]
                     state["current_step"] = "decision"
                     state["retry_count"] += 1
                     continue
                 
                 elif eval_action == "revise_terms":
+                    state["evaluation_result"]["prev_response_decision"] = state["decision"]
                     state["current_step"] = "decision"
                     state["retry_count"] += 1
                     continue
@@ -117,9 +120,9 @@ class LoanEligibilityChain(Chain):
             lambda state: (
                 lambda res: {**state, "behavioral_profiles": res[0], "user_features": res[1]}
             )(behavioural_features_with_neighbours(
-                bank=state["bank_csv"],
-                card=state["card_csv"],
-                supervisor_comments=state.get("evaluation_result", {}).get("comments")
+                bank_df=state["bank_csv"],
+                card_df=state["card_csv"],
+                supervisor_comments=state.get("evaluation_result", {})
                 if state.get("retry_count", 0) > 0 else None
             ))
         )
@@ -131,7 +134,7 @@ class LoanEligibilityChain(Chain):
                     loan_data=state["input_data"],
                     user_features=state["user_features"],
                     behavioural_profiles=state["behavioral_profiles"],
-                    evaluator_comments=state.get("evaluation_result", {}).get("comments")
+                    evaluator_comments=state.get("evaluation_result", {})
                 )
             }
         )
@@ -144,7 +147,7 @@ class LoanEligibilityChain(Chain):
                     user_features=state["user_features"],
                     profiles=state["behavioral_profiles"],
                     interest_rate=state["decision"]["interest_rate"],
-                    loan_term=state["decision"]["term"],
+                    loan_term=state["decision"]["loan_term"],
                     decision=state["decision"],
                     risk_score=state["decision"]["risk_score"],
                     user_directives=state.get("user_directives", ''),
@@ -161,7 +164,7 @@ class LoanEligibilityChain(Chain):
                     profiles=state["behavioral_profiles"],
                     user_features=state["user_features"],
                     interest_rate=state["decision"]["interest_rate"],
-                    loan_term=state["decision"]["term"],
+                    loan_term=state["decision"]["loan_term"],
                     decision=state["decision"],
                     risk_score=state["decision"]["risk_score"],
                     user_directives=state.get("user_directives", ''),
@@ -180,7 +183,7 @@ def test():
                 "home_status": 'OWN',
                 "annual_income": 120000,
                 "loan_purpose": 'car',
-                "total_debt": 50000,
+                "monthly_debt": 50000,
                 "delinquencies": 'no',
                 "credit_score": 750,
                 "accounts": 5,
@@ -195,13 +198,7 @@ def test():
         "verbose": True
     })
 
-    print("=== Final Report ===")
-    print(result["final_report"])
-    print("=== Decision ===")
-    print(result["decision"])
+    print(result)
 
-
-
-# Usage Examples
 if __name__ == "__main__":
     test()
