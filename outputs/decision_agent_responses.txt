@@ -173,3 +173,99 @@
   "interest_rate": 0.115,
   "loan_term": 36
 }
+
+[2025-09-04 20-53-14] Task: Decsision
+{
+  "decision": "rejected",
+  "reason": "The applicant's risk score of 0.9246 indicates an extremely high risk profile, far exceeding acceptable thresholds in precedent cases. Notable risk indicators include negative trends in income and savings, combined with a highly concentrated spending category. While income stability and savings habits are strengths, their impact cannot outweigh the significant risk posed by the applicant's profile. Similar cases with lower risk scores (such as [228003472], [214003086], and [96004968]) were accepted, but at much higher interest rates and lower risk levels, making approval at the applicant's requested terms untenable.",
+  "interest_rate": 0.0,
+  "loan_term": 0
+}
+
+[2025-09-04 20-54-27] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant exhibits strengths including income stability, absence of delinquencies, a moderate credit score (690), and strong savings habits. While there are risk indicators such as negative financial trends and spending category concentration, these are mitigated by their ability to manage savings and maintain liquidity. Similar past cases [228003472, 214003086, 96004968] demonstrate acceptance of applicants with lower income, comparable or worse credit scores, and higher debt-to-income ratios, provided the terms aligned with the risk profile. To reduce exposure, adjustments to loan terms have been made.",
+  "interest_rate": 0.125,
+  "loan_term": 36
+}
+
+[2025-09-04 21-05-35] Task: Decsision
+{
+  "decision": "rejected",
+  "reason": "The applicant has a very high risk score (0.9999997745594524), indicating an extremely high risk of default. Additional concerning factors include a recent bankruptcy, delinquencies, and extremely high loan requested relative to income and financial profiles. Past cases such as [80003507] and [198004905] show similarly high-risk applicants with lower amounts requested were accepted but ultimately charged off or did not fully sustain payments. This, combined with the applicant's lack of long-term financial stability (only 1 year of job tenure and concentration risk in spending), suggests rejection is prudent.",
+  "interest_rate": 0.1276740570402539,
+  "loan_term": 34
+}
+
+[2025-09-04 21-11-18] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant has a strong financial profile with a high credit score (750), a stable job with 43 years of tenure, no delinquencies or signs of bankruptcy, and a healthy savings rate (45.22%). The discretionary spending share is low (21.75%), and income is stable with positive growth potential. Compared to similar past cases [140004123, 178002590], which involved teachers with stable income and high credit scores, loans were accepted at rates of 7.39% and 7.07%. Adjustments to the interest rate and loan term are recommended to better align with this applicant’s risk score (0.468), which is lower than those referenced cases.",
+  "interest_rate": 0.0725,
+  "loan_term": 36
+}
+
+[2025-09-04 21-31-29] Task: Decsision
+{
+  "decision": "rejected",
+  "reason": "The applicant demonstrates high liquidity stress, over-reliance on debt (credit card payment ratio > 1 and negative savings rate), and concentrated spending risk in discretionary categories. Despite positive income and savings trends, the applicant's financial metrics—such as a Debt-to-Income ratio exceeding 40% (loan amount included)—indicate unsustainable debt obligations relative to income. The moderate risk score (0.488) further supports hesitancy in approving the loan. Past cases such as [46001148] and [8004880] show higher risk score profiles but were accepted due to lower Debt-to-Income ratios and stronger savings or income profiles compared to this applicant.",
+  "interest_rate": null,
+  "loan_term": null
+}
+
+[2025-09-04 21-32-56] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant demonstrates strong income stability and growth potential, with a consistent income trend (+12.1) and improving savings trajectory (+219.97), despite the current negative savings rate (-18%). Liquidity stress and heavy debt dependence remain concerns, but the applicant's high credit score (750) and stable employment (10+ years as a Doctor) mitigate these risks. Adjustments to the profiling—such as reassigning 'savings habit' from '0' to '1' due to the increasing savings trend—underscore an improving financial trajectory. Similar cases [185001419, 194003196, 55000565] with accepted loans and comparable financial stability support this decision. The interest rate has been lowered to reflect the applicant's lower relative financial risk, while the loan term remains unchanged given the requested term and precedents from comparable past cases.",
+  "interest_rate": 0.07,
+  "loan_term": 36
+}
+
+[2025-09-04 22-18-05] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant demonstrates stability with a high annual income ($120,000), long job tenure (10 years), and a strong credit score (750). Despite certain liquidity stress indicators and reliance on debt as reflected in behavioural profiles, these risks are mitigated by a positive income trend (+12.10) and savings trend (+219.97). Past cases [185001419, 194003196] show similar profiles, where applicants with high income, stable jobs, and manageable Debt-To-Income ratios were accepted at interest rates of 5.32%. Adjusting the interest rate lower than the predicted value aligns this case with those precedents. The requested loan term of 36 months is appropriate given the applicant's income and debt profile.",
+  "interest_rate": 0.075,
+  "loan_term": 36
+}
+
+[2025-09-04 22-19-52] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant demonstrates stable income with a low standard deviation ($57.76) and strong growth potential supported by positive income ($12.10) and savings trends (+$219.97). Despite liquidity stress indicated by a negative savings rate (-18%) and reliance on debt with a credit card payment ratio of 1.13, the applicant's high credit score (750), homeownership, and low delinquency history ('no') mitigate potential risks. Lowering the interest rate aligns with past accepted cases such as [185001419, 194003196], where strong profiles received rates of 5.32%. Extending the term to 48 months addresses liquidity stress for improved monthly affordability.",
+  "interest_rate": 5.32,
+  "loan_term": 48
+}
+
+[2025-09-04 22-21-27] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant has a high annual income of $120,000, a strong credit score of 750, stable job tenure, and owns their home, all of which indicate financial stability. Their upward savings and income trends further highlight improvement potential. Revised profiling indicates that the applicant's credit card usage reflects responsible payment behavior rather than debt dependence, while liquidity stress is mitigated by their high income and positive financial trends. Past approved cases of similar employment titles and risk profiles, such as case IDs [46001148, 185001419, 55000565], support the decision for acceptance. Adjustments to the terms are made to better align with the applicant's risk profile and financial situation.",
+  "interest_rate": 0.095,
+  "loan_term": 36
+}
+
+[2025-09-04 22-38-05] Task: Decsision
+{
+  "decision": "rejected",
+  "reason": "The applicant has a moderate risk score (0.6244) coupled with a relatively high expense volatility ($1088.04 standard deviation), negative financial trends (income -$86.28, savings -$1169.89, expenses +$1083.61), and limited job tenure (1 year). Additionally, the discretionary share is low at 26.9%, highlighting limited flexibility to manage additional debt. Similar past cases, such as [37001232] and [51001740], show acceptance for applicants with lower requested loan amounts, higher risk scores, but still with signs of financial instability. Higher requested loan amounts, as seen in cases like [161003975] and [98000991], were accepted under stricter conditions including higher interest rates. In this case, the applicant’s financial profile is insufficient to justify approval.",
+  "interest_rate": 0.12367154055222762,
+  "loan_term": 48
+}
+
+[2025-09-04 22-42-50] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant has a stable income profile with low liquidity stress and no history of delinquencies or bankruptcies. However, the high volatility in monthly expenses and a declining savings trend indicate potential future financial strain. The provided risk score (0.312) is relatively moderate and aligns with prior cases such as case IDs [108001635, 100001922, 130004134], where applicants with similar financial profiles, including annual incomes under $30,000 and a Debt-to-Income ratio between 25-30%, received loans with interest rates in the range of 17%-24%. Based on this precedent, the loan is accepted, but the interest rate has been adjusted moderately to reflect the applicant's non-standard volatility in expenses.",
+  "interest_rate": 0.17,
+  "loan_term": 12
+}
+
+[2025-09-04 22-44-34] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant's financial metrics, including a moderate risk score (0.31) and stable income, suggest that they are capable of managing the requested loan. However, high expense volatility and declining savings trends introduce notable financial risk. Referenced past cases [128001010, 185000078, 108001635] indicate that applicants with similar profiles and moderate risk scores were approved with slightly higher interest rates and more cautious loan terms. Adjustments to the interest rate aim to mitigate risks associated with the applicant's declining savings trend.",
+  "interest_rate": 0.19,
+  "loan_term": 6
+}

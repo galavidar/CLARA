@@ -1,0 +1,123 @@
+---
+
+### **Loan Decision Report**  
+**Applicant Name:** (Confidential)  
+**Loan ID:** Auto-generated  
+**Date:** [Insert Date]  
+
+---
+
+#### **1. Applicant Request**  
+The applicant has requested a loan of **$23,000** for a term of **36 months** to finance the purchase of a car. The interest rate is set at **7.25%**, as calculated based on the applicant's risk profile and financial metrics.
+
+---
+
+#### **2. Behavioural Profile Validation**  
+The applicant’s behavioural profile was assessed using predefined criteria and financial metrics:  
+
+- **Discretionary Spending Share:**  
+  Discretionary spending share is **21.75%**, which is moderately low. This indicates minimal spending on non-essential categories, suggesting financial discipline and prudence.  
+
+- **Liquidity Stress:**  
+  There are **no signs of liquidity stress** (no overdrafts recorded), and the applicant has a strong savings rate of **45.22%**, signaling sufficient reserves for unforeseen expenses.  
+
+- **Growth Potential:**  
+  Monthly income trends upward by **$20.21**, highlighting the applicant's **earning growth potential**, likely supported by their long-term tenure and a stable occupation as a teacher.  
+
+- **Income Stability:**  
+  Income exhibits nominal variability with a standard deviation of **$91.60**, demonstrating **highly stable earnings.**  
+
+- **Expense Volatility:**  
+  Expenses show a higher standard deviation of **$957.11**, indicating potential variability in spending patterns. However, this volatility is not exaggerated enough to impair financial stability.  
+
+- **Savings Habit:**  
+  The applicant demonstrates a **strong savings habit**, evidenced by a savings rate of **45.22%, exceeding expectations** for their income bracket.  
+
+- **Debt Dependence:**  
+  The applicant displays no reliance on credit or debt for financial management. With **103.49% of credit card balances paid monthly**, this indicates proactive debt management.  
+
+- **Category Concentration Risk:**  
+  Expenses are not concentrated in any specific category, with the largest category share of **25.57%.** This shows **diversified spending patterns**, reducing exposure to category-related shocks.  
+
+---
+
+#### **3. Financial Analysis**  
+
+**Income, Debt, and Risk Metrics:**  
+- **Annual Income:** $48,000 (monthly: $4,000)  
+- **Debt-to-Income Ratio (DTI):**  
+  Monthly Debt Obligations: $250 (existing) + $711.62 (new loan).  
+  Calculated DTI: (250 + 711.62) / $4,000 = **24.04%**.  
+  Observations: The applicant’s DTI is sufficiently low, indicating they can absorb the new loan payments without financial stress.  
+
+- **Risk Score:** **0.468**, reflecting **low risk**, which is among the lower risk tier compared to similar cases. This score supports the loan approval decision.  
+
+- **Interest Rate:** **7.25%,** determined based on the applicant’s financial stability, credit metrics, and growth potential. This rate aligns with comparable cases noted in prior evaluations.  
+
+---
+
+**Monthly Installment Calculation:**  
+Using the formula for amortized loans:  
+
+\[
+M = \dfrac{P \cdot r}{1 - (1 + r)^{-n}}
+\]
+
+Where:  
+- \(P = 23,000\) (loan amount)  
+- \(r = \frac{0.0725}{12} = 0.006041666667\) (monthly interest rate)  
+- \(n = 36\) (loan term in months)  
+
+\[
+M = \dfrac{23,000 \cdot 0.006041666667}{1 - (1 + 0.006041666667)^{-36}} = \$711.62  
+\]
+
+**Monthly Installment:** $711.62  
+
+Total repayment over 36 months: **$25,618.32** (including $2,618.32 interest).  
+
+---
+
+**4. Final Decision**  
+
+**Decision:** **Accepted**  
+The loan request is approved based on the following factors:  
+- **Stable Financial Standing:** The applicant has a strong financial profile with a **high credit score (750), significant job tenure (43 years), and a consistent annual income ($48,000)**.  
+- **Healthy Savings Metrics:** The applicant maintains a high savings rate **(45.22%)**, indicating prudent financial management.  
+- **Low Risk Indicators:** No delinquencies, bankruptcies, or debt dependence were noted.  
+- **Growth Potential:** Income demonstrates positive trending, underscoring potential for further financial improvement.  
+
+**Adjustment Recommendation:**  
+The proposed loan term of 36 months and interest rate of 7.25% sufficiently accommodates the applicant’s profile and risk score. No additional changes required.  
+
+---
+
+### **5. Comparable Cases for Contextual Validation**  
+Referenced historical loan cases of similar profiles illustrate alignment with the current decision:  
+- Case [140004123]: Approved loan for a teacher with 7.39% interest rate.  
+- Case [178002590]: Accepted loan for a teacher with a stable income at a 7.07% rate.  
+
+The applicant’s risk score **(0.468)** is lower than cases above, justifying the interest rate of **7.25%.**  
+
+---
+
+### **6. Summary of Loan Terms**  
+**Loan Amount:** $23,000  
+**Loan Term:** 36 months  
+**Interest Rate:** 7.25%  
+**Monthly Installments:** $711.62  
+**Total Repayment:** $25,618.32  
+
+---
+
+#### **7. Bank Recommendation**  
+
+Based on the applicant's **low risk profile, strong financial metrics, and stable income**, the loan is considered **a viable and low-risk disbursement**. Discretionary spending, debt management, and savings habits further justify the acceptance decision. No additional terms or restrictions are required at this time.
+
+---
+
+**Prepared by:**  
+Loan Evaluation Specialist  
+[Bank Name]  
+
+**Confidential Documentation**

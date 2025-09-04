@@ -40,7 +40,7 @@ class LoanEligibilityChain(Chain):
 
     @property
     def output_keys(self) -> List[str]:
-        return ["final_report", "decision"]
+        return ["final_report", "decision", "behavioral_profiles", "user_features"]
 
     def _debug(self, label: str, state: dict):
         """Log current pipeline state, excluding bulky objects like memory/history."""
@@ -86,7 +86,9 @@ class LoanEligibilityChain(Chain):
                     self._debug("Final Report", final)
                     return {
                         "final_report": json.dumps(final.get("final_report"), indent=2) if not isinstance(final.get("final_report"), str) else final.get("final_report"),
-                        "decision": json.dumps(final.get("decision", state.get("decision")), indent=2) if not isinstance(final.get("decision", state.get("decision")), str) else final.get("decision", state.get("decision"))
+                        "decision": json.dumps(final.get("decision", state.get("decision")), indent=2) if not isinstance(final.get("decision", state.get("decision")), str) else final.get("decision", state.get("decision")),
+                        "behavioral_profiles": json.dumps(state.get("behavioral_profiles", {}), indent=2) if not isinstance(state.get("behavioral_profiles", {}), str) else state.get("behavioral_profiles", {}),
+                        "user_features": json.dumps(state.get("user_features", {}), indent=2) if not isinstance(state.get("user_features", {}), str) else state.get("user_features", {})
                     }
 
                 elif eval_action == "revise_profiles":
@@ -111,7 +113,9 @@ class LoanEligibilityChain(Chain):
         self._debug("Final Report", final)
         return {
             "final_report": json.dumps(final.get("final_report"), indent=2) if not isinstance(final.get("final_report"), str) else final.get("final_report"),
-            "decision": json.dumps(final.get("decision", state.get("decision")), indent=2) if not isinstance(final.get("decision", state.get("decision")), str) else final.get("decision", state.get("decision"))
+            "decision": json.dumps(final.get("decision", state.get("decision")), indent=2) if not isinstance(final.get("decision", state.get("decision")), str) else final.get("decision", state.get("decision")),
+            "behavioral_profiles": json.dumps(state.get("behavioral_profiles", {}), indent=2) if not isinstance(state.get("behavioral_profiles", {}), str) else state.get("behavioral_profiles", {}),
+            "user_features": json.dumps(state.get("user_features", {}), indent=2) if not isinstance(state.get("user_features", {}), str) else state.get("user_features", {})
         }
 
     # ---- Build inline agents ----

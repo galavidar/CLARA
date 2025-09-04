@@ -1,0 +1,127 @@
+### Loan Decision Report  
+**Internal Reference ID:** #LD-23-10-18  
+
+---
+
+#### **1. Applicant Request Summary**  
+
+The applicant has requested a loan of **$1,800** with a **6-month term** to be utilized for **educational purposes**.  
+
+**Applicant Details:**  
+- **Employment:** Dog walker with 1 year of tenure.  
+- **Home Status:** Renting property.  
+- **Annual Income:** $24,000.  
+- **Credit Score:** 700.  
+- **Monthly Debt Obligations:** $200.  
+- **Financial History:** No delinquencies or bankruptcies reported.  
+
+---
+
+#### **2. Behavioural Profile Validation and Reasoning**  
+
+The applicant’s financial behavior has been assessed against standard metrics, yielding the following evaluations:  
+
+1. **Discretionary Spending Share:**  
+   The applicant allocates a reasonable proportion of their income (26.9%) to discretionary expenses, indicating balanced spending between essential and non-essential categories.  
+
+2. **Liquidity Stress:**  
+   Evidence of **strong liquidity management** is apparent—no overdraft occurrences and a **credit card payment ratio of 1.03**, demonstrating responsible use of credit.  
+
+3. **Growth Potential:**  
+   Negative trends in **income** (-$86/month), **savings** (-$1,169/month), and **rising expenses** (+$1,084/month) signal limited growth potential and increasing financial pressure.  
+
+4. **Income Stability:**  
+   The applicant’s income is stable, as suggested by a **low standard deviation of $131**, ensuring predictable monthly earnings despite a declining trend.  
+
+5. **Expense Volatility:**  
+   A high expense standard deviation of $1,088 reflects irregular spending cycles, intensifying the risk of liquidity stress during months with elevated expenses.  
+
+6. **Savings Habit:**  
+   Although the applicant exhibits a **moderate savings rate (46.5%)**, the savings trend shows sharp declines (-$1,169/month), raising concerns about long-term consistency in building financial reserves.  
+
+7. **Debt Dependence:**  
+   The applicant has low reliance on debt, with manageable monthly obligations and no evidence of over-leveraging credit instruments based on a favorable debt-to-income ratio.  
+
+8. **Category Concentration Risk:**  
+   Concentrated spending is evident, with 36.2% of expenditures directed toward one category (Travel). This indicates susceptibility to financial stress caused by imbalanced allocation toward non-essential expenses.  
+
+---
+
+#### **3. Financial Analysis**  
+
+A detailed financial analysis has been conducted to evaluate the applicant’s suitability for the requested loan:  
+
+- **Debt-to-Income (DTI) Ratio:**  
+  Including the proposed loan’s monthly installment, total monthly debt obligations of $515.09 represent **25.75%** of the applicant’s gross monthly income of $2,000. This is well below the industry benchmark of **36%**, indicating favorable debt servicing capacity.  
+
+- **Risk Score:**  
+  The computed **risk score of 0.31** places the applicant in the moderate risk category. While this does indicate exposure to some financial vulnerabilities, it remains within acceptable bounds for loan approval, particularly given the applicant’s credit history and manageable DTI ratio.  
+
+- **Interest Rate:**  
+  The loan will be extended at an **annual interest rate of 19%**. This rate reflects the applicant’s creditworthiness and aligns with industry standards for applicants presenting moderate risk profiles.  
+
+---
+
+#### **4. Monthly Installments Calculation**  
+
+The applicant’s monthly installment has been calculated based on the following loan parameters:  
+
+- **Loan Amount:** $1,800  
+- **Interest Rate (Annual):** 19%  
+- **Loan Term:** 6 months  
+
+The monthly installment is calculated using the loan amortization formula:  
+\[
+M = \frac{P \cdot r \cdot (1 + r)^n}{(1 + r)^n - 1}
+\]  
+
+Where:  
+   \(M\) = Monthly installment  
+   \(P\) = Loan principal ($1,800)  
+   \(r\) = Monthly interest rate (\(0.19 / 12 = 0.01583\))  
+   \(n\) = Loan term in months (6)  
+
+\[
+M = \frac{1,800 \cdot 0.01583 \cdot (1 + 0.01583)^6}{(1 + 0.01583)^6 - 1}  
+\]  
+
+\[
+M = $315.09  
+\]  
+
+**Monthly Installment:** **$315.09**  
+Over the 6-month repayment term, the applicant will pay a **total of $1,890.54**, inclusive of principal and interest.  
+
+---
+
+#### **5. Final Decision and Justification**  
+
+**Final Decision:** **Accepted**  
+
+**Justification:**  
+Upon comprehensive evaluation of the applicant’s financial metrics, behavioral profiles, and risk factors, the loan application has been approved for the following reasons:  
+
+- **Stable Income:** The applicant demonstrates low income volatility ($131) and manageable monthly expenses, providing assurance of their ability to meet repayment obligations.  
+- **Low Debt-to-Income Ratio:** A DTI ratio of **25.75%** remains well within industry-established thresholds, signifying strong repayment capacity.  
+- **Creditworthiness:** A **credit score of 700** and a clean financial history (no delinquencies or bankruptcies) indicate reliable financial behavior.  
+- **Liquidity Management:** Absence of overdrafts and disciplined credit card usage demonstrate financial responsibility and sufficient liquidity stability.  
+
+**Risk Considerations:**  
+- Negative savings trends (-$1,169/month) and rising expense levels (+$1,084/month) introduce risk related to future financial flexibility.  
+- High expense volatility ($1,088 in standard deviation) could create liquidity challenges during months with elevated spending.  
+- Concentrated spending (36.2% in the Travel category) increases susceptibility to financial stress.  
+
+To mitigate these risks, the approved loan has been structured with a **6-month term** and a **19% interest rate**, thereby limiting extended risk exposure for both parties.  
+
+**Referenced Past Cases:**  
+Similar profiles with moderate risk scores were approved under comparable terms. Referenced cases include: **128001010**, **185000078**, and **108001635**.  
+
+---
+
+### **Conclusion**  
+
+Based on the foregoing analysis, the loan application has been **approved**. While certain financial risks exist, the loan structure (short-term duration and competitive interest rate) mitigates these concerns, ensuring an equitable arrangement for both the applicant and the lending institution.  
+
+##### Signed by:  
+**[Loan Analyst – Financial Reporting Division]**  
+**Date:** October 18, 2023

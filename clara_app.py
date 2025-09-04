@@ -4,6 +4,8 @@ import json
 import pandas as pd
 import uuid
 from clara_agents_pipeline import LoanEligibilityChain
+from report_generator_agent import generate_loan_report
+from utils import normalize_json
 
 if "applications" not in st.session_state:
     st.session_state.applications = []
@@ -30,6 +32,7 @@ if st.session_state.page == "welcome":
     """)
     if st.button("Continue ➡️"):
         go_to("form")
+        st.rerun()
 
 
 # INPUT FORM
@@ -101,6 +104,7 @@ elif st.session_state.page == "form":
             st.session_state.bank_df = pd.read_csv(bank_file)
             st.session_state.cc_df = pd.read_csv(cc_file)
             go_to("banker_comments")
+            st.rerun()
 
 elif st.session_state.page == "banker_comments":
     st.title("📝 Banker Comments")
@@ -119,13 +123,14 @@ elif st.session_state.page == "banker_comments":
         st.session_state.banker_comments = comments
         st.session_state.risk_level = risk_level
         go_to("processing")
+        st.rerun()
 
 # PROCESSING PAGE
 elif st.session_state.page == "processing":
     st.title("⚙️ Processing Your Request...")
-    st.markdown("CLARA is reviewing the data and making a decision. Please wait...")
+    st.markdown("CLARA is reviewing the data and making a decision.")
 
-    with st.spinner("Analyzing user data and loan history..."):
+    with st.spinner("Please be patient, this may take a while..."):
         chain = LoanEligibilityChain(max_retries=5)
         inputs = {
             "input_data": st.session_state.loan_data,
@@ -137,9 +142,10 @@ elif st.session_state.page == "processing":
         result = chain(inputs)
 
         # Save full state to allow report regeneration
-        st.session_state.chain_state = result
         decision = json.loads(result["decision"])
         outcome = decision['decision']
+        st.session_state.behavioral_profiles = result["behavioral_profiles"]
+        st.session_state.user_features = result["user_features"]
         st.session_state.generated_report = result["final_report"]
 
     user_id = str(uuid.uuid4())  # unique ID for each applicant
@@ -156,14 +162,16 @@ elif st.session_state.page == "processing":
 
     st.session_state.decision = decision
     go_to("result")
+    st.rerun()
 
 elif st.session_state.page == "result":
     st.title("✅ Loan Decision")
     decision = st.session_state.decision
 
-    if decision["approved"]:
+    if st.session_state.decision['decision'] == 'accepted':
         st.success("🎉 The loan has been **Approved**!")
-        st.write(f"- **Interest Rate**: {decision['interest_rate']}%")
+        rate = round(decision['interest_rate']*100, 3)
+        st.write(f"- **Interest Rate**: {rate}%")
         st.write(f"- **Loan Term**: {decision['loan_term']} months")
     else:
         st.error("❌ The loan has been **Denied**.")
@@ -180,6 +188,7 @@ elif st.session_state.page == "result":
     with col2:
         if st.button("📄 Generate Report"):
             go_to("report")
+            st.rerun()
 
 
 # --- REPORT PAGE ---
@@ -193,10 +202,12 @@ elif st.session_state.page == "report":
         if st.button("✅ Finish & Start New Application"):
             st.session_state.clear()
             st.session_state.page = "welcome"
+            st.rerun()
 
     with col2:
         if st.button("✏️ Edit & Regenerate Report"):
             go_to("report_edit")
+            st.rerun()
 
 
 # --- REPORT EDIT PAGE ---
@@ -211,15 +222,22 @@ elif st.session_state.page == "report_edit":
         value=st.session_state.get("user_comments", ""),
         height=200
     )
-
+    st.session_state.user_features = normalize_json(st.session_state.user_features)
+    st.session_state.behavioral_profiles = normalize_json(st.session_state.behavioral_profiles)
     if st.button("🔄 Regenerate Report"):
-        # Regenerate report using only the report_agent and saved chain state
-        chain_state = st.session_state.chain_state
-        # update user directives in the state for regeneration
-        chain_state["user_directives"] = st.session_state.user_comments
-        # Reinvoke only report agent
-        chain = LoanEligibilityChain()  # reinstantiate to access report_agent
-        report_output = chain.report_agent.invoke(chain_state)
-        st.session_state.generated_report = report_output["final_report"]
+        decision = st.session_state.decision
+        user_comments = f"{st.session_state.user_comments}. The previous report was this: {st.session_state.generated_report}"
+        report_output = generate_loan_report(
+            st.session_state.loan_data,
+            st.session_state.behavioral_profiles,
+            st.session_state.user_features,
+            decision['interest_rate'],
+            decision['loan_term'],
+            decision,
+            decision['risk_score'],
+            user_comments
+        )
+        st.session_state.generated_report = report_output
         st.session_state.user_comments = ""  # clear after use
         go_to("report")
+        st.rerun()

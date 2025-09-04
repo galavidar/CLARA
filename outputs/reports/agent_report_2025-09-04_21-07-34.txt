@@ -1,0 +1,105 @@
+---
+
+### **Internal Loan Evaluation Report**
+**Applicant Name:** [REDACTED FOR CONFIDENTIALITY]  
+**Application Number:** [REDACTED]  
+**Date:** [REDACTED]
+
+---
+
+#### **I. Loan Request Overview**  
+The applicant has submitted a request for a loan in the amount of **1,100,000 SEK** to be repaid over a term of **34 months**. The stated purpose of the loan is a **major purchase**. The applicant has a reported annual income of **1,334,000 SEK** and has verified their employment as a **hairdresser** with a job tenure of **1 year**. Their current home status is **OWN**, indicating they own their place of residence.  
+
+Key details regarding financial obligations and credit history include:
+- **Monthly debt payments:** **4,040 SEK**  
+- **Credit score:** **830**  
+- **Accounts:** **7 active accounts**  
+- **Past delinquencies:** **Yes**  
+- **Bankruptcy:** **Yes** (recent occurrence)  
+
+---
+
+#### **II. Behavioural Profile Validation**  
+Based on binary behavioural profiles derived from the applicant's financial metrics, the following review of their financial habits has been conducted:
+
+1. **Discretionary Spending Share:**  
+   The applicant's discretionary share is **22%**, a moderate proportion of total spending, suggesting low susceptibility to impulsive spending habits.  
+
+2. **Liquidity Stress:**  
+   No instances of overdrafts were reported, and credit card payment ratios remain above 1, meaning credit card debt is being responsibly managed without undue reliance. This reflects strong financial liquidity.  
+
+3. **Growth Potential:**  
+   Positive trends in **income growth (+37.16)**, **expense control (+35.53)**, and **savings (+1.63)** indicate upward financial mobility and consistent financial improvement.  
+
+4. **Income Stability:**  
+   Low variability in monthly income performance (**std dev: 37.73**) evidences a stable income stream.  
+
+5. **Expense Volatility:**  
+   Spending patterns are consistent, with minimal fluctuations (**std dev: 59.27**), suggesting disciplined budgeting.  
+
+6. **Savings Habit:**  
+   The applicant maintains a savings rate of **17.4%**, demonstrating a reliable effort to reserve funds for future needs.  
+
+7. **Debt Dependence:**  
+   Credit card utilization indicates responsible debt management, with payments exceeding balances, and thereby reducing overall balance dependency.  
+
+8. **Category Concentration Risk:**  
+   A moderate **29% concentration** in one spending category (home-related expenses) implies potential risk in budget diversification, though not excessively concentrated.  
+
+While the behavioural profiles indicate positive aspects such as liquidity health and growth potential, concerns arise from **category concentration risk** and **low job tenure**, which may undermine long-term stability.
+
+---
+
+#### **III. Financial Analysis**  
+
+1. **Debt-to-Income Ratio Calculation:**  
+   Monthly income: **1,112,000 SEK ÷ 12 months = 111,333.33 SEK**  
+   Monthly debt obligation: **4,040 SEK**  
+   Debt-to-income ratio: *(4,040 ÷ 111,333.33) x 100 = 3.63%*  
+   The low monthly debt-to-income ratio suggests that current debt management is sustainable, but the requested loan amount significantly shifts this ratio.
+
+2. **Risk Score:**  
+   The applicant's quantified risk score is **0.999999774**, indicating an **extremely high risk** of default based on existing scoring algorithms. This risk level ranks among the highest recorded in the applicant pool.
+
+3. **Interest Rate:**  
+   Offered interest rate: **12.77%** per annum (fixed). This rate reflects the calculated risk of default and is priced specifically for high-risk borrowers.
+
+4. **Monthly Installments:**  
+   Using the following amortization formula:  
+   \( M = P \times \frac{r (1+r)^n}{(1+r)^n - 1} \)
+
+   Where:  
+   - \( P \): Principal (1,100,000 SEK)  
+   - \( r \): Monthly interest rate (\( 0.1277 \div 12 = 0.01064 \))  
+   - \( n \): Loan term in months (34 months)  
+
+   \( M = 1,100,000 \times \frac{0.01064 (1+0.01064)^{34}}{(1+0.01064)^{34} - 1} \)  
+   \( M \approx 38,217 SEK \)
+
+   Required monthly installment: **38,217 SEK**
+
+---
+
+#### **IV. Loan Decision and Final Evaluation**  
+**Decision:** **Rejected**  
+**Reasoning:**  
+After a comprehensive review of the applicant’s financial, behavioral, and credit profiles, the decision to deny the loan is based on the following factors:  
+
+1. **High Risk Score:** A risk score of **0.999999774** makes the applicant unsuitable for approval due to the likelihood of default.  
+2. **Recent Bankruptcy:** A significant financial setback from previously declared bankruptcy undermines the applicant’s long-term stability.  
+3. **Delinquencies:** Documented delinquencies further highlight a potential issue with repayment reliability.  
+4. **Short Job Tenure:** The applicant only has **1 year of employment**, posing risks for income continuity.  
+5. **Excessive Loan Request:** The requested amount (\(1,100,000 SEK\)) greatly exceeds typical loan-to-income benchmarks, potentially straining their finances.  
+6. **Historical Comparison:** Past cases, such as **[80003507]** and **[198004905]** with similar risk profiles led to defaults despite lower loan amounts. This pattern reinforces the prudence of rejection.
+
+---
+
+#### **V. Recommendation**  
+Given the combination of high-risk indicators, including recent bankruptcy, delinquencies, job instability, and disproportionate loan size relative to financial benchmarks, the applicant is not recommended for approval. The decision aligns with institution policy to mitigate liability for defaults in the high-risk borrower segment.
+
+---
+
+**Prepared by:**  
+[REDACTED]  
+Financial Analyst Team  
+[Bank Name]
