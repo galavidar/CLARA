@@ -3,7 +3,7 @@ from pydantic import Field
 import logging, json
 from langchain.chains.base import Chain
 from langchain.schema.runnable import RunnableLambda
-from behavioural_agent import extract_behavioural_features
+from behavioural_agent import behavioural_features_with_neighbours
 from evaluator_agent import evaluate_outputs
 from report_generator_agent import generate_loan_report
 from decision_agent import decide
@@ -116,7 +116,7 @@ class LoanEligibilityChain(Chain):
         self.behavioral_agent = RunnableLambda(
             lambda state: (
                 lambda res: {**state, "behavioral_profiles": res[0], "user_features": res[1]}
-            )(extract_behavioural_features(
+            )(behavioural_features_with_neighbours(
                 bank=state["bank_csv"],
                 card=state["card_csv"],
                 supervisor_comments=state.get("evaluation_result", {}).get("comments")

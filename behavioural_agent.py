@@ -8,6 +8,8 @@ from pydantic import BaseModel, Field
 from config import BEHAVIOURAL_LOG_FILE, COUNT_TOKENS
 from prompts import build_behavioural_json_prompt
 from utils import get_model, normalize_json
+from pathlib import Path
+import os
 
 class ProfileOutput(BaseModel):
     """
@@ -27,7 +29,6 @@ def preprocess_user(bank_df: pd.DataFrame, card_df: pd.DataFrame) -> Dict:
     # Pick the top 3 months with most transactions
     top_months = month_counts.head(3).index
     bank_df = bank_df[bank_df["month"].isin(top_months)].copy()
-
 
     bank_monthly = bank_df.groupby(pd.Grouper(key="date", freq="MS")).agg({
         "income": "sum",
@@ -65,7 +66,7 @@ def preprocess_user(bank_df: pd.DataFrame, card_df: pd.DataFrame) -> Dict:
 
     features = {
         "income_mean": df["income"].mean(),
-        "income_std": df["income"].std(), 
+        "income_std": df["income"].std(),
         "expense_mean": df["expense"].mean(),
         "expense_std": df["expense"].std(),
         "savings_rate_mean": df["savings_rate"].mean(),
@@ -113,13 +114,13 @@ def run_agent(chat_model, user_features, rule_profiles, supervisor_comments=None
 
     if COUNT_TOKENS:
         log_tokens('behavioural_features', resp.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
-    
+
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(BEHAVIOURAL_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"\n[{timestamp}] Task: Behavioural Profiling\n")
         json.dump(response_dict, f, indent=2, ensure_ascii=False)
         f.write("\n")
-    
+
     return response_dict
 
 
@@ -135,6 +136,235 @@ def extract_behavioural_features(bank, card, supervisor_comments=None):
     response = run_agent(chat_model, user_features, profiles, supervisor_comments)
     return response, user_features
 
+
+def batch_extract_decisions(bank_dir: str, card_dir: str, n_users: int = 1000, out_file: str = "all_user_profiles.csv"):
+    """
+    Loop through all synthetic users and extract rule-based decisions + features.
+    Saves a CSV with one row per user.
+    """
+    rows = []
+    for i in range(1, n_users + 1):
+        bank_path = Path(bank_dir) / f"bank_user_{i:04d}.csv"
+        card_path = Path(card_dir) / f"card_user_{i:04d}.csv"
+
+        try:
+            bank = pd.read_csv(bank_path)
+            card = pd.read_csv(card_path)
+        except FileNotFoundError:
+            print(f"Skipping user {i}, file missing.")
+            continue
+
+        user_features = preprocess_user(bank, card)
+        profiles = infer_rule_based_profiles(user_features)
+
+        # flatten into one row
+        row = {"user_id": i, **profiles, **user_features}
+        rows.append(row)
+
+    df = pd.DataFrame(rows)
+    df.to_csv(out_file, index=False)
+    print(f"Saved {len(df)} users to {out_file}")
+    return df
+
+
+
+def _load_profiles(csv_path: str = "all_user_profiles.csv"):
+    """
+    Load the precomputed CSV and prepare standardized feature matrix.
+    Cached in-memory for speed.
+    """
+
+    _profiles_cache = {}
+    csv_abs = (Path(__file__).resolve().parent / csv_path).resolve()
+    if str(csv_abs) in _profiles_cache:
+        return _profiles_cache[str(csv_abs)]
+
+    df = pd.read_csv(csv_abs)
+
+    # Exclude IDs and the 4 binary decisions from the vector space
+    exclude = {
+        "user_id",
+        "income_stability", "expense_volatility",
+        "savings_habit", "category_concentration_risk"
+    }
+    feat_cols = [c for c in df.columns
+                 if c not in exclude and np.issubdtype(df[c].dtype, np.number)]
+
+    # Standardize
+    mu = df[feat_cols].mean()
+    sig = df[feat_cols].std().replace(0, 1.0)  # avoid div-by-zero
+    Z = (df[feat_cols] - mu) / sig
+    Z = Z.values.astype(float)
+
+    _profiles_cache[str(csv_abs)] = (df, feat_cols, mu, sig, Z)
+    return _profiles_cache[str(csv_abs)]
+
+
+def _topk_neighbors(user_features: Dict, csv_path: str = "all_user_profiles.csv", k: int = 5):
+    """
+    Return indices of the top-k most similar users by cosine similarity on standardized features.
+    """
+    df, feat_cols, mu, sig, Z = _load_profiles(csv_path)
+    # Align query to training columns
+    x = np.array([
+        (user_features.get(c, 0.0) - mu[c]) / (sig[c] if sig[c] != 0 else 1.0)
+        for c in feat_cols
+    ], dtype=float)
+
+    # Cosine similarity
+    denom = (np.linalg.norm(Z, axis=1) * (np.linalg.norm(x) + 1e-12)) + 1e-12
+    sims = (Z @ x) / denom
+    idx = np.argsort(-sims)[:min(k, len(df))]
+    return idx, sims[idx]
+
+
+def _cohort_context(train_df: pd.DataFrame, idx: np.ndarray, max_examples: int = 2) -> Dict:
+    nbrs = train_df.iloc[idx]
+
+    priors = {
+        "n_neighbors": int(len(nbrs)),
+        "p_income_stability": float(nbrs["income_stability"].mean()),
+        "p_expense_volatility": float(nbrs["expense_volatility"].mean()),
+        "p_savings_habit": float(nbrs["savings_habit"].mean()),
+        "p_category_concentration_risk": float(nbrs["category_concentration_risk"].mean()),
+    }
+
+    # keep exemplars tiny (just a few useful fields)
+    cols = [
+        "user_id", "income_mean", "expense_mean",
+        "savings_rate_mean", "overdraft_frequency",
+        "income_stability", "expense_volatility",
+        "savings_habit", "category_concentration_risk"
+    ]
+    cols = [c for c in cols if c in nbrs.columns]
+    exemplars = nbrs.head(max_examples)[cols].to_dict("records")
+
+    return {"cohort_priors": priors, "cohort_exemplars": exemplars}
+
+def _cohort_reasoning_hint(priors: dict) -> str:
+    """Produce a one-liner the LLM can drop into its rationale."""
+    def pct(x: float) -> str:
+        try:
+            x = float(x)
+        except Exception:
+            x = 0.0
+        x = max(0.0, min(1.0, x))
+        return f"{round(100 * x)}%"
+    return (
+        f"In similar cases ({priors.get('n_neighbors', 0)} neighbors), "
+        f"{pct(priors.get('p_income_stability', 0))} had stable income, "
+        f"{pct(priors.get('p_savings_habit', 0))} showed a savings habit, "
+        f"{pct(priors.get('p_expense_volatility', 0))} had high expense volatility, and "
+        f"{pct(priors.get('p_category_concentration_risk', 0))} had concentration risk."
+    )
+def _cohort_conclusion(priors: dict) -> str:
+    """
+    Convert numeric neighbor priors into a short qualitative takeaway.
+    Example: 'In similar cases, users like this often lacked savings and showed elevated risk.'
+    """
+    p_is  = float(priors.get("p_income_stability", 0.0))
+    p_sv  = float(priors.get("p_savings_habit", 0.0))
+    p_ev  = float(priors.get("p_expense_volatility", 0.0))
+    p_ccr = float(priors.get("p_category_concentration_risk", 0.0))
+
+    phrases = []
+
+    # savings habit
+    if p_sv >= 0.65:
+        phrases.append("built savings consistently")
+    elif p_sv <= 0.35:
+        phrases.append("lacked a regular savings habit")
+
+    # expense volatility
+    if p_ev >= 0.55:
+        phrases.append("had volatile expenses")
+    elif p_ev <= 0.35:
+        phrases.append("kept expenses stable")
+
+    # concentration risk
+    if p_ccr >= 0.55:
+        phrases.append("showed spending concentration risk")
+    elif p_ccr <= 0.35:
+        phrases.append("diversified spending across categories")
+
+    # rough risk tone (qualitative, not a number)
+    risk_score = (p_sv < 0.35) + (p_ev > 0.55) + (p_ccr > 0.55)
+    if risk_score >= 2:
+        tail = "— indicating elevated risk."
+    elif risk_score == 1:
+        tail = "— suggesting some caution."
+    else:
+        tail = "— indicating generally healthy behavior."
+
+    body = " and ".join(phrases) if phrases else "were mixed across behaviors"
+    return f"In similar cases, users like this often {body} {tail}"
+
+
+def behavioural_features_with_neighbours(bank_df: pd.DataFrame, card_df: pd.DataFrame, profiles_csv: str = "./dev/data/all_user_profiles.csv", k: int = 10, supervisor_comments=None):
+    """
+    1) Build features and rule profiles
+    2) Retrieve k nearest neighbors from precomputed CSV
+    3) Build cohort priors + exemplars
+    4) Call run_agent once, with cohort context included
+    """
+    # features + rules
+    user_features = preprocess_user(bank_df, card_df)
+    rule_profiles = infer_rule_based_profiles(user_features)
+
+    if os.path.exists(profiles_csv) and os.path.isfile(profiles_csv):
+
+        # neighbors
+        idx, _ = _topk_neighbors(user_features, profiles_csv, k=k)
+        train_df, *_ = _load_profiles(profiles_csv)
+        nbrs = train_df.iloc[idx]
+
+        # build priors + exemplars
+        priors = {
+            "n_neighbors": int(len(nbrs)),
+            "p_income_stability": float(nbrs["income_stability"].mean()),
+            "p_expense_volatility": float(nbrs["expense_volatility"].mean()),
+            "p_savings_habit": float(nbrs["savings_habit"].mean()),
+            "p_category_concentration_risk": float(nbrs["category_concentration_risk"].mean()),
+        }
+        exemplars = nbrs.head(2)[[
+            c for c in [
+                "user_id", "income_mean", "expense_mean",
+                "savings_rate_mean", "overdraft_frequency",
+                "income_stability", "expense_volatility",
+                "savings_habit", "category_concentration_risk"
+            ] if c in nbrs.columns
+        ]].to_dict("records")
+
+        cohort_sentence = _cohort_conclusion(priors)
+
+        extra_ctx = {
+            "previous_response": {
+                "formatting_requirements": (
+                    "Write reasoning for each profile in TWO sentences. "
+                    "Sentence 1: focus ONLY on the CURRENT USER's metrics/trends (no cohort numbers). "
+                    "Sentence 2: END with a short qualitative cohort takeaway that begins with "
+                    "'In similar cases,' and then use the provided 'cohort_conclusion'."
+                ),
+
+                "cohort_conclusion": cohort_sentence,
+                "cohort_priors": priors,
+                "cohort_exemplars": exemplars
+            }
+        }
+
+        if supervisor_comments is not None:
+            if isinstance(supervisor_comments, dict):
+                extra_ctx["previous_response"].update(supervisor_comments)
+            else:
+                extra_ctx["previous_response"]["supervisor_note"] = str(supervisor_comments)
+    else:  
+        extra_ctx = supervisor_comments if supervisor_comments is not None else None
+
+    chat_model = get_model()
+    response = run_agent(chat_model=chat_model, user_features=user_features, rule_profiles=rule_profiles, supervisor_comments=extra_ctx)
+
+    return response, user_features
+
 def test():
     bank = pd.read_csv('./dev/data/synthetic_users/bank_user_0001.csv')
     card = pd.read_csv('./dev/data/synthetic_users/card_user_0001.csv')
@@ -145,4 +375,12 @@ def test():
     print(r)
 
 if __name__ == "__main__":
-    test()
+    #test()
+    #batch_extract_decisions("./dev/data/synthetic_users","./dev/data/synthetic_users")
+
+    bank = pd.read_csv("./dev/data/synthetic_users/bank_user_0001.csv")
+    card = pd.read_csv("./dev/data/synthetic_users/card_user_0001.csv")
+
+    resp, feats = behavioural_features_with_neighbours(bank, card, profiles_csv="./dev/data/all_user_profiles.csv", k=5)
+    print(resp)
+
