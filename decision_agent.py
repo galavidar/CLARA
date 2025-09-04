@@ -158,7 +158,7 @@ def decide(loan_data, user_features, behavioural_profiles, evaluator_comments=No
     int_rate, risk_sc = risk_assesment(loan_data)
     interest = int_rate[0]
     risk_score = risk_sc[0]
-    chat_model = get_model()
+    chat_model = get_model(open_ai_model="gpt-4o")
     decision = run_agent(
         chat_model=chat_model,
         loan_data=loan_data,

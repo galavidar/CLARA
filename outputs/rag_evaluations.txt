@@ -124,3 +124,38 @@
   "score": 0.2,
   "reasoning": "The retrieved database cases with similar loan amount and term are mostly accepted, and there is no record of a high monthly debt or DTI that would justify a rejection. The model's decision relies on inferred data (monthly debt, liquidity stress) not present in the retrieved context, making the justification unsupported by the database. Hence the response is not correct relative to the retrieved data."
 }
+
+[2025-09-04 20-23-00] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.8,
+  "reasoning": "The model's response effectively outlines the financial stress factors impacting the applicant, such as negative savings rate and high debt reliance, aligning with the retrieved context. It cites past cases with stricter terms for similar risk profiles, demonstrating familiarity with precedent. However, some details like discretionary spending share and concentration risk may be inferred rather than directly supported by the context, reducing the faithfulness."
+}
+
+[2025-09-04 20-23-34] Task: RAG relevance Evaluation 
+{
+  "raw_text": "```json\n{\n  \"score\": 0.9,\n  \"reasoning\": \"The model's response is reasonably relevant to the retrieved context. It identifies several factors for rejection, including liquidity stress, high reliance on debt, and financial imbalances. These considerations align with the retrieved data about other accepted cases observing stricter terms under moderate-to-high risk profiles. However, the calculated interest rate and risk score are algorithmically determined and cannot be directly matched to the database records, hence a slight deduction in the score.\"\n}\n```"
+}
+
+[2025-09-04 20-23-52] Task: RAG correctness Evaluation 
+{
+  "score": 0.85,
+  "reasoning": "The model correctly deemed the applicant as rejected based on liquidity stress due to high debt-to-income ratio and spending concentration risks, which align with the context data. It appropriately referenced relevant cases (46001148, 8004880) for stricter terms but judged these insufficient to mitigate risk. The calculated risk score (0.488) is close to the retrieved context range, though the interest rate and risk score algorithmically generated may vary."
+}
+
+[2025-09-04 20-43-44] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model response demonstrates faithfulness by considering key financial metrics from the query and relevant cases in the database. The decision ('accepted') aligns with examples of similar cases in the retrieved context, where physicians with long tenures, stable incomes, and acceptable DTI ratios have been successful in loan repayment. The risk score and calculated interest rate deviate from database examples but are within plausible ranges based on the case-specific calculations. Minor discrepancies (e.g., interest rate adjustment) do not undermine the overall coherence."
+}
+
+[2025-09-04 20-44-29] Task: RAG relevance Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's response is generally relevant as it properly considers key aspects of the applicant's profile, including annual income, credit score, job tenure, and home status, all of which align with information in the query and retrieved context. It also references past similar cases (e.g., physicians/doctors with similar tenure and income stability) to support its decision, which improves relevance. While some calculated metrics like risk score and interest rate differ slightly from those in the database, this can be attributed to the algorithm. The discretionary share and DTI considerations (although not directly matching retrieved data) are indicative of thoughtful reasoning consistent with the query."
+}
+
+[2025-09-04 20-44-40] Task: RAG correctness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's response is mostly aligned with database records and effectively uses retrieved context to justify its decision. It accurately incorporates relevant indicators such as applicant stability, income level, credit score, job tenure, and historical data from similar cases (e.g., Physicians). The DTI ratio, loan term, and proposed interest rate correspond well with the provided rationale. The model goes beyond basic matching and provides a coherent assessment that balances risk and financial stability. Minor discrepancies, such as the generated risk score and interest rate derived algorithmically, do not detract significantly from correctness."
+}

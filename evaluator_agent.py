@@ -32,7 +32,7 @@ def evaluate_outputs(loan_data, profiles, user_features, interest_rate, loan_ter
     """
     Wrapper to run the agent that generates a loan report using the specified parameters.
     """
-    chat_model = get_model()
+    chat_model = get_model(open_ai_model='gpt-4o')
     evaluation_result = run_agent(
         chat_model=chat_model,
         loan_data=loan_data,

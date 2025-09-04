@@ -142,3 +142,34 @@
   "interest_rate": 0.10849242142697203,
   "loan_term": 36
 }
+
+[2025-09-04 20-22-54] Task: Decsision
+{
+  "raw_text": "```python\n{\n  \"decision\": \"rejected\",\n  \"reason\": \"The applicant demonstrates liquidity stress due to a negative savings rate (-18.16%), expenses exceeding income, and high reliance on debt (credit card payment ratio > 100%). Additionally, a discretionary spending share of 26% and concentration risk in spending categories suggest further financial imbalance. The risk score (0.488) indicates moderate risk, and past cases with higher risk scores [46001148, 8004880] were accepted but exhibited stricter terms, such as higher interest rates and longer loan terms. Adjusting the loan terms for this applicant would not sufficiently mitigate risk given the current financial profile and debt dependence.\",\n  \"interest_rate\": 0.10849242142697203,  # Predicted rate remains unchanged as decision is rejection.\n  \"loan_term\": 36  # Applicant-requested term remains unchanged as decision is rejection.\n}\n```"
+}
+
+[2025-09-04 20-29-28] Task: Decsision
+{
+  "raw_text": "```json\n{\n  \"decision\": \"accepted\",\n  \"reason\": \"The applicant demonstrates strong financial stability, with high annual income ($120,000), home ownership, and a high credit score (750). Their debt-to-income ratio is manageable (~16.67%), and they have shown consistent income stability and growth potential. While liquidity stress and reliance on debt are noted, these concerns are mitigated by the applicant's upward income trend, stable expenses, and no record of delinquencies or bankruptcy. Comparable past cases like [185001419, 194003196, 135003961] show applicants with similar financial profiles and risk scores were accepted, with interest rates ranging from 5.32% to 14.85%. Therefore, the loan terms and predicted interest rate are aligned with risk and acceptable precedent.\",\n  \"interest_rate\": 0.08,\n  \"loan_term\": 36\n}\n```"
+}
+
+[2025-09-04 20-31-34] Task: Decsision
+{
+  "raw_text": "```json\n{\n  \"decision\": \"accepted\",\n  \"reason\": \"The applicant demonstrates strong financial metrics, including a high annual income ($120,000), excellent credit score (750), upward income trends, and low expense trends, which indicate financial stability and growth potential. The moderate risk score (0.487) justifies acceptance at a competitive interest rate. Similar past accepted cases, such as [185001419], [194003196], and [135003961], showcase similar profiles (e.g., high income, stable employment, good credit) with interest rates ranging from 5.32% to 14.85%. While liquidity stress and negative savings rate are concerns, the applicant's income stability offsets these risks.\",\n  \"interest_rate\": 0.084,\n  \"loan_term\": 36\n}\n```"
+}
+
+[2025-09-04 20-41-01] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant's risk score (0.487) suggests moderate risk, comparable to similar cases [185001419, 194003196, 135003961] with similar employment (Doctor/Physician) and credit profiles. Their stable income, high credit score (750), and upward financial growth trends reduce risk. Like referenced cases, adjusting the interest rate to reflect lower risk and keeping the loan term at 36 months ensures affordability.",
+  "interest_rate": 0.075,
+  "loan_term": 36
+}
+
+[2025-09-04 20-43-39] Task: Decsision
+{
+  "decision": "accepted",
+  "reason": "The applicant demonstrates stable income and low expense volatility, supported by a high credit score (750) and no record of delinquencies or bankruptcy. The applicant owns their home and has a strong job tenure (10 years as a Doctor), indicating reliable financial behavior. Although there is evidence of debt dependence and limited savings habits, these risks are mitigated by the applicant’s high discretionary share (26%) and growth potential. Past similar cases with physicians and doctors who have stable incomes and long tenures [185001419, 194003196, 55000565] reflect successful loan performance with DTI ratios below 30% and interest rates ranging from 5.32% to 15.99%. Considering the applicant's DTI ratio, financial indicators, and consistent historical repayments observed in similar cases, the loan request aligns with acceptable risk levels. The interest rate has been slightly increased to balance the applicant's moderate risk score (0.488) with financial stability.",
+  "interest_rate": 0.115,
+  "loan_term": 36
+}

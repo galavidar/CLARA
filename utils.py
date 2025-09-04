@@ -4,28 +4,107 @@ from langchain_openai import AzureChatOpenAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 import os
 
+import json
+import re
+
 def normalize_json(obj):
     """
-    Take either a JSON string or a dict-like object and return a proper dict.
-    Always safe for downstream use.
+    Take either a JSON string or a dict-like object and return a proper dict/list.
+    - If obj is a dict or list: return as-is.
+    - If obj is a string:
+        * Try json.loads directly.
+        * If that fails, try to extract and parse JSON from fenced code blocks like ```json ... ```.
+        * If that fails, try to extract the first balanced JSON object/array substring and parse it.
+        * If all parsing fails, return {"raw_text": original_string} (unchanged fallback).
+    - For other types: serialize with json.dumps then json.loads (unchanged), else {"raw_text": str(obj)}.
     """
-    # Case 1: Already a dict (or list)
+
+    # Case 1: Already a dict (or list) → unchanged behavior
     if isinstance(obj, (dict, list)):
         return obj
 
+    # Helper: try to parse the first valid JSON found in fenced code blocks
+    def _parse_from_fences(s: str):
+        # Capture contents inside ```...``` or ```json ...```
+        blocks = re.findall(
+            r"```(?:json|javascript|js|ts|python)?\s*(.*?)\s*```",
+            s,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        for block in blocks:
+            try:
+                return json.loads(block)
+            except json.JSONDecodeError:
+                continue
+        return None
+
+    # Helper: try to extract the first balanced {...} or [...] region and parse it
+    def _parse_first_balanced_json(s: str):
+        s = s.strip()
+        # Find the earliest '{' or '['
+        starts = [p for p in (s.find("{"), s.find("[")) if p != -1]
+        if not starts:
+            return None
+        start = min(starts)
+        opening = s[start]
+        closing = "}" if opening == "{" else "]"
+
+        depth = 0
+        in_str = False
+        esc = False
+        for i in range(start, len(s)):
+            ch = s[i]
+            if in_str:
+                if esc:
+                    esc = False
+                elif ch == "\\":
+                    esc = True
+                elif ch == '"':
+                    in_str = False
+            else:
+                if ch == '"':
+                    in_str = True
+                elif ch == opening:
+                    depth += 1
+                elif ch == closing:
+                    depth -= 1
+                    if depth == 0:
+                        candidate = s[start : i + 1]
+                        try:
+                            return json.loads(candidate)
+                        except json.JSONDecodeError:
+                            return None
+        return None
+
     # Case 2: It's a string
     if isinstance(obj, str):
-        try:
-            return json.loads(obj)
-        except json.JSONDecodeError:
-            # String but not valid JSON → wrap in dict
-            return {"raw_text": obj}
+        s = obj.strip()
 
-    # Case 3: Unexpected type → serialize then load back
+        # 2a) direct parse
+        try:
+            return json.loads(s)
+        except json.JSONDecodeError:
+            pass
+
+        # 2b) parse from fenced code blocks
+        parsed = _parse_from_fences(s)
+        if parsed is not None:
+            return parsed
+
+        # 2c) parse first balanced JSON object/array found in the text
+        parsed = _parse_first_balanced_json(s)
+        if parsed is not None:
+            return parsed
+
+        # 2d) fallback (unchanged)
+        return {"raw_text": obj}
+
+    # Case 3: Unexpected type → serialize then load back (unchanged)
     try:
         return json.loads(json.dumps(obj))
     except Exception:
         return {"raw_text": str(obj)}
+
 
 def get_model(open_ai_model:str="gpt-4o-mini"):
     """
