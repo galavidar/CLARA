@@ -150,18 +150,19 @@ def build_evaluation_prompt(loan_data, features, profiles, rate, term, risk_scor
             - Interest rate: {interest_rate}
             - Loan term: {loan_term}
             - Risk score: {risk_score}
-            - Loan decision + justification: {decision}
+            - Loan decision + justification + retrieval evaluation: {decision}
             - Bank risk tolerance: {bank_risk_tolerance}
             - User directives (if any): {user_directives}
 
             Instructions:
             1. Check if the behavioural profiling is logical and consistent with applicant data.
             2. Check if the loan decision is fair and aligns with both the profiles and risk tolerance.
-            3. Check if the altering the interest rate or term would be beneficial.
-            4. If profiling is problematic → return: {{"action": "revise_profiles", "comments": "..."}}
-            5. If the decision is problematic → return: {{"action": "revise_decision", "comments": "..."}}
-            6. If the decision is acceptable but the interest rate or term should be changed → return: {{"action": "revise_terms", "comments": "..."}}
-            7. If all are acceptable → return: {{"action": "approve", "comments": "... (short justification)"}}
+            3. Check the evaluation of the retrieval portion of the decision. Consider the scores and reasons of each metric.
+            4. Check if the altering the interest rate or term would be beneficial.
+            5. If profiling is problematic → return: {{"action": "revise_profiles", "comments": "..."}}
+            6. If the decision is problematic → return: {{"action": "revise_decision", "comments": "..."}}
+            7. If the decision is acceptable but the interest rate or term should be changed → return: {{"action": "revise_terms", "comments": "..."}}
+            8. If all are acceptable → return: {{"action": "approve", "comments": "... (short justification)"}}
 
             Output schema: Always respond in a dictionary with keys: action, comments.
             """
@@ -261,3 +262,34 @@ def build_decision_prompt(loan_data, features, profiles, rate, term, risk_score,
         })
 
     return prompt.format(**kwargs)
+
+def build_rag_eval_prompt(criteria: str, query: str, prediction: str, reference: str = ""):
+    """
+    Build a structured prompt for evaluation with explicit criteria.
+    """
+    messages = [SystemMessagePromptTemplate.from_template(
+        """
+        You are an evaluation agent. Your task is to check whether a given model's response 
+        satisfies the criterion: {criteria}, relative to data retrieved from a database.\n
+        Note that some fields in the model's response (risk score, interest rate), are calculated using an algorithm,
+        and are given directly to the model. They may not match the database records exactly.
+        "Respond with a JSON object of the form:\n"
+        "score": 0 to 1, "reasoning": "short explanation"
+        """), 
+        HumanMessagePromptTemplate.from_template(
+        """
+        Query: {query}
+
+        Retrieved Context (Important: these fields do not contain a risk score): {reference}
+
+        Model Response: {prediction}
+        """
+    )]
+    prompt = ChatPromptTemplate.from_messages(messages)
+
+    return prompt.format(**{
+        "criteria": criteria,
+        "query": query,
+        "reference": reference,
+        "prediction": prediction
+    })

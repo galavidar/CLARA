@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 import numpy as np
 from typing import Dict
-from config import COUNT_TOKENS, DECISIONS_LOG_FILE, VECTOR_DB_URL, VECTOR_DB_API_KEY
+from config import COUNT_TOKENS, DECISIONS_LOG_FILE, VECTOR_DB_URL, VECTOR_DB_API_KEY, RAG_EVAL_LOG_FILE
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 from qdrant_client.http.models import Filter
@@ -10,7 +10,8 @@ from time import time
 from token_logger import log_tokens
 from risk_agent import risk_assesment
 from utils import normalize_json, get_model
-from prompts import build_decision_prompt
+from prompts import build_decision_prompt, build_rag_eval_prompt
+from langchain.evaluation import load_evaluator
 
 def retrieve_similar_cases(client: QdrantClient, collection_name: str, query_vector: np.ndarray, top_k: int = 10, filters: Filter = None):
     """
@@ -35,6 +36,51 @@ def retrieve_similar_cases(client: QdrantClient, collection_name: str, query_vec
     except Exception as e:
         print(f"⚠️ Retrieval error: {e}")
         return []
+    
+def run_evaluation(eval_model, query: str, prediction: str, reference: str = "", criteria: str = "faithfulness"):
+    """
+    Run an evaluation of the model output against the given criteria.
+    Counts tokens explicitly (same pattern as run_agent).
+    """
+    eval_prompt = build_rag_eval_prompt(criteria, query, prediction, reference)
+    response = eval_model.invoke(eval_prompt)
+    eval_dict = normalize_json(response.content)
+
+    # Extract usage metadata
+    usage = response.response_metadata.get("token_usage", {})
+    if COUNT_TOKENS:
+        log_tokens(
+            "rag_eval",
+            response.response_metadata.get("model_name", "unknown"),
+            prompt_tokens=usage.get("prompt_tokens", 0),
+            completion_tokens=usage.get("completion_tokens", 0),
+            total_tokens=usage.get("total_tokens", 0),
+        )
+    timestamp = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+    with open(RAG_EVAL_LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"\n[{timestamp}] Task: RAG {criteria} Evaluation \n")
+        json.dump(eval_dict, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+    return eval_dict
+
+
+def evaluate_decision_with_langchain(eval_model, loan_data: dict, decision: dict, retrieved_cases: list):
+    """
+    Evaluate a decision object for multiple criteria: faithfulness, relevance, correctness.
+    Uses explicit eval_model calls (token counting enabled).
+    """
+    query = loan_data
+    prediction = decision
+    reference = retrieved_cases
+
+    eval_results = {
+        "faithfulness": run_evaluation(eval_model, query, prediction, reference, criteria="faithfulness"),
+        "relevance": run_evaluation(eval_model, query, prediction, reference, criteria="relevance"),
+        "correctness": run_evaluation(eval_model, query, prediction, reference, criteria="correctness"),
+    }
+
+    return eval_results
 
 
 def run_agent(chat_model, loan_data, user_features, profiles, risk_score, interest_rate, loan_term, evaluator_comments=None, retrieved_cases=None):
@@ -47,12 +93,12 @@ def run_agent(chat_model, loan_data, user_features, profiles, risk_score, intere
     # Extract usage if available
     usage = response.response_metadata['token_usage']
     if COUNT_TOKENS:
-        log_tokens('evaluation', response.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
+        log_tokens('decisions', response.response_metadata['model_name'], prompt_tokens=usage['prompt_tokens'], completion_tokens=usage['completion_tokens'], total_tokens=usage['total_tokens'])
 
     # Save raw output
     timestamp = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
     with open(DECISIONS_LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(f"\n[{timestamp}] Task: Evaluation\n")
+        f.write(f"\n[{timestamp}] Task: Decsision\n")
         json.dump(resp_dict, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
@@ -109,7 +155,9 @@ def decide(loan_data, user_features, behavioural_profiles, evaluator_comments=No
     except Exception as e:
         print(f"⚠️ Could not retrieve cases: {e}")
     
-    interest, risk_score = risk_assesment(loan_data)
+    int_rate, risk_sc = risk_assesment(loan_data)
+    interest = int_rate[0]
+    risk_score = risk_sc[0]
     chat_model = get_model()
     decision = run_agent(
         chat_model=chat_model,
@@ -123,6 +171,10 @@ def decide(loan_data, user_features, behavioural_profiles, evaluator_comments=No
         retrieved_cases=retrieved_cases
     )
     decision['risk_score'] = risk_score
+    eval_model = get_model()
+    eval_results = evaluate_decision_with_langchain(eval_model, loan_data, decision, retrieved_cases)
+    decision['evaluation'] = eval_results
+
     return decision
 
 def test_rag():

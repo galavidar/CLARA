@@ -707,3 +707,27 @@
     "category_concentration_risk": "Top category accounts for about 46% of total spending, showing a high concentration in a single category."
   }
 }
+
+[2025-09-04 10:56:12] Task: Behavioural Profiling
+{
+  "profiles": {
+    "discretionary_spending_share": 1,
+    "liquidity_stress": 1,
+    "growth_potential": 1,
+    "income_stability": 1,
+    "expense_volatility": 0,
+    "savings_habit": 0,
+    "debt_dependence": 1,
+    "category_concentration_risk": 1
+  },
+  "reasoning": {
+    "discretionary_spending_share": "The applicant’s discretionary_share is 0.261, indicating that over a quarter of spending goes to non‑essential categories. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "liquidity_stress": "With a negative average savings rate of –18% and no savings cushion, the applicant shows limited liquid reserves despite zero overdraft incidents. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "growth_potential": "Income is rising (trend +12.0), expenses are falling (trend –207.9) and savings are increasing (trend is +220), suggesting an upward financial trajectory. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "income_stability": "The income standard deviation is only 57.8 on a mean of 3121, reflecting very stable earnings month‑to‑month. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "expense_volatility": "The expense standard deviation of 208.4 relative to a mean of 3686 indicates moderate but not extreme fluctuation, aligning with a low volatility assessment. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "savings_habit": "The average savings rate is –18%, meaning the applicant consistently spends more than they earn, showing no habitual saving behavior. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "debt_dependence": "The credit‑card payment ratio averages 1.14, implying that credit‑card usage is high relative to payments and suggests reliance on debt. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk.",
+    "category_concentration_risk": "The top_category_share is 0.46, meaning nearly half of all spending is concentrated in a single category, highlighting concentration risk. In similar cases, users like this often lacked a regular savings habit and kept expenses stable and showed spending concentration risk — indicating elevated risk."
+  }
+}

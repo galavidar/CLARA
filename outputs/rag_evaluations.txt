@@ -1,0 +1,54 @@
+
+[2025-09-04 16-09-57] Task: RAG Evaluation
+{
+  "score": 0.1,
+  "reasoning": "The model's response introduces details (e.g., a calculated 50% DTI, a risk score of 0.487, an interest rate of 10.85%) that are not present in the retrieved context. It also asserts a rejection decision without any supporting evidence in the reference cases, which only contain accepted loans with lower DTI. Thus the answer is largely invented and not faithful to the provided data."
+}
+
+[2025-09-04 16-10-00] Task: RAG Evaluation
+{
+  "score": 0.92,
+  "reasoning": "The model's answer directly addresses the loan query, providing a decision, interest rate, term, and risk score. It correctly interprets the applicant's high debt‑to‑income ratio and references specific retrieved cases (e.g., case 220004197 and case 8004880) to justify the rejection, demonstrating relevance to the retrieved context."
+}
+
+[2025-09-04 16-10-05] Task: RAG Evaluation
+{
+  "score": 0.4,
+  "reasoning": "The model correctly identifies that a 50% DTI is unusually high compared to the reference cases (the highest accepted DTI is ~28%). Therefore a rejection is plausible. However, the model's justification cites specific figures (interest rate 10.85%, risk score 0.487) that are not present in the retrieved reference data, and it misinterprets the risk‑score scale (reference scores are in the 600‑800 range). Because the explanation relies on unsupported numbers, the response is only partially correct."
+}
+
+[2025-09-04 16-14-38] Task: RAG Evaluation
+{
+  "score": 0.4,
+  "reasoning": "The model correctly references retrieved cases (e.g., case 8004880 and 220004197) and its decision rationale aligns with the DTI information in the context. However, the risk_score field is malformed (a pandas Series string) and does not correspond to any value in the retrieved payloads, indicating a lack of faithfulness to the source data. The interest_rate, while algorithmically generated, is plausible. Overall the response is partially faithful but contains inaccurate fabricated output."
+}
+
+[2025-09-04 16-14-41] Task: RAG Evaluation
+{
+  "score": 0.85,
+  "reasoning": "The response directly addresses the loan request, provides a decision and justification that reference specific retrieved cases (e.g., case 8004880 and case 220004197) and their DTI ratios, which are present in the context. This shows the model used relevant information from the database. Minor formatting issues in the risk_score field do not affect the relevance assessment."
+}
+
+[2025-09-04 16-14-45] Task: RAG Evaluation
+{
+  "score": 0.7,
+  "reasoning": "The model correctly computes the applicant's debt-to-income ratio (~50%) and flags it as high, which is consistent with the reasoning that such a DTI would be risky. The interest rate and risk score are algorithmic outputs and need not match the database. However, the retrieved reference cases do not contain a directly comparable rejected example with a similarly high DTI, so the decision cannot be fully validated against the provided data. The answer is plausible but not definitively supported by the reference records."
+}
+
+[2025-09-04 16-21-49] Task: RAG faithfulness Evaluation 
+{
+  "score": 0.92,
+  "reasoning": "The model's decision and reasoning are consistent with the retrieved context. It correctly references DTI values from similar cases (e.g., 28% and 7% DTI) that are present in the payloads, and the claim that a 50% DTI is much higher is accurate. No contradictions with the retrieved data are observed, and the use of internally computed fields (risk_score, interest_rate) is permissible. Hence the response is faithful to the retrieved information."
+}
+
+[2025-09-04 16-21-52] Task: RAG relevance Evaluation 
+{
+  "score": 0.4,
+  "reasoning": "The model cites DTI figures from retrieved cases, showing some use of the context, but it introduces many details (negative savings rate, profile flags, an ML risk score, specific interest rate) that are not present in the retrieved data, resulting in only partial relevance."
+}
+
+[2025-09-04 16-21-56] Task: RAG correctness Evaluation 
+{
+  "score": 0.9,
+  "reasoning": "The model's decision to reject aligns with the retrieved cases, which all show much lower debt‑to‑income ratios than the applicant's ~50% DTI. The model correctly flags high DTI as a risk factor and references similar accepted cases with lower DTI. The interest rate and risk_score are algorithmic outputs, which are allowed to differ from database values. Overall, the response is consistent with the retrieved context."
+}
