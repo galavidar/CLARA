@@ -1,8 +1,8 @@
-# 🤖 CLARA – Credit & Loan Automated Risk Assessment
+# 💳🤖💸 CLARA – Credit & Loan Automated Risk Assessment
 
 CLARA (**C**redit & **L**oan **A**ssessment with **R**isk **A**gents) is a **modular multi-agent system** designed to aid financial institutions in their assessment of loan applications, driving decision-making and reducing cumbersome paperwork.
 
-It combines **LLM-driven agents** and **ML models** to:
+CLARA combines **LLM-driven agents** and **ML models** to:
 - Predict fair loan interest rates
 - Categorize borrower risk
 - Analyze behavioral spending and repayment patterns
@@ -73,8 +73,14 @@ Run the Streamlit app:
 ```bash
 streamlit run clara_app.py
 ```
-
+Click on the link in the terminal for a locally hosted page.
 Then follow the on-screen prompts to upload a loan application and view the results.
+That's all! Easy-peasy.
+
+### ❗️ Important
+- In order for CLARA to run, you will need labelled card transactions and bank statements in csv format. See the 'examples' directory for a sample upload.
+- On startup, the page will take a few seconds to render. Please be patient.
+- Once the application is submitted, the pipeline takes a couple of minutes to run and complete. Please be very patient. You can always track the progress in the terminal, or via the outputs.
 
 ## 📊 Data
 
@@ -84,4 +90,42 @@ dev_data/data/synthetic_users/
 ```
 
 Each file simulates a user's financial behavior.  
-Real loan data is available from the (Lending Club dataset)[https://www.kaggle.com/datasets/wordsforthewise/lending-club] and was uploaded to our Vector DB. The data itself was too large to upload to the repo.
+Real loan data is available from the [Lending Club dataset](https://www.kaggle.com/datasets/wordsforthewise/lending-club) and was uploaded to our Vector DB. The data itself was too large to upload to the repo.
+
+## 📁 Project Structure
+CLARA/
+├── agent/                          # Core agent system
+│   ├── dev_data/                   # Datasets, processing & model training (development) code
+│   │   ├── data/                   # Datasets and synthetic data
+│   │   │   ├── synthetic_users/    # 1000 bank & card user profiles
+│   │   │   ├── all_user_profiles.csv
+│   │   │   └── synthetic_user_data.zip
+│   │   ├── Data preparation.ipynb  # Data preprocessing notebooks
+│   │   ├── data_generator.py       # Synthetic data generation
+│   │   ├── interest_calculator.py  # Interest rate calculation predictor
+│   │   ├── risk_categorization_train.py # Risk model training
+│   │   ├── risk_score.ipynb        # Risk scoring analysis
+│   │   └── vdb.ipynb              # Vector database setup
+│   ├── outputs/                    # Agent execution results
+│   │   ├── reports/               # Generated assessment reports, each in its own file
+│   │   ├── application_decisions_history.json # Application and decision history from past runs
+│   │   └── [various agent response logs]
+│   ├── weights/                    # Trained ML models
+│   │   ├── interest_model.zip     # Interest rate prediction model
+│   │   ├── risk_model.pkl         # Risk categorization model
+│   │   └── [preprocessing artifacts]
+│   ├── clara_agents_pipeline.py    # Main pipeline orchestration
+│   ├── behavioural_agent.py       # Behavioural financial features analysis
+│   ├── decision_agent.py          # Final loan decision logic incl. RAG & RAG validation
+│   ├── evaluator_agent.py         # Quality assurance agent
+│   ├── report_generator_agent.py  # Report creation
+│   ├── risk_agent.py              # Risk assessment agent
+│   ├── config.py                  # Configuration settings
+│   ├── prompts.py                 # LLM prompt templates
+│   ├── token_logger.py            # API usage tracking
+│   └── utils.py                   # Shared utilities
+├── examples/                      # Example inputs (csvs/txt) and outputs for streamlit testing
+├── tokens_count/                  # Token usage monitoring (copy from agent/outputs)
+├── clara_app.py                   # Streamlit web interface
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
