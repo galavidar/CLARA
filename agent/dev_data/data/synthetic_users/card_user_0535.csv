@@ -1,0 +1,49 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,32.4,32.4,Clothing
+2023-01-04,Richardson Ltd,79.7,79.7,Entertainment
+2023-01-05,Uber,76.68,76.68,Travel
+2023-01-09,McDonald's,44.74,44.74,Dining
+2023-01-15,Saunders Ltd,406.05,203.03,Electronics
+2023-01-18,H&M,41.97,41.97,Clothing
+2023-01-19,Zara,49.89,49.89,Clothing
+2023-01-20,Target,95.08,31.69,Groceries
+2023-01-23,McDonald's,24.15,24.15,Dining
+2023-01-26,Cruz Inc,100.01,100.01,Groceries
+2023-01-27,Avery-Mosley,67.33,67.33,Health
+2023-01-30,Apple,854.3,854.3,Electronics
+2023-02-01,Uber,54.52,54.52,Travel
+2023-02-03,CVS,44.78,44.78,Health
+2023-02-04,Walmart,57.59,57.59,Groceries
+2023-02-05,IKEA,317.73,105.91,Home
+2023-02-06,Hill Inc,309.67,309.67,Home
+2023-02-07,H&M,141.61,141.61,Clothing
+2023-02-09,Daniels Ltd,23.16,23.16,Entertainment
+2023-02-12,H&M,98.44,49.22,Clothing
+2023-02-14,Ayala-Perez,225.12,225.12,Travel
+2023-02-15,Starbucks,52.59,52.59,Dining
+2023-02-16,IKEA,275.39,275.39,Home
+2023-02-17,IKEA,394.63,394.63,Home
+2023-02-18,Adidas,49.98,49.98,Clothing
+2023-02-19,Morton and Sons,123.28,123.28,Travel
+2023-02-20,"Valentine, Arellano and Ward",475.74,475.74,Electronics
+2023-02-21,"Smith, Black and Thomas",132.88,132.88,Travel
+2023-02-22,Delta Airlines,188.54,188.54,Travel
+2023-02-23,"Brown, Ford and Williams",21.72,21.72,Entertainment
+2023-02-25,IKEA,376.73,376.73,Home
+2023-02-26,Small and Sons,38.52,38.52,Groceries
+2023-02-27,Amazon,845.87,845.87,Electronics
+2023-03-02,Adidas,137.86,68.93,Clothing
+2023-03-04,Adidas,95.97,31.99,Clothing
+2023-03-06,CVS,67.0,67.0,Health
+2023-03-09,Starbucks,14.21,7.11,Dining
+2023-03-10,Starbucks,43.89,14.63,Dining
+2023-03-12,Conrad PLC,38.17,38.17,Entertainment
+2023-03-15,Nike,175.8,175.8,Clothing
+2023-03-16,"Cruz, Lopez and Hicks",57.1,57.1,Dining
+2023-03-19,English-West,66.67,66.67,Home
+2023-03-21,Martinez Inc,145.02,145.02,Groceries
+2023-03-24,Target,47.1,47.1,Groceries
+2023-03-25,McDonald's,47.22,47.22,Dining
+2023-03-26,Delta Airlines,109.95,109.95,Travel
+2023-03-27,Walmart,80.29,80.29,Groceries
+2023-03-30,Amazon,697.64,697.64,Electronics

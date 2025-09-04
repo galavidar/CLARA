@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,67.22,67.22,Clothing
+2023-01-04,Starbucks,14.26,14.26,Dining
+2023-01-05,Johnson-Russell,60.32,60.32,Health
+2023-01-06,Target,91.57,91.57,Groceries
+2023-01-09,"Greer, Lopez and Wong",91.92,91.92,Clothing
+2023-01-10,Starbucks,40.12,40.12,Dining
+2023-01-12,Zara,73.15,73.15,Clothing
+2023-01-14,Apple,242.06,242.06,Electronics
+2023-01-15,McDonald's,38.52,38.52,Dining
+2023-01-21,Amazon,773.92,773.92,Electronics
+2023-01-26,Zara,34.62,34.62,Clothing
+2023-02-02,Starbucks,48.71,48.71,Dining
+2023-02-04,H&M,66.65,66.65,Clothing
+2023-02-05,Apple,193.85,193.85,Electronics
+2023-02-08,Fleming and Sons,231.12,231.12,Home
+2023-02-10,"Garrett, Newton and Murphy",318.27,318.27,Home
+2023-02-12,Cabrera-Gutierrez,56.29,56.29,Health
+2023-02-15,Kim-Johnson,16.79,16.79,Dining
+2023-02-20,McDonald's,21.36,21.36,Dining
+2023-02-21,Zara,109.21,109.21,Clothing
+2023-02-23,Walgreens,38.06,38.06,Health
+2023-02-24,"Hampton, Hoover and Parsons",120.11,120.11,Clothing
+2023-02-25,CVS,50.42,25.21,Health
+2023-02-27,James-Matthews,78.66,78.66,Entertainment
+2023-03-02,Amazon,998.34,998.34,Electronics
+2023-03-03,Nike,108.24,108.24,Clothing
+2023-03-05,CVS,48.52,48.52,Health
+2023-03-06,"Quinn, Middleton and Payne",17.21,17.21,Entertainment
+2023-03-14,Apple,168.89,56.3,Electronics
+2023-03-15,"Ali, Rosales and Roberts",368.18,368.18,Travel
+2023-03-18,IKEA,50.05,50.05,Home
+2023-03-21,Amazon,315.03,315.03,Electronics
+2023-03-25,Delta Airlines,393.99,393.99,Travel
+2023-03-29,McDonald's,56.06,56.06,Dining
+2023-03-30,Target,42.08,42.08,Groceries

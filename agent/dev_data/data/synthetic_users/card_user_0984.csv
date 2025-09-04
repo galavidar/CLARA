@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,421.64,421.64,Travel
+2023-01-03,Delta Airlines,220.77,73.59,Travel
+2023-01-14,Starbucks,50.87,50.87,Dining
+2023-01-20,McDonald's,52.85,52.85,Dining
+2023-01-24,Butler-James,113.5,37.83,Clothing
+2023-01-30,Taylor-Hughes,311.21,103.74,Electronics
+2023-02-01,H&M,89.23,89.23,Clothing
+2023-02-02,Nike,47.48,47.48,Clothing
+2023-02-03,Amazon,790.54,790.54,Electronics
+2023-02-04,Nike,94.1,94.1,Clothing
+2023-02-05,"Lopez, Harris and Knight",194.61,194.61,Home
+2023-02-06,Delta Airlines,318.89,318.89,Travel
+2023-02-10,Roberts-Hoover,279.21,279.21,Home
+2023-02-14,Delta Airlines,377.53,377.53,Travel
+2023-02-20,Walker-Collins,110.5,110.5,Clothing
+2023-02-21,"Richard, Griffith and Sheppard",83.94,83.94,Clothing
+2023-02-23,"Bailey, Ortiz and Carr",185.79,185.79,Home
+2023-02-25,Uber,359.89,359.89,Travel
+2023-02-27,Chavez-Larson,130.15,130.15,Clothing
+2023-03-01,"Williams, Phillips and Morris",28.83,28.83,Health
+2023-03-02,Target,131.78,131.78,Groceries
+2023-03-05,Zara,65.03,65.03,Clothing
+2023-03-10,"Pacheco, Smith and Collins",330.56,330.56,Travel
+2023-03-14,Target,102.94,102.94,Groceries
+2023-03-16,Adidas,151.24,151.24,Clothing
+2023-03-18,Adidas,64.47,64.47,Clothing
+2023-03-20,Delta Airlines,496.54,165.51,Travel
+2023-03-21,IKEA,277.15,277.15,Home
+2023-03-23,Brown PLC,319.15,319.15,Home
+2023-03-26,Delta Airlines,64.87,64.87,Travel
+2023-03-27,IKEA,200.45,200.45,Home
+2023-03-28,McDonald's,32.06,32.06,Dining
+2023-03-29,H&M,157.23,157.23,Clothing
+2023-03-30,H&M,177.91,177.91,Clothing
+2023-03-31,IKEA,390.91,390.91,Home

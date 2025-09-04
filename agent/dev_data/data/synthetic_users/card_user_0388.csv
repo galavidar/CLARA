@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,101.93,101.93,Clothing
+2023-01-02,Walmart,30.69,30.69,Groceries
+2023-01-06,H&M,61.8,61.8,Clothing
+2023-01-07,H&M,167.14,83.57,Clothing
+2023-01-09,Target,85.95,28.65,Groceries
+2023-01-10,Target,115.23,115.23,Groceries
+2023-01-13,Uber,494.01,494.01,Travel
+2023-01-17,Adidas,43.49,43.49,Clothing
+2023-01-21,Adidas,130.63,130.63,Clothing
+2023-01-22,Delta Airlines,262.15,262.15,Travel
+2023-01-24,Martinez and Sons,50.31,25.16,Dining
+2023-01-25,Nike,181.69,181.69,Clothing
+2023-01-27,Cortez-Thomas,154.49,77.25,Travel
+2023-01-31,Osborne Group,126.04,126.04,Electronics
+2023-02-05,Zara,103.26,103.26,Clothing
+2023-02-07,Target,112.53,112.53,Groceries
+2023-02-08,IKEA,314.44,314.44,Home
+2023-02-09,IKEA,294.52,294.52,Home
+2023-02-10,"Mcgee, Rodriguez and Sanchez",363.5,363.5,Travel
+2023-02-15,Walmart,50.25,50.25,Groceries
+2023-02-18,Walmart,29.18,29.18,Groceries
+2023-02-21,Amazon,493.8,493.8,Electronics
+2023-02-26,McDonald's,52.0,17.33,Dining
+2023-02-27,IKEA,170.75,170.75,Home
+2023-03-08,McDonald's,35.55,35.55,Dining
+2023-03-15,H&M,88.48,88.48,Clothing
+2023-03-18,Lewis PLC,153.88,153.88,Clothing
+2023-03-22,IKEA,104.6,104.6,Home
+2023-03-28,Joseph-Roman,147.12,147.12,Groceries

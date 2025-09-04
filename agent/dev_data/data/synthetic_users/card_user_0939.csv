@@ -1,0 +1,27 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,Webb-Moody,352.25,352.25,Home
+2023-01-12,CVS,69.58,69.58,Health
+2023-01-17,CVS,66.95,66.95,Health
+2023-01-21,Walgreens,61.44,61.44,Health
+2023-01-28,Colon-Forbes,27.84,27.84,Dining
+2023-02-01,Adidas,131.52,131.52,Clothing
+2023-02-04,Apple,377.19,377.19,Electronics
+2023-02-07,Target,90.21,90.21,Groceries
+2023-02-08,H&M,167.63,167.63,Clothing
+2023-02-09,Shannon-Hicks,106.73,106.73,Groceries
+2023-02-13,H&M,115.82,115.82,Clothing
+2023-02-16,Delta Airlines,131.15,65.58,Travel
+2023-02-17,Target,72.49,36.24,Groceries
+2023-02-22,Nike,144.54,48.18,Clothing
+2023-02-23,IKEA,91.46,91.46,Home
+2023-02-25,Zara,111.25,37.08,Clothing
+2023-02-28,Simon-Walker,17.83,17.83,Dining
+2023-03-10,IKEA,271.18,271.18,Home
+2023-03-12,McDonald's,57.25,57.25,Dining
+2023-03-14,Delta Airlines,343.04,343.04,Travel
+2023-03-15,H&M,97.16,97.16,Clothing
+2023-03-16,Amazon,230.83,230.83,Electronics
+2023-03-20,Target,143.39,47.8,Groceries
+2023-03-22,CVS,61.07,20.36,Health
+2023-03-25,"Collins, Sloan and Chapman",440.56,440.56,Travel
+2023-03-27,Adidas,116.42,58.21,Clothing

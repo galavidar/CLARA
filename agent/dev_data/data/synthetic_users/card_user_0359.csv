@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,H&M,84.28,84.28,Clothing
+2023-01-04,Apple,979.54,979.54,Electronics
+2023-01-05,Walgreens,23.5,23.5,Health
+2023-01-07,Roberts Inc,94.02,94.02,Travel
+2023-01-09,CVS,69.67,69.67,Health
+2023-01-14,Sutton PLC,41.33,41.33,Health
+2023-01-15,Delta Airlines,251.98,251.98,Travel
+2023-01-20,Walgreens,64.37,64.37,Health
+2023-01-22,Newman-Johnson,67.44,67.44,Groceries
+2023-01-26,CVS,93.74,93.74,Health
+2023-01-30,Knight-Peterson,111.19,111.19,Clothing
+2023-02-04,Oliver Group,403.93,403.93,Travel
+2023-02-06,Stevenson PLC,148.52,148.52,Groceries
+2023-02-07,Walmart,75.64,75.64,Groceries
+2023-02-09,McDonald's,28.51,28.51,Dining
+2023-02-10,McDonald's,31.13,31.13,Dining
+2023-02-11,Zara,154.79,154.79,Clothing
+2023-02-12,H&M,51.25,51.25,Clothing
+2023-02-13,Adidas,32.11,10.7,Clothing
+2023-02-14,Adidas,58.97,58.97,Clothing
+2023-02-20,Walgreens,60.05,60.05,Health
+2023-02-25,Nike,35.52,35.52,Clothing
+2023-03-03,Gonzalez-Fox,43.28,43.28,Dining
+2023-03-04,Walgreens,82.82,82.82,Health
+2023-03-05,Ramos-Martinez,653.7,653.7,Electronics
+2023-03-06,CVS,95.03,95.03,Health
+2023-03-07,CVS,31.41,31.41,Health
+2023-03-08,Zara,182.21,60.74,Clothing
+2023-03-13,Bell Inc,43.54,43.54,Dining
+2023-03-16,Nike,192.22,192.22,Clothing
+2023-03-18,"Cervantes, Miller and Garza",254.28,254.28,Home
+2023-03-21,Shaw Inc,33.94,33.94,Entertainment
+2023-03-22,H&M,68.6,34.3,Clothing

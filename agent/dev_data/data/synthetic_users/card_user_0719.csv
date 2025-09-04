@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,Santos-Harrington,56.79,56.79,Health
+2023-01-08,Delta Airlines,59.63,59.63,Travel
+2023-01-09,Apple,404.07,404.07,Electronics
+2023-01-12,Uber,456.64,456.64,Travel
+2023-01-19,Davila and Sons,461.21,461.21,Electronics
+2023-01-20,Walgreens,38.55,38.55,Health
+2023-01-21,H&M,65.06,65.06,Clothing
+2023-02-02,Zara,108.88,108.88,Clothing
+2023-02-03,"Young, Salas and Turner",231.24,231.24,Home
+2023-02-06,"Myers, Bowman and Hartman",35.72,35.72,Entertainment
+2023-02-10,Apple,543.85,543.85,Electronics
+2023-02-11,Nguyen Ltd,124.2,124.2,Clothing
+2023-02-12,Starbucks,16.01,16.01,Dining
+2023-02-13,Walmart,36.65,36.65,Groceries
+2023-02-16,McDonald's,17.64,17.64,Dining
+2023-02-17,H&M,148.59,148.59,Clothing
+2023-02-18,CVS,12.87,6.43,Health
+2023-02-26,"Rivera, Rios and Cohen",59.77,59.77,Entertainment
+2023-03-03,Delta Airlines,363.15,363.15,Travel
+2023-03-04,Adidas,149.23,74.61,Clothing
+2023-03-05,Walgreens,81.69,81.69,Health
+2023-03-07,"Hinton, Gallagher and Goodwin",36.53,12.18,Health
+2023-03-08,Roberts Ltd,883.68,883.68,Electronics
+2023-03-09,Uber,196.9,196.9,Travel
+2023-03-12,Frye PLC,98.5,98.5,Health
+2023-03-14,Walmart,101.04,33.68,Groceries
+2023-03-15,H&M,75.29,75.29,Clothing
+2023-03-19,Matthews Group,66.07,66.07,Entertainment
+2023-03-22,"Zimmerman, Tran and Clark",16.16,5.39,Dining
+2023-03-28,CVS,95.9,95.9,Health
+2023-03-29,Uber,151.73,151.73,Travel
+2023-03-31,White-Reed,235.13,235.13,Home

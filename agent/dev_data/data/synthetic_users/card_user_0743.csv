@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Delta Airlines,351.39,351.39,Travel
+2023-01-03,Walgreens,25.45,25.45,Health
+2023-01-09,Delta Airlines,201.43,201.43,Travel
+2023-01-11,McDonald's,41.28,13.76,Dining
+2023-01-12,Target,22.65,22.65,Groceries
+2023-01-14,"Alvarez, Daniels and Boyer",457.61,228.81,Travel
+2023-01-18,Taylor LLC,961.07,320.36,Electronics
+2023-01-20,IKEA,334.61,334.61,Home
+2023-01-22,Ayala-Gonzalez,608.7,608.7,Electronics
+2023-01-26,"Flynn, Leonard and Clark",471.95,471.95,Travel
+2023-01-28,McDonald's,28.33,28.33,Dining
+2023-01-29,Hernandez Inc,805.14,805.14,Electronics
+2023-01-30,Apple,961.64,961.64,Electronics
+2023-01-31,Uber,327.48,163.74,Travel
+2023-02-07,Zara,67.15,67.15,Clothing
+2023-02-10,Morgan-Foster,27.19,27.19,Health
+2023-02-13,McDonald's,35.98,35.98,Dining
+2023-02-14,Walgreens,78.22,78.22,Health
+2023-02-17,Adidas,123.57,123.57,Clothing
+2023-02-28,Nike,189.15,189.15,Clothing
+2023-03-02,Walgreens,52.82,52.82,Health
+2023-03-05,Goodman Inc,872.34,872.34,Electronics
+2023-03-06,Delta Airlines,274.5,274.5,Travel
+2023-03-07,"Sparks, Bishop and Soto",381.46,381.46,Electronics
+2023-03-10,"Ray, Hanson and Carr",242.19,242.19,Home
+2023-03-11,IKEA,99.69,99.69,Home
+2023-03-16,CVS,14.04,4.68,Health
+2023-03-17,Uber,105.58,105.58,Travel
+2023-03-23,Nike,104.85,104.85,Clothing
+2023-03-24,"Logan, Casey and Phillips",260.66,260.66,Home
+2023-03-25,Uber,90.48,90.48,Travel
+2023-03-26,Zara,127.35,127.35,Clothing
+2023-03-27,Uber,412.71,412.71,Travel
+2023-03-31,Wilson-Warren,44.29,44.29,Dining

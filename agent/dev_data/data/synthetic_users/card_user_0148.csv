@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Uber,361.72,361.72,Travel
+2023-01-07,Adidas,76.52,76.52,Clothing
+2023-01-09,Martin-Payne,102.89,102.89,Home
+2023-01-13,Apple,684.02,342.01,Electronics
+2023-01-16,Baker-Perez,162.36,162.36,Clothing
+2023-01-19,Zara,80.23,80.23,Clothing
+2023-01-21,Zara,48.31,48.31,Clothing
+2023-01-25,Zara,38.48,19.24,Clothing
+2023-02-01,Walgreens,56.49,56.49,Health
+2023-02-09,Target,117.27,117.27,Groceries
+2023-02-10,"Keith, Kaufman and Davis",95.73,95.73,Clothing
+2023-02-16,Starbucks,53.12,53.12,Dining
+2023-02-17,Walgreens,41.18,41.18,Health
+2023-02-19,McDonald's,12.81,12.81,Dining
+2023-02-20,Starbucks,10.06,10.06,Dining
+2023-02-22,Maldonado and Sons,56.48,56.48,Groceries
+2023-02-24,CVS,90.22,90.22,Health
+2023-02-26,CVS,40.87,40.87,Health
+2023-03-05,Shepard-Harper,481.73,481.73,Travel
+2023-03-06,Delta Airlines,59.41,59.41,Travel
+2023-03-07,Nike,123.61,123.61,Clothing
+2023-03-08,Amazon,781.48,781.48,Electronics
+2023-03-09,Amazon,991.79,991.79,Electronics
+2023-03-10,H&M,78.47,26.16,Clothing
+2023-03-11,"Lewis, Johnson and Hayes",51.56,51.56,Dining
+2023-03-12,Lambert Inc,10.89,10.89,Entertainment
+2023-03-14,Escobar-Benson,411.32,411.32,Travel
+2023-03-18,Apple,860.5,860.5,Electronics
+2023-03-19,IKEA,261.88,87.29,Home
+2023-03-21,Moore-Figueroa,57.94,57.94,Dining
+2023-03-22,Gutierrez-Alvarez,354.59,354.59,Home
+2023-03-26,McDonald's,38.35,38.35,Dining
+2023-03-28,Starbucks,44.53,44.53,Dining
+2023-03-29,Stevenson-Pearson,48.89,48.89,Health
+2023-03-31,Delta Airlines,293.17,146.59,Travel

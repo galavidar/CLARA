@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Delta Airlines,158.28,158.28,Travel
+2023-01-04,Walmart,118.16,118.16,Groceries
+2023-01-06,Hicks Ltd,58.59,29.3,Dining
+2023-01-08,Nike,170.25,56.75,Clothing
+2023-01-11,Amazon,262.74,262.74,Electronics
+2023-01-12,IKEA,192.94,192.94,Home
+2023-01-13,Guerra-Hernandez,36.29,36.29,Dining
+2023-01-15,White PLC,97.17,97.17,Clothing
+2023-01-17,"Burns, Robertson and Wu",33.14,33.14,Dining
+2023-01-18,Combs-Thomas,31.85,31.85,Dining
+2023-01-21,Richardson-Richardson,71.94,71.94,Health
+2023-01-27,Houston LLC,120.69,120.69,Groceries
+2023-01-29,Amazon,401.65,401.65,Electronics
+2023-01-30,Zara,178.87,178.87,Clothing
+2023-01-31,Walmart,72.45,72.45,Groceries
+2023-02-03,Davis-Weber,10.39,10.39,Dining
+2023-02-04,Walker-Henderson,596.25,596.25,Electronics
+2023-02-06,Moore-Camacho,355.48,355.48,Travel
+2023-02-09,Payne PLC,268.54,268.54,Home
+2023-02-13,Amazon,456.39,228.19,Electronics
+2023-02-19,H&M,169.85,84.92,Clothing
+2023-02-20,Ramos-Osborn,57.7,57.7,Health
+2023-02-21,Uber,469.65,469.65,Travel
+2023-02-22,Walmart,81.55,81.55,Groceries
+2023-02-23,Walgreens,71.11,71.11,Health
+2023-02-24,Ferguson-Fowler,197.88,197.88,Home
+2023-02-27,Uber,301.08,301.08,Travel
+2023-03-01,Starbucks,31.25,31.25,Dining
+2023-03-02,Amazon,731.41,731.41,Electronics
+2023-03-03,Zara,154.11,77.06,Clothing
+2023-03-05,Walgreens,86.59,86.59,Health
+2023-03-07,Nike,110.31,110.31,Clothing
+2023-03-12,Delta Airlines,266.09,266.09,Travel
+2023-03-13,Uber,253.1,84.37,Travel
+2023-03-20,Target,42.84,14.28,Groceries
+2023-03-23,Mckee Ltd,14.81,14.81,Dining
+2023-03-28,"Morrow, Beard and Garcia",95.86,31.95,Health

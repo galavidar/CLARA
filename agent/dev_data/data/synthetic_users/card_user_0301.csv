@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,55.18,27.59,Groceries
+2023-01-06,Delta Airlines,304.86,152.43,Travel
+2023-01-07,Delta Airlines,185.04,185.04,Travel
+2023-01-08,Delta Airlines,412.67,412.67,Travel
+2023-01-10,Delta Airlines,235.78,117.89,Travel
+2023-01-11,Target,94.52,94.52,Groceries
+2023-01-14,Lewis PLC,187.38,187.38,Clothing
+2023-01-15,"Garcia, Bridges and Buckley",18.28,6.09,Dining
+2023-01-17,Carr Inc,43.91,43.91,Entertainment
+2023-01-21,H&M,133.66,133.66,Clothing
+2023-01-24,Target,148.72,148.72,Groceries
+2023-01-27,Adidas,119.27,59.63,Clothing
+2023-01-29,Nike,108.62,36.21,Clothing
+2023-01-30,H&M,67.16,67.16,Clothing
+2023-02-03,IKEA,76.62,76.62,Home
+2023-02-04,Adidas,45.66,45.66,Clothing
+2023-02-05,Apple,473.04,473.04,Electronics
+2023-02-15,Adidas,141.7,70.85,Clothing
+2023-02-16,Robinson Inc,117.33,117.33,Groceries
+2023-02-21,IKEA,61.83,61.83,Home
+2023-02-23,IKEA,278.07,92.69,Home
+2023-02-26,Delta Airlines,412.32,412.32,Travel
+2023-02-28,IKEA,149.02,149.02,Home
+2023-03-01,Amazon,597.67,597.67,Electronics
+2023-03-05,McDonald's,57.0,57.0,Dining
+2023-03-10,"Sanford, Allen and Smith",16.5,16.5,Dining
+2023-03-11,"Gardner, Petersen and Martin",45.0,45.0,Dining
+2023-03-12,Apple,916.9,916.9,Electronics
+2023-03-16,Wright-Osborn,132.01,132.01,Travel
+2023-03-17,Norris Group,34.09,11.36,Dining
+2023-03-19,Lee Inc,159.4,159.4,Clothing
+2023-03-22,Zara,121.81,121.81,Clothing
+2023-03-26,CVS,97.23,97.23,Health
+2023-03-27,Target,101.98,101.98,Groceries
+2023-03-28,H&M,162.53,162.53,Clothing

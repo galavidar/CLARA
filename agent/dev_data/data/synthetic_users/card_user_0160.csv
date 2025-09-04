@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,CVS,91.88,91.88,Health
+2023-01-06,IKEA,242.14,242.14,Home
+2023-01-09,Uber,496.37,496.37,Travel
+2023-01-10,IKEA,257.72,128.86,Home
+2023-01-13,Webb-Orozco,35.92,35.92,Dining
+2023-01-15,"White, Carter and Copeland",36.23,18.11,Clothing
+2023-01-18,IKEA,268.86,89.62,Home
+2023-01-20,Target,43.29,43.29,Groceries
+2023-01-22,"Owens, Lopez and Lamb",46.81,46.81,Health
+2023-01-23,Walgreens,63.25,21.08,Health
+2023-01-25,Ramirez Ltd,105.38,105.38,Home
+2023-01-28,Maldonado-Wilkerson,87.72,29.24,Groceries
+2023-02-02,Walgreens,96.55,32.18,Health
+2023-02-03,Walgreens,43.54,43.54,Health
+2023-02-04,H&M,79.37,79.37,Clothing
+2023-02-08,"Palmer, Guzman and Lucero",80.43,40.22,Health
+2023-02-09,Delta Airlines,72.98,72.98,Travel
+2023-02-15,Walmart,146.8,146.8,Groceries
+2023-02-23,Walgreens,20.76,20.76,Health
+2023-02-24,Adidas,75.44,75.44,Clothing
+2023-02-26,Delta Airlines,444.99,444.99,Travel
+2023-03-05,Starbucks,49.51,49.51,Dining
+2023-03-10,IKEA,356.78,356.78,Home
+2023-03-12,Starbucks,54.73,54.73,Dining
+2023-03-13,Phillips Group,151.61,151.61,Clothing
+2023-03-14,Palmer-George,99.97,99.97,Health
+2023-03-17,McDonald's,31.41,31.41,Dining
+2023-03-18,Adidas,176.48,176.48,Clothing
+2023-03-19,Adidas,49.18,49.18,Clothing
+2023-03-21,Smith and Sons,366.62,366.62,Travel
+2023-03-22,Adidas,110.29,110.29,Clothing
+2023-03-25,Oconnor-Kerr,478.91,478.91,Electronics
+2023-03-26,Target,99.83,49.91,Groceries
+2023-03-27,Garner-Williams,220.26,220.26,Home

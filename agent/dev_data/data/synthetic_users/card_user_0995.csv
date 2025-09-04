@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Ballard-Potter,339.23,339.23,Electronics
+2023-01-02,IKEA,195.47,195.47,Home
+2023-01-04,Target,50.62,50.62,Groceries
+2023-01-08,CVS,12.22,4.07,Health
+2023-01-14,Smith LLC,187.87,93.94,Electronics
+2023-01-16,Nike,134.57,134.57,Clothing
+2023-01-17,Nike,159.2,79.6,Clothing
+2023-01-20,Target,74.75,74.75,Groceries
+2023-01-22,Target,147.32,147.32,Groceries
+2023-01-25,Walgreens,43.4,14.47,Health
+2023-01-26,"Strong, Allen and Hill",356.72,356.72,Travel
+2023-01-27,Walmart,123.48,123.48,Groceries
+2023-01-29,Delta Airlines,256.34,256.34,Travel
+2023-01-30,Baxter Ltd,48.04,48.04,Groceries
+2023-01-31,Yang-Richmond,46.61,46.61,Health
+2023-02-04,Nike,139.29,69.64,Clothing
+2023-02-05,CVS,61.14,61.14,Health
+2023-02-10,Nike,151.18,151.18,Clothing
+2023-02-12,CVS,25.71,25.71,Health
+2023-02-13,Mathis-Murphy,141.22,141.22,Groceries
+2023-02-17,Shah Inc,366.21,366.21,Home
+2023-02-19,Nike,94.92,94.92,Clothing
+2023-03-01,IKEA,273.42,136.71,Home
+2023-03-04,Apple,651.79,651.79,Electronics
+2023-03-05,Apple,793.35,264.45,Electronics
+2023-03-07,Nike,121.81,121.81,Clothing
+2023-03-08,Walmart,59.52,19.84,Groceries
+2023-03-12,Amazon,719.72,719.72,Electronics
+2023-03-14,Barber Group,69.84,69.84,Entertainment
+2023-03-15,Kelley PLC,43.11,43.11,Clothing
+2023-03-17,IKEA,256.51,256.51,Home
+2023-03-18,"Schultz, Walker and Mckinney",89.0,44.5,Clothing
+2023-03-19,Fisher-Wilson,374.26,374.26,Electronics
+2023-03-20,Walmart,44.17,44.17,Groceries
+2023-03-21,Walgreens,11.94,11.94,Health
+2023-03-25,Walmart,119.53,119.53,Groceries
+2023-03-26,Uber,147.41,49.14,Travel
+2023-03-29,McDonald's,58.04,29.02,Dining

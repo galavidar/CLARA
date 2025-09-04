@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-07,Zara,112.13,56.06,Clothing
+2023-01-15,Delta Airlines,207.74,207.74,Travel
+2023-01-20,Nike,40.69,40.69,Clothing
+2023-01-21,H&M,56.0,56.0,Clothing
+2023-01-24,IKEA,305.6,305.6,Home
+2023-01-26,"Lambert, Ross and Brown",187.01,187.01,Electronics
+2023-01-30,IKEA,144.02,144.02,Home
+2023-02-01,Apple,803.31,803.31,Electronics
+2023-02-02,McDonald's,14.7,14.7,Dining
+2023-02-04,Target,139.25,139.25,Groceries
+2023-02-05,Nike,164.53,164.53,Clothing
+2023-02-08,H&M,119.65,119.65,Clothing
+2023-02-09,Adidas,101.31,101.31,Clothing
+2023-02-10,Walgreens,90.04,90.04,Health
+2023-02-11,Smith Group,264.84,88.28,Travel
+2023-02-14,Walgreens,72.39,72.39,Health
+2023-02-16,Zara,76.81,76.81,Clothing
+2023-02-18,Delta Airlines,153.67,153.67,Travel
+2023-02-20,Amazon,140.89,140.89,Electronics
+2023-02-22,Carter-Scott,103.6,34.53,Clothing
+2023-02-28,Target,77.98,38.99,Groceries
+2023-03-03,Starbucks,56.55,18.85,Dining
+2023-03-07,IKEA,203.84,203.84,Home
+2023-03-09,Walgreens,61.93,61.93,Health
+2023-03-10,McDonald's,49.13,16.38,Dining
+2023-03-12,"Rodriguez, Jackson and Harris",512.51,512.51,Electronics
+2023-03-13,Uber,114.44,114.44,Travel
+2023-03-14,Amazon,546.3,546.3,Electronics
+2023-03-15,Cruz-Cross,40.06,40.06,Dining
+2023-03-19,H&M,185.53,92.77,Clothing
+2023-03-23,Williams-Williams,145.02,145.02,Home
+2023-03-25,Apple,980.13,980.13,Electronics
+2023-03-26,Johnson-Gray,15.64,7.82,Health
+2023-03-27,Little-Welch,339.37,169.69,Travel
+2023-03-29,Zara,166.07,166.07,Clothing
+2023-03-30,"Brown, Villarreal and Duke",910.43,910.43,Electronics
+2023-03-31,Uber,186.62,186.62,Travel

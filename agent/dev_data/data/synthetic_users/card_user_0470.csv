@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,102.81,34.27,Clothing
+2023-01-02,Target,71.27,71.27,Groceries
+2023-01-05,IKEA,167.21,167.21,Home
+2023-01-06,Maynard LLC,354.16,354.16,Electronics
+2023-01-07,CVS,77.2,77.2,Health
+2023-01-08,H&M,42.59,42.59,Clothing
+2023-01-10,Mitchell Inc,174.62,174.62,Clothing
+2023-01-12,Stephenson-Silva,113.8,113.8,Groceries
+2023-01-16,CVS,68.23,68.23,Health
+2023-01-20,"Hill, Smith and Lewis",160.24,53.41,Home
+2023-01-22,Uber,173.32,57.77,Travel
+2023-01-31,Zara,125.44,125.44,Clothing
+2023-02-02,McDonald's,45.47,45.47,Dining
+2023-02-04,Hoover-Schmidt,84.33,84.33,Health
+2023-02-05,Kaufman PLC,21.51,21.51,Dining
+2023-02-06,H&M,173.89,86.94,Clothing
+2023-02-09,Young Group,35.35,11.78,Entertainment
+2023-02-11,H&M,95.5,95.5,Clothing
+2023-02-12,Amazon,914.97,914.97,Electronics
+2023-02-15,Kaufman Inc,47.63,47.63,Groceries
+2023-02-16,"Bailey, Byrd and Olson",58.04,58.04,Dining
+2023-02-17,IKEA,54.88,54.88,Home
+2023-02-19,Zara,83.39,83.39,Clothing
+2023-02-21,Hines-Patel,79.17,79.17,Health
+2023-02-22,Zara,41.58,13.86,Clothing
+2023-02-28,Nike,57.33,19.11,Clothing
+2023-03-03,IKEA,201.91,100.95,Home
+2023-03-04,King-Moore,44.88,44.88,Dining
+2023-03-08,"Lopez, Scott and Hernandez",401.73,401.73,Travel
+2023-03-09,CVS,91.89,91.89,Health
+2023-03-13,Starbucks,32.67,32.67,Dining
+2023-03-14,Zara,46.01,46.01,Clothing
+2023-03-15,Jimenez PLC,35.58,35.58,Dining
+2023-03-17,Zara,86.92,86.92,Clothing
+2023-03-20,Amazon,318.22,106.07,Electronics
+2023-03-23,"Simpson, Fox and Davis",126.17,126.17,Clothing
+2023-03-25,Uber,486.12,486.12,Travel
+2023-03-26,Adidas,125.01,125.01,Clothing
+2023-03-28,Gibbs LLC,35.95,11.98,Groceries

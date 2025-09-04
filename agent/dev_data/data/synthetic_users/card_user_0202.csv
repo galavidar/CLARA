@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Bullock LLC,296.03,296.03,Home
+2023-01-03,Starbucks,22.52,7.51,Dining
+2023-01-04,Ortega-Woodard,233.53,233.53,Home
+2023-01-05,Walmart,105.39,105.39,Groceries
+2023-01-06,Nike,83.65,27.88,Clothing
+2023-01-08,Allen-Sanders,20.59,20.59,Entertainment
+2023-01-10,Uber,418.28,418.28,Travel
+2023-01-12,Starbucks,43.2,43.2,Dining
+2023-01-13,Griffin Group,41.59,41.59,Entertainment
+2023-01-15,Davis Group,82.13,82.13,Health
+2023-01-16,Byrd-Combs,99.63,99.63,Clothing
+2023-01-17,Walmart,132.14,132.14,Groceries
+2023-01-18,Bryant-Neal,56.38,56.38,Entertainment
+2023-01-21,"Hernandez, Stone and Li",97.38,97.38,Entertainment
+2023-01-26,Uber,263.24,263.24,Travel
+2023-01-31,Walmart,116.54,116.54,Groceries
+2023-02-03,Benjamin-Jones,402.92,402.92,Electronics
+2023-02-09,Johnson LLC,81.97,81.97,Health
+2023-02-12,Walmart,123.52,123.52,Groceries
+2023-02-13,"Rivera, Gray and Williams",177.04,177.04,Travel
+2023-02-14,Todd-Combs,49.64,24.82,Groceries
+2023-02-15,H&M,68.16,68.16,Clothing
+2023-02-20,Target,42.46,42.46,Groceries
+2023-02-22,"Browning, Buckley and Rodriguez",226.01,226.01,Travel
+2023-02-23,Price Inc,98.39,98.39,Entertainment
+2023-02-24,Adidas,37.16,37.16,Clothing
+2023-02-25,"Mendoza, Baldwin and Cameron",66.15,66.15,Groceries
+2023-02-27,Delta Airlines,443.74,221.87,Travel
+2023-02-28,McDonald's,19.33,19.33,Dining
+2023-03-02,Target,64.2,64.2,Groceries
+2023-03-05,H&M,136.4,136.4,Clothing
+2023-03-15,"Adams, Todd and Lopez",46.64,46.64,Dining
+2023-03-20,Delta Airlines,426.0,426.0,Travel
+2023-03-21,Arellano and Sons,104.81,104.81,Groceries
+2023-03-22,Walmart,33.71,33.71,Groceries
+2023-03-23,Delta Airlines,227.3,227.3,Travel
+2023-03-25,Moss-Castro,107.92,107.92,Groceries
+2023-03-27,Uber,237.46,237.46,Travel
+2023-03-28,IKEA,207.58,207.58,Home

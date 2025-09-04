@@ -1,0 +1,45 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,IKEA,162.89,162.89,Home
+2023-01-04,Robbins-Erickson,121.07,121.07,Clothing
+2023-01-05,CVS,32.73,10.91,Health
+2023-01-06,Uber,381.05,381.05,Travel
+2023-01-07,Walker and Sons,17.81,17.81,Health
+2023-01-09,H&M,48.24,48.24,Clothing
+2023-01-17,H&M,137.34,137.34,Clothing
+2023-01-20,Amazon,810.39,810.39,Electronics
+2023-01-21,Turner-Beck,39.11,39.11,Entertainment
+2023-01-22,Delta Airlines,69.54,69.54,Travel
+2023-01-23,Uber,288.81,144.41,Travel
+2023-01-25,Arnold-Morgan,136.39,136.39,Groceries
+2023-01-26,Walmart,127.36,127.36,Groceries
+2023-01-28,CVS,82.66,82.66,Health
+2023-01-29,"Gonzalez, Edwards and Maynard",69.35,69.35,Entertainment
+2023-01-30,Fowler Ltd,186.16,186.16,Clothing
+2023-01-31,Walgreens,95.27,95.27,Health
+2023-02-01,Walgreens,68.7,22.9,Health
+2023-02-04,Richards LLC,21.09,21.09,Dining
+2023-02-07,Delta Airlines,164.91,164.91,Travel
+2023-02-08,"Drake, Knapp and Smith",256.92,85.64,Travel
+2023-02-09,Jenkins Inc,187.39,187.39,Home
+2023-02-10,Wallace-Luna,153.15,153.15,Home
+2023-02-11,Davis-Terry,123.33,123.33,Groceries
+2023-02-12,Delta Airlines,84.64,84.64,Travel
+2023-02-13,Morgan and Sons,287.96,95.99,Travel
+2023-02-16,Apple,611.62,611.62,Electronics
+2023-02-17,Starbucks,16.77,16.77,Dining
+2023-02-22,IKEA,285.01,142.5,Home
+2023-02-23,Sandoval-Morris,329.06,329.06,Home
+2023-02-24,Delta Airlines,323.1,323.1,Travel
+2023-02-26,Nike,115.63,115.63,Clothing
+2023-03-01,Nike,123.82,123.82,Clothing
+2023-03-04,McDonald's,29.45,9.82,Dining
+2023-03-06,"Shelton, Martin and Farmer",17.34,17.34,Entertainment
+2023-03-08,IKEA,157.27,78.64,Home
+2023-03-09,Target,122.91,122.91,Groceries
+2023-03-11,H&M,45.0,45.0,Clothing
+2023-03-12,Uber,344.3,344.3,Travel
+2023-03-16,Galloway LLC,10.6,3.53,Dining
+2023-03-17,Apple,636.43,636.43,Electronics
+2023-03-20,McDonald's,11.9,11.9,Dining
+2023-03-23,Uber,209.67,209.67,Travel
+2023-03-30,Walmart,109.32,109.32,Groceries

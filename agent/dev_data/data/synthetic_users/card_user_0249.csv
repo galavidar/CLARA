@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Walmart,110.62,110.62,Groceries
+2023-01-03,"Reyes, Flores and Rodriguez",689.59,689.59,Electronics
+2023-01-04,Target,148.13,49.38,Groceries
+2023-01-11,Apple,166.34,83.17,Electronics
+2023-01-14,McDonald's,57.25,19.08,Dining
+2023-01-16,H&M,98.57,98.57,Clothing
+2023-01-18,CVS,49.18,49.18,Health
+2023-01-21,Jones LLC,16.91,16.91,Dining
+2023-01-22,"Bowman, Marsh and Reyes",81.67,81.67,Clothing
+2023-01-23,"Wells, Soto and Rivera",79.96,79.96,Entertainment
+2023-01-27,Perez Inc,28.68,28.68,Dining
+2023-01-28,Nike,149.01,149.01,Clothing
+2023-01-29,Target,92.96,46.48,Groceries
+2023-02-03,Nike,92.61,92.61,Clothing
+2023-02-04,Amazon,267.31,267.31,Electronics
+2023-02-06,Nike,63.25,63.25,Clothing
+2023-02-07,Uber,353.14,176.57,Travel
+2023-02-08,Starbucks,37.9,37.9,Dining
+2023-02-09,Davis-Carr,54.4,54.4,Clothing
+2023-02-10,IKEA,359.1,359.1,Home
+2023-02-12,McDonald's,51.48,51.48,Dining
+2023-02-13,Munoz PLC,92.78,92.78,Groceries
+2023-02-14,Dunn-King,134.66,134.66,Groceries
+2023-02-19,"Simpson, Hernandez and Rodriguez",326.3,326.3,Home
+2023-02-23,Price-Phelps,99.97,99.97,Groceries
+2023-02-25,Robinson Inc,982.73,982.73,Electronics
+2023-03-01,Amazon,132.38,44.13,Electronics
+2023-03-05,Nike,158.47,158.47,Clothing
+2023-03-09,Hill-Walker,121.42,121.42,Clothing
+2023-03-11,Target,137.91,137.91,Groceries
+2023-03-12,Adidas,189.66,189.66,Clothing
+2023-03-14,Amazon,415.23,415.23,Electronics
+2023-03-15,Burke-Love,384.23,384.23,Travel
+2023-03-18,Shelton Inc,435.04,435.04,Electronics
+2023-03-21,Walmart,31.87,31.87,Groceries

@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-10,H&M,47.98,47.98,Clothing
+2023-01-11,IKEA,41.09,41.09,Home
+2023-01-15,Jackson Inc,331.38,331.38,Electronics
+2023-01-21,"Guzman, Schmidt and Arias",144.67,144.67,Home
+2023-01-22,H&M,146.64,146.64,Clothing
+2023-01-23,Jackson Ltd,72.67,72.67,Health
+2023-01-26,Walgreens,22.55,22.55,Health
+2023-01-28,IKEA,264.83,264.83,Home
+2023-01-29,"Griffin, Wilson and Craig",260.31,260.31,Home
+2023-01-30,"West, Ellis and Moore",99.12,99.12,Entertainment
+2023-02-06,Amazon,491.66,491.66,Electronics
+2023-02-08,Zara,61.72,61.72,Clothing
+2023-02-09,Apple,901.57,300.52,Electronics
+2023-02-10,Griffin Ltd,44.26,44.26,Health
+2023-02-12,Zara,52.62,52.62,Clothing
+2023-02-14,Walmart,90.34,90.34,Groceries
+2023-02-15,Gomez-Best,126.35,126.35,Home
+2023-02-21,Patterson and Sons,213.98,213.98,Travel
+2023-02-22,CVS,14.7,14.7,Health
+2023-02-26,IKEA,396.95,396.95,Home
+2023-02-27,CVS,31.94,31.94,Health
+2023-03-03,Zara,146.86,48.95,Clothing
+2023-03-09,Walgreens,92.2,92.2,Health
+2023-03-11,"Jackson, Dominguez and Harper",192.56,192.56,Travel
+2023-03-12,Uber,313.65,104.55,Travel
+2023-03-13,IKEA,170.43,85.22,Home
+2023-03-14,Taylor-Wood,46.69,46.69,Entertainment
+2023-03-17,Delta Airlines,158.02,158.02,Travel
+2023-03-18,Walgreens,50.88,50.88,Health
+2023-03-19,H&M,101.25,101.25,Clothing
+2023-03-22,Amazon,996.11,332.04,Electronics
+2023-03-23,CVS,63.96,31.98,Health
+2023-03-26,CVS,51.89,51.89,Health
+2023-03-27,"Harvey, Clayton and Moore",72.9,72.9,Home
+2023-03-28,H&M,192.78,192.78,Clothing
+2023-03-29,Zara,134.68,44.89,Clothing
+2023-03-30,Amazon,267.67,267.67,Electronics

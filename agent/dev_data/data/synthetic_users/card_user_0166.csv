@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,34.07,34.07,Groceries
+2023-01-02,"Pierce, Vega and Williams",118.87,118.87,Clothing
+2023-01-03,IKEA,366.06,122.02,Home
+2023-01-04,Rodriguez Inc,18.3,18.3,Dining
+2023-01-05,IKEA,255.45,255.45,Home
+2023-01-06,Zara,122.96,40.99,Clothing
+2023-01-09,Delta Airlines,356.91,356.91,Travel
+2023-01-12,Douglas-Waters,213.16,213.16,Home
+2023-01-14,Frey-Brown,96.63,96.63,Entertainment
+2023-01-15,"Johnson, Miller and Grimes",496.15,496.15,Travel
+2023-01-18,Walmart,42.87,42.87,Groceries
+2023-01-19,Nike,126.47,126.47,Clothing
+2023-01-24,Delta Airlines,399.57,399.57,Travel
+2023-01-25,Delta Airlines,112.22,56.11,Travel
+2023-01-26,Walmart,146.16,146.16,Groceries
+2023-01-27,Uber,352.32,352.32,Travel
+2023-02-02,CVS,48.41,48.41,Health
+2023-02-04,Nike,139.41,139.41,Clothing
+2023-02-05,Vasquez-Erickson,156.79,156.79,Clothing
+2023-02-11,Russell Inc,191.44,191.44,Clothing
+2023-02-12,Zara,62.43,62.43,Clothing
+2023-02-14,Anderson-Mathews,191.08,191.08,Travel
+2023-02-15,Turner-Berg,20.28,20.28,Dining
+2023-02-16,Starbucks,20.96,20.96,Dining
+2023-02-17,Wood Ltd,196.73,65.58,Clothing
+2023-02-19,H&M,168.25,168.25,Clothing
+2023-02-20,"Mcdonald, Whitehead and Garcia",260.9,260.9,Home
+2023-02-25,McDonald's,46.64,46.64,Dining
+2023-02-26,Day Group,268.61,268.61,Electronics
+2023-03-01,Adidas,196.85,196.85,Clothing
+2023-03-05,Zara,95.88,95.88,Clothing
+2023-03-07,Zara,163.78,163.78,Clothing
+2023-03-08,Nike,46.08,46.08,Clothing
+2023-03-11,Uber,122.72,122.72,Travel
+2023-03-13,Walgreens,65.89,65.89,Health
+2023-03-14,"Klein, Henderson and Hawkins",256.41,85.47,Travel
+2023-03-17,Adidas,100.41,33.47,Clothing
+2023-03-18,Adidas,89.26,89.26,Clothing
+2023-03-27,Webb Ltd,39.54,39.54,Dining
+2023-03-28,Uber,418.68,139.56,Travel
+2023-03-31,Zara,141.92,141.92,Clothing

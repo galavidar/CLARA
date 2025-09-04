@@ -1,0 +1,25 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Barker, Turner and Smith",84.24,84.24,Travel
+2023-01-07,Adidas,123.31,123.31,Clothing
+2023-01-09,McDonald's,58.26,58.26,Dining
+2023-01-12,Target,21.66,21.66,Groceries
+2023-01-14,Adidas,53.64,53.64,Clothing
+2023-01-18,"Yates, Clark and Stevens",251.78,251.78,Travel
+2023-01-19,Amazon,549.87,183.29,Electronics
+2023-01-21,H&M,79.43,79.43,Clothing
+2023-01-27,Adidas,136.84,136.84,Clothing
+2023-01-28,"Gordon, Hansen and Bentley",257.71,257.71,Travel
+2023-01-31,McDonald's,48.47,48.47,Dining
+2023-02-06,IKEA,368.38,368.38,Home
+2023-02-18,McDonald's,58.26,58.26,Dining
+2023-02-24,CVS,87.51,87.51,Health
+2023-02-27,Adidas,180.68,60.23,Clothing
+2023-03-05,Berry and Sons,53.18,53.18,Clothing
+2023-03-07,Walmart,104.83,104.83,Groceries
+2023-03-09,Target,48.74,48.74,Groceries
+2023-03-12,"Kirby, Sanchez and Torres",20.41,20.41,Health
+2023-03-18,IKEA,104.77,34.92,Home
+2023-03-19,Delta Airlines,370.37,185.19,Travel
+2023-03-22,Target,138.99,138.99,Groceries
+2023-03-25,CVS,59.59,59.59,Health
+2023-03-31,Dillon-Mejia,318.1,318.1,Travel

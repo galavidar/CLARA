@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Green-Calhoun,25.23,25.23,Groceries
+2023-01-02,Zara,119.83,119.83,Clothing
+2023-01-05,Zara,52.87,52.87,Clothing
+2023-01-09,McDonald's,28.64,28.64,Dining
+2023-01-10,Amazon,495.27,495.27,Electronics
+2023-01-16,Uber,152.91,152.91,Travel
+2023-01-17,Nike,39.84,39.84,Clothing
+2023-01-18,Uber,181.64,181.64,Travel
+2023-01-19,Williams-Orr,163.08,163.08,Travel
+2023-01-21,Richard-Stewart,877.55,877.55,Electronics
+2023-01-26,Uber,308.86,308.86,Travel
+2023-01-28,"Young, Morris and Woods",182.5,182.5,Clothing
+2023-01-30,Vance and Sons,237.26,237.26,Home
+2023-01-31,McDonald's,43.68,43.68,Dining
+2023-02-02,IKEA,121.85,121.85,Home
+2023-02-09,Apple,904.72,301.57,Electronics
+2023-02-10,Delta Airlines,310.72,310.72,Travel
+2023-02-22,IKEA,386.2,386.2,Home
+2023-02-24,Bartlett Ltd,216.59,216.59,Travel
+2023-03-02,Smith-Jackson,12.37,12.37,Entertainment
+2023-03-03,Nike,57.29,57.29,Clothing
+2023-03-12,"Mason, Crawford and Swanson",122.43,40.81,Groceries
+2023-03-18,Walgreens,52.03,52.03,Health
+2023-03-19,Cooper-Miller,29.48,29.48,Dining
+2023-03-20,Butler PLC,327.04,327.04,Home
+2023-03-21,Nike,120.13,120.13,Clothing
+2023-03-22,Amazon,119.02,59.51,Electronics
+2023-03-27,CVS,44.14,44.14,Health
+2023-03-30,Walmart,90.51,90.51,Groceries

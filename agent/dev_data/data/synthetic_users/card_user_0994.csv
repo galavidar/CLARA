@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Weeks Ltd,65.63,32.81,Entertainment
+2023-01-02,Adidas,196.52,65.51,Clothing
+2023-01-05,Apple,696.64,696.64,Electronics
+2023-01-06,Target,38.9,38.9,Groceries
+2023-01-10,Delta Airlines,260.64,260.64,Travel
+2023-01-14,"Underwood, Garcia and Woods",600.6,600.6,Electronics
+2023-01-15,Adidas,195.21,195.21,Clothing
+2023-01-16,Uber,223.85,223.85,Travel
+2023-01-17,Walgreens,25.09,25.09,Health
+2023-01-20,Uber,442.58,442.58,Travel
+2023-01-21,"Cortez, Gonzalez and Armstrong",100.09,100.09,Groceries
+2023-02-01,Adidas,85.87,85.87,Clothing
+2023-02-03,IKEA,76.95,76.95,Home
+2023-02-06,"Carroll, Graves and Gardner",61.31,61.31,Health
+2023-02-09,Adidas,161.71,161.71,Clothing
+2023-02-13,H&M,31.68,31.68,Clothing
+2023-02-14,Walgreens,53.96,53.96,Health
+2023-02-15,CVS,85.75,42.88,Health
+2023-02-18,"Jones, Mcneil and Mendez",92.05,30.68,Entertainment
+2023-02-19,Stewart PLC,394.87,394.87,Home
+2023-02-23,McDonald's,11.87,3.96,Dining
+2023-02-25,Amazon,339.15,169.57,Electronics
+2023-02-26,Roberts-Rose,81.53,40.77,Health
+2023-02-27,Zara,82.02,27.34,Clothing
+2023-03-01,Miller PLC,52.86,52.86,Dining
+2023-03-04,CVS,95.76,95.76,Health
+2023-03-10,Walgreens,12.9,12.9,Health
+2023-03-11,H&M,109.47,109.47,Clothing
+2023-03-14,Johnson Inc,462.86,462.86,Travel
+2023-03-16,Kaiser and Sons,59.36,19.79,Home
+2023-03-17,Palmer-Cervantes,34.61,17.3,Health
+2023-03-20,Davis Ltd,46.48,46.48,Groceries
+2023-03-22,Target,106.96,106.96,Groceries
+2023-03-23,"Tucker, Phillips and Mendez",97.39,97.39,Entertainment
+2023-03-25,Uber,397.81,397.81,Travel
+2023-03-26,Apple,710.12,710.12,Electronics
+2023-03-28,CVS,19.36,19.36,Health
+2023-03-30,Target,104.04,104.04,Groceries

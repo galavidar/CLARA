@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Ware-Fox,26.99,9.0,Dining
+2023-01-02,Target,38.14,38.14,Groceries
+2023-01-05,McDonald's,15.06,15.06,Dining
+2023-01-09,Woods-Baker,299.62,299.62,Home
+2023-01-10,Uber,163.36,163.36,Travel
+2023-01-11,Parker-Williams,119.43,59.72,Groceries
+2023-01-15,Jarvis-Oneal,322.91,322.91,Travel
+2023-01-16,McDonald's,34.27,34.27,Dining
+2023-01-19,Harrington Inc,153.35,153.35,Travel
+2023-01-22,Howard-Patterson,108.95,108.95,Home
+2023-01-24,"Meyer, Gordon and Kidd",458.5,458.5,Travel
+2023-01-27,Nike,94.04,47.02,Clothing
+2023-01-28,Target,83.28,41.64,Groceries
+2023-02-01,Target,123.9,123.9,Groceries
+2023-02-02,Smith-Keith,187.95,187.95,Travel
+2023-02-03,Walls Inc,302.14,302.14,Home
+2023-02-11,Walgreens,99.59,33.2,Health
+2023-02-13,McDonald's,29.96,29.96,Dining
+2023-02-14,Target,80.46,80.46,Groceries
+2023-02-17,Nike,142.68,142.68,Clothing
+2023-02-20,"Moore, Brown and Bell",332.55,332.55,Travel
+2023-02-21,CVS,11.67,11.67,Health
+2023-02-22,Goodwin-Meyer,286.46,286.46,Home
+2023-02-25,Uber,214.4,214.4,Travel
+2023-02-26,Henson and Sons,624.0,624.0,Electronics
+2023-02-27,Nelson-George,64.25,64.25,Entertainment
+2023-03-02,McDonald's,26.8,26.8,Dining
+2023-03-03,Daniel and Sons,381.78,381.78,Travel
+2023-03-04,Apple,320.86,320.86,Electronics
+2023-03-05,Phillips PLC,155.08,51.69,Clothing
+2023-03-08,"Woods, Camacho and Dominguez",74.31,74.31,Groceries
+2023-03-09,McDonald's,21.92,21.92,Dining
+2023-03-14,Amazon,567.02,567.02,Electronics
+2023-03-19,Nike,100.76,100.76,Clothing
+2023-03-21,"Phillips, Keller and Nelson",73.61,73.61,Clothing
+2023-03-30,Bruce-Lozano,103.98,34.66,Groceries
+2023-03-31,"Brown, Hunt and Smith",95.02,95.02,Health

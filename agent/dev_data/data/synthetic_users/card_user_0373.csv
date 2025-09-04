@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Starbucks,35.73,35.73,Dining
+2023-01-06,"Phelps, Owens and Garner",214.89,214.89,Home
+2023-01-08,Adidas,156.45,156.45,Clothing
+2023-01-10,McDonald's,36.53,12.18,Dining
+2023-01-11,Apple,119.49,119.49,Electronics
+2023-01-12,Uber,73.5,73.5,Travel
+2023-01-16,Target,33.04,33.04,Groceries
+2023-01-19,"Mcdaniel, Moran and Moore",289.27,289.27,Home
+2023-01-20,IKEA,85.69,85.69,Home
+2023-01-21,Target,42.69,42.69,Groceries
+2023-01-22,Carter-Hill,88.24,44.12,Clothing
+2023-01-25,Apple,992.09,992.09,Electronics
+2023-01-26,Zara,132.76,132.76,Clothing
+2023-01-27,Delta Airlines,398.56,132.85,Travel
+2023-01-29,Walmart,54.17,54.17,Groceries
+2023-01-30,Kim Ltd,24.94,24.94,Dining
+2023-01-31,Adidas,169.3,169.3,Clothing
+2023-02-02,Apple,995.0,995.0,Electronics
+2023-02-03,Zara,79.88,26.63,Clothing
+2023-02-07,Adidas,138.2,138.2,Clothing
+2023-02-09,"Davis, Davidson and Hayes",69.43,23.14,Home
+2023-02-10,Walgreens,60.98,60.98,Health
+2023-02-12,H&M,110.97,110.97,Clothing
+2023-02-14,IKEA,389.21,389.21,Home
+2023-02-15,Sanchez-Richards,177.35,177.35,Home
+2023-02-16,IKEA,252.6,252.6,Home
+2023-02-17,IKEA,237.63,237.63,Home
+2023-02-19,Miller-Miller,10.06,10.06,Entertainment
+2023-02-24,"Bennett, Dixon and Higgins",150.88,75.44,Clothing
+2023-02-25,Walgreens,55.7,18.57,Health
+2023-03-01,Delta Airlines,423.93,423.93,Travel
+2023-03-02,Adidas,119.6,119.6,Clothing
+2023-03-06,"Martinez, Moore and Costa",990.81,990.81,Electronics
+2023-03-11,Uber,75.48,75.48,Travel
+2023-03-15,Delta Airlines,237.38,79.13,Travel
+2023-03-18,Starbucks,25.92,25.92,Dining
+2023-03-21,Delta Airlines,280.37,280.37,Travel
+2023-03-25,Farley-Hughes,833.58,416.79,Electronics
+2023-03-28,H&M,74.97,74.97,Clothing

@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Nike,113.6,113.6,Clothing
+2023-01-10,H&M,183.79,61.26,Clothing
+2023-01-13,Walgreens,80.67,80.67,Health
+2023-01-14,Martinez Group,450.73,450.73,Electronics
+2023-01-18,H&M,196.29,196.29,Clothing
+2023-01-21,Brown-Santiago,82.48,82.48,Groceries
+2023-01-25,Walgreens,21.35,21.35,Health
+2023-01-30,Adidas,74.16,74.16,Clothing
+2023-02-04,Starbucks,26.06,26.06,Dining
+2023-02-08,Hays-Hoffman,10.31,10.31,Entertainment
+2023-02-09,McDonald's,17.91,17.91,Dining
+2023-02-10,McDonald's,52.38,17.46,Dining
+2023-02-14,Stevens LLC,55.61,55.61,Groceries
+2023-02-16,IKEA,267.47,133.74,Home
+2023-02-19,Jordan Group,77.35,38.67,Clothing
+2023-02-26,Adidas,151.1,50.37,Clothing
+2023-03-01,Apple,435.34,435.34,Electronics
+2023-03-02,Starbucks,28.14,9.38,Dining
+2023-03-06,Walmart,39.58,39.58,Groceries
+2023-03-07,Walgreens,20.13,20.13,Health
+2023-03-08,"Hart, Boone and Smith",117.64,117.64,Groceries
+2023-03-10,Walgreens,99.48,99.48,Health
+2023-03-13,H&M,38.16,38.16,Clothing
+2023-03-15,Starbucks,30.37,30.37,Dining
+2023-03-24,Walmart,85.57,85.57,Groceries
+2023-03-27,IKEA,279.93,279.93,Home
+2023-03-29,IKEA,377.36,377.36,Home
+2023-03-31,Walmart,139.59,139.59,Groceries

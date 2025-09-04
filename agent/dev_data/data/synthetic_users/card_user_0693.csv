@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,94.57,31.52,Clothing
+2023-01-04,McDonald's,36.08,36.08,Dining
+2023-01-05,"Chavez, Underwood and Nicholson",196.93,196.93,Home
+2023-01-06,Adidas,191.86,191.86,Clothing
+2023-01-07,Amazon,778.14,778.14,Electronics
+2023-01-11,Klein Ltd,471.15,471.15,Electronics
+2023-01-15,"Glenn, Miller and Higgins",214.61,214.61,Home
+2023-01-18,Rice-Jacobs,92.54,92.54,Entertainment
+2023-01-21,IKEA,210.32,70.11,Home
+2023-01-23,Jones Group,203.12,203.12,Home
+2023-01-25,Rodriguez Inc,50.33,50.33,Entertainment
+2023-01-26,CVS,81.19,40.59,Health
+2023-01-28,Walgreens,47.9,47.9,Health
+2023-01-30,Hester-Cook,17.69,17.69,Dining
+2023-02-01,Walmart,131.16,131.16,Groceries
+2023-02-02,Amazon,863.48,863.48,Electronics
+2023-02-05,Mullins Inc,87.09,87.09,Entertainment
+2023-02-07,Nike,87.67,87.67,Clothing
+2023-02-08,Adidas,145.72,145.72,Clothing
+2023-02-09,"Miller, Rogers and Christian",316.81,105.6,Travel
+2023-02-13,Walmart,132.13,132.13,Groceries
+2023-02-16,Target,57.45,57.45,Groceries
+2023-02-17,Johnson-Ortiz,82.97,41.48,Entertainment
+2023-02-20,McDonald's,14.91,14.91,Dining
+2023-02-23,Wood Ltd,81.33,81.33,Health
+2023-02-26,Target,20.62,20.62,Groceries
+2023-03-02,IKEA,80.36,80.36,Home
+2023-03-03,Amazon,148.74,49.58,Electronics
+2023-03-04,McDonald's,41.92,41.92,Dining
+2023-03-05,Zara,139.89,46.63,Clothing
+2023-03-06,Hart Inc,54.63,27.32,Health
+2023-03-07,Ruiz-Moran,148.32,148.32,Electronics
+2023-03-09,Zara,170.79,85.39,Clothing
+2023-03-14,Nike,129.06,129.06,Clothing
+2023-03-16,IKEA,330.49,330.49,Home
+2023-03-18,Amazon,572.55,572.55,Electronics
+2023-03-20,Target,128.1,128.1,Groceries
+2023-03-22,Ortega LLC,173.78,173.78,Home
+2023-03-23,H&M,129.68,129.68,Clothing
+2023-03-25,Walgreens,93.7,93.7,Health
+2023-03-26,Walmart,126.26,126.26,Groceries
+2023-03-30,Walmart,148.37,148.37,Groceries

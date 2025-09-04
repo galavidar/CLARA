@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Johnson-Oneal,28.06,28.06,Dining
+2023-01-02,McDonald's,14.55,14.55,Dining
+2023-01-04,Uber,256.45,256.45,Travel
+2023-01-06,Walmart,47.71,47.71,Groceries
+2023-01-09,Walmart,74.56,37.28,Groceries
+2023-01-14,Uber,360.13,360.13,Travel
+2023-01-15,Amazon,454.3,227.15,Electronics
+2023-01-16,"Henderson, Robinson and Ellis",64.8,64.8,Health
+2023-01-18,Walgreens,49.25,49.25,Health
+2023-01-20,Amazon,825.11,825.11,Electronics
+2023-01-23,McDonald's,53.0,53.0,Dining
+2023-01-25,Keller-Harris,216.49,216.49,Electronics
+2023-01-28,Zara,162.39,162.39,Clothing
+2023-01-30,Uber,69.76,69.76,Travel
+2023-02-03,Uber,319.61,319.61,Travel
+2023-02-09,Nike,187.53,187.53,Clothing
+2023-02-13,Apple,374.58,374.58,Electronics
+2023-02-14,Apple,826.14,826.14,Electronics
+2023-02-15,CVS,64.67,64.67,Health
+2023-02-17,Adidas,120.76,40.25,Clothing
+2023-02-19,Amazon,471.08,471.08,Electronics
+2023-02-20,"Murray, Bentley and Miranda",19.91,19.91,Dining
+2023-02-21,Hoover PLC,85.29,85.29,Health
+2023-02-22,Walgreens,28.08,28.08,Health
+2023-02-23,"Francis, Ruiz and Turner",367.19,367.19,Home
+2023-02-24,H&M,121.0,40.33,Clothing
+2023-02-25,Patterson-King,95.13,47.56,Entertainment
+2023-02-27,Delta Airlines,203.95,203.95,Travel
+2023-02-28,Amazon,200.6,200.6,Electronics
+2023-03-03,Starbucks,15.44,15.44,Dining
+2023-03-14,McDonald's,16.53,16.53,Dining
+2023-03-15,Target,44.99,44.99,Groceries
+2023-03-18,McDonald's,52.45,17.48,Dining
+2023-03-21,Nike,52.17,52.17,Clothing
+2023-03-23,Delta Airlines,123.9,123.9,Travel
+2023-03-24,Walmart,149.43,49.81,Groceries
+2023-03-25,McDonald's,26.83,26.83,Dining
+2023-03-28,H&M,83.39,83.39,Clothing
+2023-03-30,"Carney, Mueller and Vargas",259.13,259.13,Home

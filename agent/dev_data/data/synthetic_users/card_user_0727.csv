@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Nike,159.58,53.19,Clothing
+2023-01-06,Adidas,174.28,174.28,Clothing
+2023-01-07,IKEA,173.6,173.6,Home
+2023-01-09,Perez LLC,337.79,337.79,Travel
+2023-01-10,Walgreens,62.08,31.04,Health
+2023-01-13,IKEA,291.9,291.9,Home
+2023-01-14,Walmart,113.06,113.06,Groceries
+2023-01-18,Starbucks,50.79,50.79,Dining
+2023-01-22,CVS,59.97,59.97,Health
+2023-01-26,West Inc,112.91,112.91,Clothing
+2023-01-28,Long Inc,87.82,87.82,Clothing
+2023-02-02,Starbucks,34.42,11.47,Dining
+2023-02-04,Amazon,330.41,165.21,Electronics
+2023-02-06,Apple,626.86,626.86,Electronics
+2023-02-09,Knight Ltd,28.74,28.74,Health
+2023-02-12,IKEA,332.62,332.62,Home
+2023-02-14,Adidas,177.6,177.6,Clothing
+2023-02-16,H&M,170.64,56.88,Clothing
+2023-02-18,H&M,91.32,91.32,Clothing
+2023-02-20,Delta Airlines,189.93,189.93,Travel
+2023-02-22,Starbucks,31.21,31.21,Dining
+2023-02-23,"Brooks, Gaines and Swanson",28.29,28.29,Dining
+2023-02-26,Zara,191.76,191.76,Clothing
+2023-02-27,"Hall, Paul and Ross",33.91,33.91,Groceries
+2023-02-28,Delta Airlines,336.86,336.86,Travel
+2023-03-03,Schneider-Pearson,14.36,14.36,Dining
+2023-03-08,Delta Airlines,440.04,440.04,Travel
+2023-03-09,Edwards-Ford,58.59,58.59,Dining
+2023-03-17,"Martinez, Coleman and Howard",13.7,13.7,Dining
+2023-03-18,Delta Airlines,148.46,148.46,Travel
+2023-03-22,CVS,16.71,16.71,Health
+2023-03-24,Walmart,20.52,20.52,Groceries
+2023-03-25,"Fowler, Moore and Sutton",311.63,103.88,Travel
+2023-03-28,"Boone, Jones and Barber",59.86,59.86,Entertainment
+2023-03-30,Clark Ltd,48.99,48.99,Entertainment

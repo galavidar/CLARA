@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,16.69,5.56,Health
+2023-01-06,Adidas,152.14,152.14,Clothing
+2023-01-07,"Bishop, Williams and Randall",51.78,51.78,Entertainment
+2023-01-09,Nike,153.72,153.72,Clothing
+2023-01-15,Becker Group,46.42,23.21,Dining
+2023-01-16,CVS,48.8,16.27,Health
+2023-01-18,Starbucks,14.88,14.88,Dining
+2023-01-21,Target,50.91,50.91,Groceries
+2023-01-25,Target,90.33,90.33,Groceries
+2023-01-26,Torres Group,59.34,59.34,Groceries
+2023-01-28,Amazon,767.11,767.11,Electronics
+2023-01-30,Nike,155.31,155.31,Clothing
+2023-02-02,Delta Airlines,188.76,94.38,Travel
+2023-02-05,Starbucks,43.55,43.55,Dining
+2023-02-08,Starbucks,41.67,20.84,Dining
+2023-02-10,Walmart,64.14,64.14,Groceries
+2023-02-12,"Holmes, Bennett and Nicholson",92.68,92.68,Groceries
+2023-02-14,Cox Ltd,47.23,47.23,Dining
+2023-02-15,Nike,119.09,119.09,Clothing
+2023-02-16,"Smith, Smith and Bradley",49.66,16.55,Dining
+2023-02-22,H&M,183.65,183.65,Clothing
+2023-02-23,Rios-Kim,157.44,52.48,Travel
+2023-02-24,Walgreens,56.58,56.58,Health
+2023-02-27,Anderson PLC,170.25,170.25,Clothing
+2023-03-01,Cherry and Sons,396.48,396.48,Electronics
+2023-03-05,Starbucks,22.23,22.23,Dining
+2023-03-06,Target,84.52,84.52,Groceries
+2023-03-12,IKEA,184.01,184.01,Home
+2023-03-13,Starbucks,36.05,18.02,Dining
+2023-03-17,Adidas,192.4,192.4,Clothing
+2023-03-18,Amazon,881.51,881.51,Electronics
+2023-03-27,"Hill, Haley and Smith",70.95,70.95,Health
+2023-03-29,"Fox, Henderson and Williams",35.6,35.6,Dining
+2023-03-30,Walmart,86.64,86.64,Groceries

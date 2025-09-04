@@ -1,0 +1,28 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Lee, Hickman and Powell",58.71,58.71,Clothing
+2023-01-04,Weeks-Marks,138.22,138.22,Groceries
+2023-01-05,Starbucks,52.52,17.51,Dining
+2023-01-07,Apple,644.57,644.57,Electronics
+2023-01-13,Jackson LLC,122.87,40.96,Groceries
+2023-01-16,CVS,90.28,90.28,Health
+2023-01-18,Nike,45.51,15.17,Clothing
+2023-01-20,Johnson LLC,90.5,90.5,Entertainment
+2023-01-22,Target,32.54,32.54,Groceries
+2023-01-23,Nike,137.48,137.48,Clothing
+2023-02-08,"Roberts, Martinez and Reynolds",50.44,50.44,Health
+2023-02-09,Zara,48.58,16.19,Clothing
+2023-02-13,Moore LLC,446.06,223.03,Travel
+2023-02-16,Wu-Thomas,394.9,131.63,Travel
+2023-02-18,Walgreens,83.96,41.98,Health
+2023-02-20,Turner Inc,93.39,46.7,Clothing
+2023-02-21,"Johnson, Rich and Gibson",47.86,47.86,Dining
+2023-03-02,Schneider Inc,227.33,227.33,Travel
+2023-03-05,Ford Inc,99.68,49.84,Groceries
+2023-03-10,Schmidt-Gonzalez,84.32,84.32,Clothing
+2023-03-12,Walgreens,11.27,11.27,Health
+2023-03-14,Target,30.54,30.54,Groceries
+2023-03-17,Nike,160.69,160.69,Clothing
+2023-03-21,Washington Inc,68.55,34.27,Health
+2023-03-25,Powell-Young,48.74,48.74,Health
+2023-03-27,Starbucks,45.11,22.55,Dining
+2023-03-29,Starbucks,13.69,13.69,Dining

@@ -1,0 +1,28 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Benson Ltd,297.45,297.45,Home
+2023-01-04,Robinson-Young,75.85,75.85,Home
+2023-01-12,Johnson Group,86.41,86.41,Travel
+2023-01-13,"Lopez, Nguyen and Jones",31.23,31.23,Health
+2023-01-18,Amazon,990.17,990.17,Electronics
+2023-01-20,Hancock-Molina,497.53,497.53,Electronics
+2023-01-25,CVS,53.04,53.04,Health
+2023-01-28,IKEA,97.72,97.72,Home
+2023-02-09,Richardson Group,226.58,226.58,Home
+2023-02-10,Amazon,621.99,621.99,Electronics
+2023-02-11,Adidas,48.98,24.49,Clothing
+2023-02-13,Williams-Mathews,75.78,25.26,Entertainment
+2023-02-14,Duran-Hunt,115.99,115.99,Home
+2023-02-16,"Barnes, Foster and Walker",113.52,113.52,Clothing
+2023-02-18,Walgreens,86.09,86.09,Health
+2023-02-19,McDonald's,39.38,39.38,Dining
+2023-02-22,"Holmes, Hamilton and Hines",321.19,160.59,Electronics
+2023-02-24,"Holmes, Zuniga and Wolfe",56.98,56.98,Health
+2023-02-25,"Hughes, Ramirez and Dickson",97.01,32.34,Health
+2023-03-02,Amazon,439.21,439.21,Electronics
+2023-03-03,Apple,936.25,312.08,Electronics
+2023-03-14,CVS,53.73,17.91,Health
+2023-03-15,Starbucks,23.98,23.98,Dining
+2023-03-16,Adidas,121.21,121.21,Clothing
+2023-03-17,Target,59.15,59.15,Groceries
+2023-03-30,Delta Airlines,170.28,56.76,Travel
+2023-03-31,IKEA,131.09,131.09,Home

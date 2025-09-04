@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Scott, Daniel and Watson",388.88,388.88,Home
+2023-01-03,Apple,701.31,701.31,Electronics
+2023-01-05,Uber,127.6,63.8,Travel
+2023-01-07,Edwards-Medina,552.52,552.52,Electronics
+2023-01-09,Walgreens,90.52,90.52,Health
+2023-01-14,"Santos, Wheeler and Morgan",730.57,730.57,Electronics
+2023-01-16,"Lopez, Wilson and Webster",914.61,914.61,Electronics
+2023-01-19,Taylor-Floyd,71.26,71.26,Groceries
+2023-01-22,McDonald's,57.44,57.44,Dining
+2023-01-23,Walmart,79.3,79.3,Groceries
+2023-01-24,Walgreens,59.69,59.69,Health
+2023-01-27,Walmart,21.67,21.67,Groceries
+2023-01-28,Uber,422.76,422.76,Travel
+2023-01-30,Adidas,98.15,32.72,Clothing
+2023-02-02,"Hall, Washington and Williams",53.83,17.94,Entertainment
+2023-02-04,Apple,233.67,233.67,Electronics
+2023-02-05,IKEA,42.41,42.41,Home
+2023-02-10,Reilly and Sons,136.64,136.64,Groceries
+2023-02-11,Brown Ltd,75.19,25.06,Health
+2023-02-14,Uber,62.88,62.88,Travel
+2023-02-15,Target,39.34,39.34,Groceries
+2023-02-16,H&M,66.76,66.76,Clothing
+2023-02-17,Uber,476.19,476.19,Travel
+2023-02-27,"Barnes, Burke and Reynolds",20.82,20.82,Health
+2023-02-28,CVS,35.32,35.32,Health
+2023-03-01,Delta Airlines,84.57,84.57,Travel
+2023-03-04,CVS,23.94,23.94,Health
+2023-03-06,"Hunter, Day and Baker",252.42,252.42,Travel
+2023-03-13,Zara,53.08,53.08,Clothing
+2023-03-17,Myers-Hernandez,97.21,97.21,Health
+2023-03-19,"Estes, Woodward and Norris",83.93,83.93,Clothing
+2023-03-22,Amazon,394.31,394.31,Electronics
+2023-03-23,"Hughes, Barnes and Shaw",10.35,10.35,Health
+2023-03-26,Apple,363.85,363.85,Electronics
+2023-03-28,Zara,151.3,75.65,Clothing
+2023-03-29,CVS,69.83,69.83,Health
+2023-03-31,IKEA,364.35,364.35,Home

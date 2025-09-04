@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Starbucks,33.21,33.21,Dining
+2023-01-06,Walmart,46.65,46.65,Groceries
+2023-01-08,H&M,33.87,16.93,Clothing
+2023-01-10,Walmart,21.32,21.32,Groceries
+2023-01-13,Adidas,140.98,140.98,Clothing
+2023-01-17,McDonald's,53.69,53.69,Dining
+2023-01-18,Walgreens,97.93,97.93,Health
+2023-01-25,IKEA,348.21,348.21,Home
+2023-01-27,Adidas,197.53,197.53,Clothing
+2023-01-29,Walmart,146.38,146.38,Groceries
+2023-02-05,Apple,224.39,224.39,Electronics
+2023-02-06,Martinez Ltd,199.83,199.83,Travel
+2023-02-09,Delta Airlines,115.84,115.84,Travel
+2023-02-11,Stone-Jackson,856.35,856.35,Electronics
+2023-02-12,Lopez-Hill,98.5,98.5,Entertainment
+2023-02-15,Nike,163.79,163.79,Clothing
+2023-02-16,Nike,132.8,132.8,Clothing
+2023-02-17,Target,138.62,46.21,Groceries
+2023-02-21,Gonzalez-David,251.32,251.32,Home
+2023-02-25,Delta Airlines,112.88,56.44,Travel
+2023-03-02,Starbucks,19.54,6.51,Dining
+2023-03-03,Delta Airlines,243.24,243.24,Travel
+2023-03-04,Amazon,577.5,577.5,Electronics
+2023-03-06,Walmart,78.99,78.99,Groceries
+2023-03-07,Target,88.62,88.62,Groceries
+2023-03-09,"Cooke, Hutchinson and Thompson",87.7,87.7,Clothing
+2023-03-10,Apple,957.05,957.05,Electronics
+2023-03-12,Amazon,272.93,272.93,Electronics
+2023-03-13,Uber,455.71,455.71,Travel
+2023-03-16,Adidas,77.13,77.13,Clothing
+2023-03-17,McDonald's,38.64,38.64,Dining
+2023-03-19,Duncan Inc,80.23,80.23,Clothing
+2023-03-21,Apple,398.54,132.85,Electronics
+2023-03-23,Uber,381.37,381.37,Travel
+2023-03-24,Walgreens,57.22,57.22,Health

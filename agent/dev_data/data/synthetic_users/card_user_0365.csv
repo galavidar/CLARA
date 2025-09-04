@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Romero-Webb,155.92,155.92,Home
+2023-01-03,Apple,805.16,805.16,Electronics
+2023-01-07,Walgreens,57.6,57.6,Health
+2023-01-08,Walgreens,44.3,22.15,Health
+2023-01-12,Nike,103.31,51.66,Clothing
+2023-01-13,Nike,108.49,108.49,Clothing
+2023-01-14,CVS,34.46,34.46,Health
+2023-01-15,Nike,86.86,86.86,Clothing
+2023-01-18,Estes-Ward,41.01,41.01,Health
+2023-01-20,Nike,86.2,28.73,Clothing
+2023-01-23,Adams-Perez,13.04,13.04,Dining
+2023-01-26,Adidas,37.08,37.08,Clothing
+2023-01-27,Johnson Inc,54.83,54.83,Entertainment
+2023-01-28,McDonald's,26.09,26.09,Dining
+2023-02-01,H&M,180.2,180.2,Clothing
+2023-02-02,Hernandez-Shah,27.64,27.64,Dining
+2023-02-03,Brown LLC,46.69,46.69,Groceries
+2023-02-04,Nike,105.01,35.0,Clothing
+2023-02-05,Zara,146.18,146.18,Clothing
+2023-02-06,Uber,453.49,453.49,Travel
+2023-02-10,"Meyers, Carter and Hubbard",97.29,97.29,Entertainment
+2023-02-11,Adidas,169.77,84.89,Clothing
+2023-02-12,Starbucks,24.41,24.41,Dining
+2023-02-13,Target,26.42,26.42,Groceries
+2023-02-17,Delta Airlines,140.86,140.86,Travel
+2023-02-18,Alexander-Brown,167.38,167.38,Clothing
+2023-02-19,Mercado-Mosley,374.55,374.55,Home
+2023-02-20,Osborne-Fields,43.28,21.64,Home
+2023-02-24,Apple,435.85,435.85,Electronics
+2023-02-27,Webb PLC,106.2,106.2,Groceries
+2023-02-28,Walgreens,31.03,31.03,Health
+2023-03-07,Starbucks,40.64,40.64,Dining
+2023-03-10,Delta Airlines,393.0,393.0,Travel
+2023-03-12,Nike,183.46,183.46,Clothing
+2023-03-13,"Nielsen, Williamson and Austin",104.76,104.76,Home
+2023-03-20,Serrano-Lopez,17.7,17.7,Dining
+2023-03-24,Williams-Lloyd,544.3,181.43,Electronics
+2023-03-25,Uber,253.72,253.72,Travel
+2023-03-27,Apple,946.25,946.25,Electronics
+2023-03-31,Apple,166.18,166.18,Electronics

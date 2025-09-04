@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Martin-Richardson,43.33,21.66,Health
+2023-01-06,Zara,175.12,175.12,Clothing
+2023-01-10,Delta Airlines,492.4,492.4,Travel
+2023-01-14,Zara,70.69,35.34,Clothing
+2023-01-15,"Curry, Ramirez and Lyons",185.27,185.27,Home
+2023-01-16,Walgreens,78.76,78.76,Health
+2023-01-17,"Rich, Meyer and Williams",11.57,11.57,Dining
+2023-01-19,Zara,98.54,98.54,Clothing
+2023-01-21,Walmart,44.03,44.03,Groceries
+2023-01-24,IKEA,343.04,343.04,Home
+2023-01-25,Zara,140.22,140.22,Clothing
+2023-01-29,"Daniels, Powell and Daniels",208.12,104.06,Travel
+2023-01-30,Nike,110.99,110.99,Clothing
+2023-01-31,Uber,424.55,141.52,Travel
+2023-02-01,McDonald's,19.55,19.55,Dining
+2023-02-02,"Caldwell, Sanford and Montgomery",76.02,76.02,Groceries
+2023-02-04,Amazon,972.87,972.87,Electronics
+2023-02-10,Adidas,58.52,58.52,Clothing
+2023-02-11,Zara,138.32,138.32,Clothing
+2023-02-18,CVS,98.78,98.78,Health
+2023-02-20,"Walters, Franklin and Sanchez",109.57,109.57,Groceries
+2023-02-22,Walgreens,43.67,14.56,Health
+2023-02-26,Nike,189.74,189.74,Clothing
+2023-03-01,"Rubio, Allen and Smith",96.9,96.9,Groceries
+2023-03-04,"Garcia, Murphy and Flowers",482.95,482.95,Travel
+2023-03-06,IKEA,292.54,292.54,Home
+2023-03-08,Adidas,129.21,43.07,Clothing
+2023-03-10,CVS,20.99,10.49,Health
+2023-03-11,Zara,115.98,115.98,Clothing
+2023-03-14,"Foster, Vargas and Mitchell",308.71,308.71,Home
+2023-03-17,Starbucks,57.61,57.61,Dining
+2023-03-18,Decker-Thompson,144.72,144.72,Home
+2023-03-21,Target,90.7,90.7,Groceries
+2023-03-25,Kim LLC,23.25,11.62,Health
+2023-03-28,Uber,339.52,339.52,Travel
+2023-03-30,Adidas,39.44,39.44,Clothing
+2023-03-31,Apple,287.43,287.43,Electronics

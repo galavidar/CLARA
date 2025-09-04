@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,28.44,28.44,Health
+2023-01-04,"Rangel, Gardner and Bush",24.41,24.41,Groceries
+2023-01-06,H&M,59.8,59.8,Clothing
+2023-01-08,Starbucks,40.87,40.87,Dining
+2023-01-10,Mcmillan-Allen,109.48,109.48,Home
+2023-01-13,Martinez and Sons,32.61,32.61,Health
+2023-01-20,Amazon,135.84,135.84,Electronics
+2023-01-22,Starbucks,33.0,33.0,Dining
+2023-01-23,Hughes-Coleman,201.79,201.79,Travel
+2023-01-24,Apple,911.27,911.27,Electronics
+2023-01-25,Reed-Simmons,33.09,33.09,Health
+2023-01-27,Uber,88.29,88.29,Travel
+2023-01-29,Lucas LLC,158.45,158.45,Clothing
+2023-01-30,Uber,411.23,411.23,Travel
+2023-01-31,"Combs, Collins and Wilkins",354.54,354.54,Home
+2023-02-02,Nike,104.77,104.77,Clothing
+2023-02-04,"Hayes, Gardner and Jensen",272.42,272.42,Travel
+2023-02-05,Nike,83.06,83.06,Clothing
+2023-02-08,"Johnson, Crosby and Davis",133.54,133.54,Clothing
+2023-02-09,Uber,365.2,365.2,Travel
+2023-02-11,H&M,130.23,130.23,Clothing
+2023-02-12,Apple,995.21,995.21,Electronics
+2023-02-13,Nike,64.02,64.02,Clothing
+2023-02-15,"Figueroa, Marshall and Graham",38.83,38.83,Health
+2023-02-22,Apple,741.21,741.21,Electronics
+2023-02-26,"Pace, Hughes and Madden",467.41,467.41,Electronics
+2023-02-27,Uber,372.47,372.47,Travel
+2023-03-03,CVS,55.25,55.25,Health
+2023-03-07,McDonald's,53.66,17.89,Dining
+2023-03-11,Alexander and Sons,88.87,88.87,Health
+2023-03-14,Taylor-Lopez,349.76,174.88,Travel
+2023-03-15,Nike,92.13,92.13,Clothing
+2023-03-18,Harris Inc,994.58,994.58,Electronics
+2023-03-21,CVS,44.77,44.77,Health
+2023-03-22,Adidas,114.14,114.14,Clothing
+2023-03-24,Apple,975.2,325.07,Electronics
+2023-03-25,Erickson Ltd,101.44,101.44,Home
+2023-03-30,Apple,468.13,468.13,Electronics

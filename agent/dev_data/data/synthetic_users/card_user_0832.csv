@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,80.67,80.67,Clothing
+2023-01-03,Cox-Mueller,22.22,22.22,Health
+2023-01-04,"Fleming, Doyle and Sampson",24.0,24.0,Dining
+2023-01-07,Zara,69.29,69.29,Clothing
+2023-01-08,Santos Group,20.96,20.96,Dining
+2023-01-13,H&M,146.74,146.74,Clothing
+2023-01-15,IKEA,33.92,33.92,Home
+2023-01-16,Erickson-Holmes,53.86,53.86,Dining
+2023-01-21,Spencer-Brown,11.61,3.87,Health
+2023-01-25,Target,52.7,52.7,Groceries
+2023-01-30,CVS,47.03,47.03,Health
+2023-02-02,CVS,48.2,48.2,Health
+2023-02-14,Amazon,136.2,136.2,Electronics
+2023-02-15,IKEA,232.17,232.17,Home
+2023-02-16,H&M,136.0,136.0,Clothing
+2023-02-17,Delta Airlines,150.53,150.53,Travel
+2023-02-18,H&M,43.01,43.01,Clothing
+2023-02-21,Rivera-Kim,50.52,50.52,Entertainment
+2023-02-25,Walgreens,14.89,14.89,Health
+2023-02-26,IKEA,58.7,58.7,Home
+2023-02-28,Target,149.42,74.71,Groceries
+2023-03-01,Apple,477.88,238.94,Electronics
+2023-03-02,"Morales, Fletcher and Morrow",22.88,22.88,Entertainment
+2023-03-04,Armstrong-Crawford,120.76,120.76,Groceries
+2023-03-07,Target,97.4,97.4,Groceries
+2023-03-10,"Cantu, Morris and Preston",326.58,326.58,Home
+2023-03-11,CVS,21.44,21.44,Health
+2023-03-12,IKEA,300.52,300.52,Home
+2023-03-13,Cisneros-White,98.89,32.96,Groceries
+2023-03-20,Walmart,67.2,67.2,Groceries
+2023-03-21,Starbucks,54.72,54.72,Dining
+2023-03-25,"Evans, Patrick and Berger",518.5,518.5,Electronics

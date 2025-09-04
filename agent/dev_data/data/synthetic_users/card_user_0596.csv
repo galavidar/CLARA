@@ -1,0 +1,46 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,H&M,47.82,47.82,Clothing
+2023-01-03,Williams-Dickerson,69.42,69.42,Health
+2023-01-07,IKEA,339.0,339.0,Home
+2023-01-08,Walmart,122.17,122.17,Groceries
+2023-01-10,Walmart,84.71,84.71,Groceries
+2023-01-16,Young PLC,99.8,49.9,Health
+2023-01-17,Adidas,60.42,60.42,Clothing
+2023-01-18,Adidas,129.42,129.42,Clothing
+2023-01-21,Amazon,776.14,776.14,Electronics
+2023-01-23,Amazon,194.87,194.87,Electronics
+2023-01-25,Hale-Hill,66.32,66.32,Entertainment
+2023-01-27,Nike,139.45,139.45,Clothing
+2023-01-29,Delta Airlines,286.68,286.68,Travel
+2023-01-30,"Hudson, Guerrero and Hanson",82.61,82.61,Health
+2023-02-03,Sharp-Montgomery,39.04,39.04,Entertainment
+2023-02-04,Starbucks,53.29,53.29,Dining
+2023-02-05,Walmart,67.03,67.03,Groceries
+2023-02-07,"Parker, Larson and Nash",150.3,150.3,Clothing
+2023-02-08,IKEA,65.28,65.28,Home
+2023-02-09,Mendoza-Knight,123.75,123.75,Groceries
+2023-02-10,Nike,62.74,62.74,Clothing
+2023-02-11,Starbucks,54.27,54.27,Dining
+2023-02-12,Amazon,229.84,229.84,Electronics
+2023-02-13,Delta Airlines,408.62,408.62,Travel
+2023-02-17,Walgreens,22.05,22.05,Health
+2023-02-20,H&M,87.55,29.18,Clothing
+2023-02-22,Apple,952.81,952.81,Electronics
+2023-02-28,Starbucks,28.09,14.04,Dining
+2023-03-03,Adidas,85.88,85.88,Clothing
+2023-03-04,Warner LLC,184.97,184.97,Clothing
+2023-03-05,Amazon,109.83,54.91,Electronics
+2023-03-06,Walmart,86.47,86.47,Groceries
+2023-03-07,Walmart,111.15,37.05,Groceries
+2023-03-09,Starbucks,57.85,57.85,Dining
+2023-03-10,H&M,79.5,79.5,Clothing
+2023-03-11,Bryant-Delgado,233.37,233.37,Travel
+2023-03-13,H&M,172.52,172.52,Clothing
+2023-03-17,Fernandez Ltd,29.94,29.94,Entertainment
+2023-03-20,Apple,939.33,939.33,Electronics
+2023-03-22,H&M,78.25,78.25,Clothing
+2023-03-24,Wright Inc,77.93,77.93,Entertainment
+2023-03-25,Obrien-Hogan,637.75,637.75,Electronics
+2023-03-28,Brooks Ltd,917.35,917.35,Electronics
+2023-03-30,Amazon,466.05,466.05,Electronics
+2023-03-31,Target,51.51,51.51,Groceries

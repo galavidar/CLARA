@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,IKEA,373.29,124.43,Home
+2023-01-03,Walmart,51.44,51.44,Groceries
+2023-01-06,Walgreens,70.16,35.08,Health
+2023-01-07,Target,84.25,84.25,Groceries
+2023-01-11,Starbucks,42.27,42.27,Dining
+2023-01-13,CVS,41.85,41.85,Health
+2023-01-15,Delta Airlines,210.62,210.62,Travel
+2023-01-16,H&M,94.91,94.91,Clothing
+2023-01-18,IKEA,250.79,250.79,Home
+2023-01-21,Amazon,657.66,657.66,Electronics
+2023-01-22,H&M,71.01,71.01,Clothing
+2023-01-24,Nike,128.6,128.6,Clothing
+2023-02-01,Amazon,758.27,758.27,Electronics
+2023-02-02,Luna Inc,644.51,644.51,Electronics
+2023-02-05,H&M,188.18,188.18,Clothing
+2023-02-07,Walgreens,13.25,4.42,Health
+2023-02-08,Apple,536.41,536.41,Electronics
+2023-02-10,Jones-Harrison,106.62,106.62,Clothing
+2023-02-12,Wilson-Walker,66.45,22.15,Entertainment
+2023-02-14,Roberson-Prince,61.62,61.62,Health
+2023-02-17,IKEA,374.56,374.56,Home
+2023-02-24,H&M,48.08,48.08,Clothing
+2023-02-27,Walgreens,31.68,10.56,Health
+2023-03-04,Nike,128.24,128.24,Clothing
+2023-03-09,Nike,170.53,170.53,Clothing
+2023-03-11,Garcia-Todd,427.66,427.66,Travel
+2023-03-13,Stanton-Swanson,150.4,150.4,Travel
+2023-03-16,Hernandez-Chang,49.26,49.26,Health
+2023-03-18,CVS,30.35,30.35,Health
+2023-03-31,Uber,221.34,221.34,Travel

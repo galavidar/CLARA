@@ -1,0 +1,48 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,IKEA,70.68,35.34,Home
+2023-01-05,West and Sons,161.2,161.2,Clothing
+2023-01-08,CVS,75.24,37.62,Health
+2023-01-12,Adidas,91.79,91.79,Clothing
+2023-01-13,Mason-Rios,137.43,137.43,Clothing
+2023-01-14,Walmart,30.19,30.19,Groceries
+2023-01-15,Walgreens,71.58,71.58,Health
+2023-01-18,Apple,498.04,498.04,Electronics
+2023-01-19,IKEA,337.27,337.27,Home
+2023-01-21,Uber,95.68,95.68,Travel
+2023-01-23,Target,141.28,141.28,Groceries
+2023-01-24,Wilson-Leonard,95.48,95.48,Entertainment
+2023-01-27,CVS,47.69,47.69,Health
+2023-01-29,"Peck, Barnes and Santos",60.11,60.11,Groceries
+2023-01-31,Delta Airlines,159.03,159.03,Travel
+2023-02-02,Starbucks,40.32,13.44,Dining
+2023-02-03,King-Stanley,682.21,682.21,Electronics
+2023-02-04,Garner LLC,54.33,54.33,Dining
+2023-02-07,Starbucks,44.17,14.72,Dining
+2023-02-08,"Romero, Lawrence and Walker",82.8,82.8,Entertainment
+2023-02-10,Adidas,113.16,113.16,Clothing
+2023-02-11,"Oconnor, Peterson and Davis",49.84,49.84,Entertainment
+2023-02-13,McDonald's,32.56,10.85,Dining
+2023-02-16,IKEA,48.91,48.91,Home
+2023-02-19,H&M,138.45,138.45,Clothing
+2023-02-21,"Hubbard, Weber and Mcclain",345.83,345.83,Electronics
+2023-02-22,Adidas,150.87,50.29,Clothing
+2023-02-23,Apple,847.09,847.09,Electronics
+2023-02-24,King Ltd,19.01,19.01,Entertainment
+2023-02-25,Adidas,58.74,58.74,Clothing
+2023-02-27,"Simpson, Meadows and Medina",30.0,30.0,Health
+2023-02-28,Wagner-James,396.43,396.43,Home
+2023-03-03,IKEA,77.88,77.88,Home
+2023-03-09,Adidas,93.12,93.12,Clothing
+2023-03-11,Barr Inc,64.5,21.5,Health
+2023-03-12,Starbucks,32.68,32.68,Dining
+2023-03-13,Montes Group,77.51,77.51,Health
+2023-03-15,"Hoover, Zimmerman and Powell",945.96,945.96,Electronics
+2023-03-18,Freeman-Holder,718.65,718.65,Electronics
+2023-03-19,Walmart,59.25,59.25,Groceries
+2023-03-20,CVS,29.66,29.66,Health
+2023-03-21,Walgreens,18.71,18.71,Health
+2023-03-22,Adidas,68.55,68.55,Clothing
+2023-03-24,IKEA,169.53,169.53,Home
+2023-03-28,"Clark, Green and Brown",48.28,48.28,Dining
+2023-03-30,Nike,188.96,188.96,Clothing
+2023-03-31,H&M,38.48,38.48,Clothing

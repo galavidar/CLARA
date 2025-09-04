@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Amazon,671.25,671.25,Electronics
+2023-01-07,McDonald's,39.65,39.65,Dining
+2023-01-08,Target,94.45,47.23,Groceries
+2023-01-09,McDonald's,15.46,5.15,Dining
+2023-01-11,Nike,60.93,60.93,Clothing
+2023-01-13,"Roberts, Roman and Mcgrath",330.94,330.94,Electronics
+2023-01-17,Apple,880.28,440.14,Electronics
+2023-01-19,Zara,51.92,51.92,Clothing
+2023-01-21,IKEA,203.09,67.7,Home
+2023-01-25,Arias Ltd,37.62,37.62,Health
+2023-01-31,Nike,57.87,57.87,Clothing
+2023-02-05,"Gibson, Rogers and Martin",76.55,25.52,Groceries
+2023-02-06,Delta Airlines,175.64,175.64,Travel
+2023-02-08,Walgreens,97.17,97.17,Health
+2023-02-12,Williams-Rojas,11.09,3.7,Entertainment
+2023-02-15,Zara,118.02,118.02,Clothing
+2023-02-16,McDonald's,55.07,55.07,Dining
+2023-02-18,Uber,349.05,349.05,Travel
+2023-02-19,Adidas,134.35,134.35,Clothing
+2023-02-27,Walmart,120.75,120.75,Groceries
+2023-03-01,Logan-Weaver,281.67,281.67,Home
+2023-03-04,Zara,79.42,79.42,Clothing
+2023-03-06,Perry-Smith,984.02,984.02,Electronics
+2023-03-07,Ross Inc,45.78,45.78,Entertainment
+2023-03-11,Uber,454.12,454.12,Travel
+2023-03-15,H&M,188.15,188.15,Clothing
+2023-03-18,Smith-Davis,467.66,467.66,Electronics
+2023-03-22,"Love, Smith and Lewis",76.41,25.47,Health
+2023-03-24,IKEA,244.71,244.71,Home
+2023-03-26,Amazon,411.48,411.48,Electronics
+2023-03-27,Walmart,102.74,102.74,Groceries
+2023-03-30,Adidas,40.32,40.32,Clothing

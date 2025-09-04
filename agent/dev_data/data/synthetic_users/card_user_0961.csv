@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,54.86,54.86,Groceries
+2023-01-03,Starbucks,26.54,26.54,Dining
+2023-01-05,"Fletcher, Ortiz and Riggs",178.22,178.22,Clothing
+2023-01-08,Amazon,888.35,888.35,Electronics
+2023-01-11,Nike,42.01,42.01,Clothing
+2023-01-13,"Harris, Gates and Terry",36.88,36.88,Entertainment
+2023-01-15,Amazon,363.44,363.44,Electronics
+2023-01-17,Starbucks,34.85,34.85,Dining
+2023-01-21,Zara,147.33,147.33,Clothing
+2023-01-25,"Elliott, Sanders and Baker",47.16,47.16,Entertainment
+2023-01-26,Amazon,655.51,655.51,Electronics
+2023-01-31,IKEA,399.48,399.48,Home
+2023-02-11,"Ellis, Smith and Smith",281.64,281.64,Electronics
+2023-02-13,"Fletcher, Smith and Cain",16.23,16.23,Dining
+2023-02-15,"Bell, Bell and Elliott",77.72,77.72,Health
+2023-02-16,Walton PLC,27.96,27.96,Dining
+2023-02-18,IKEA,37.92,37.92,Home
+2023-02-20,"Bryan, Hayes and Mills",209.88,209.88,Electronics
+2023-02-24,Apple,766.63,766.63,Electronics
+2023-02-25,CVS,64.75,64.75,Health
+2023-03-02,Zara,51.08,51.08,Clothing
+2023-03-03,"Fry, Kelly and Stephens",94.76,94.76,Health
+2023-03-04,Amazon,136.02,136.02,Electronics
+2023-03-06,Apple,412.45,412.45,Electronics
+2023-03-10,"Williamson, Howell and Brown",15.39,5.13,Entertainment
+2023-03-11,Starbucks,13.05,13.05,Dining
+2023-03-12,IKEA,63.52,21.17,Home
+2023-03-14,H&M,77.63,25.88,Clothing
+2023-03-15,Hull Inc,79.1,79.1,Home
+2023-03-16,Johnson LLC,355.98,355.98,Electronics
+2023-03-17,Adidas,169.2,169.2,Clothing
+2023-03-19,CVS,25.03,25.03,Health
+2023-03-21,Adidas,40.81,40.81,Clothing
+2023-03-23,Apple,786.2,786.2,Electronics
+2023-03-24,Wright-Marsh,51.44,51.44,Dining
+2023-03-30,Uber,250.91,250.91,Travel
+2023-03-31,Myers LLC,48.17,48.17,Dining

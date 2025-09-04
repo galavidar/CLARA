@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,McDonald's,36.08,36.08,Dining
+2023-01-09,Howard and Sons,231.07,231.07,Electronics
+2023-01-15,Sanchez LLC,44.01,22.0,Entertainment
+2023-01-21,Target,40.42,40.42,Groceries
+2023-01-22,CVS,83.14,27.71,Health
+2023-01-24,Starbucks,28.63,28.63,Dining
+2023-01-25,Thompson LLC,64.76,64.76,Groceries
+2023-01-26,Phelps PLC,116.76,116.76,Groceries
+2023-01-27,Apple,307.76,102.59,Electronics
+2023-01-28,H&M,133.03,133.03,Clothing
+2023-01-29,Adidas,63.74,21.25,Clothing
+2023-02-02,McDonald's,58.66,58.66,Dining
+2023-02-04,Starbucks,37.01,37.01,Dining
+2023-02-08,Hardy Group,345.8,172.9,Travel
+2023-02-10,IKEA,218.56,218.56,Home
+2023-02-11,Uber,208.95,69.65,Travel
+2023-02-13,Target,41.18,41.18,Groceries
+2023-02-16,Nike,52.05,26.02,Clothing
+2023-02-19,Zara,89.02,89.02,Clothing
+2023-02-20,IKEA,257.17,257.17,Home
+2023-02-21,Stewart-Campbell,26.49,26.49,Dining
+2023-02-22,"Day, Bennett and Turner",679.2,226.4,Electronics
+2023-02-23,Delta Airlines,333.48,333.48,Travel
+2023-02-25,CVS,92.01,92.01,Health
+2023-02-26,IKEA,369.52,369.52,Home
+2023-03-01,Allen Group,67.59,67.59,Home
+2023-03-11,Levy-Lawrence,274.05,274.05,Electronics
+2023-03-12,Robbins-Welch,45.15,45.15,Health
+2023-03-13,Uber,328.83,328.83,Travel
+2023-03-18,McDonald's,33.89,33.89,Dining
+2023-03-20,Ferguson PLC,39.18,39.18,Home
+2023-03-31,Zara,181.16,181.16,Clothing

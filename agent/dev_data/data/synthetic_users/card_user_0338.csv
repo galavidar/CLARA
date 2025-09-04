@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Garner LLC,83.84,83.84,Health
+2023-01-03,"King, Marshall and Collins",89.14,89.14,Health
+2023-01-10,McDonald's,21.78,21.78,Dining
+2023-01-11,Nike,146.57,73.28,Clothing
+2023-01-12,H&M,95.16,95.16,Clothing
+2023-01-13,H&M,106.21,53.1,Clothing
+2023-01-17,Rodriguez-Bryant,15.87,15.87,Health
+2023-01-20,"White, Cannon and Petersen",318.75,318.75,Electronics
+2023-01-21,Hernandez Inc,89.17,89.17,Groceries
+2023-01-23,Olson Inc,42.32,42.32,Dining
+2023-01-24,Zara,119.42,119.42,Clothing
+2023-01-31,Target,118.96,118.96,Groceries
+2023-02-02,Walgreens,15.57,15.57,Health
+2023-02-05,"Little, Ross and Hernandez",98.17,98.17,Home
+2023-02-06,"Thomas, Walton and Thomas",76.14,76.14,Entertainment
+2023-02-08,Delta Airlines,447.99,224.0,Travel
+2023-02-10,Hancock Group,163.16,81.58,Home
+2023-02-13,Adidas,130.65,130.65,Clothing
+2023-02-14,Apple,270.38,270.38,Electronics
+2023-02-15,Apple,385.86,385.86,Electronics
+2023-02-18,Starbucks,19.47,9.73,Dining
+2023-02-23,H&M,64.85,32.42,Clothing
+2023-02-24,Delta Airlines,76.93,76.93,Travel
+2023-02-26,"Gardner, Garcia and Sweeney",79.91,79.91,Groceries
+2023-03-03,Target,20.8,6.93,Groceries
+2023-03-04,Powell-Walters,150.02,150.02,Clothing
+2023-03-05,Uber,200.11,200.11,Travel
+2023-03-10,Zara,199.35,199.35,Clothing
+2023-03-13,IKEA,280.1,280.1,Home
+2023-03-16,Nike,88.59,88.59,Clothing
+2023-03-18,Amazon,176.4,58.8,Electronics
+2023-03-19,H&M,151.68,151.68,Clothing
+2023-03-20,Uber,378.76,378.76,Travel
+2023-03-21,Hall-Mitchell,61.8,61.8,Entertainment
+2023-03-23,Walgreens,23.84,7.95,Health
+2023-03-24,Delta Airlines,141.79,141.79,Travel
+2023-03-25,Walmart,35.14,35.14,Groceries
+2023-03-26,Apple,976.85,488.43,Electronics
+2023-03-28,Walgreens,19.32,19.32,Health
+2023-03-29,Walmart,62.18,62.18,Groceries

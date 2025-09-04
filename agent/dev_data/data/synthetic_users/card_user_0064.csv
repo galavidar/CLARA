@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-08,Delta Airlines,110.67,110.67,Travel
+2023-01-09,Adidas,155.42,155.42,Clothing
+2023-01-10,Cowan Inc,76.25,76.25,Groceries
+2023-01-13,Scott Group,846.18,282.06,Electronics
+2023-01-14,Delta Airlines,130.1,130.1,Travel
+2023-01-23,"Vargas, Clark and Holden",101.71,101.71,Travel
+2023-01-24,Wong Inc,169.19,169.19,Electronics
+2023-01-25,Delta Airlines,70.43,70.43,Travel
+2023-01-26,Target,66.44,66.44,Groceries
+2023-01-27,CVS,47.9,47.9,Health
+2023-01-30,Starbucks,55.54,55.54,Dining
+2023-01-31,Payne-Luna,51.68,51.68,Dining
+2023-02-06,Fleming-Middleton,44.81,44.81,Dining
+2023-02-07,Delta Airlines,143.56,143.56,Travel
+2023-02-08,Apple,107.81,107.81,Electronics
+2023-02-09,IKEA,316.81,316.81,Home
+2023-02-11,Fields Inc,80.18,80.18,Home
+2023-02-15,Walmart,28.65,28.65,Groceries
+2023-02-18,Apple,735.95,735.95,Electronics
+2023-02-19,Starbucks,42.32,42.32,Dining
+2023-02-20,Uber,406.36,406.36,Travel
+2023-02-21,Apple,266.34,266.34,Electronics
+2023-02-23,H&M,159.33,159.33,Clothing
+2023-02-24,"Smith, Graves and Daniels",40.45,40.45,Groceries
+2023-02-26,Nielsen Inc,15.9,15.9,Dining
+2023-02-27,H&M,31.37,31.37,Clothing
+2023-02-28,Target,111.87,111.87,Groceries
+2023-03-04,Uber,419.81,209.91,Travel
+2023-03-05,CVS,62.01,62.01,Health
+2023-03-06,Target,106.32,106.32,Groceries
+2023-03-08,Walmart,93.93,46.97,Groceries
+2023-03-12,McDonald's,18.88,18.88,Dining
+2023-03-14,Apple,525.38,175.13,Electronics
+2023-03-17,H&M,72.35,72.35,Clothing
+2023-03-19,Delta Airlines,59.77,59.77,Travel
+2023-03-22,Morton PLC,342.11,342.11,Home
+2023-03-24,Walmart,129.14,129.14,Groceries
+2023-03-25,Adidas,118.92,39.64,Clothing
+2023-03-26,H&M,155.73,155.73,Clothing
+2023-03-27,Young-Stevens,50.5,50.5,Health
+2023-03-29,Harris-Benjamin,62.58,20.86,Health

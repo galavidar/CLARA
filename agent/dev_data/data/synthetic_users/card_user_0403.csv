@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Burch and Sons,49.61,49.61,Health
+2023-01-04,Walgreens,46.45,46.45,Health
+2023-01-08,Bridges-Lee,233.17,233.17,Travel
+2023-01-13,Target,114.84,114.84,Groceries
+2023-01-15,CVS,86.95,86.95,Health
+2023-01-21,Walgreens,42.79,42.79,Health
+2023-01-23,Mcintyre-Gordon,564.23,564.23,Electronics
+2023-01-27,Starbucks,12.02,12.02,Dining
+2023-01-29,McDonald's,59.67,29.84,Dining
+2023-01-31,McDonald's,35.6,35.6,Dining
+2023-02-01,Walmart,31.77,31.77,Groceries
+2023-02-02,Delta Airlines,157.81,157.81,Travel
+2023-02-03,Brown Group,56.6,56.6,Home
+2023-02-04,"Summers, Davis and Payne",263.82,263.82,Home
+2023-02-06,Walmart,86.61,86.61,Groceries
+2023-02-16,Nike,79.52,79.52,Clothing
+2023-02-18,"Watkins, Wheeler and Reilly",655.2,655.2,Electronics
+2023-02-19,Nike,51.11,51.11,Clothing
+2023-02-20,Brock LLC,336.81,336.81,Home
+2023-02-24,Nike,68.94,68.94,Clothing
+2023-02-25,Uber,324.97,324.97,Travel
+2023-02-26,McDonald's,46.74,46.74,Dining
+2023-02-28,IKEA,174.17,174.17,Home
+2023-03-01,Walgreens,47.04,23.52,Health
+2023-03-04,"Pittman, Rowland and Medina",39.99,39.99,Health
+2023-03-07,"Nguyen, Hudson and Figueroa",54.25,54.25,Groceries
+2023-03-10,Starbucks,23.15,23.15,Dining
+2023-03-11,Starbucks,10.46,10.46,Dining
+2023-03-15,Adidas,77.74,77.74,Clothing
+2023-03-16,Zara,196.99,98.5,Clothing
+2023-03-17,Apple,182.31,182.31,Electronics
+2023-03-19,Mcdaniel-James,241.43,241.43,Electronics
+2023-03-21,Parker and Sons,13.96,13.96,Entertainment
+2023-03-22,Jennings Ltd,990.69,990.69,Electronics
+2023-03-23,Bishop-Charles,293.42,293.42,Travel
+2023-03-24,CVS,86.1,86.1,Health
+2023-03-25,McDonald's,20.08,20.08,Dining
+2023-03-26,CVS,12.07,12.07,Health
+2023-03-29,CVS,51.96,51.96,Health

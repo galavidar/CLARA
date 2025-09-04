@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Gonzales Ltd,193.52,64.51,Clothing
+2023-01-08,"Brown, Munoz and Woodward",344.16,344.16,Travel
+2023-01-10,Starbucks,28.7,28.7,Dining
+2023-01-12,Zara,137.64,137.64,Clothing
+2023-01-13,Zara,162.15,54.05,Clothing
+2023-01-18,Target,130.36,43.45,Groceries
+2023-01-20,Uber,75.61,75.61,Travel
+2023-01-22,IKEA,127.41,127.41,Home
+2023-01-23,Richard-Howard,88.61,88.61,Health
+2023-01-28,Apple,930.99,930.99,Electronics
+2023-02-04,Zara,74.04,74.04,Clothing
+2023-02-05,Target,69.71,69.71,Groceries
+2023-02-07,Turner-Smith,11.58,11.58,Dining
+2023-02-08,Apple,104.67,104.67,Electronics
+2023-02-09,Target,96.88,48.44,Groceries
+2023-02-17,"Hunt, Hernandez and Grimes",51.31,51.31,Groceries
+2023-02-22,Zara,156.95,156.95,Clothing
+2023-03-01,Walgreens,87.3,87.3,Health
+2023-03-03,Moody-Morales,165.46,165.46,Home
+2023-03-12,Uber,268.12,268.12,Travel
+2023-03-13,Walgreens,51.07,17.02,Health
+2023-03-14,H&M,148.92,148.92,Clothing
+2023-03-15,"Shelton, Williams and Patterson",37.33,37.33,Home
+2023-03-18,Uber,129.7,64.85,Travel
+2023-03-19,Apple,284.18,284.18,Electronics
+2023-03-22,Cardenas-Cunningham,228.19,228.19,Travel
+2023-03-23,Nike,90.4,90.4,Clothing
+2023-03-26,Walmart,117.19,117.19,Groceries

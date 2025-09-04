@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,"Lawrence, Brown and Gilbert",191.45,191.45,Clothing
+2023-01-09,H&M,56.57,56.57,Clothing
+2023-01-12,Mcclain Inc,95.18,95.18,Entertainment
+2023-01-13,Nike,188.58,188.58,Clothing
+2023-01-14,Apple,793.78,793.78,Electronics
+2023-01-16,"Robles, Howard and Pugh",50.22,50.22,Clothing
+2023-01-18,"Kim, Palmer and Harris",53.66,53.66,Dining
+2023-01-22,Adidas,45.47,45.47,Clothing
+2023-01-27,Uber,482.6,482.6,Travel
+2023-01-28,Oneill Group,38.3,38.3,Groceries
+2023-01-30,"Wilson, Parks and Maldonado",60.0,60.0,Health
+2023-01-31,McDonald's,13.16,13.16,Dining
+2023-02-01,Target,117.66,117.66,Groceries
+2023-02-03,Apple,201.75,201.75,Electronics
+2023-02-05,McDonald's,56.01,56.01,Dining
+2023-02-07,Uber,379.1,379.1,Travel
+2023-02-11,Matthews-Hernandez,27.2,27.2,Health
+2023-02-12,Jennings LLC,11.02,11.02,Dining
+2023-02-13,Nike,175.98,175.98,Clothing
+2023-02-18,Hammond Ltd,43.32,43.32,Groceries
+2023-02-19,Anderson Ltd,80.3,80.3,Groceries
+2023-02-22,Nike,177.57,177.57,Clothing
+2023-02-23,Zara,60.6,60.6,Clothing
+2023-02-27,H&M,55.7,27.85,Clothing
+2023-02-28,Schmidt Inc,67.61,67.61,Health
+2023-03-02,CVS,69.75,69.75,Health
+2023-03-11,Zara,152.98,50.99,Clothing
+2023-03-12,Zara,189.61,189.61,Clothing
+2023-03-13,Sanders LLC,47.13,15.71,Health
+2023-03-14,"Osborn, Hayes and Lewis",92.15,46.08,Home
+2023-03-18,Nike,172.86,172.86,Clothing
+2023-03-22,Walmart,55.19,55.19,Groceries
+2023-03-23,CVS,19.65,9.82,Health
+2023-03-25,IKEA,161.32,161.32,Home
+2023-03-28,Walmart,75.55,75.55,Groceries

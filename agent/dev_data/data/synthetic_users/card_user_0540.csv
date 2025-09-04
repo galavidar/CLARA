@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Green Group,97.32,32.44,Health
+2023-01-03,Taylor Ltd,35.22,17.61,Health
+2023-01-04,"Barker, Dixon and Wiley",52.07,52.07,Dining
+2023-01-11,Hendrix and Sons,49.36,49.36,Health
+2023-01-13,Walgreens,51.9,17.3,Health
+2023-01-16,Adidas,140.82,140.82,Clothing
+2023-01-19,"Griffin, Blair and Andrade",79.75,79.75,Health
+2023-01-20,Uber,101.92,33.97,Travel
+2023-01-21,Nike,81.21,81.21,Clothing
+2023-01-22,Walmart,77.56,77.56,Groceries
+2023-01-23,Starbucks,50.57,16.86,Dining
+2023-01-24,Vang Group,55.42,55.42,Entertainment
+2023-01-26,H&M,78.3,78.3,Clothing
+2023-02-03,Poole LLC,88.63,88.63,Clothing
+2023-02-04,Smith and Sons,139.65,139.65,Groceries
+2023-02-08,Barrett-Smith,36.68,18.34,Dining
+2023-02-09,Johnson LLC,361.27,361.27,Home
+2023-02-11,Scott-Black,55.22,55.22,Entertainment
+2023-02-13,Amazon,746.83,746.83,Electronics
+2023-02-16,Delta Airlines,209.15,209.15,Travel
+2023-02-21,"Jenkins, Burns and King",311.96,311.96,Travel
+2023-03-02,Zara,54.02,54.02,Clothing
+2023-03-05,Apple,352.31,352.31,Electronics
+2023-03-06,CVS,16.44,16.44,Health
+2023-03-07,Rose-Kramer,12.65,12.65,Entertainment
+2023-03-10,CVS,27.03,27.03,Health
+2023-03-12,Walgreens,89.2,44.6,Health
+2023-03-13,Starbucks,56.91,18.97,Dining
+2023-03-15,"Ali, Harper and Jones",87.58,87.58,Health
+2023-03-16,IKEA,336.46,112.15,Home
+2023-03-21,IKEA,339.16,339.16,Home
+2023-03-23,Kennedy and Sons,76.06,38.03,Clothing
+2023-03-25,IKEA,337.95,337.95,Home
+2023-03-26,"Daniel, Singh and Flores",98.31,49.16,Entertainment
+2023-03-30,Walgreens,43.54,43.54,Health

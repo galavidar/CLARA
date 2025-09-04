@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Delta Airlines,364.67,364.67,Travel
+2023-01-02,CVS,34.47,17.23,Health
+2023-01-04,Lawrence-Duffy,142.44,47.48,Groceries
+2023-01-07,Richardson-May,849.08,283.03,Electronics
+2023-01-08,"Smith, Davis and Gates",126.07,126.07,Groceries
+2023-01-12,Nike,179.3,89.65,Clothing
+2023-01-14,"Hull, Norman and Lee",70.63,70.63,Health
+2023-01-15,Uber,74.57,74.57,Travel
+2023-01-16,Zara,77.92,77.92,Clothing
+2023-01-17,"Brown, Bryant and Acevedo",306.36,153.18,Home
+2023-01-18,"Moran, Williams and Mccoy",36.89,36.89,Dining
+2023-01-19,Nike,166.89,166.89,Clothing
+2023-01-23,Roberts LLC,55.23,27.61,Entertainment
+2023-01-24,Nike,69.51,69.51,Clothing
+2023-01-31,CVS,51.78,51.78,Health
+2023-02-02,Apple,761.5,761.5,Electronics
+2023-02-05,Rogers-Williams,117.85,58.92,Groceries
+2023-02-06,Short-Simpson,25.02,25.02,Dining
+2023-02-07,Walmart,34.56,34.56,Groceries
+2023-02-13,Nike,109.53,109.53,Clothing
+2023-02-14,McDonald's,20.65,20.65,Dining
+2023-02-16,Adidas,119.51,119.51,Clothing
+2023-02-22,H&M,50.66,50.66,Clothing
+2023-02-28,Cobb Group,34.78,34.78,Dining
+2023-03-10,Gordon-Sawyer,47.43,47.43,Dining
+2023-03-11,CVS,93.78,93.78,Health
+2023-03-13,Zara,136.08,136.08,Clothing
+2023-03-14,Amazon,324.84,324.84,Electronics
+2023-03-17,Walgreens,59.92,59.92,Health
+2023-03-18,H&M,65.48,32.74,Clothing
+2023-03-20,Walgreens,56.64,18.88,Health
+2023-03-21,Alexander Inc,43.96,43.96,Dining
+2023-03-22,Zara,85.74,85.74,Clothing
+2023-03-23,Zara,127.49,127.49,Clothing
+2023-03-26,Walgreens,56.65,56.65,Health

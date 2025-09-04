@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-07,Delta Airlines,404.12,202.06,Travel
+2023-01-09,Apple,886.52,886.52,Electronics
+2023-01-11,H&M,136.46,136.46,Clothing
+2023-01-13,Uber,320.82,320.82,Travel
+2023-01-14,Starbucks,26.66,26.66,Dining
+2023-01-16,Nike,186.34,186.34,Clothing
+2023-01-18,Walmart,127.88,127.88,Groceries
+2023-01-20,Starbucks,50.41,50.41,Dining
+2023-01-21,Adidas,32.25,32.25,Clothing
+2023-01-22,Martinez Ltd,92.61,92.61,Entertainment
+2023-01-24,Adidas,191.87,191.87,Clothing
+2023-01-25,"Mccormick, Smith and Jimenez",732.41,732.41,Electronics
+2023-01-27,Mason-Marshall,142.9,142.9,Groceries
+2023-02-02,Walmart,139.1,139.1,Groceries
+2023-02-04,Amazon,699.35,699.35,Electronics
+2023-02-05,Davis-Blair,994.55,994.55,Electronics
+2023-02-06,Bailey-Hernandez,79.72,79.72,Entertainment
+2023-02-10,Walmart,95.15,47.58,Groceries
+2023-02-11,Delta Airlines,97.03,97.03,Travel
+2023-02-12,H&M,101.28,101.28,Clothing
+2023-02-18,Adidas,103.98,103.98,Clothing
+2023-02-20,Target,34.22,34.22,Groceries
+2023-02-22,Starbucks,49.79,49.79,Dining
+2023-02-23,H&M,136.87,136.87,Clothing
+2023-02-25,Target,75.13,75.13,Groceries
+2023-02-27,"Thompson, Moore and Olson",808.85,808.85,Electronics
+2023-03-07,Adidas,191.12,191.12,Clothing
+2023-03-09,Apple,492.3,492.3,Electronics
+2023-03-10,Walgreens,98.64,98.64,Health
+2023-03-11,Scott Group,98.09,98.09,Health
+2023-03-13,Adidas,160.68,160.68,Clothing
+2023-03-14,McDonald's,38.11,12.7,Dining
+2023-03-15,Walmart,111.34,111.34,Groceries
+2023-03-18,"Powell, Raymond and Flores",47.12,47.12,Clothing
+2023-03-22,Walmart,113.4,113.4,Groceries
+2023-03-24,McDonald's,53.91,53.91,Dining
+2023-03-26,Delta Airlines,403.63,201.81,Travel
+2023-03-27,Uber,67.45,22.48,Travel
+2023-03-28,Uber,287.75,287.75,Travel

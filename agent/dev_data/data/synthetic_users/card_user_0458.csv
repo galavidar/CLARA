@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,145.93,145.93,Groceries
+2023-01-07,Walgreens,33.57,11.19,Health
+2023-01-09,Buck-Hamilton,44.19,44.19,Entertainment
+2023-01-12,IKEA,53.94,26.97,Home
+2023-01-15,H&M,188.03,188.03,Clothing
+2023-01-17,CVS,35.56,35.56,Health
+2023-01-18,Melton Ltd,68.14,68.14,Entertainment
+2023-01-20,Cox-Newton,113.72,113.72,Clothing
+2023-01-21,Wheeler LLC,51.97,51.97,Entertainment
+2023-01-22,Apple,512.46,512.46,Electronics
+2023-01-23,H&M,181.9,181.9,Clothing
+2023-01-26,Amazon,569.44,569.44,Electronics
+2023-01-31,Uber,499.54,499.54,Travel
+2023-02-02,Nike,61.52,30.76,Clothing
+2023-02-06,Starbucks,39.33,39.33,Dining
+2023-02-11,Walmart,41.8,41.8,Groceries
+2023-02-22,Amazon,151.88,151.88,Electronics
+2023-02-24,Lewis-Perez,77.43,77.43,Entertainment
+2023-02-28,Adidas,92.06,92.06,Clothing
+2023-03-03,Starbucks,17.36,17.36,Dining
+2023-03-05,Zara,81.27,81.27,Clothing
+2023-03-06,Zara,143.83,47.94,Clothing
+2023-03-08,Uber,101.8,101.8,Travel
+2023-03-11,Delta Airlines,229.98,229.98,Travel
+2023-03-12,Walgreens,68.77,34.38,Health
+2023-03-14,Hatfield-Thomas,15.28,15.28,Entertainment
+2023-03-15,Uber,282.5,282.5,Travel
+2023-03-17,Amazon,827.12,827.12,Electronics
+2023-03-18,Adidas,192.7,192.7,Clothing
+2023-03-21,Zara,151.24,151.24,Clothing
+2023-03-26,Bell-Barnes,366.39,183.19,Travel
+2023-03-28,Zara,134.19,134.19,Clothing
+2023-03-29,"Bowen, Miller and Glenn",71.7,71.7,Health

@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Wu-Keller,88.75,88.75,Groceries
+2023-01-02,"Galvan, Taylor and Potter",146.57,73.28,Groceries
+2023-01-05,"Choi, Mays and Jenkins",48.17,48.17,Health
+2023-01-09,Cordova Inc,26.41,8.8,Dining
+2023-01-15,McDonald's,15.26,15.26,Dining
+2023-01-16,Zara,148.16,148.16,Clothing
+2023-01-18,"Mullins, Singh and Parker",21.05,21.05,Health
+2023-01-19,"Faulkner, Thomas and Wallace",158.57,158.57,Clothing
+2023-01-20,Zara,197.88,197.88,Clothing
+2023-01-23,Target,108.3,54.15,Groceries
+2023-01-26,Adidas,74.48,74.48,Clothing
+2023-01-28,Uber,103.61,103.61,Travel
+2023-01-31,H&M,151.67,151.67,Clothing
+2023-02-05,Collins-Cooper,15.53,15.53,Entertainment
+2023-02-10,CVS,15.9,15.9,Health
+2023-02-11,Nike,141.82,141.82,Clothing
+2023-02-13,IKEA,241.84,241.84,Home
+2023-02-15,IKEA,388.69,388.69,Home
+2023-02-17,Target,72.26,72.26,Groceries
+2023-02-18,"Smith, Hobbs and Riley",39.59,39.59,Dining
+2023-02-20,Delta Airlines,185.83,185.83,Travel
+2023-02-24,"Sanchez, Manning and Stone",129.14,129.14,Home
+2023-02-27,Nike,55.12,18.37,Clothing
+2023-03-04,Allen-Mitchell,108.91,108.91,Clothing
+2023-03-05,Starbucks,11.46,11.46,Dining
+2023-03-06,Allen and Sons,27.19,27.19,Groceries
+2023-03-07,Zara,182.45,182.45,Clothing
+2023-03-08,Fisher Inc,156.22,156.22,Travel
+2023-03-09,Target,143.46,143.46,Groceries
+2023-03-10,Quinn-Cook,84.91,84.91,Entertainment
+2023-03-12,Apple,972.93,972.93,Electronics
+2023-03-13,Bush-Flynn,59.12,59.12,Entertainment
+2023-03-14,IKEA,333.91,166.96,Home
+2023-03-17,H&M,138.62,138.62,Clothing
+2023-03-19,Amazon,918.81,918.81,Electronics
+2023-03-20,Delta Airlines,390.5,390.5,Travel
+2023-03-21,IKEA,355.4,355.4,Home
+2023-03-22,"Henderson, Moore and Hale",204.3,204.3,Home
+2023-03-28,McDonald's,19.19,19.19,Dining
+2023-03-29,H&M,83.33,41.66,Clothing

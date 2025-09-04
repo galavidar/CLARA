@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,H&M,67.56,67.56,Clothing
+2023-01-08,Nike,165.63,165.63,Clothing
+2023-01-20,Target,103.43,103.43,Groceries
+2023-01-22,Stephens and Sons,458.16,458.16,Travel
+2023-01-28,CVS,98.01,49.01,Health
+2023-01-29,Roberts-Anderson,211.02,211.02,Travel
+2023-01-30,Adidas,142.63,47.54,Clothing
+2023-02-01,Target,106.14,106.14,Groceries
+2023-02-02,Zara,62.32,31.16,Clothing
+2023-02-03,CVS,37.64,37.64,Health
+2023-02-05,IKEA,39.02,19.51,Home
+2023-02-08,Holland-Garrison,29.35,29.35,Dining
+2023-02-09,CVS,73.82,73.82,Health
+2023-02-12,Uber,289.38,289.38,Travel
+2023-02-13,Camacho-Webster,94.89,94.89,Groceries
+2023-02-14,Apple,987.66,987.66,Electronics
+2023-02-19,H&M,169.63,169.63,Clothing
+2023-02-21,McDonald's,55.45,55.45,Dining
+2023-02-23,Blair LLC,81.73,81.73,Health
+2023-02-24,McDonald's,13.31,13.31,Dining
+2023-02-25,Target,107.26,107.26,Groceries
+2023-02-28,Zara,69.6,69.6,Clothing
+2023-03-04,Uber,319.45,319.45,Travel
+2023-03-11,"Freeman, Rodriguez and Hoover",155.49,155.49,Home
+2023-03-12,McDonald's,13.54,13.54,Dining
+2023-03-14,Target,71.74,71.74,Groceries
+2023-03-15,Delta Airlines,119.61,119.61,Travel
+2023-03-23,Nike,59.63,29.82,Clothing
+2023-03-27,Uber,181.21,181.21,Travel
+2023-03-31,Davis-Boone,148.43,74.22,Home

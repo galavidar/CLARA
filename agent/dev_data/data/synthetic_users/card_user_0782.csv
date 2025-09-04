@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Davidson LLC,403.88,403.88,Electronics
+2023-01-04,Moore-Walton,67.78,67.78,Groceries
+2023-01-07,Starbucks,35.26,35.26,Dining
+2023-01-08,Ross PLC,29.43,9.81,Entertainment
+2023-01-09,H&M,49.45,49.45,Clothing
+2023-01-10,Cameron PLC,52.99,26.5,Entertainment
+2023-01-11,Walgreens,96.84,32.28,Health
+2023-01-12,Walgreens,39.08,13.03,Health
+2023-01-16,Starbucks,25.61,25.61,Dining
+2023-01-21,IKEA,43.76,43.76,Home
+2023-01-23,Walgreens,18.13,18.13,Health
+2023-01-24,Alvarez PLC,120.91,120.91,Groceries
+2023-01-27,Delta Airlines,309.77,309.77,Travel
+2023-01-28,"Schwartz, Collier and Gonzalez",22.7,22.7,Dining
+2023-02-03,Apple,653.86,326.93,Electronics
+2023-02-09,IKEA,51.78,51.78,Home
+2023-02-11,Nike,135.06,135.06,Clothing
+2023-02-14,Uber,329.11,164.56,Travel
+2023-02-16,Zara,195.19,195.19,Clothing
+2023-02-23,Sosa and Sons,127.83,127.83,Home
+2023-02-24,H&M,166.45,166.45,Clothing
+2023-02-28,Starbucks,44.33,44.33,Dining
+2023-03-05,Uber,268.74,268.74,Travel
+2023-03-07,Johnson Ltd,871.59,435.8,Electronics
+2023-03-11,Meza and Sons,197.03,197.03,Clothing
+2023-03-13,IKEA,388.41,388.41,Home
+2023-03-16,Starbucks,25.28,25.28,Dining
+2023-03-21,"Hernandez, Solis and Molina",56.61,56.61,Dining
+2023-03-22,CVS,34.09,17.05,Health
+2023-03-25,White-Chapman,32.06,32.06,Health
+2023-03-28,Apple,365.18,182.59,Electronics

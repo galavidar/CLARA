@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,"Sanchez, Marshall and Watson",98.25,98.25,Entertainment
+2023-01-06,"Anderson, Campos and Martinez",643.52,643.52,Electronics
+2023-01-07,CVS,87.66,87.66,Health
+2023-01-11,Walmart,123.7,123.7,Groceries
+2023-01-12,Walgreens,90.97,90.97,Health
+2023-01-16,H&M,85.95,85.95,Clothing
+2023-01-17,Amazon,647.19,647.19,Electronics
+2023-01-18,CVS,17.32,17.32,Health
+2023-01-19,Target,145.36,48.45,Groceries
+2023-01-21,Nike,182.32,182.32,Clothing
+2023-01-22,"Greene, Padilla and Singleton",59.05,59.05,Entertainment
+2023-01-23,Nike,180.57,180.57,Clothing
+2023-01-25,Martinez-Fitzgerald,111.08,111.08,Clothing
+2023-01-28,Adidas,169.2,169.2,Clothing
+2023-01-29,Mcgrath-Benton,23.96,23.96,Dining
+2023-01-30,Uber,298.49,149.25,Travel
+2023-01-31,Hall and Sons,139.71,46.57,Groceries
+2023-02-02,Franklin-Reyes,79.78,79.78,Health
+2023-02-07,Walgreens,64.93,64.93,Health
+2023-02-08,Delta Airlines,404.52,404.52,Travel
+2023-02-10,Adidas,106.64,106.64,Clothing
+2023-02-15,H&M,187.35,187.35,Clothing
+2023-02-17,Adidas,84.89,28.3,Clothing
+2023-02-25,Ochoa Group,65.33,65.33,Entertainment
+2023-02-26,Walgreens,35.49,11.83,Health
+2023-02-28,Apple,372.36,372.36,Electronics
+2023-03-02,IKEA,353.97,353.97,Home
+2023-03-05,Nike,95.14,95.14,Clothing
+2023-03-09,IKEA,96.15,96.15,Home
+2023-03-16,Target,72.21,72.21,Groceries
+2023-03-23,Uber,150.03,150.03,Travel
+2023-03-24,Nike,135.23,67.61,Clothing
+2023-03-25,Amazon,358.73,358.73,Electronics
+2023-03-30,Uber,383.03,383.03,Travel

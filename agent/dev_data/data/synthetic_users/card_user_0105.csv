@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Nike,38.81,19.41,Clothing
+2023-01-04,Nike,98.79,98.79,Clothing
+2023-01-06,Nike,56.0,56.0,Clothing
+2023-01-15,Daniels-James,983.62,983.62,Electronics
+2023-01-18,Walmart,74.52,74.52,Groceries
+2023-01-19,Rodriguez PLC,345.34,345.34,Home
+2023-01-21,McDonald's,32.3,32.3,Dining
+2023-01-22,Uber,222.32,74.11,Travel
+2023-01-29,Walmart,102.74,102.74,Groceries
+2023-01-31,Allen and Sons,91.03,91.03,Entertainment
+2023-02-01,Starbucks,46.51,46.51,Dining
+2023-02-03,"Lowery, Martin and Mathis",79.72,26.57,Health
+2023-02-05,Delta Airlines,345.35,345.35,Travel
+2023-02-06,Delta Airlines,342.95,342.95,Travel
+2023-02-12,Apple,597.58,298.79,Electronics
+2023-02-18,Uber,103.36,51.68,Travel
+2023-02-26,Starbucks,29.61,29.61,Dining
+2023-03-04,IKEA,257.29,257.29,Home
+2023-03-05,Target,121.84,121.84,Groceries
+2023-03-09,"Arroyo, Brown and Lindsey",111.3,111.3,Home
+2023-03-10,Amazon,955.85,955.85,Electronics
+2023-03-12,Dunn Group,71.27,71.27,Home
+2023-03-13,Apple,490.12,490.12,Electronics
+2023-03-14,Target,103.17,103.17,Groceries
+2023-03-17,Target,74.62,37.31,Groceries
+2023-03-18,Nike,121.98,121.98,Clothing
+2023-03-24,Amazon,885.44,885.44,Electronics
+2023-03-26,Morrison-Bush,11.44,11.44,Entertainment
+2023-03-27,Kerr-Gardner,13.28,13.28,Dining
+2023-03-29,Delta Airlines,232.57,232.57,Travel
+2023-03-31,Walmart,74.62,74.62,Groceries

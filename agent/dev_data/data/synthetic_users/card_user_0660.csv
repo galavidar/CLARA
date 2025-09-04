@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,CVS,42.08,42.08,Health
+2023-01-05,Pratt-Taylor,71.57,71.57,Clothing
+2023-01-10,Target,130.53,130.53,Groceries
+2023-01-14,Schroeder PLC,977.56,325.85,Electronics
+2023-01-16,H&M,155.84,51.95,Clothing
+2023-01-20,CVS,53.96,53.96,Health
+2023-01-21,Reese-Payne,20.07,20.07,Health
+2023-01-22,Zara,37.47,18.73,Clothing
+2023-01-25,CVS,61.47,61.47,Health
+2023-01-31,Cobb-Craig,42.9,42.9,Health
+2023-02-03,Walgreens,21.24,7.08,Health
+2023-02-04,King-Adkins,62.06,62.06,Entertainment
+2023-02-05,Walmart,67.38,67.38,Groceries
+2023-02-07,Dunn PLC,38.67,38.67,Health
+2023-02-09,Apple,289.58,289.58,Electronics
+2023-02-12,CVS,75.09,75.09,Health
+2023-02-15,Peterson-Floyd,23.52,11.76,Groceries
+2023-02-18,Morton and Sons,93.82,93.82,Clothing
+2023-02-20,Target,119.14,59.57,Groceries
+2023-02-23,"Smith, Davenport and Lara",585.75,585.75,Electronics
+2023-02-24,CVS,70.92,70.92,Health
+2023-02-25,McDonald's,28.69,9.56,Dining
+2023-02-28,Amazon,100.08,100.08,Electronics
+2023-03-03,Starbucks,25.21,25.21,Dining
+2023-03-07,Greene-Hodge,280.98,280.98,Home
+2023-03-12,Owens Inc,331.77,165.88,Travel
+2023-03-20,"Murphy, Friedman and Conrad",13.59,13.59,Dining
+2023-03-24,IKEA,382.78,382.78,Home
+2023-03-28,Reed-Barnett,168.1,168.1,Travel
+2023-03-29,McDonald's,21.92,7.31,Dining

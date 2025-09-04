@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Adidas,100.24,100.24,Clothing
+2023-01-07,CVS,77.17,77.17,Health
+2023-01-12,H&M,118.64,118.64,Clothing
+2023-01-18,Zara,31.13,10.38,Clothing
+2023-01-21,Walmart,77.27,77.27,Groceries
+2023-01-22,IKEA,169.34,169.34,Home
+2023-01-24,Nike,85.78,85.78,Clothing
+2023-01-25,Saunders-Chase,60.09,60.09,Health
+2023-01-27,Starbucks,50.64,50.64,Dining
+2023-01-29,CVS,80.33,80.33,Health
+2023-01-30,IKEA,221.49,110.75,Home
+2023-01-31,Nike,74.22,24.74,Clothing
+2023-02-02,McDonald's,44.39,44.39,Dining
+2023-02-03,Walgreens,27.76,27.76,Health
+2023-02-04,Target,97.55,97.55,Groceries
+2023-02-05,Delta Airlines,433.67,433.67,Travel
+2023-02-06,Nike,176.8,176.8,Clothing
+2023-02-07,Walmart,145.44,72.72,Groceries
+2023-02-08,IKEA,327.68,327.68,Home
+2023-02-10,"Fletcher, Barnes and Adams",53.15,53.15,Health
+2023-02-17,Robinson-Pope,219.68,219.68,Travel
+2023-02-18,McDonald's,29.43,29.43,Dining
+2023-02-22,Stone-Chandler,50.77,50.77,Clothing
+2023-02-23,"Wiggins, Powell and Anderson",133.68,133.68,Clothing
+2023-02-25,Espinoza-Washington,237.47,79.16,Home
+2023-03-03,Adidas,191.44,191.44,Clothing
+2023-03-06,McDonald's,41.2,41.2,Dining
+2023-03-07,Nike,172.38,172.38,Clothing
+2023-03-11,Zara,99.09,99.09,Clothing
+2023-03-16,"Byrd, Johnson and Williamson",37.28,37.28,Health
+2023-03-17,Henderson-Perry,197.43,197.43,Home
+2023-03-20,McDonald's,33.25,16.62,Dining
+2023-03-24,Apple,872.64,872.64,Electronics
+2023-03-26,Starbucks,53.83,17.94,Dining
+2023-03-30,"Hendricks, Liu and Clayton",196.15,196.15,Home

@@ -1,0 +1,45 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Delta Airlines,68.02,68.02,Travel
+2023-01-04,"Larson, Hill and Kemp",248.33,248.33,Travel
+2023-01-05,Gomez Ltd,305.87,305.87,Electronics
+2023-01-06,Delta Airlines,112.99,112.99,Travel
+2023-01-08,Uber,460.42,460.42,Travel
+2023-01-09,Schwartz LLC,19.98,6.66,Health
+2023-01-10,Walgreens,65.51,65.51,Health
+2023-01-14,Delta Airlines,263.82,263.82,Travel
+2023-01-15,H&M,93.24,46.62,Clothing
+2023-01-18,Adidas,60.18,60.18,Clothing
+2023-01-19,Delta Airlines,353.22,353.22,Travel
+2023-01-21,Adidas,39.62,39.62,Clothing
+2023-01-24,H&M,151.54,151.54,Clothing
+2023-01-26,Delta Airlines,275.16,275.16,Travel
+2023-01-29,McDonald's,56.16,56.16,Dining
+2023-01-30,H&M,171.45,171.45,Clothing
+2023-02-01,Petersen-Ward,36.32,36.32,Dining
+2023-02-03,Target,25.09,25.09,Groceries
+2023-02-05,Apple,321.39,107.13,Electronics
+2023-02-08,Walmart,40.54,20.27,Groceries
+2023-02-10,IKEA,329.1,329.1,Home
+2023-02-13,Hamilton Ltd,54.47,54.47,Clothing
+2023-02-14,CVS,81.92,81.92,Health
+2023-02-16,CVS,25.2,25.2,Health
+2023-02-19,Amazon,746.2,746.2,Electronics
+2023-02-20,Morrow-Hernandez,360.45,120.15,Travel
+2023-02-21,Uber,203.66,101.83,Travel
+2023-02-23,"Smith, Clark and Thomas",99.66,99.66,Health
+2023-02-26,Starbucks,53.1,53.1,Dining
+2023-02-27,Nike,47.79,15.93,Clothing
+2023-03-01,Apple,522.04,174.01,Electronics
+2023-03-02,Hayes PLC,69.74,34.87,Health
+2023-03-03,IKEA,380.04,380.04,Home
+2023-03-04,Uber,338.5,338.5,Travel
+2023-03-07,Delta Airlines,381.76,127.25,Travel
+2023-03-08,Amazon,332.38,110.79,Electronics
+2023-03-09,Adidas,123.74,123.74,Clothing
+2023-03-11,Frey-Russo,163.36,163.36,Clothing
+2023-03-14,"Hughes, Palmer and Ford",57.47,19.16,Health
+2023-03-19,Starbucks,56.72,56.72,Dining
+2023-03-20,Target,113.55,113.55,Groceries
+2023-03-26,Delta Airlines,257.27,257.27,Travel
+2023-03-30,Nike,57.65,57.65,Clothing
+2023-03-31,Walmart,30.56,30.56,Groceries

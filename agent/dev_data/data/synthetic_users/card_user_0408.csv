@@ -1,0 +1,48 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,385.31,128.44,Travel
+2023-01-04,Apple,854.35,854.35,Electronics
+2023-01-07,H&M,197.34,197.34,Clothing
+2023-01-08,Starbucks,11.15,11.15,Dining
+2023-01-09,Amazon,876.47,876.47,Electronics
+2023-01-10,IKEA,32.48,32.48,Home
+2023-01-11,CVS,79.71,79.71,Health
+2023-01-12,McDonald's,26.72,26.72,Dining
+2023-01-13,Duran-Smith,20.42,20.42,Dining
+2023-01-15,Adidas,172.43,172.43,Clothing
+2023-01-19,H&M,44.21,44.21,Clothing
+2023-01-23,Nike,145.45,145.45,Clothing
+2023-01-24,Delta Airlines,87.56,43.78,Travel
+2023-01-27,"Nielsen, Huang and Yang",68.64,22.88,Health
+2023-01-28,Delta Airlines,57.58,57.58,Travel
+2023-02-01,Starbucks,38.69,38.69,Dining
+2023-02-03,Delta Airlines,53.78,53.78,Travel
+2023-02-04,Target,80.98,26.99,Groceries
+2023-02-05,Miller Inc,281.66,281.66,Travel
+2023-02-06,McDonald's,13.9,6.95,Dining
+2023-02-07,Nike,113.87,113.87,Clothing
+2023-02-08,McDonald's,12.4,12.4,Dining
+2023-02-12,Starbucks,15.61,15.61,Dining
+2023-02-14,Boone and Sons,259.7,259.7,Home
+2023-02-15,IKEA,140.75,140.75,Home
+2023-02-16,Olsen-Gonzales,37.57,37.57,Dining
+2023-02-17,Apple,881.74,881.74,Electronics
+2023-02-18,"Bray, Silva and Lynch",33.24,33.24,Dining
+2023-02-21,Rodriguez Group,192.25,96.12,Clothing
+2023-02-22,Morales PLC,167.42,167.42,Home
+2023-02-23,Zara,194.56,194.56,Clothing
+2023-02-25,Whitaker LLC,102.61,102.61,Groceries
+2023-02-26,"Harris, Wilson and Small",90.27,90.27,Groceries
+2023-02-28,Kim Ltd,60.28,60.28,Health
+2023-03-05,Target,49.65,49.65,Groceries
+2023-03-07,H&M,58.35,19.45,Clothing
+2023-03-09,Nike,30.78,30.78,Clothing
+2023-03-12,Zara,55.55,55.55,Clothing
+2023-03-15,Walmart,141.46,70.73,Groceries
+2023-03-16,Reynolds Ltd,213.94,213.94,Electronics
+2023-03-17,Glass Group,618.91,618.91,Electronics
+2023-03-19,"Durham, Schultz and Ferguson",255.68,127.84,Home
+2023-03-20,Wilson-Davis,187.29,62.43,Electronics
+2023-03-21,Delta Airlines,420.29,420.29,Travel
+2023-03-22,IKEA,199.25,199.25,Home
+2023-03-26,McDonald's,54.27,54.27,Dining
+2023-03-29,Walgreens,31.71,15.86,Health

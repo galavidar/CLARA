@@ -1,0 +1,42 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Apple,653.69,653.69,Electronics
+2023-01-04,Apple,352.93,352.93,Electronics
+2023-01-09,Zara,195.78,97.89,Clothing
+2023-01-10,Uber,69.2,23.07,Travel
+2023-01-11,Silva-Thompson,75.62,75.62,Health
+2023-01-13,Delta Airlines,346.16,346.16,Travel
+2023-01-14,Target,149.87,149.87,Groceries
+2023-01-15,"Ingram, Smith and Hernandez",652.71,652.71,Electronics
+2023-01-17,IKEA,168.45,168.45,Home
+2023-01-21,IKEA,220.12,220.12,Home
+2023-01-26,"Morgan, Haley and Hale",674.6,674.6,Electronics
+2023-01-28,"Fisher, Miller and Williams",188.6,188.6,Clothing
+2023-01-30,Apple,172.16,172.16,Electronics
+2023-01-31,IKEA,320.75,320.75,Home
+2023-02-01,"Collins, Reyes and Miles",20.91,20.91,Dining
+2023-02-04,Apple,665.64,665.64,Electronics
+2023-02-05,"Smith, Schaefer and Jackson",71.63,71.63,Health
+2023-02-09,Apple,218.12,218.12,Electronics
+2023-02-12,CVS,46.04,46.04,Health
+2023-02-14,Target,133.83,133.83,Groceries
+2023-02-17,Adidas,179.52,179.52,Clothing
+2023-02-24,Starbucks,46.26,23.13,Dining
+2023-02-25,IKEA,320.28,106.76,Home
+2023-02-26,Benson-Vargas,75.92,75.92,Entertainment
+2023-02-27,"Houston, Larson and Garcia",79.05,79.05,Entertainment
+2023-02-28,Delta Airlines,274.9,91.63,Travel
+2023-03-01,Starbucks,22.3,22.3,Dining
+2023-03-04,"Johnson, Castillo and Ayala",814.31,814.31,Electronics
+2023-03-06,Williams-Thomas,27.03,27.03,Entertainment
+2023-03-07,IKEA,65.14,65.14,Home
+2023-03-08,McDonald's,49.0,49.0,Dining
+2023-03-09,Fernandez PLC,167.05,167.05,Home
+2023-03-10,Adidas,91.27,45.63,Clothing
+2023-03-12,"Brown, Berry and Mccormick",75.42,75.42,Groceries
+2023-03-14,CVS,91.29,30.43,Health
+2023-03-19,Boone-Mccoy,29.66,29.66,Entertainment
+2023-03-20,Nike,191.78,63.93,Clothing
+2023-03-23,Schneider-Pena,35.38,35.38,Dining
+2023-03-26,Delta Airlines,246.85,123.42,Travel
+2023-03-29,IKEA,155.68,155.68,Home
+2023-03-30,H&M,159.2,159.2,Clothing

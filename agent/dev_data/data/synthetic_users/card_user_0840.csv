@@ -1,0 +1,45 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,Clark-Garcia,27.09,27.09,Groceries
+2023-01-06,Walgreens,94.98,94.98,Health
+2023-01-07,"Schmidt, Jenkins and Cannon",143.56,143.56,Clothing
+2023-01-08,Zara,68.61,34.3,Clothing
+2023-01-11,Murphy Ltd,90.82,90.82,Entertainment
+2023-01-14,Rodriguez and Sons,73.3,36.65,Travel
+2023-01-15,Nelson-Ponce,137.88,137.88,Home
+2023-01-19,"Clark, Lawrence and Cook",257.38,257.38,Electronics
+2023-01-21,Delta Airlines,393.61,393.61,Travel
+2023-01-23,Zara,97.73,97.73,Clothing
+2023-01-25,Ortiz-Erickson,179.84,179.84,Clothing
+2023-01-26,Amazon,736.45,736.45,Electronics
+2023-01-29,"Mitchell, Lee and Shea",95.44,95.44,Clothing
+2023-01-31,"Brown, Henderson and Porter",88.95,88.95,Groceries
+2023-02-02,Apple,929.45,929.45,Electronics
+2023-02-03,H&M,77.49,38.74,Clothing
+2023-02-05,Uber,412.11,412.11,Travel
+2023-02-06,McDonald's,11.56,11.56,Dining
+2023-02-07,Delta Airlines,243.92,243.92,Travel
+2023-02-09,"Walker, Zuniga and White",106.99,106.99,Groceries
+2023-02-13,Nike,107.82,35.94,Clothing
+2023-02-18,Uber,469.13,469.13,Travel
+2023-02-20,Delta Airlines,105.52,35.17,Travel
+2023-02-21,Starbucks,59.0,59.0,Dining
+2023-02-22,"Garrett, Cruz and Lambert",975.36,975.36,Electronics
+2023-02-23,H&M,151.83,50.61,Clothing
+2023-02-24,Amazon,178.7,178.7,Electronics
+2023-02-26,Uber,415.71,138.57,Travel
+2023-02-27,CVS,17.5,17.5,Health
+2023-02-28,McDonald's,40.19,40.19,Dining
+2023-03-01,Amazon,361.04,361.04,Electronics
+2023-03-05,"Mitchell, Jones and Wilson",52.23,52.23,Home
+2023-03-09,McDonald's,16.29,16.29,Dining
+2023-03-13,Walgreens,78.47,78.47,Health
+2023-03-14,Target,50.77,50.77,Groceries
+2023-03-16,CVS,33.06,33.06,Health
+2023-03-19,Hamilton-Roberts,196.72,98.36,Clothing
+2023-03-20,Walgreens,13.27,13.27,Health
+2023-03-23,Apple,223.77,223.77,Electronics
+2023-03-24,CVS,31.36,31.36,Health
+2023-03-25,Zara,161.52,53.84,Clothing
+2023-03-26,McDonald's,12.32,12.32,Dining
+2023-03-30,Dougherty Ltd,39.94,13.31,Clothing
+2023-03-31,H&M,37.75,37.75,Clothing

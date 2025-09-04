@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Mccarthy Group,56.89,56.89,Health
+2023-01-05,H&M,77.1,77.1,Clothing
+2023-01-06,Duran and Sons,522.14,522.14,Electronics
+2023-01-07,Apple,532.99,532.99,Electronics
+2023-01-08,H&M,194.36,194.36,Clothing
+2023-01-09,Zara,172.93,172.93,Clothing
+2023-01-10,Apple,664.55,664.55,Electronics
+2023-01-11,Amazon,644.29,644.29,Electronics
+2023-01-13,Giles-Mills,17.26,17.26,Dining
+2023-01-16,Walmart,122.29,122.29,Groceries
+2023-01-18,Delta Airlines,175.81,175.81,Travel
+2023-01-22,Jones Ltd,157.9,78.95,Clothing
+2023-01-23,Zara,160.11,160.11,Clothing
+2023-01-26,Walmart,129.44,129.44,Groceries
+2023-01-28,"Turner, Ortiz and Carson",256.54,256.54,Home
+2023-01-29,Amazon,510.32,510.32,Electronics
+2023-01-30,Target,45.21,45.21,Groceries
+2023-02-01,Walgreens,60.05,60.05,Health
+2023-02-04,Jimenez-Brown,74.48,74.48,Entertainment
+2023-02-09,Apple,147.38,147.38,Electronics
+2023-02-12,Starbucks,21.77,21.77,Dining
+2023-02-17,Starbucks,50.79,50.79,Dining
+2023-02-20,Apple,881.35,881.35,Electronics
+2023-02-23,Walmart,143.54,143.54,Groceries
+2023-02-24,Vang LLC,112.96,112.96,Groceries
+2023-03-07,Amazon,949.92,949.92,Electronics
+2023-03-09,Robinson PLC,145.84,48.61,Groceries
+2023-03-10,Delta Airlines,449.87,449.87,Travel
+2023-03-15,Zara,76.01,76.01,Clothing
+2023-03-17,Adidas,50.91,50.91,Clothing
+2023-03-18,Apple,204.06,204.06,Electronics
+2023-03-19,Walmart,31.82,31.82,Groceries
+2023-03-21,Parker Ltd,31.96,31.96,Dining
+2023-03-22,H&M,125.42,125.42,Clothing
+2023-03-24,Adidas,124.94,124.94,Clothing
+2023-03-27,Amazon,943.99,943.99,Electronics
+2023-03-28,Zara,71.87,71.87,Clothing
+2023-03-30,"Gonzalez, Sanders and Anderson",17.76,17.76,Health

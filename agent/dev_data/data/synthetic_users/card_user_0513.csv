@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Uber,444.3,444.3,Travel
+2023-01-04,Walgreens,47.11,47.11,Health
+2023-01-06,Target,109.25,109.25,Groceries
+2023-01-10,Uber,254.66,84.89,Travel
+2023-01-11,"Mcbride, Brown and Franco",26.69,26.69,Health
+2023-01-18,H&M,77.5,77.5,Clothing
+2023-01-22,Uber,315.83,315.83,Travel
+2023-01-27,Starbucks,15.11,7.55,Dining
+2023-01-28,Apple,109.24,109.24,Electronics
+2023-02-02,Nike,83.72,83.72,Clothing
+2023-02-04,H&M,51.12,25.56,Clothing
+2023-02-06,Martin Group,405.74,405.74,Travel
+2023-02-14,"Graves, Martin and Gilmore",86.16,86.16,Home
+2023-02-15,Walgreens,11.1,11.1,Health
+2023-02-22,Walgreens,17.23,17.23,Health
+2023-02-23,H&M,107.08,107.08,Clothing
+2023-02-26,Perry-Taylor,76.4,25.47,Entertainment
+2023-02-27,Amazon,151.44,75.72,Electronics
+2023-03-02,Brown-Richmond,703.55,703.55,Electronics
+2023-03-03,Crane Inc,56.2,56.2,Health
+2023-03-05,IKEA,328.88,109.63,Home
+2023-03-08,Zara,36.38,36.38,Clothing
+2023-03-09,Uber,279.29,279.29,Travel
+2023-03-13,"Walker, Williams and Wilson",83.41,83.41,Entertainment
+2023-03-14,Starbucks,19.13,19.13,Dining
+2023-03-18,McDonald's,24.76,24.76,Dining
+2023-03-21,McDonald's,37.2,37.2,Dining
+2023-03-23,Amazon,743.04,743.04,Electronics
+2023-03-29,CVS,66.4,66.4,Health

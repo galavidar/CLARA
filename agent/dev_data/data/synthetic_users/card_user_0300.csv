@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Johnson-Garrett,196.04,196.04,Clothing
+2023-01-02,H&M,156.64,156.64,Clothing
+2023-01-04,"Hartman, Pope and Rodriguez",95.16,95.16,Clothing
+2023-01-05,McDonald's,43.91,43.91,Dining
+2023-01-09,Amazon,665.96,665.96,Electronics
+2023-01-10,Price LLC,63.33,63.33,Health
+2023-01-13,Walmart,98.72,98.72,Groceries
+2023-01-18,Lambert-Gibbs,22.38,11.19,Entertainment
+2023-01-19,Martinez-Rose,347.34,173.67,Home
+2023-01-21,Amazon,935.13,935.13,Electronics
+2023-01-22,Apple,296.83,296.83,Electronics
+2023-01-26,Hartman-Cox,439.52,439.52,Travel
+2023-01-31,Zara,142.47,71.23,Clothing
+2023-02-05,Walgreens,65.17,65.17,Health
+2023-02-08,Delta Airlines,318.29,318.29,Travel
+2023-02-09,H&M,80.62,26.87,Clothing
+2023-02-11,Starbucks,57.81,57.81,Dining
+2023-02-14,Adidas,155.25,155.25,Clothing
+2023-02-15,"Garcia, Adams and Gibson",137.74,137.74,Travel
+2023-02-25,Hinton Ltd,111.54,111.54,Home
+2023-02-28,Zara,194.28,97.14,Clothing
+2023-03-03,Apple,747.38,747.38,Electronics
+2023-03-04,Carey LLC,42.08,42.08,Dining
+2023-03-05,Thomas Inc,197.28,197.28,Electronics
+2023-03-08,Zara,184.63,184.63,Clothing
+2023-03-09,Nike,130.25,130.25,Clothing
+2023-03-10,"Mcdaniel, Le and Richmond",54.89,54.89,Dining
+2023-03-13,Mcclure-Cabrera,52.59,26.3,Health
+2023-03-17,CVS,68.89,68.89,Health
+2023-03-21,IKEA,331.41,331.41,Home
+2023-03-22,Amazon,290.38,290.38,Electronics
+2023-03-28,Uber,436.59,436.59,Travel
+2023-03-31,H&M,154.64,154.64,Clothing

@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,Salazar Ltd,890.78,296.93,Electronics
+2023-01-07,Walmart,75.91,75.91,Groceries
+2023-01-08,Amazon,496.21,496.21,Electronics
+2023-01-09,Zara,147.21,147.21,Clothing
+2023-01-11,Delta Airlines,183.27,183.27,Travel
+2023-01-12,Wright-Randolph,336.8,336.8,Travel
+2023-01-17,Apple,749.94,749.94,Electronics
+2023-01-18,"Miller, Rivera and Deleon",943.63,943.63,Electronics
+2023-01-20,Walmart,67.72,67.72,Groceries
+2023-01-22,Apple,995.2,331.73,Electronics
+2023-01-23,Taylor-Kelly,63.3,31.65,Groceries
+2023-02-01,McDonald's,56.29,18.76,Dining
+2023-02-03,Target,65.36,65.36,Groceries
+2023-02-05,Uber,55.01,55.01,Travel
+2023-02-07,Delta Airlines,400.61,400.61,Travel
+2023-02-08,Apple,686.21,343.11,Electronics
+2023-02-09,"Jimenez, Dalton and Krueger",20.21,20.21,Dining
+2023-02-11,Curry and Sons,25.54,12.77,Dining
+2023-02-13,Walmart,141.62,70.81,Groceries
+2023-02-14,H&M,79.21,79.21,Clothing
+2023-02-17,CVS,55.17,18.39,Health
+2023-02-18,Freeman-Simon,106.0,106.0,Groceries
+2023-02-19,Zara,104.28,104.28,Clothing
+2023-02-23,"Rodriguez, Berg and Hawkins",15.67,15.67,Dining
+2023-02-24,Walgreens,68.86,34.43,Health
+2023-02-26,Nike,36.18,36.18,Clothing
+2023-03-01,Apple,332.17,332.17,Electronics
+2023-03-02,Walgreens,27.48,27.48,Health
+2023-03-09,Adidas,172.15,172.15,Clothing
+2023-03-10,Adidas,153.05,153.05,Clothing
+2023-03-15,Greer-Costa,98.55,98.55,Travel
+2023-03-17,Harrington-Good,444.52,222.26,Travel
+2023-03-24,Nike,93.0,93.0,Clothing
+2023-03-26,Apple,225.19,225.19,Electronics
+2023-03-27,CVS,90.08,90.08,Health
+2023-03-28,Zara,143.73,71.86,Clothing
+2023-03-29,Target,79.04,39.52,Groceries
+2023-03-31,Apple,135.43,45.14,Electronics

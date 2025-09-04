@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Amazon,205.41,205.41,Electronics
+2023-01-02,H&M,112.91,112.91,Clothing
+2023-01-05,"Jackson, Wright and Keller",108.52,108.52,Groceries
+2023-01-10,Delta Airlines,348.74,348.74,Travel
+2023-01-11,Smith-Stark,491.0,245.5,Electronics
+2023-01-13,IKEA,339.62,339.62,Home
+2023-01-15,Delta Airlines,290.13,290.13,Travel
+2023-01-19,Delta Airlines,318.41,318.41,Travel
+2023-01-23,Ward-Andrews,237.84,237.84,Travel
+2023-01-28,Apple,190.61,95.31,Electronics
+2023-01-30,Zara,108.08,36.03,Clothing
+2023-02-01,McDonald's,13.02,13.02,Dining
+2023-02-02,Adidas,189.77,189.77,Clothing
+2023-02-03,Target,61.78,61.78,Groceries
+2023-02-04,Delta Airlines,227.79,227.79,Travel
+2023-02-05,"Griffin, Young and Christensen",78.44,78.44,Groceries
+2023-02-07,Amazon,568.77,568.77,Electronics
+2023-02-11,Walmart,135.38,135.38,Groceries
+2023-02-15,Delta Airlines,268.85,268.85,Travel
+2023-02-16,Mccall-Williams,421.56,421.56,Travel
+2023-02-19,Target,49.07,49.07,Groceries
+2023-02-22,H&M,42.6,21.3,Clothing
+2023-02-23,Adidas,146.09,146.09,Clothing
+2023-02-24,Nike,130.85,130.85,Clothing
+2023-02-25,Davis-Barnett,86.73,28.91,Entertainment
+2023-02-26,CVS,27.55,27.55,Health
+2023-02-27,Amazon,979.38,489.69,Electronics
+2023-03-03,H&M,142.0,142.0,Clothing
+2023-03-05,Nike,69.43,69.43,Clothing
+2023-03-06,Adidas,157.84,52.61,Clothing
+2023-03-07,H&M,39.76,19.88,Clothing
+2023-03-09,Adidas,70.72,23.57,Clothing
+2023-03-10,IKEA,222.15,222.15,Home
+2023-03-11,Potter-Cook,52.23,52.23,Groceries
+2023-03-13,CVS,17.5,17.5,Health
+2023-03-15,Johnson Group,44.74,14.91,Health
+2023-03-21,H&M,100.33,100.33,Clothing
+2023-03-23,Amazon,616.51,308.25,Electronics
+2023-03-25,Nike,41.78,41.78,Clothing
+2023-03-26,Zara,70.99,70.99,Clothing
+2023-03-27,Apple,226.47,226.47,Electronics
+2023-03-29,Delta Airlines,327.68,163.84,Travel
+2023-03-30,Zara,33.31,33.31,Clothing

@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,CVS,86.7,86.7,Health
+2023-01-03,IKEA,173.98,173.98,Home
+2023-01-06,McDonald's,25.8,8.6,Dining
+2023-01-08,McDonald's,25.71,25.71,Dining
+2023-01-09,Starbucks,45.86,45.86,Dining
+2023-01-10,Apple,983.35,983.35,Electronics
+2023-01-13,Delta Airlines,313.61,104.54,Travel
+2023-01-18,Sutton-Johnson,276.37,276.37,Travel
+2023-01-19,McDonald's,47.68,47.68,Dining
+2023-01-23,Amazon,442.58,147.53,Electronics
+2023-01-26,Target,141.71,141.71,Groceries
+2023-01-27,H&M,40.51,40.51,Clothing
+2023-01-29,"Russell, Sanchez and Webb",199.89,199.89,Travel
+2023-02-02,Uber,251.98,251.98,Travel
+2023-02-03,H&M,80.65,80.65,Clothing
+2023-02-06,Target,24.31,24.31,Groceries
+2023-02-07,H&M,52.72,52.72,Clothing
+2023-02-10,Amazon,147.47,147.47,Electronics
+2023-02-12,Jones-Cox,183.1,183.1,Travel
+2023-02-15,Uber,143.39,143.39,Travel
+2023-02-16,CVS,56.86,56.86,Health
+2023-02-20,Delta Airlines,310.43,310.43,Travel
+2023-02-24,Todd-Lee,66.74,22.25,Health
+2023-02-26,Amazon,863.32,287.77,Electronics
+2023-02-28,"Williams, Newman and Thomas",192.13,192.13,Travel
+2023-03-02,Romero Inc,75.7,75.7,Health
+2023-03-05,McDonald's,26.28,26.28,Dining
+2023-03-06,CVS,73.82,73.82,Health
+2023-03-07,Target,63.81,63.81,Groceries
+2023-03-11,IKEA,224.49,224.49,Home
+2023-03-14,Amazon,348.02,348.02,Electronics
+2023-03-18,Walmart,125.93,125.93,Groceries
+2023-03-21,"Garza, Brown and Walker",741.88,741.88,Electronics
+2023-03-23,"Coffey, Jackson and Wilkerson",36.88,36.88,Clothing
+2023-03-24,Walgreens,92.53,92.53,Health
+2023-03-26,CVS,26.36,13.18,Health
+2023-03-28,Uber,451.49,451.49,Travel
+2023-03-31,Starbucks,14.05,14.05,Dining

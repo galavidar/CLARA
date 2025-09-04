@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,McDonald's,23.06,23.06,Dining
+2023-01-02,Adidas,76.76,25.59,Clothing
+2023-01-03,H&M,116.99,116.99,Clothing
+2023-01-04,Starbucks,49.26,49.26,Dining
+2023-01-08,McDonald's,57.66,57.66,Dining
+2023-01-09,Walgreens,14.23,4.74,Health
+2023-01-11,"Mcdowell, Johnson and Hamilton",296.36,296.36,Travel
+2023-01-12,CVS,78.75,78.75,Health
+2023-01-13,Target,108.13,108.13,Groceries
+2023-01-15,Amazon,318.44,318.44,Electronics
+2023-01-16,Summers PLC,29.25,29.25,Health
+2023-01-17,"Henson, Wagner and Bradshaw",36.25,36.25,Health
+2023-01-18,Miller-Ortiz,177.27,59.09,Clothing
+2023-01-26,Adidas,60.34,60.34,Clothing
+2023-02-01,Starbucks,50.3,16.77,Dining
+2023-02-04,McDonald's,43.94,43.94,Dining
+2023-02-06,Walgreens,65.07,65.07,Health
+2023-02-07,Nike,193.33,193.33,Clothing
+2023-02-09,"Rios, Odonnell and Sanders",838.31,838.31,Electronics
+2023-02-10,Target,88.1,29.37,Groceries
+2023-02-16,IKEA,79.55,26.52,Home
+2023-02-19,Apple,457.3,457.3,Electronics
+2023-02-23,IKEA,154.95,51.65,Home
+2023-02-25,Zara,189.91,63.3,Clothing
+2023-02-26,Zara,102.87,102.87,Clothing
+2023-03-02,"Francis, Robinson and Chung",45.15,45.15,Entertainment
+2023-03-03,IKEA,377.91,377.91,Home
+2023-03-05,Adidas,61.18,61.18,Clothing
+2023-03-10,Walgreens,57.5,57.5,Health
+2023-03-13,"Byrd, Walton and Campbell",33.32,33.32,Groceries
+2023-03-14,Morton Inc,99.39,99.39,Entertainment
+2023-03-31,Faulkner-Phillips,46.38,46.38,Health

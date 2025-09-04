@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Hinton Ltd,199.21,66.4,Clothing
+2023-01-04,Nike,144.77,144.77,Clothing
+2023-01-05,Perez Ltd,22.76,22.76,Health
+2023-01-06,Delta Airlines,363.72,363.72,Travel
+2023-01-08,Alvarez Ltd,325.81,325.81,Travel
+2023-01-11,Walgreens,56.83,56.83,Health
+2023-01-13,Apple,677.42,677.42,Electronics
+2023-01-14,Apple,527.35,175.78,Electronics
+2023-01-15,Adidas,76.6,76.6,Clothing
+2023-01-16,"Haas, Oconnor and Gomez",91.09,91.09,Health
+2023-01-20,Walgreens,11.64,11.64,Health
+2023-01-21,Nike,190.1,63.37,Clothing
+2023-01-22,CVS,12.03,12.03,Health
+2023-01-26,Zara,73.98,73.98,Clothing
+2023-01-28,H&M,151.7,50.57,Clothing
+2023-01-30,Wilson-Williams,14.53,14.53,Health
+2023-01-31,IKEA,366.3,366.3,Home
+2023-02-05,Zara,91.3,91.3,Clothing
+2023-02-06,Target,39.76,39.76,Groceries
+2023-02-07,Target,48.9,48.9,Groceries
+2023-02-12,Diaz PLC,53.01,53.01,Groceries
+2023-02-15,"Roth, Edwards and Garcia",67.09,33.55,Entertainment
+2023-02-24,Davenport Ltd,112.04,112.04,Groceries
+2023-02-25,Walmart,112.97,112.97,Groceries
+2023-02-26,Delta Airlines,200.88,200.88,Travel
+2023-02-28,Delta Airlines,284.65,284.65,Travel
+2023-03-01,Smith Ltd,112.02,112.02,Groceries
+2023-03-02,Uber,99.18,99.18,Travel
+2023-03-03,CVS,44.6,44.6,Health
+2023-03-06,Apple,473.79,473.79,Electronics
+2023-03-15,H&M,176.57,88.28,Clothing
+2023-03-16,Hill-Davis,45.31,45.31,Dining
+2023-03-20,IKEA,323.39,161.69,Home
+2023-03-24,Nike,109.35,109.35,Clothing
+2023-03-25,Uber,198.75,99.38,Travel
+2023-03-26,Uber,233.84,233.84,Travel
+2023-03-31,"Delacruz, Lyons and White",96.24,96.24,Groceries

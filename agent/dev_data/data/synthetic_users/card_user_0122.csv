@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Holland-Ramirez,58.76,58.76,Health
+2023-01-02,Delta Airlines,303.54,303.54,Travel
+2023-01-06,Starbucks,27.59,27.59,Dining
+2023-01-08,Walmart,78.21,78.21,Groceries
+2023-01-09,Walmart,133.49,133.49,Groceries
+2023-01-11,H&M,155.67,77.83,Clothing
+2023-01-14,Robinson-Beard,905.56,905.56,Electronics
+2023-01-16,Target,32.73,32.73,Groceries
+2023-01-18,Apple,538.91,538.91,Electronics
+2023-01-21,H&M,49.65,49.65,Clothing
+2023-01-23,"Stevens, Fields and Martinez",179.59,89.8,Travel
+2023-01-26,Starbucks,21.74,21.74,Dining
+2023-01-29,Walmart,148.99,148.99,Groceries
+2023-01-30,IKEA,161.86,161.86,Home
+2023-02-03,Adidas,88.93,88.93,Clothing
+2023-02-09,"Garner, Allen and Robinson",73.53,24.51,Groceries
+2023-02-13,Solis Group,266.72,133.36,Electronics
+2023-02-15,McDonald's,14.05,14.05,Dining
+2023-02-16,Apple,220.4,220.4,Electronics
+2023-02-18,Apple,855.11,855.11,Electronics
+2023-02-19,Uber,457.21,457.21,Travel
+2023-02-22,Walmart,93.96,93.96,Groceries
+2023-02-23,Brock-Powers,79.45,79.45,Clothing
+2023-02-26,"Baker, Martinez and Mayo",212.41,212.41,Home
+2023-02-27,Adidas,38.21,38.21,Clothing
+2023-03-01,Delta Airlines,262.11,131.06,Travel
+2023-03-10,Zara,68.57,34.28,Clothing
+2023-03-11,Delta Airlines,263.56,131.78,Travel
+2023-03-12,Flynn-Howard,12.64,12.64,Dining
+2023-03-16,"Hansen, Mendoza and Page",40.3,40.3,Health
+2023-03-17,Walgreens,16.92,16.92,Health
+2023-03-20,"Schwartz, Reed and Warner",496.87,496.87,Electronics
+2023-03-22,McDonald's,32.01,10.67,Dining
+2023-03-23,Starbucks,24.71,24.71,Dining
+2023-03-24,"Harris, Castro and Hamilton",194.92,64.97,Clothing
+2023-03-25,Walmart,100.26,100.26,Groceries
+2023-03-26,Apple,361.05,361.05,Electronics
+2023-03-28,Walmart,65.24,65.24,Groceries
+2023-03-29,Walgreens,76.79,76.79,Health
+2023-03-30,Amazon,184.05,61.35,Electronics

@@ -1,0 +1,31 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,Delta Airlines,467.24,233.62,Travel
+2023-01-13,CVS,87.61,87.61,Health
+2023-01-19,Amazon,506.42,253.21,Electronics
+2023-01-21,Hunter-Garcia,79.27,26.42,Entertainment
+2023-01-26,Ramirez-Taylor,24.15,12.07,Health
+2023-01-27,Espinoza and Sons,22.29,22.29,Dining
+2023-01-29,McDonald's,57.83,57.83,Dining
+2023-02-01,Nike,175.93,175.93,Clothing
+2023-02-04,Adidas,82.14,41.07,Clothing
+2023-02-05,Zara,126.96,126.96,Clothing
+2023-02-06,Delta Airlines,177.43,177.43,Travel
+2023-02-07,Walmart,59.22,59.22,Groceries
+2023-02-08,Amazon,417.2,417.2,Electronics
+2023-02-09,Whitaker PLC,117.2,117.2,Home
+2023-02-11,McDonald's,51.74,51.74,Dining
+2023-02-12,Chapman LLC,355.78,355.78,Home
+2023-02-14,Uber,197.36,197.36,Travel
+2023-02-15,Walmart,80.99,80.99,Groceries
+2023-02-17,Fleming PLC,106.72,106.72,Clothing
+2023-02-18,Apple,741.59,741.59,Electronics
+2023-02-24,Nike,89.51,89.51,Clothing
+2023-03-03,Delta Airlines,58.25,58.25,Travel
+2023-03-11,Delta Airlines,317.76,317.76,Travel
+2023-03-12,Starbucks,11.62,11.62,Dining
+2023-03-15,Apple,697.88,697.88,Electronics
+2023-03-20,Walgreens,92.62,92.62,Health
+2023-03-22,Adidas,103.98,103.98,Clothing
+2023-03-25,Starbucks,31.85,31.85,Dining
+2023-03-27,Simpson Group,45.29,45.29,Groceries
+2023-03-29,Amazon,961.18,961.18,Electronics

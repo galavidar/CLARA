@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-04,McDonald's,28.82,28.82,Dining
+2023-01-09,McDonald's,24.92,24.92,Dining
+2023-01-12,CVS,72.85,72.85,Health
+2023-01-14,McDonald's,33.43,33.43,Dining
+2023-01-15,H&M,175.8,175.8,Clothing
+2023-01-19,Target,100.58,100.58,Groceries
+2023-01-21,Walgreens,33.36,33.36,Health
+2023-01-22,Adidas,95.49,95.49,Clothing
+2023-01-27,"Miller, Sanders and Cooper",15.57,15.57,Dining
+2023-01-29,"James, Morgan and Peterson",51.94,51.94,Dining
+2023-01-31,CVS,67.58,67.58,Health
+2023-02-07,"Robinson, Martinez and Cook",131.07,131.07,Travel
+2023-02-15,"Baker, Larson and Warren",318.94,159.47,Travel
+2023-02-16,"Castaneda, Salazar and Williams",799.58,799.58,Electronics
+2023-02-17,Delta Airlines,442.39,442.39,Travel
+2023-02-18,Starbucks,52.87,52.87,Dining
+2023-02-27,CVS,77.26,77.26,Health
+2023-02-28,IKEA,380.74,380.74,Home
+2023-03-02,Target,66.56,66.56,Groceries
+2023-03-03,Walgreens,53.21,53.21,Health
+2023-03-05,Uber,169.59,169.59,Travel
+2023-03-06,"Skinner, Smith and Gonzalez",807.04,807.04,Electronics
+2023-03-13,Uber,479.58,479.58,Travel
+2023-03-16,"Thompson, Greene and Phillips",55.72,55.72,Groceries
+2023-03-17,Starbucks,47.82,23.91,Dining
+2023-03-19,Nike,122.05,61.02,Clothing
+2023-03-20,CVS,63.28,63.28,Health
+2023-03-28,H&M,153.66,153.66,Clothing

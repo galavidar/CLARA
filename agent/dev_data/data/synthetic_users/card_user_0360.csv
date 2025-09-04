@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Uber,150.44,150.44,Travel
+2023-01-03,IKEA,68.84,22.95,Home
+2023-01-08,Nike,139.23,139.23,Clothing
+2023-01-13,H&M,169.23,169.23,Clothing
+2023-01-19,Cox Inc,17.35,17.35,Health
+2023-01-20,Walmart,35.8,35.8,Groceries
+2023-01-23,"Price, Smith and Alvarez",90.3,90.3,Entertainment
+2023-01-24,Williams-Holder,77.45,77.45,Health
+2023-01-27,Simmons Ltd,30.38,30.38,Entertainment
+2023-01-28,Bell-Jones,86.12,43.06,Entertainment
+2023-01-30,CVS,45.12,45.12,Health
+2023-02-02,"Sanchez, Cohen and Martinez",116.79,116.79,Home
+2023-02-03,Amazon,626.41,626.41,Electronics
+2023-02-04,Target,138.77,138.77,Groceries
+2023-02-06,H&M,122.23,122.23,Clothing
+2023-02-08,Starbucks,13.25,13.25,Dining
+2023-02-09,Hernandez-Aguilar,147.1,147.1,Groceries
+2023-02-10,Adidas,55.14,55.14,Clothing
+2023-02-11,Uber,106.18,53.09,Travel
+2023-02-13,Starbucks,43.49,21.75,Dining
+2023-02-16,Adidas,47.48,47.48,Clothing
+2023-02-17,Zara,60.77,60.77,Clothing
+2023-02-22,"Gutierrez, Davis and Fischer",29.45,29.45,Health
+2023-02-24,Zara,121.91,60.95,Clothing
+2023-02-25,Nike,185.99,185.99,Clothing
+2023-02-28,Douglas-Nixon,80.77,80.77,Entertainment
+2023-03-02,Arnold LLC,55.72,55.72,Dining
+2023-03-05,"Munoz, Griffin and Trujillo",945.18,472.59,Electronics
+2023-03-15,Zara,184.82,184.82,Clothing
+2023-03-16,Apple,906.36,906.36,Electronics
+2023-03-18,H&M,144.5,144.5,Clothing
+2023-03-19,Ramirez LLC,257.89,85.96,Travel
+2023-03-21,"Martinez, Townsend and Myers",132.49,44.16,Clothing
+2023-03-24,Walgreens,86.1,86.1,Health

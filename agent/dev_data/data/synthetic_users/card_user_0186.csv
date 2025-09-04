@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,74.36,74.36,Groceries
+2023-01-04,Martinez Inc,787.51,787.51,Electronics
+2023-01-08,H&M,108.34,108.34,Clothing
+2023-01-10,"Johnson, Richard and Gregory",18.91,9.46,Dining
+2023-01-15,Starbucks,53.21,53.21,Dining
+2023-01-16,Uber,417.92,417.92,Travel
+2023-01-17,Zara,166.31,166.31,Clothing
+2023-01-18,Walmart,112.41,112.41,Groceries
+2023-01-19,Moore Group,11.01,11.01,Health
+2023-01-20,Hart-Thomas,123.06,123.06,Home
+2023-01-21,Target,54.32,54.32,Groceries
+2023-01-24,H&M,44.01,44.01,Clothing
+2023-01-26,Target,65.25,65.25,Groceries
+2023-01-27,Delta Airlines,369.59,369.59,Travel
+2023-02-02,H&M,158.71,158.71,Clothing
+2023-02-13,Starbucks,28.6,28.6,Dining
+2023-02-14,Nike,196.4,196.4,Clothing
+2023-02-15,Delta Airlines,442.39,221.19,Travel
+2023-02-17,Knight-Taylor,853.97,853.97,Electronics
+2023-02-18,Apple,157.89,52.63,Electronics
+2023-02-20,Starbucks,19.21,19.21,Dining
+2023-02-21,Beck-Estrada,214.4,214.4,Home
+2023-02-22,Zara,181.96,181.96,Clothing
+2023-02-23,"Anderson, Guzman and Mills",99.76,33.25,Health
+2023-02-27,"Luna, Ward and Mccann",24.84,24.84,Entertainment
+2023-02-28,Starbucks,31.96,31.96,Dining
+2023-03-01,Zara,116.57,116.57,Clothing
+2023-03-03,Delta Airlines,188.32,188.32,Travel
+2023-03-10,Walmart,81.77,27.26,Groceries
+2023-03-11,Target,37.82,37.82,Groceries
+2023-03-12,Payne LLC,23.17,23.17,Dining
+2023-03-15,Target,133.62,133.62,Groceries
+2023-03-17,Adidas,152.69,152.69,Clothing
+2023-03-18,Apple,701.78,701.78,Electronics
+2023-03-19,H&M,59.48,59.48,Clothing
+2023-03-22,Austin-Perez,67.44,67.44,Home
+2023-03-23,Wilkerson-Gill,175.45,175.45,Clothing
+2023-03-25,"Thompson, Fisher and Howard",346.2,346.2,Electronics
+2023-03-27,"Henderson, Sims and Turner",21.26,21.26,Groceries

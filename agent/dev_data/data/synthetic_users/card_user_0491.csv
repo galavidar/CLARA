@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Apple,102.87,102.87,Electronics
+2023-01-08,"Farmer, Reid and Smith",86.68,86.68,Groceries
+2023-01-09,Apple,790.91,790.91,Electronics
+2023-01-10,Nike,34.6,34.6,Clothing
+2023-01-15,H&M,181.47,181.47,Clothing
+2023-01-16,Delta Airlines,317.87,105.96,Travel
+2023-01-20,Amazon,255.68,255.68,Electronics
+2023-01-22,Benitez Ltd,28.59,14.29,Entertainment
+2023-01-27,Thomas Group,114.23,38.08,Clothing
+2023-01-29,IKEA,288.72,144.36,Home
+2023-02-05,Walgreens,62.95,62.95,Health
+2023-02-10,Apple,814.6,271.53,Electronics
+2023-02-12,West Ltd,160.47,160.47,Travel
+2023-02-14,"Williams, Watson and White",19.88,6.63,Health
+2023-02-15,Bell-Rodgers,21.38,7.13,Health
+2023-02-19,Adidas,123.07,123.07,Clothing
+2023-02-20,CVS,64.04,21.35,Health
+2023-02-24,Rodriguez-Perez,460.4,460.4,Electronics
+2023-02-26,Davies-Robertson,76.29,76.29,Entertainment
+2023-02-27,Walgreens,16.82,16.82,Health
+2023-02-28,Nike,114.67,114.67,Clothing
+2023-03-01,CVS,81.47,81.47,Health
+2023-03-02,Starbucks,25.02,25.02,Dining
+2023-03-03,Apple,140.15,140.15,Electronics
+2023-03-04,Reyes LLC,155.08,155.08,Home
+2023-03-10,McDonald's,23.11,23.11,Dining
+2023-03-12,Uber,199.19,199.19,Travel
+2023-03-13,Ellis LLC,239.08,239.08,Home
+2023-03-14,Delta Airlines,452.35,226.18,Travel
+2023-03-18,"Collins, Harris and Mendoza",22.96,22.96,Groceries
+2023-03-20,McDonald's,10.46,3.49,Dining
+2023-03-21,McDonald's,34.34,11.45,Dining
+2023-03-22,Zara,121.63,121.63,Clothing
+2023-03-23,Starbucks,34.33,34.33,Dining
+2023-03-25,Kerr-Charles,319.79,319.79,Travel
+2023-03-27,Wells PLC,243.99,243.99,Travel
+2023-03-30,Allen-Keller,146.57,146.57,Home
+2023-03-31,CVS,61.1,61.1,Health

@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,77.85,77.85,Health
+2023-01-03,Nike,119.71,119.71,Clothing
+2023-01-04,H&M,117.09,58.55,Clothing
+2023-01-08,H&M,135.43,135.43,Clothing
+2023-01-18,Thomas-Mccormick,79.95,79.95,Groceries
+2023-01-20,Apple,850.06,850.06,Electronics
+2023-01-23,Henderson-Henry,459.61,459.61,Travel
+2023-01-24,"Baker, Jones and Collins",126.42,126.42,Electronics
+2023-01-26,Uber,123.51,41.17,Travel
+2023-01-27,Apple,170.55,170.55,Electronics
+2023-01-29,Hood-Adkins,119.82,59.91,Clothing
+2023-01-31,Uber,282.29,282.29,Travel
+2023-02-04,Walmart,68.72,34.36,Groceries
+2023-02-05,Starbucks,31.83,31.83,Dining
+2023-02-09,Flores-Miller,51.68,51.68,Groceries
+2023-02-11,"Vaughn, Bennett and Barr",173.44,173.44,Home
+2023-02-16,IKEA,39.9,39.9,Home
+2023-02-18,Walgreens,94.07,94.07,Health
+2023-02-22,Moore-Snyder,262.21,262.21,Home
+2023-02-23,"Rivera, Miller and Cross",147.57,147.57,Travel
+2023-02-25,Target,25.01,25.01,Groceries
+2023-03-01,Watkins Ltd,31.82,10.61,Dining
+2023-03-03,Apple,409.16,204.58,Electronics
+2023-03-05,Walgreens,23.94,23.94,Health
+2023-03-06,Goodman-Carpenter,168.9,168.9,Clothing
+2023-03-07,Uber,468.0,468.0,Travel
+2023-03-09,IKEA,358.46,358.46,Home
+2023-03-10,Adidas,192.57,192.57,Clothing
+2023-03-13,"Glenn, Miller and Shepard",78.28,78.28,Entertainment
+2023-03-15,Walmart,68.17,68.17,Groceries
+2023-03-16,McDonald's,45.91,45.91,Dining
+2023-03-17,Burke-Young,883.31,883.31,Electronics
+2023-03-23,Amazon,129.68,129.68,Electronics
+2023-03-30,Apple,575.39,575.39,Electronics

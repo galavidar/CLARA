@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Kim-Franklin,20.31,6.77,Groceries
+2023-01-07,"May, Liu and Thomas",35.56,35.56,Dining
+2023-01-10,Bowers-Copeland,25.6,25.6,Groceries
+2023-01-11,McDonald's,25.34,8.45,Dining
+2023-01-12,Riley-Howell,291.59,291.59,Home
+2023-01-15,Garza-Newman,386.19,128.73,Home
+2023-01-20,Zara,121.98,40.66,Clothing
+2023-01-21,Zara,176.98,176.98,Clothing
+2023-01-26,Uber,417.04,417.04,Travel
+2023-01-28,"Johnson, Murillo and White",24.05,24.05,Health
+2023-01-29,Uber,342.9,342.9,Travel
+2023-01-31,Nike,73.93,73.93,Clothing
+2023-02-01,Adidas,199.37,199.37,Clothing
+2023-02-06,Starbucks,19.36,19.36,Dining
+2023-02-09,Thomas-Valenzuela,20.29,20.29,Health
+2023-02-10,McDonald's,51.01,51.01,Dining
+2023-02-11,Stephenson-Cruz,12.37,12.37,Dining
+2023-02-13,Amazon,337.24,337.24,Electronics
+2023-02-21,Santos-Rodriguez,150.98,150.98,Clothing
+2023-02-24,H&M,65.91,65.91,Clothing
+2023-02-25,Walmart,66.76,66.76,Groceries
+2023-02-27,"Reed, Garcia and Austin",69.99,69.99,Groceries
+2023-02-28,Walgreens,37.53,37.53,Health
+2023-03-06,Thomas-Martin,129.35,129.35,Clothing
+2023-03-10,CVS,25.09,25.09,Health
+2023-03-12,Apple,775.43,775.43,Electronics
+2023-03-13,"Hamilton, Miller and Tyler",198.56,198.56,Clothing
+2023-03-16,Starbucks,11.39,11.39,Dining
+2023-03-17,Walmart,44.39,44.39,Groceries
+2023-03-18,Smith-Bruce,39.41,19.7,Health
+2023-03-20,Walmart,30.14,30.14,Groceries
+2023-03-22,Amazon,384.26,384.26,Electronics
+2023-03-26,Amazon,596.88,596.88,Electronics
+2023-03-28,Starbucks,55.09,55.09,Dining

@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,CVS,53.51,53.51,Health
+2023-01-09,Uber,472.49,472.49,Travel
+2023-01-13,"Turner, Barrett and Smith",68.05,68.05,Home
+2023-01-14,CVS,99.76,99.76,Health
+2023-01-15,Target,130.92,43.64,Groceries
+2023-01-19,IKEA,344.02,344.02,Home
+2023-01-21,Nike,178.64,178.64,Clothing
+2023-01-22,Nike,179.56,179.56,Clothing
+2023-01-23,Walmart,130.41,130.41,Groceries
+2023-01-25,McDonald's,17.52,17.52,Dining
+2023-01-26,Adidas,111.36,111.36,Clothing
+2023-01-28,Amazon,212.75,212.75,Electronics
+2023-01-29,Zara,100.64,100.64,Clothing
+2023-01-31,H&M,134.78,134.78,Clothing
+2023-02-04,IKEA,121.62,40.54,Home
+2023-02-07,"Curtis, Green and Bradley",30.66,30.66,Health
+2023-02-08,CVS,20.12,20.12,Health
+2023-02-10,Walmart,140.16,140.16,Groceries
+2023-02-11,Nike,97.45,48.73,Clothing
+2023-02-16,Apple,334.63,334.63,Electronics
+2023-02-24,Adidas,146.18,146.18,Clothing
+2023-02-25,Nike,165.8,165.8,Clothing
+2023-02-27,Walgreens,35.76,35.76,Health
+2023-03-03,Hurst Ltd,45.09,45.09,Dining
+2023-03-08,Target,52.92,52.92,Groceries
+2023-03-16,Lopez-Mejia,38.88,38.88,Dining
+2023-03-19,Nike,79.07,79.07,Clothing
+2023-03-20,Blevins-Ortega,285.73,285.73,Travel
+2023-03-23,Nike,146.19,146.19,Clothing
+2023-03-24,Target,140.75,140.75,Groceries
+2023-03-26,Target,94.74,94.74,Groceries
+2023-03-29,Nike,172.93,172.93,Clothing
+2023-03-30,Delta Airlines,359.23,359.23,Travel
+2023-03-31,Delta Airlines,425.52,425.52,Travel

@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Ewing PLC,128.57,128.57,Clothing
+2023-01-04,Walmart,42.99,42.99,Groceries
+2023-01-05,"Holt, Hunter and Navarro",86.16,86.16,Health
+2023-01-08,"Miller, Drake and White",19.86,19.86,Entertainment
+2023-01-10,Chambers-Cook,205.33,205.33,Travel
+2023-01-12,Delta Airlines,460.07,460.07,Travel
+2023-01-19,Adidas,177.82,59.27,Clothing
+2023-01-22,Hall PLC,263.02,87.67,Travel
+2023-01-23,Adams LLC,102.38,102.38,Clothing
+2023-01-24,CVS,12.68,12.68,Health
+2023-01-28,Walgreens,11.06,3.69,Health
+2023-02-02,Nike,153.91,153.91,Clothing
+2023-02-03,H&M,41.01,41.01,Clothing
+2023-02-04,Amazon,292.42,292.42,Electronics
+2023-02-06,Hart and Sons,484.63,484.63,Electronics
+2023-02-08,Hodges Inc,88.43,88.43,Clothing
+2023-02-10,Amazon,168.19,168.19,Electronics
+2023-02-11,Starbucks,55.58,18.53,Dining
+2023-02-12,CVS,41.97,20.98,Health
+2023-02-16,McDonald's,22.73,22.73,Dining
+2023-02-20,Uber,202.82,202.82,Travel
+2023-02-22,Nike,194.35,194.35,Clothing
+2023-02-24,"Johnson, Palmer and Williams",447.34,447.34,Electronics
+2023-02-26,Mckinney Ltd,83.99,83.99,Health
+2023-03-02,McDonald's,51.42,51.42,Dining
+2023-03-11,Adidas,192.28,192.28,Clothing
+2023-03-17,Walmart,86.28,86.28,Groceries
+2023-03-18,Logan-Yang,106.57,106.57,Clothing
+2023-03-20,Apple,201.69,201.69,Electronics
+2023-03-21,Reyes-Espinoza,74.76,74.76,Clothing
+2023-03-22,Walgreens,12.76,4.25,Health
+2023-03-23,Guzman-Duke,796.28,796.28,Electronics
+2023-03-24,Nike,59.08,59.08,Clothing
+2023-03-25,Freeman and Sons,19.29,19.29,Dining
+2023-03-26,Adidas,30.92,30.92,Clothing
+2023-03-27,Starbucks,32.76,32.76,Dining
+2023-03-29,Apple,552.89,552.89,Electronics
+2023-03-30,Walgreens,51.37,51.37,Health

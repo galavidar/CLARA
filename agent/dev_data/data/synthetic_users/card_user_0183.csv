@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Henry, Johnson and Hernandez",124.79,124.79,Clothing
+2023-01-02,Apple,680.4,680.4,Electronics
+2023-01-03,Starbucks,34.29,17.14,Dining
+2023-01-05,Adidas,120.23,120.23,Clothing
+2023-01-10,Zara,190.75,190.75,Clothing
+2023-01-11,Walmart,67.44,67.44,Groceries
+2023-01-12,Adidas,141.21,47.07,Clothing
+2023-01-13,Fisher-Taylor,45.31,45.31,Groceries
+2023-01-17,CVS,77.73,77.73,Health
+2023-01-23,"Wheeler, Huff and Campbell",668.0,334.0,Electronics
+2023-01-24,Apple,719.21,719.21,Electronics
+2023-01-28,Adidas,58.1,58.1,Clothing
+2023-01-31,CVS,76.28,76.28,Health
+2023-02-03,Walmart,65.92,21.97,Groceries
+2023-02-05,"Gardner, Good and Morris",75.79,25.26,Entertainment
+2023-02-06,Davis Group,112.9,56.45,Groceries
+2023-02-07,H&M,138.71,138.71,Clothing
+2023-02-08,Garcia and Sons,26.87,26.87,Groceries
+2023-02-14,Target,76.35,76.35,Groceries
+2023-02-16,Zara,94.12,94.12,Clothing
+2023-02-18,Starbucks,47.1,23.55,Dining
+2023-02-20,Trevino-Williams,34.22,34.22,Dining
+2023-02-21,Starbucks,15.62,15.62,Dining
+2023-02-23,Zara,68.9,68.9,Clothing
+2023-02-24,Delta Airlines,76.82,76.82,Travel
+2023-02-27,Foster-Rodriguez,207.72,207.72,Home
+2023-02-28,Delta Airlines,63.78,63.78,Travel
+2023-03-02,Adams-Wright,26.97,26.97,Health
+2023-03-03,H&M,50.04,50.04,Clothing
+2023-03-08,Starbucks,46.17,46.17,Dining
+2023-03-09,Amazon,735.78,735.78,Electronics
+2023-03-11,Apple,338.49,169.25,Electronics
+2023-03-15,Delta Airlines,59.21,59.21,Travel
+2023-03-19,Apple,915.38,915.38,Electronics
+2023-03-24,McDonald's,24.81,24.81,Dining
+2023-03-25,CVS,19.84,19.84,Health
+2023-03-27,McDonald's,44.7,44.7,Dining
+2023-03-30,Rose-Perez,919.05,919.05,Electronics

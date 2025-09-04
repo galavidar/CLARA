@@ -1,0 +1,43 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Adidas,165.99,165.99,Clothing
+2023-01-02,Starbucks,41.5,41.5,Dining
+2023-01-09,Williams Ltd,28.86,28.86,Groceries
+2023-01-10,CVS,40.7,40.7,Health
+2023-01-12,Apple,462.27,462.27,Electronics
+2023-01-13,Adidas,33.57,11.19,Clothing
+2023-01-14,Amazon,463.77,463.77,Electronics
+2023-01-15,IKEA,303.63,151.81,Home
+2023-01-16,Amazon,369.6,369.6,Electronics
+2023-01-17,"Vaughn, Parks and Miller",70.23,70.23,Entertainment
+2023-01-19,Nike,98.94,98.94,Clothing
+2023-01-20,CVS,49.63,49.63,Health
+2023-01-22,Walgreens,96.95,96.95,Health
+2023-01-24,Zara,161.34,161.34,Clothing
+2023-01-26,Zara,53.01,53.01,Clothing
+2023-01-27,"Hall, Coleman and Torres",41.67,20.84,Clothing
+2023-01-30,Uber,350.53,116.84,Travel
+2023-02-02,Walmart,65.29,65.29,Groceries
+2023-02-04,Target,71.52,71.52,Groceries
+2023-02-07,Delta Airlines,403.12,403.12,Travel
+2023-02-11,Target,143.23,143.23,Groceries
+2023-02-13,Walmart,55.96,55.96,Groceries
+2023-02-15,Walgreens,83.27,83.27,Health
+2023-02-17,McDonald's,49.28,49.28,Dining
+2023-02-18,Miller Group,18.81,18.81,Dining
+2023-02-20,Cooper LLC,15.44,15.44,Dining
+2023-02-24,McDonald's,10.69,10.69,Dining
+2023-02-27,Gibbs and Sons,266.74,133.37,Electronics
+2023-03-01,Johnson PLC,97.93,97.93,Groceries
+2023-03-06,Walmart,91.46,91.46,Groceries
+2023-03-07,Apple,272.02,136.01,Electronics
+2023-03-10,IKEA,362.34,362.34,Home
+2023-03-11,Nike,31.66,31.66,Clothing
+2023-03-13,Zara,33.76,11.25,Clothing
+2023-03-17,Rogers Inc,114.5,114.5,Electronics
+2023-03-18,"Valencia, Wells and Long",24.77,24.77,Groceries
+2023-03-19,Nike,183.39,183.39,Clothing
+2023-03-20,Smith Group,50.95,16.98,Health
+2023-03-24,IKEA,101.31,101.31,Home
+2023-03-25,Amazon,787.08,262.36,Electronics
+2023-03-29,Rogers-Dickerson,163.4,163.4,Clothing
+2023-03-30,Amazon,626.31,626.31,Electronics

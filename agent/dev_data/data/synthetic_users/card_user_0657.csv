@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Zara,103.26,103.26,Clothing
+2023-01-07,Nike,42.0,42.0,Clothing
+2023-01-10,IKEA,269.2,269.2,Home
+2023-01-12,Apple,195.66,65.22,Electronics
+2023-01-14,IKEA,68.17,68.17,Home
+2023-01-15,Adidas,34.41,34.41,Clothing
+2023-01-16,Nike,177.38,59.13,Clothing
+2023-01-17,Ashley-Green,124.72,124.72,Clothing
+2023-01-21,Amazon,687.15,687.15,Electronics
+2023-01-22,Delta Airlines,252.98,252.98,Travel
+2023-01-23,Thomas-Rodriguez,313.46,313.46,Electronics
+2023-01-24,Adidas,194.24,194.24,Clothing
+2023-01-28,CVS,99.85,33.28,Health
+2023-01-29,McDonald's,59.2,59.2,Dining
+2023-01-30,Boyd-Chavez,136.54,136.54,Home
+2023-02-01,"Herrera, Brown and Bowers",425.91,212.96,Electronics
+2023-02-06,Delta Airlines,348.65,348.65,Travel
+2023-02-07,"Davis, Green and Morris",147.76,49.25,Home
+2023-02-08,Williams-Perez,214.68,71.56,Travel
+2023-02-11,McDonald's,59.23,59.23,Dining
+2023-02-12,"Schneider, Moses and Franco",198.9,66.3,Travel
+2023-02-16,Uber,178.01,178.01,Travel
+2023-02-17,Stewart Group,202.46,202.46,Travel
+2023-02-18,IKEA,115.54,38.51,Home
+2023-02-19,Russo and Sons,137.0,137.0,Electronics
+2023-02-20,Foley PLC,44.95,44.95,Clothing
+2023-02-21,CVS,67.65,67.65,Health
+2023-02-23,Gonzales PLC,282.57,282.57,Travel
+2023-02-24,IKEA,123.54,123.54,Home
+2023-02-27,McDonald's,38.36,38.36,Dining
+2023-03-02,Walgreens,96.24,96.24,Health
+2023-03-09,Apple,182.97,182.97,Electronics
+2023-03-10,Uber,230.05,230.05,Travel
+2023-03-11,Adidas,171.5,57.17,Clothing
+2023-03-19,Target,132.52,132.52,Groceries
+2023-03-21,"Hooper, Morgan and Robinson",56.39,18.8,Groceries
+2023-03-24,Ramirez PLC,277.24,277.24,Travel
+2023-03-31,Mills LLC,178.12,178.12,Travel

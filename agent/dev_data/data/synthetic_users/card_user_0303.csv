@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,65.01,65.01,Groceries
+2023-01-03,Zara,120.21,40.07,Clothing
+2023-01-05,Turner-Johnson,695.17,695.17,Electronics
+2023-01-06,"Johnson, Crawford and Morse",188.0,188.0,Travel
+2023-01-08,Smith PLC,44.72,22.36,Entertainment
+2023-01-09,Zara,59.58,59.58,Clothing
+2023-01-11,Jones-Morales,80.09,80.09,Clothing
+2023-01-12,White Group,18.87,6.29,Entertainment
+2023-01-14,H&M,98.57,98.57,Clothing
+2023-01-15,"Davis, Jones and Garner",402.06,402.06,Travel
+2023-01-20,Delta Airlines,179.6,179.6,Travel
+2023-01-21,Target,65.05,65.05,Groceries
+2023-01-24,Nike,102.17,102.17,Clothing
+2023-01-27,IKEA,319.24,319.24,Home
+2023-01-28,Apple,645.69,645.69,Electronics
+2023-01-30,Walmart,37.83,37.83,Groceries
+2023-02-02,Amazon,520.59,520.59,Electronics
+2023-02-04,Delta Airlines,423.1,211.55,Travel
+2023-02-06,Rogers-Gilmore,11.55,11.55,Dining
+2023-02-08,Apple,949.65,949.65,Electronics
+2023-02-10,Cochran-Carpenter,369.67,369.67,Home
+2023-02-13,McDonald's,20.17,20.17,Dining
+2023-02-18,Uber,403.97,403.97,Travel
+2023-02-22,Brown Inc,299.79,149.9,Home
+2023-02-23,Adidas,67.04,33.52,Clothing
+2023-02-26,Delta Airlines,293.67,293.67,Travel
+2023-03-02,White Ltd,98.44,98.44,Clothing
+2023-03-04,Amazon,764.63,764.63,Electronics
+2023-03-13,Apple,100.24,100.24,Electronics
+2023-03-15,Walgreens,94.59,94.59,Health
+2023-03-17,Uber,103.22,103.22,Travel
+2023-03-19,CVS,82.15,82.15,Health
+2023-03-21,CVS,21.73,21.73,Health
+2023-03-22,Lyons Ltd,727.49,727.49,Electronics
+2023-03-23,Apple,803.9,267.97,Electronics
+2023-03-26,Simpson-Thomas,59.66,29.83,Groceries
+2023-03-29,"Anderson, Payne and Martin",992.19,992.19,Electronics
+2023-03-30,IKEA,374.94,374.94,Home
+2023-03-31,H&M,102.76,102.76,Clothing

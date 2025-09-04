@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Target,142.59,142.59,Groceries
+2023-01-02,Amazon,857.85,857.85,Electronics
+2023-01-03,Amazon,685.3,685.3,Electronics
+2023-01-06,IKEA,57.88,57.88,Home
+2023-01-09,CVS,43.48,21.74,Health
+2023-01-12,Howard-Lewis,124.43,124.43,Home
+2023-01-14,"Tate, Gonzales and Nguyen",423.75,423.75,Travel
+2023-01-17,"Diaz, Williams and Whitehead",118.63,118.63,Home
+2023-01-21,Target,91.55,91.55,Groceries
+2023-01-22,"Swanson, Ramos and Reed",23.8,23.8,Health
+2023-01-23,Amazon,967.7,322.57,Electronics
+2023-01-26,Nike,78.81,78.81,Clothing
+2023-01-29,"Santana, Johnson and Conner",40.18,40.18,Entertainment
+2023-02-03,Target,142.65,47.55,Groceries
+2023-02-04,Uber,255.37,85.12,Travel
+2023-02-05,Adidas,112.7,112.7,Clothing
+2023-02-06,Nike,189.05,189.05,Clothing
+2023-02-09,Nike,39.35,13.12,Clothing
+2023-02-16,Walmart,125.44,125.44,Groceries
+2023-02-17,Hall Inc,25.66,25.66,Groceries
+2023-02-18,Zara,65.85,65.85,Clothing
+2023-02-20,Delta Airlines,494.67,494.67,Travel
+2023-02-23,Uber,60.75,60.75,Travel
+2023-02-26,Apple,314.68,104.89,Electronics
+2023-02-28,Browning-Diaz,611.62,611.62,Electronics
+2023-03-04,Amazon,447.41,447.41,Electronics
+2023-03-12,Walgreens,88.0,88.0,Health
+2023-03-14,Zara,62.98,62.98,Clothing
+2023-03-17,"Olson, Jones and Cantrell",223.77,223.77,Home
+2023-03-23,Harris Ltd,65.14,65.14,Groceries
+2023-03-25,Apple,300.25,300.25,Electronics
+2023-03-27,Huber LLC,14.99,14.99,Health
+2023-03-28,Uber,234.95,234.95,Travel
+2023-03-30,Hart Group,414.66,414.66,Electronics

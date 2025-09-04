@@ -1,0 +1,44 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,179.5,179.5,Clothing
+2023-01-04,CVS,48.03,24.02,Health
+2023-01-08,Uber,319.27,319.27,Travel
+2023-01-10,Zara,145.99,145.99,Clothing
+2023-01-12,Zara,160.22,160.22,Clothing
+2023-01-13,H&M,155.87,155.87,Clothing
+2023-01-14,Ramirez Group,73.84,73.84,Entertainment
+2023-01-17,Amazon,132.72,132.72,Electronics
+2023-01-18,CVS,20.82,20.82,Health
+2023-01-21,Starbucks,52.89,17.63,Dining
+2023-01-22,McDonald's,59.88,59.88,Dining
+2023-01-25,Hayes and Sons,175.97,175.97,Clothing
+2023-01-27,IKEA,227.89,227.89,Home
+2023-01-29,"Haynes, Brown and Henderson",73.74,73.74,Entertainment
+2023-01-30,"Martin, Stone and Edwards",65.51,32.76,Home
+2023-01-31,Ortega-Hood,439.87,439.87,Electronics
+2023-02-01,Williams-Terry,209.21,209.21,Home
+2023-02-02,CVS,75.37,75.37,Health
+2023-02-05,IKEA,128.99,128.99,Home
+2023-02-07,"King, Arnold and Gonzalez",49.08,24.54,Dining
+2023-02-09,Amazon,968.27,968.27,Electronics
+2023-02-12,Cross-Walton,153.1,153.1,Clothing
+2023-02-13,IKEA,163.24,54.41,Home
+2023-02-14,Frazier-Riddle,18.83,9.41,Dining
+2023-02-17,Walmart,138.14,138.14,Groceries
+2023-02-18,Uber,380.05,380.05,Travel
+2023-02-19,Berry-Poole,137.4,68.7,Clothing
+2023-02-21,"Barnes, Cobb and Johnson",96.87,96.87,Health
+2023-02-23,Target,77.54,77.54,Groceries
+2023-02-28,Hawkins Ltd,46.33,46.33,Dining
+2023-03-01,Walgreens,74.52,74.52,Health
+2023-03-03,Harris Group,57.79,57.79,Health
+2023-03-04,Walgreens,19.11,19.11,Health
+2023-03-05,H&M,180.21,180.21,Clothing
+2023-03-07,Brown PLC,10.2,10.2,Dining
+2023-03-10,McDonald's,40.77,40.77,Dining
+2023-03-13,Uber,185.14,185.14,Travel
+2023-03-16,Amazon,958.35,958.35,Electronics
+2023-03-21,"Turner, Patel and Obrien",21.38,10.69,Dining
+2023-03-25,CVS,91.01,91.01,Health
+2023-03-26,Walgreens,11.83,11.83,Health
+2023-03-27,Douglas Ltd,105.07,105.07,Home
+2023-03-30,McDonald's,49.27,49.27,Dining

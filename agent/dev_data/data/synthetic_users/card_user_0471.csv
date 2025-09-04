@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Apple,112.75,56.38,Electronics
+2023-01-04,Wright-Manning,652.78,652.78,Electronics
+2023-01-06,Zara,110.5,110.5,Clothing
+2023-01-09,Zara,100.14,100.14,Clothing
+2023-01-11,Starbucks,10.54,5.27,Dining
+2023-01-13,"Chavez, Douglas and Williams",24.34,24.34,Health
+2023-01-16,Harris Ltd,21.26,21.26,Groceries
+2023-01-20,Amazon,327.34,327.34,Electronics
+2023-01-21,Nike,155.68,51.89,Clothing
+2023-01-23,McDonald's,13.57,13.57,Dining
+2023-01-25,Kennedy Inc,60.93,60.93,Entertainment
+2023-01-28,Yates-Weeks,129.54,129.54,Clothing
+2023-01-29,IKEA,90.97,90.97,Home
+2023-02-03,Walgreens,35.89,35.89,Health
+2023-02-05,Adidas,111.25,111.25,Clothing
+2023-02-08,Target,145.4,145.4,Groceries
+2023-02-10,IKEA,118.53,118.53,Home
+2023-02-12,Delta Airlines,408.52,408.52,Travel
+2023-02-22,Adidas,191.08,191.08,Clothing
+2023-02-23,Zara,122.38,122.38,Clothing
+2023-02-25,Walgreens,28.12,28.12,Health
+2023-02-28,Johnson Inc,52.41,52.41,Groceries
+2023-03-07,Walmart,98.8,98.8,Groceries
+2023-03-15,Apple,792.34,792.34,Electronics
+2023-03-18,Starbucks,28.61,28.61,Dining
+2023-03-20,Martinez-Sanchez,85.61,85.61,Health
+2023-03-22,"Rodriguez, Morgan and Gibson",20.56,20.56,Dining
+2023-03-23,McDonald's,42.4,42.4,Dining
+2023-03-24,Walgreens,54.42,27.21,Health
+2023-03-25,Uber,415.03,415.03,Travel
+2023-03-26,Target,32.85,32.85,Groceries
+2023-03-27,IKEA,118.35,118.35,Home
+2023-03-28,McDonald's,17.49,17.49,Dining

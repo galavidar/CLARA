@@ -1,0 +1,34 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Starbucks,29.19,29.19,Dining
+2023-01-10,Delta Airlines,125.44,62.72,Travel
+2023-01-11,Huang Inc,85.77,85.77,Groceries
+2023-01-16,Zara,128.07,128.07,Clothing
+2023-01-19,Uber,79.65,79.65,Travel
+2023-01-26,Apple,959.12,959.12,Electronics
+2023-01-30,H&M,175.01,175.01,Clothing
+2023-02-02,"Nunez, Clarke and Brown",43.76,43.76,Dining
+2023-02-05,Clark-Herrera,493.08,164.36,Travel
+2023-02-07,McDonald's,51.11,17.04,Dining
+2023-02-11,McDonald's,17.09,17.09,Dining
+2023-02-12,Campbell-Nelson,79.67,39.84,Travel
+2023-02-16,Apple,413.77,413.77,Electronics
+2023-02-21,Christensen-Cook,75.16,75.16,Health
+2023-02-22,Schultz and Sons,167.0,167.0,Home
+2023-02-23,Walgreens,31.65,31.65,Health
+2023-02-25,H&M,42.66,42.66,Clothing
+2023-02-28,Walgreens,46.72,46.72,Health
+2023-03-01,"Chapman, Rojas and Case",102.54,102.54,Groceries
+2023-03-02,Walgreens,42.03,21.02,Health
+2023-03-04,Walgreens,26.93,13.46,Health
+2023-03-06,McDonald's,17.89,17.89,Dining
+2023-03-11,Knight-Thomas,23.06,23.06,Groceries
+2023-03-12,Delta Airlines,242.92,242.92,Travel
+2023-03-13,Amazon,712.1,712.1,Electronics
+2023-03-14,Uber,493.75,493.75,Travel
+2023-03-15,"Young, Ball and King",42.01,21.0,Health
+2023-03-16,Apple,449.4,449.4,Electronics
+2023-03-19,"Price, Phillips and Keith",205.36,205.36,Travel
+2023-03-24,"Calderon, Graham and Robinson",424.17,424.17,Travel
+2023-03-25,"Price, Bridges and Johnson",380.55,380.55,Travel
+2023-03-26,Woods-Hall,58.53,29.27,Health
+2023-03-30,Nike,146.97,73.48,Clothing

@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,McDonald's,38.35,38.35,Dining
+2023-01-03,"Davis, Green and Jenkins",23.45,7.82,Entertainment
+2023-01-07,Johnston-Gray,175.34,175.34,Home
+2023-01-08,"Rogers, Proctor and Vasquez",16.9,16.9,Health
+2023-01-13,Walgreens,34.9,34.9,Health
+2023-01-14,Delta Airlines,56.53,56.53,Travel
+2023-01-15,Brown LLC,10.11,10.11,Health
+2023-01-17,Flowers LLC,36.07,12.02,Entertainment
+2023-01-19,Starbucks,40.38,40.38,Dining
+2023-01-20,Jackson-Johnson,165.1,165.1,Electronics
+2023-01-21,Adidas,179.92,179.92,Clothing
+2023-01-22,Walmart,110.61,110.61,Groceries
+2023-01-23,McDonald's,58.97,58.97,Dining
+2023-02-01,Wall-Johnson,83.03,83.03,Health
+2023-02-02,Mcdonald-Rodriguez,525.06,262.53,Electronics
+2023-02-08,"Benton, Ray and Gallegos",79.7,79.7,Clothing
+2023-02-09,Taylor LLC,16.53,16.53,Entertainment
+2023-02-10,"Holland, Thomas and Byrd",99.21,99.21,Entertainment
+2023-02-13,Lawrence Inc,256.89,256.89,Travel
+2023-02-16,Nike,50.5,50.5,Clothing
+2023-02-20,Nike,66.59,66.59,Clothing
+2023-02-21,Zara,42.72,42.72,Clothing
+2023-02-22,McDonald's,25.21,25.21,Dining
+2023-02-23,Myers Ltd,58.28,58.28,Health
+2023-02-24,Nike,89.6,89.6,Clothing
+2023-02-26,McDonald's,58.14,58.14,Dining
+2023-02-28,Uber,110.32,110.32,Travel
+2023-03-02,IKEA,55.34,55.34,Home
+2023-03-04,CVS,25.88,25.88,Health
+2023-03-05,Apple,864.73,288.24,Electronics
+2023-03-06,Walgreens,82.18,82.18,Health
+2023-03-12,Walgreens,41.84,41.84,Health
+2023-03-13,McDonald's,43.37,43.37,Dining
+2023-03-14,Smith-Fox,91.41,45.7,Clothing
+2023-03-16,Walmart,91.16,91.16,Groceries
+2023-03-17,Walmart,140.83,140.83,Groceries
+2023-03-18,Apple,888.17,296.06,Electronics
+2023-03-19,Uber,154.1,154.1,Travel
+2023-03-28,Apple,645.83,645.83,Electronics

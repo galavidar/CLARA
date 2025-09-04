@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,359.47,359.47,Travel
+2023-01-03,"Villanueva, Young and Johnson",13.94,13.94,Dining
+2023-01-06,McDonald's,52.44,52.44,Dining
+2023-01-10,Amazon,325.63,325.63,Electronics
+2023-01-11,Walmart,125.22,125.22,Groceries
+2023-01-12,West Group,34.15,34.15,Entertainment
+2023-01-16,"Ruiz, Cantu and Carter",183.92,183.92,Home
+2023-01-17,"Garcia, Wood and Hodge",88.67,88.67,Health
+2023-01-18,Target,71.85,71.85,Groceries
+2023-01-19,Delta Airlines,275.26,275.26,Travel
+2023-01-22,Apple,423.45,423.45,Electronics
+2023-01-23,Hull Inc,95.94,95.94,Clothing
+2023-01-26,Zara,172.22,172.22,Clothing
+2023-01-27,King-Nichols,474.86,474.86,Travel
+2023-01-30,Lewis PLC,81.83,81.83,Entertainment
+2023-02-02,IKEA,249.64,249.64,Home
+2023-02-06,"Clark, Perry and Aguirre",96.46,96.46,Home
+2023-02-07,Amazon,899.88,899.88,Electronics
+2023-02-09,Apple,426.6,426.6,Electronics
+2023-02-11,Taylor PLC,23.42,23.42,Dining
+2023-02-15,Walmart,42.65,42.65,Groceries
+2023-02-16,CVS,46.71,46.71,Health
+2023-02-21,"Davis, Sanders and Mitchell",158.53,158.53,Clothing
+2023-02-24,"Stanley, Ponce and Lucas",599.09,299.55,Electronics
+2023-03-01,"Shaffer, Dixon and Garcia",469.95,469.95,Travel
+2023-03-04,"Thompson, Robles and Berry",43.62,43.62,Entertainment
+2023-03-06,McDonald's,18.73,18.73,Dining
+2023-03-08,Walmart,78.23,78.23,Groceries
+2023-03-12,Walmart,135.61,67.81,Groceries
+2023-03-20,McDonald's,15.61,15.61,Dining
+2023-03-22,Zara,157.45,157.45,Clothing
+2023-03-25,H&M,88.55,44.27,Clothing
+2023-03-26,"Rosales, Lane and Sanders",248.11,248.11,Home
+2023-03-27,Allison-Brown,84.44,84.44,Groceries
+2023-03-28,Walsh Ltd,147.76,73.88,Clothing
+2023-03-29,McDonald's,45.83,45.83,Dining

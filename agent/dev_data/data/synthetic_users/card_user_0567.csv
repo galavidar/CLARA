@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,"Estrada, Carroll and Mcdonald",714.45,714.45,Electronics
+2023-01-12,Arroyo Ltd,47.2,47.2,Health
+2023-01-15,Atkins Ltd,781.0,390.5,Electronics
+2023-01-16,Walmart,89.36,89.36,Groceries
+2023-01-17,Smith Inc,27.31,27.31,Groceries
+2023-01-18,Case Inc,146.89,146.89,Clothing
+2023-01-20,Nike,197.92,197.92,Clothing
+2023-01-21,Herrera and Sons,96.05,96.05,Groceries
+2023-01-22,CVS,44.56,44.56,Health
+2023-01-25,"Pratt, Terrell and Evans",60.04,60.04,Clothing
+2023-01-27,Delta Airlines,117.73,117.73,Travel
+2023-01-29,Walgreens,89.01,29.67,Health
+2023-02-01,Uber,400.87,200.44,Travel
+2023-02-07,Nike,179.36,59.79,Clothing
+2023-02-08,Nike,84.59,84.59,Clothing
+2023-02-10,Apple,849.33,849.33,Electronics
+2023-02-11,Apple,195.25,195.25,Electronics
+2023-02-13,Johnston PLC,132.55,132.55,Home
+2023-02-15,CVS,11.29,11.29,Health
+2023-02-17,"Stevens, Evans and Barry",34.0,34.0,Dining
+2023-02-23,Sullivan Group,86.8,86.8,Groceries
+2023-02-24,IKEA,199.81,199.81,Home
+2023-02-25,Starbucks,54.83,54.83,Dining
+2023-02-27,Walgreens,90.31,90.31,Health
+2023-03-01,Apple,328.01,164.0,Electronics
+2023-03-03,CVS,70.33,70.33,Health
+2023-03-04,"Richards, Cortez and Potts",119.48,119.48,Home
+2023-03-08,Delta Airlines,144.4,144.4,Travel
+2023-03-12,CVS,84.35,42.17,Health
+2023-03-13,"Watson, Thompson and Long",53.71,53.71,Entertainment
+2023-03-14,CVS,75.57,75.57,Health
+2023-03-20,Walmart,44.05,44.05,Groceries
+2023-03-21,Delta Airlines,115.31,115.31,Travel
+2023-03-24,Gomez Group,61.19,61.19,Clothing
+2023-03-28,McDonald's,38.55,38.55,Dining
+2023-03-29,IKEA,237.92,118.96,Home
+2023-03-31,Walmart,42.69,21.34,Groceries

@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Uber,345.45,172.72,Travel
+2023-01-02,IKEA,267.31,267.31,Home
+2023-01-03,Zara,63.7,21.23,Clothing
+2023-01-04,"Scott, Weaver and Meza",126.54,126.54,Groceries
+2023-01-06,Amazon,207.9,207.9,Electronics
+2023-01-08,Walmart,89.66,89.66,Groceries
+2023-01-09,Montgomery-Lynch,100.7,50.35,Groceries
+2023-01-14,Uber,420.31,420.31,Travel
+2023-01-15,Target,140.6,140.6,Groceries
+2023-01-16,Uber,321.54,321.54,Travel
+2023-01-18,Morgan-Owens,302.86,302.86,Travel
+2023-01-19,Amazon,270.01,270.01,Electronics
+2023-01-21,Amazon,367.79,367.79,Electronics
+2023-01-22,Zara,170.09,170.09,Clothing
+2023-01-25,Starbucks,55.65,55.65,Dining
+2023-01-28,Adidas,104.5,104.5,Clothing
+2023-02-01,H&M,54.18,54.18,Clothing
+2023-02-03,CVS,95.55,31.85,Health
+2023-02-07,H&M,147.1,147.1,Clothing
+2023-02-08,Uber,316.46,316.46,Travel
+2023-02-09,"Turner, Wallace and Ryan",55.24,55.24,Dining
+2023-02-12,Zara,78.24,78.24,Clothing
+2023-02-14,Mitchell-Vang,134.48,134.48,Clothing
+2023-02-19,IKEA,179.59,179.59,Home
+2023-02-27,"Donovan, Sharp and Kennedy",41.11,41.11,Entertainment
+2023-03-05,"Fisher, Noble and Wood",100.38,100.38,Groceries
+2023-03-07,Zara,182.86,182.86,Clothing
+2023-03-09,Target,92.28,92.28,Groceries
+2023-03-10,Zara,40.79,13.6,Clothing
+2023-03-11,Nike,179.16,179.16,Clothing
+2023-03-12,H&M,188.57,188.57,Clothing
+2023-03-14,"Mitchell, Miller and Kane",108.66,108.66,Home
+2023-03-15,McDonald's,54.24,54.24,Dining
+2023-03-16,"Young, Bass and Adkins",888.31,888.31,Electronics
+2023-03-21,Adidas,114.94,114.94,Clothing
+2023-03-22,Adidas,164.68,164.68,Clothing
+2023-03-23,Hurst-Clayton,103.61,103.61,Travel
+2023-03-26,Nike,196.14,196.14,Clothing
+2023-03-28,Nike,51.41,51.41,Clothing
+2023-03-31,"Smith, Rogers and Shepherd",392.79,392.79,Travel

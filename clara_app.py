@@ -3,9 +3,9 @@ import time
 import json
 import pandas as pd
 import uuid
-from clara_agents_pipeline import LoanEligibilityChain
-from report_generator_agent import generate_loan_report
-from utils import normalize_json
+from agent.clara_agents_pipeline import LoanEligibilityChain
+from agent.report_generator_agent import generate_loan_report
+from agent.utils import normalize_json
 
 if "applications" not in st.session_state:
     st.session_state.applications = []

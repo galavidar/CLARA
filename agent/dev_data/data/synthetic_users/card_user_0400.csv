@@ -1,0 +1,41 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Apple,265.99,265.99,Electronics
+2023-01-06,Crawford-Hall,91.31,91.31,Home
+2023-01-07,Apple,411.04,411.04,Electronics
+2023-01-08,H&M,43.02,43.02,Clothing
+2023-01-09,"Patterson, Shah and Williams",149.96,149.96,Home
+2023-01-10,IKEA,309.45,309.45,Home
+2023-01-12,Adidas,140.46,140.46,Clothing
+2023-01-14,Walgreens,95.65,95.65,Health
+2023-01-19,"Allen, Allen and Miller",159.06,159.06,Home
+2023-01-20,Williams-Short,49.66,49.66,Dining
+2023-01-22,Adidas,193.63,193.63,Clothing
+2023-01-26,Amazon,122.18,122.18,Electronics
+2023-01-27,Starbucks,55.73,55.73,Dining
+2023-01-30,Uber,486.47,486.47,Travel
+2023-01-31,Walgreens,44.61,44.61,Health
+2023-02-01,"Crawford, Neal and Huff",358.36,358.36,Home
+2023-02-02,Paul-Cole,239.75,239.75,Home
+2023-02-03,Delta Airlines,133.0,133.0,Travel
+2023-02-04,Smith-Johnson,86.68,86.68,Health
+2023-02-15,Delta Airlines,367.22,367.22,Travel
+2023-02-16,Uber,133.56,44.52,Travel
+2023-02-17,Zara,121.21,121.21,Clothing
+2023-02-20,Walmart,75.72,75.72,Groceries
+2023-02-21,Walgreens,16.26,16.26,Health
+2023-02-23,CVS,14.93,14.93,Health
+2023-02-26,Norris-Jones,659.67,659.67,Electronics
+2023-03-02,"Meyer, Price and Perez",140.74,140.74,Groceries
+2023-03-03,Adidas,57.74,57.74,Clothing
+2023-03-05,Starbucks,48.44,48.44,Dining
+2023-03-06,Nike,152.85,152.85,Clothing
+2023-03-13,Walmart,58.08,58.08,Groceries
+2023-03-15,Brown-Brown,94.11,94.11,Health
+2023-03-16,Adidas,35.65,35.65,Clothing
+2023-03-19,Target,63.77,63.77,Groceries
+2023-03-20,Hale LLC,35.07,35.07,Dining
+2023-03-25,Adidas,120.89,60.45,Clothing
+2023-03-26,Nike,131.97,131.97,Clothing
+2023-03-27,McDonald's,26.27,26.27,Dining
+2023-03-29,Thompson-Conley,30.81,30.81,Entertainment
+2023-03-31,McDonald's,53.06,26.53,Dining

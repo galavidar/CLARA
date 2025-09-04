@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,139.35,139.35,Clothing
+2023-01-04,H&M,111.49,111.49,Clothing
+2023-01-07,Starbucks,53.59,53.59,Dining
+2023-01-08,Amazon,875.53,875.53,Electronics
+2023-01-09,Delta Airlines,146.54,146.54,Travel
+2023-01-16,H&M,68.21,68.21,Clothing
+2023-01-17,Brown and Sons,428.28,428.28,Travel
+2023-01-19,"Perkins, Gregory and Robertson",55.39,27.7,Groceries
+2023-01-23,Delta Airlines,290.92,96.97,Travel
+2023-01-26,Starbucks,50.72,50.72,Dining
+2023-02-04,Walgreens,76.87,76.87,Health
+2023-02-06,Brooks-Morrison,114.76,114.76,Groceries
+2023-02-07,Nike,169.68,169.68,Clothing
+2023-02-09,CVS,82.4,82.4,Health
+2023-02-10,Target,75.95,25.32,Groceries
+2023-02-15,Uber,338.47,169.24,Travel
+2023-02-16,Valenzuela LLC,87.09,43.55,Entertainment
+2023-02-18,Pitts and Sons,167.63,167.63,Home
+2023-02-20,McDonald's,11.9,11.9,Dining
+2023-02-21,H&M,129.52,129.52,Clothing
+2023-02-22,Apple,946.03,946.03,Electronics
+2023-02-27,Walmart,128.65,128.65,Groceries
+2023-03-02,Adidas,48.98,48.98,Clothing
+2023-03-04,Nike,184.11,184.11,Clothing
+2023-03-06,Walgreens,71.84,35.92,Health
+2023-03-07,Miranda-Weaver,228.91,228.91,Home
+2023-03-12,Walgreens,56.33,56.33,Health
+2023-03-14,Apple,952.78,952.78,Electronics
+2023-03-15,Delta Airlines,397.88,397.88,Travel
+2023-03-17,IKEA,156.99,52.33,Home
+2023-03-24,Uber,446.65,446.65,Travel
+2023-03-25,IKEA,237.09,118.55,Home
+2023-03-26,Walmart,85.57,85.57,Groceries
+2023-03-29,Adidas,150.77,150.77,Clothing
+2023-03-31,Walmart,89.44,89.44,Groceries

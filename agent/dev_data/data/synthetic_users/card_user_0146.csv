@@ -1,0 +1,39 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Target,60.4,20.13,Groceries
+2023-01-05,Delta Airlines,341.02,113.67,Travel
+2023-01-07,Pham-Walker,47.41,47.41,Entertainment
+2023-01-08,White PLC,233.42,233.42,Travel
+2023-01-17,Padilla Group,56.44,56.44,Home
+2023-01-19,Zara,121.87,121.87,Clothing
+2023-01-20,Adidas,109.4,109.4,Clothing
+2023-01-21,McDonald's,50.11,50.11,Dining
+2023-01-24,CVS,84.89,84.89,Health
+2023-01-25,Delta Airlines,309.87,309.87,Travel
+2023-01-27,Hunt-Bender,132.73,132.73,Groceries
+2023-01-28,Ruiz Ltd,75.59,75.59,Health
+2023-01-29,Walgreens,10.72,10.72,Health
+2023-01-30,Espinoza-Carter,42.78,42.78,Health
+2023-02-01,Beck Group,13.18,13.18,Dining
+2023-02-02,Uber,268.85,89.62,Travel
+2023-02-04,Walmart,114.81,114.81,Groceries
+2023-02-05,CVS,73.02,73.02,Health
+2023-02-06,CVS,28.39,9.46,Health
+2023-02-08,Target,128.74,128.74,Groceries
+2023-02-09,Lewis PLC,222.75,222.75,Travel
+2023-02-10,Hartman Inc,93.55,93.55,Entertainment
+2023-02-12,Amazon,631.42,315.71,Electronics
+2023-02-13,Jackson-Peck,683.47,683.47,Electronics
+2023-02-15,Adidas,107.77,107.77,Clothing
+2023-02-16,Walmart,99.92,99.92,Groceries
+2023-03-02,CVS,59.82,59.82,Health
+2023-03-03,Walmart,149.66,149.66,Groceries
+2023-03-07,Zara,84.32,84.32,Clothing
+2023-03-08,Adidas,180.56,180.56,Clothing
+2023-03-11,Apple,621.57,621.57,Electronics
+2023-03-15,Amazon,456.05,152.02,Electronics
+2023-03-17,IKEA,281.44,140.72,Home
+2023-03-20,Mccarthy Inc,286.11,286.11,Electronics
+2023-03-22,H&M,47.19,47.19,Clothing
+2023-03-26,"Carpenter, Gomez and Lopez",25.55,25.55,Health
+2023-03-27,Barnes-Hutchinson,37.1,37.1,Entertainment
+2023-03-29,Zara,148.68,74.34,Clothing

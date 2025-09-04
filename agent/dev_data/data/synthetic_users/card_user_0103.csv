@@ -1,0 +1,29 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,McDonald's,11.92,3.97,Dining
+2023-01-03,McDonald's,29.91,29.91,Dining
+2023-01-06,Uber,220.45,73.48,Travel
+2023-01-08,Snyder-Keller,447.18,447.18,Electronics
+2023-01-09,Uber,114.93,57.47,Travel
+2023-01-12,Adidas,166.13,166.13,Clothing
+2023-01-15,"Webster, Ramirez and Frank",47.73,47.73,Dining
+2023-01-17,Apple,866.49,866.49,Electronics
+2023-01-18,Amazon,348.99,116.33,Electronics
+2023-01-27,H&M,92.62,92.62,Clothing
+2023-01-30,H&M,111.97,111.97,Clothing
+2023-01-31,Nike,82.27,82.27,Clothing
+2023-02-03,CVS,22.6,22.6,Health
+2023-02-05,Graham Ltd,278.82,278.82,Home
+2023-02-12,Target,138.85,138.85,Groceries
+2023-02-13,Target,38.9,38.9,Groceries
+2023-02-17,"Dean, Christian and Owen",68.81,22.94,Groceries
+2023-02-18,"Baldwin, Waters and Garcia",20.18,20.18,Dining
+2023-02-20,Zara,96.19,96.19,Clothing
+2023-02-22,Collins-Bass,93.38,93.38,Clothing
+2023-02-23,Ballard-Barajas,99.3,99.3,Entertainment
+2023-02-24,Walmart,89.43,89.43,Groceries
+2023-02-26,Amazon,215.85,107.92,Electronics
+2023-02-27,Bartlett-Whitehead,193.28,193.28,Electronics
+2023-03-10,Adidas,161.69,161.69,Clothing
+2023-03-14,McDonald's,41.27,41.27,Dining
+2023-03-19,Uber,454.43,454.43,Travel
+2023-03-22,Zara,84.83,84.83,Clothing

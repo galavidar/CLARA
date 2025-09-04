@@ -1,0 +1,35 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-02,Adidas,148.89,74.44,Clothing
+2023-01-04,Nike,140.2,70.1,Clothing
+2023-01-06,McDonald's,26.36,8.79,Dining
+2023-01-09,"Sellers, Howard and Johnson",83.39,83.39,Health
+2023-01-11,Walgreens,49.34,49.34,Health
+2023-01-12,Walgreens,62.5,20.83,Health
+2023-01-15,Lucero Inc,427.9,427.9,Travel
+2023-01-16,"Robles, Hall and Greene",169.83,169.83,Travel
+2023-01-17,Adidas,161.5,53.83,Clothing
+2023-01-18,Nike,186.39,186.39,Clothing
+2023-01-20,Stephens-Smith,39.51,39.51,Entertainment
+2023-01-26,Walmart,130.46,43.49,Groceries
+2023-01-29,Neal-Conway,249.05,83.02,Electronics
+2023-01-31,Starbucks,14.39,14.39,Dining
+2023-02-01,"Anthony, Frazier and Carroll",22.36,22.36,Entertainment
+2023-02-05,McDonald's,23.16,11.58,Dining
+2023-02-09,Target,109.94,36.65,Groceries
+2023-02-20,"Rivas, Campbell and Ortiz",140.27,140.27,Electronics
+2023-02-22,Amazon,635.8,317.9,Electronics
+2023-02-23,"Houston, Wright and Sanders",70.79,70.79,Home
+2023-02-24,Nike,77.94,77.94,Clothing
+2023-02-26,Zara,159.68,159.68,Clothing
+2023-02-27,Starbucks,54.71,54.71,Dining
+2023-03-01,Hicks-Brown,10.39,10.39,Dining
+2023-03-05,CVS,57.03,57.03,Health
+2023-03-09,IKEA,388.28,388.28,Home
+2023-03-11,Adidas,68.62,34.31,Clothing
+2023-03-12,Allison and Sons,66.53,66.53,Entertainment
+2023-03-15,Adidas,35.57,35.57,Clothing
+2023-03-17,Walgreens,31.43,31.43,Health
+2023-03-18,Nike,149.09,49.7,Clothing
+2023-03-22,Miranda-Hardy,298.31,298.31,Travel
+2023-03-27,Nike,93.75,93.75,Clothing
+2023-03-29,Miranda-Patterson,109.13,109.13,Groceries

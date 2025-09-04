@@ -1,0 +1,36 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,H&M,179.09,89.55,Clothing
+2023-01-02,Walgreens,52.18,52.18,Health
+2023-01-04,Adidas,53.72,17.91,Clothing
+2023-01-05,Becker Group,147.43,147.43,Electronics
+2023-01-06,Starbucks,59.09,59.09,Dining
+2023-01-13,IKEA,215.78,215.78,Home
+2023-01-14,IKEA,282.12,282.12,Home
+2023-01-15,Nike,48.19,48.19,Clothing
+2023-01-22,Zara,119.42,119.42,Clothing
+2023-01-24,Williams Inc,88.74,88.74,Entertainment
+2023-01-26,Nike,187.32,187.32,Clothing
+2023-01-30,Zara,35.78,35.78,Clothing
+2023-02-03,McDonald's,50.54,50.54,Dining
+2023-02-04,Zara,153.83,153.83,Clothing
+2023-02-06,Walmart,111.26,111.26,Groceries
+2023-02-09,"Martinez, Mendez and Ward",45.58,22.79,Clothing
+2023-02-11,"Miller, Simmons and Stanley",45.78,45.78,Health
+2023-02-12,"Wright, Gentry and Moore",65.68,32.84,Groceries
+2023-02-13,Zara,119.67,119.67,Clothing
+2023-02-16,H&M,183.36,183.36,Clothing
+2023-02-18,Zara,78.63,78.63,Clothing
+2023-02-19,Apple,756.43,756.43,Electronics
+2023-02-22,H&M,119.46,59.73,Clothing
+2023-02-28,"Thomas, Jackson and Wilson",187.37,187.37,Home
+2023-03-01,Target,72.14,72.14,Groceries
+2023-03-02,Walmart,81.97,40.98,Groceries
+2023-03-03,IKEA,126.4,126.4,Home
+2023-03-09,Apple,207.05,207.05,Electronics
+2023-03-10,Starbucks,41.86,41.86,Dining
+2023-03-14,CVS,84.68,84.68,Health
+2023-03-16,McDonald's,48.79,48.79,Dining
+2023-03-21,Uber,369.51,369.51,Travel
+2023-03-22,Nike,148.54,148.54,Clothing
+2023-03-27,McDonald's,19.61,19.61,Dining
+2023-03-29,Amazon,875.99,875.99,Electronics

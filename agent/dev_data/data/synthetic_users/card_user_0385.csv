@@ -1,0 +1,33 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-06,Martinez Inc,35.67,35.67,Clothing
+2023-01-09,Nike,181.84,181.84,Clothing
+2023-01-16,Moore-Doyle,315.87,105.29,Travel
+2023-01-19,CVS,43.21,21.61,Health
+2023-01-21,Jacobs-Cantu,109.44,54.72,Travel
+2023-01-23,Nike,50.98,50.98,Clothing
+2023-01-24,Roberts-Savage,215.59,215.59,Home
+2023-01-26,Delta Airlines,165.93,165.93,Travel
+2023-01-29,Target,95.98,95.98,Groceries
+2023-02-06,Miller Ltd,87.91,87.91,Health
+2023-02-09,"Moody, Adams and Jackson",88.07,44.03,Entertainment
+2023-02-11,Perez-Mcdaniel,187.17,187.17,Clothing
+2023-02-14,"Clayton, Stevens and Patel",440.05,440.05,Travel
+2023-02-15,Nike,137.68,137.68,Clothing
+2023-02-16,CVS,63.47,31.73,Health
+2023-02-17,CVS,90.95,90.95,Health
+2023-02-19,Terry Inc,28.25,9.42,Health
+2023-02-22,McDonald's,49.63,49.63,Dining
+2023-02-24,Uber,425.79,425.79,Travel
+2023-02-25,Carpenter Group,83.82,83.82,Health
+2023-02-27,H&M,111.81,111.81,Clothing
+2023-02-28,Sanford Ltd,12.44,12.44,Dining
+2023-03-01,Target,61.85,61.85,Groceries
+2023-03-02,Adidas,182.74,182.74,Clothing
+2023-03-06,Adidas,50.38,50.38,Clothing
+2023-03-08,Starbucks,31.02,31.02,Dining
+2023-03-18,Nike,190.64,190.64,Clothing
+2023-03-22,Callahan Group,97.42,97.42,Clothing
+2023-03-23,Starbucks,28.8,28.8,Dining
+2023-03-25,Zara,60.45,60.45,Clothing
+2023-03-26,Mayo Ltd,578.66,578.66,Electronics
+2023-03-30,Walmart,77.2,38.6,Groceries

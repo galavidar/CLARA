@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Walgreens,72.44,72.44,Health
+2023-01-04,Target,90.47,90.47,Groceries
+2023-01-06,Amazon,172.56,86.28,Electronics
+2023-01-14,"Frazier, Burch and Garcia",249.04,249.04,Travel
+2023-01-16,Zara,54.06,54.06,Clothing
+2023-01-17,Nelson and Sons,46.84,23.42,Health
+2023-01-24,Delta Airlines,140.78,140.78,Travel
+2023-01-25,Walgreens,96.87,48.44,Health
+2023-01-26,Jennings-Ruiz,348.4,348.4,Home
+2023-01-27,Adidas,173.14,173.14,Clothing
+2023-02-01,Alexander-Middleton,20.65,20.65,Health
+2023-02-02,Delta Airlines,480.16,480.16,Travel
+2023-02-03,McDonald's,54.04,54.04,Dining
+2023-02-04,Willis-Lee,41.4,41.4,Clothing
+2023-02-10,Miles-Taylor,66.86,66.86,Clothing
+2023-02-12,Adidas,176.18,176.18,Clothing
+2023-02-13,Target,41.51,41.51,Groceries
+2023-02-14,CVS,92.51,92.51,Health
+2023-02-21,Walmart,41.18,41.18,Groceries
+2023-02-25,"Thompson, Durham and Cruz",57.95,57.95,Clothing
+2023-02-26,"Martinez, Patel and Fisher",112.82,112.82,Groceries
+2023-03-01,Walker and Sons,94.47,47.23,Travel
+2023-03-02,Hayes-Nguyen,54.19,54.19,Dining
+2023-03-03,Jackson Group,345.47,345.47,Travel
+2023-03-06,Graham-Spence,107.98,107.98,Groceries
+2023-03-08,Shah Inc,161.67,161.67,Home
+2023-03-09,Adidas,143.3,143.3,Clothing
+2023-03-10,"Underwood, Figueroa and Gilbert",109.46,109.46,Groceries
+2023-03-12,Zara,95.64,95.64,Clothing
+2023-03-13,Silva Group,81.76,81.76,Clothing
+2023-03-14,Delta Airlines,493.22,493.22,Travel
+2023-03-16,Uber,154.15,154.15,Travel
+2023-03-18,Amazon,927.89,309.3,Electronics
+2023-03-19,H&M,50.03,16.68,Clothing
+2023-03-22,Martinez-Jones,210.22,70.07,Home
+2023-03-24,Zara,133.01,133.01,Clothing
+2023-03-25,Uber,494.6,494.6,Travel
+2023-03-26,Delta Airlines,223.22,74.41,Travel
+2023-03-28,Target,82.25,82.25,Groceries

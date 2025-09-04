@@ -1,0 +1,30 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,"Stephenson, Garcia and King",721.7,721.7,Electronics
+2023-01-04,Goodman Ltd,345.19,345.19,Electronics
+2023-01-06,Cantrell-Frost,314.88,314.88,Home
+2023-01-10,Herrera-Burns,205.9,102.95,Electronics
+2023-01-12,Delta Airlines,352.33,352.33,Travel
+2023-01-14,Delta Airlines,308.0,308.0,Travel
+2023-01-15,Nike,33.86,33.86,Clothing
+2023-01-19,Amazon,126.35,42.12,Electronics
+2023-01-20,Nike,177.33,88.67,Clothing
+2023-01-26,Starbucks,17.11,17.11,Dining
+2023-01-29,IKEA,399.61,199.81,Home
+2023-02-05,Amazon,129.29,129.29,Electronics
+2023-02-08,Nike,190.43,190.43,Clothing
+2023-02-11,Zara,36.34,36.34,Clothing
+2023-02-12,CVS,79.86,79.86,Health
+2023-02-15,Walmart,33.26,33.26,Groceries
+2023-02-16,Zara,157.25,52.42,Clothing
+2023-02-18,Apple,441.8,441.8,Electronics
+2023-02-21,Gardner and Sons,137.42,137.42,Clothing
+2023-02-24,Rodriguez PLC,14.64,14.64,Dining
+2023-02-25,Starbucks,57.82,57.82,Dining
+2023-03-05,Nike,33.65,33.65,Clothing
+2023-03-09,Jones PLC,51.27,51.27,Groceries
+2023-03-15,"Wood, Carroll and Taylor",78.46,78.46,Clothing
+2023-03-16,Walmart,147.53,147.53,Groceries
+2023-03-22,McDonald's,49.16,49.16,Dining
+2023-03-23,Walmart,126.09,126.09,Groceries
+2023-03-27,Nike,124.55,124.55,Clothing
+2023-03-30,Ford-Carter,125.1,41.7,Clothing

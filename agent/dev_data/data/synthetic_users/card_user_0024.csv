@@ -1,0 +1,37 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-03,IKEA,371.63,371.63,Home
+2023-01-07,"Ortega, Green and Duarte",93.96,93.96,Entertainment
+2023-01-08,Uber,490.12,490.12,Travel
+2023-01-11,Starbucks,19.09,19.09,Dining
+2023-01-14,Wilson Group,444.87,444.87,Electronics
+2023-01-16,CVS,47.97,47.97,Health
+2023-01-18,Delta Airlines,57.72,57.72,Travel
+2023-01-21,Delta Airlines,298.18,298.18,Travel
+2023-01-22,CVS,22.4,22.4,Health
+2023-01-23,Zara,93.19,93.19,Clothing
+2023-01-24,Barnes and Sons,63.58,63.58,Travel
+2023-01-28,Uber,339.1,339.1,Travel
+2023-01-31,H&M,150.59,150.59,Clothing
+2023-02-02,Cobb LLC,50.83,50.83,Dining
+2023-02-04,Page-Roach,27.53,13.77,Health
+2023-02-06,Walmart,28.49,28.49,Groceries
+2023-02-07,McDonald's,56.46,56.46,Dining
+2023-02-09,H&M,31.44,31.44,Clothing
+2023-02-12,CVS,55.32,55.32,Health
+2023-02-13,Solis-Coleman,246.95,246.95,Home
+2023-02-20,Davis and Sons,13.6,13.6,Health
+2023-02-21,"Reese, Nelson and Gallegos",57.9,57.9,Dining
+2023-02-22,Walgreens,88.34,88.34,Health
+2023-02-25,Walgreens,51.47,51.47,Health
+2023-03-01,Target,139.23,46.41,Groceries
+2023-03-02,Zara,116.01,116.01,Clothing
+2023-03-05,"Welch, Porter and Keller",40.09,13.36,Groceries
+2023-03-06,Walmart,65.36,65.36,Groceries
+2023-03-10,Target,83.22,83.22,Groceries
+2023-03-11,Starbucks,57.43,28.71,Dining
+2023-03-12,Zara,40.61,40.61,Clothing
+2023-03-15,Starbucks,13.46,13.46,Dining
+2023-03-17,Contreras-Austin,54.75,54.75,Dining
+2023-03-18,Zara,111.88,111.88,Clothing
+2023-03-23,Delta Airlines,472.54,472.54,Travel
+2023-03-24,Nike,188.75,188.75,Clothing

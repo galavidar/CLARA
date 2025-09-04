@@ -1,0 +1,32 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-07,H&M,121.86,121.86,Clothing
+2023-01-12,Walgreens,39.12,39.12,Health
+2023-01-15,Nike,97.65,97.65,Clothing
+2023-01-16,Fowler and Sons,53.71,53.71,Dining
+2023-01-20,Uber,300.11,300.11,Travel
+2023-01-23,Starbucks,50.63,50.63,Dining
+2023-01-24,Davis Ltd,75.84,75.84,Health
+2023-01-28,Vasquez-Tanner,859.13,859.13,Electronics
+2023-01-30,"Morales, Sanders and Rodriguez",31.8,31.8,Health
+2023-02-08,Walgreens,91.21,45.6,Health
+2023-02-09,"Richard, Turner and Coleman",31.56,31.56,Clothing
+2023-02-13,CVS,54.93,54.93,Health
+2023-02-14,Starbucks,20.16,20.16,Dining
+2023-02-16,"Jones, Galvan and Parker",65.52,65.52,Entertainment
+2023-02-17,Amazon,625.85,312.93,Electronics
+2023-02-18,H&M,92.82,92.82,Clothing
+2023-02-19,IKEA,233.27,233.27,Home
+2023-02-20,H&M,82.92,82.92,Clothing
+2023-02-25,"Elliott, Vaughan and Simpson",81.79,81.79,Groceries
+2023-02-28,Amazon,109.13,36.38,Electronics
+2023-03-03,Coleman Inc,84.79,84.79,Health
+2023-03-04,McDonald's,17.64,17.64,Dining
+2023-03-12,Starbucks,16.43,16.43,Dining
+2023-03-14,Lyons-Carpenter,122.98,122.98,Clothing
+2023-03-15,Walmart,117.15,117.15,Groceries
+2023-03-16,IKEA,211.39,211.39,Home
+2023-03-18,Walgreens,10.37,10.37,Health
+2023-03-24,CVS,19.38,19.38,Health
+2023-03-27,CVS,73.84,73.84,Health
+2023-03-28,"Johnson, Mitchell and Scott",16.8,5.6,Dining
+2023-03-31,Walgreens,39.86,39.86,Health

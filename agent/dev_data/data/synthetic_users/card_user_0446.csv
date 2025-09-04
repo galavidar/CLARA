@@ -1,0 +1,40 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-01,Delta Airlines,168.56,168.56,Travel
+2023-01-02,Nike,183.18,183.18,Clothing
+2023-01-03,Francis-Vasquez,234.23,234.23,Home
+2023-01-14,"Black, Reed and Stewart",161.61,161.61,Clothing
+2023-01-15,Amazon,442.89,442.89,Electronics
+2023-01-18,McDonald's,50.11,50.11,Dining
+2023-01-22,Walmart,62.12,62.12,Groceries
+2023-01-23,Starbucks,27.53,27.53,Dining
+2023-01-24,Walgreens,21.23,21.23,Health
+2023-01-25,Nike,168.18,168.18,Clothing
+2023-01-26,"Madden, Paul and Schultz",176.65,176.65,Home
+2023-01-30,Amazon,159.36,79.68,Electronics
+2023-01-31,Starbucks,18.4,18.4,Dining
+2023-02-03,CVS,40.59,40.59,Health
+2023-02-05,CVS,21.29,21.29,Health
+2023-02-07,Barrett and Sons,124.67,124.67,Groceries
+2023-02-08,Zara,195.77,97.89,Clothing
+2023-02-09,Walgreens,88.7,88.7,Health
+2023-02-10,Frazier-Ryan,63.48,63.48,Home
+2023-02-11,CVS,90.65,90.65,Health
+2023-02-14,Robbins PLC,54.26,54.26,Dining
+2023-02-22,IKEA,112.36,112.36,Home
+2023-02-26,CVS,53.25,53.25,Health
+2023-02-27,Graham-Miller,81.42,81.42,Entertainment
+2023-02-28,Delta Airlines,158.51,158.51,Travel
+2023-03-01,"Johnson, Evans and Vaughan",171.78,171.78,Clothing
+2023-03-06,Apple,677.25,677.25,Electronics
+2023-03-07,Reed Ltd,112.23,37.41,Home
+2023-03-09,IKEA,303.11,303.11,Home
+2023-03-10,CVS,64.64,64.64,Health
+2023-03-12,McDonald's,33.52,33.52,Dining
+2023-03-15,Walmart,35.33,17.66,Groceries
+2023-03-17,"Foster, Stewart and Oneal",402.17,402.17,Travel
+2023-03-18,H&M,120.87,120.87,Clothing
+2023-03-21,Miller Group,22.6,22.6,Entertainment
+2023-03-22,Delta Airlines,459.5,459.5,Travel
+2023-03-27,Starbucks,28.53,28.53,Dining
+2023-03-28,Morales-Johnson,705.82,705.82,Electronics
+2023-03-31,"Beck, Steele and Parrish",368.75,184.38,Electronics

@@ -1,0 +1,38 @@
+date,business_name,amount_of_deal,amount_paid,category
+2023-01-05,Uber,110.31,55.16,Travel
+2023-01-07,Nike,53.88,53.88,Clothing
+2023-01-13,"Crane, Carson and Holder",366.76,122.25,Home
+2023-01-15,McDonald's,48.34,48.34,Dining
+2023-01-18,"Hess, Martinez and Robinson",146.97,146.97,Clothing
+2023-01-20,Watkins Group,242.77,242.77,Electronics
+2023-01-27,Apple,748.26,748.26,Electronics
+2023-01-29,Martinez-White,208.88,208.88,Travel
+2023-01-31,Zara,82.79,82.79,Clothing
+2023-02-02,Haney-Bowman,27.98,27.98,Dining
+2023-02-09,McDonald's,26.04,26.04,Dining
+2023-02-10,Walmart,147.55,147.55,Groceries
+2023-02-12,Starbucks,54.29,54.29,Dining
+2023-02-13,Young-Glover,69.31,69.31,Groceries
+2023-02-15,Walker-Chavez,117.43,117.43,Travel
+2023-02-19,Adidas,114.14,114.14,Clothing
+2023-02-25,Mcclure Inc,58.7,58.7,Clothing
+2023-02-26,McDonald's,25.51,25.51,Dining
+2023-02-27,Target,127.88,127.88,Groceries
+2023-02-28,Nike,178.56,59.52,Clothing
+2023-03-01,Johnson-Wilson,211.75,211.75,Home
+2023-03-05,Delta Airlines,85.32,85.32,Travel
+2023-03-09,Delta Airlines,87.44,87.44,Travel
+2023-03-10,CVS,78.27,78.27,Health
+2023-03-11,IKEA,48.14,48.14,Home
+2023-03-12,Target,123.79,123.79,Groceries
+2023-03-15,Target,88.45,88.45,Groceries
+2023-03-16,Smith-Guerrero,54.12,54.12,Clothing
+2023-03-17,Graham Inc,598.02,598.02,Electronics
+2023-03-18,Apple,707.62,707.62,Electronics
+2023-03-22,McDonald's,59.62,59.62,Dining
+2023-03-23,Amazon,688.79,688.79,Electronics
+2023-03-24,Lee-Elliott,35.92,35.92,Groceries
+2023-03-25,Delta Airlines,122.32,122.32,Travel
+2023-03-26,"Logan, Davis and Barton",498.51,166.17,Travel
+2023-03-28,Adidas,101.03,101.03,Clothing
+2023-03-31,Walgreens,47.56,47.56,Health
