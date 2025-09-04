@@ -157,7 +157,7 @@ elif st.session_state.page == "processing":
     }
     st.session_state.applications.append(application_record)
 
-    with open("./outputs/application_decisions_history.json", "a", encoding="utf-8") as f:
+    with open("./agent/outputs/application_decisions_history.json", "a", encoding="utf-8") as f:
         json.dump(st.session_state.applications, f, indent=2, ensure_ascii=False)
 
     st.session_state.decision = decision
