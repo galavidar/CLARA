@@ -89,7 +89,7 @@ def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_
         SystemMessagePromptTemplate.from_template("You are a financial reporting agent. You generate professional, bank-internal style documentation for loan applications." 
                                                   "Your task is to generate a report justifying the loan decision."),
         HumanMessagePromptTemplate.from_template(
-            """
+        """
         Task: Generate a loan decision report.
 
          Inputs:
@@ -108,8 +108,8 @@ def build_loan_report_prompt(loan_data, profiles, features, interest_rate, loan_
          2. Integrate behavioural profile validation + reasoning.
          3. Include financial analysis with interest rate, risk score, and debt-to-income ratio.
          4. Provide a final decision with motivation.
-         5. Calculate the required monthly installments (with interest) to include in the report.
-         6. Generate a full professional report suitable for bank internal documentation.
+         5. Calculate the required monthly installments (with interest) to include in the report. Do not show full calculations.
+         6. Generate a full professional report suitable for bank internal documentation. This report should be able to render well in a simple markdown text reader. 
          7. If provided, pay attention to the user directives when creating the report.
          """
         )
