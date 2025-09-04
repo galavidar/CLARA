@@ -93,6 +93,7 @@ Each file simulates a user's financial behavior.
 Real loan data is available from the [Lending Club dataset](https://www.kaggle.com/datasets/wordsforthewise/lending-club) and was uploaded to our Vector DB. The data itself was too large to upload to the repo.
 
 ## 📁 Project Structure
+```
 CLARA/
 ├── agent/                          # Core agent system
 │   ├── dev_data/                   # Datasets, processing & model training (development) code
@@ -129,3 +130,4 @@ CLARA/
 ├── clara_app.py                   # Streamlit web interface
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
+```
