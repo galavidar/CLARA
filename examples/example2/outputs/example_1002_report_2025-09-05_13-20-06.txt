@@ -1,0 +1,112 @@
+# Loan Decision Report  
+**Applicant Name**: [Name to be provided]  
+**Application Date**: [Date to be provided]  
+**Document Reference Number**: [Reference Number to be provided]  
+
+---
+
+## **1. Loan Request Overview**  
+- **Requested Loan Amount**: $10,000  
+- **Requested Loan Term**: 36 months  
+- **Purpose of Loan**: Vacation  
+- **Applicant Occupation**: Nurse  
+- **Employment Tenure**: 8 years  
+- **Home Status**: Mortgage  
+
+---
+
+## **2. Behavioural Profile Analysis**  
+
+### **Validated Attributes**:  
+- **Income Stability**:  
+  The applicant’s income variability is extremely low, as demonstrated by an income standard deviation of **$125.38** across monthly earnings. This signifies stable employment and predictable earnings.  
+
+- **Savings Habit**:  
+  A high savings rate of **54.7%** indicates responsible financial planning and consistent savings behavior.  
+
+- **Liquidity Position**:  
+  No overdrafts and a credit card payment ratio of **1.03** (indicating full payoff of monthly balances) demonstrate sound liquidity management.  
+
+- **Debt Dependence**:  
+  The applicant does not appear reliant on debt to manage monthly expenses, further validated by their manageable **monthly debt** of **$1,000** relative to income.  
+
+- **Category Concentration Risk**:  
+  Spending is not overly concentrated in any one category, with the top category consuming only **34.07%** of expenditures.  
+
+### **Overridden Attributes**:  
+- **Expense Volatility**:  
+  An expense standard deviation of **$776.89** reflects higher spending fluctuations month-to-month, resulting in concern over possible instability in discretionary spending.  
+
+### **Areas of Concern**:  
+- **Growth Potential**:  
+  The applicant’s financial trajectory reflects negative trends, including declining income (**-80.71**) and savings (**-311.02**) while expenses have increased substantially (**+230.31**). These trends indicate the absence of future growth potential.  
+
+---
+
+## **3. Financial Analysis**  
+
+### **Key Metrics**:  
+1. **Debt-to-Income Ratio (DTI)**:  
+   - **Monthly Income**: $5,500 (estimated from annual income of $66,000).  
+   - **Monthly Debt Obligations**: $1,000.  
+   - **DTI Ratio**: ~18.2%.  
+   - **Evaluation**: The DTI ratio is well below concerning levels, indicating that the applicant can comfortably take on additional debt.  
+
+2. **Credit Score**:  
+   - Score: **660** (fair).  
+   - **Evaluation**: Adequate for loan approval, particularly given the absence of delinquencies or bankruptcy history.  
+
+3. **Risk Score**:  
+   - Calculated Risk Score: **0.5905** (moderate risk).  
+   - **Evaluation**: The moderate score aligns with approval under adjusted terms.  
+
+4. **Interest Rate**:  
+   - Interest Rate: **10.9%** (medium risk rate).  
+   - **Evaluation**: Appropriate given the applicant’s financial profile and discretionary loan purpose.  
+
+5. **Monthly Installments**:  
+   Using the loan amount of $10,000, term of 30 months, and interest rate of 10.9%, the **monthly installment** is approximately **$373.43**.  
+
+---
+
+## **4. Final Decision**  
+
+### **Decision**: Approved  
+
+### **Motivation**:  
+The applicant demonstrates strong financial metrics overall, including a high savings rate (**54.7%**), stable income, and manageable monthly debt (**$1,000**). Their behavioral profile reinforces low liquidity stress, strong savings habits, and a lack of debt dependence. Additionally, the applicant has no history of delinquencies or bankruptcy—a key element for loan consideration.  
+
+While the purpose of the loan (**vacation**) is discretionary, historical data indicates similar cases with non-essential purposes have been approved under similar terms. Furthermore, the applicant’s moderate risk score (**0.5905**) justifies approval at an interest rate of **10.9%** and a loan term reduced to 30 months to mitigate extended risk exposure.  
+
+---
+
+## **5. Required Monthly Installments**  
+**Loan Amount**: $10,000  
+**Interest Rate**: 10.9%  
+**Loan Term**: 30 months  
+
+**Estimated Monthly Installment**: $373.43  
+
+---
+
+## **6. Supporting Historical Case Comparisons**  
+To justify the discretionary loan purpose decision, past cases with similar parameters were approved under medium-risk interest rates:  
+
+- **Case ID [114000010]:** Loan approved for “non-critical” purpose at 11.2% interest (36-month term).  
+- **Case ID [119003794]:** Loan approved for “other” purpose at 10.8% interest (30-month term).  
+- **Case ID [204002285]:** Loan approved for “vacation” at 10.9% interest (30-month term).  
+
+---
+
+## **7. Conclusion**  
+This loan is approved under adjusted terms (**$10,000 loan, 10.9% interest, 30-month term**) given the applicant’s strong financial stability, low debt-to-income ratio, and sound liquidity position. The discretionary nature of the loan purpose is managed through historical case comparisons and moderate risk assessment.  
+
+---
+
+**Prepared by**: [Your Name]  
+**Title**: Financial Reporting Agent  
+**Date**: [Date to be provided]  
+
+---  
+
+*This report is for internal banking use only and should not be shared externally without proper authorization.*

@@ -1,0 +1,6 @@
+{
+  "decision": "rejected",
+  "reason": "The applicant's risk score (0.8367) is high, indicating elevated credit risk. While the credit score (720) and strong savings habit are positive factors, the applicant's income trend is negative, and expense volatility is high, suggesting financial instability. Additionally, the loan amount ($50,000) and term (60 months) are substantially larger and longer than those of similar approved cases, which could exacerbate repayment risk. Referenced similar cases [217001619, 193003043] involved lower risk scores, higher incomes, and quantities within a more manageable range.",
+  "interest_rate": 0.12367016877028326,
+  "loan_term": 60
+}

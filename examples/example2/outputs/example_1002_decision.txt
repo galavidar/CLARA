@@ -1,0 +1,6 @@
+{
+  "decision": "accepted",
+  "reason": "The applicant demonstrates strong financial metrics, including a high savings rate (54.7%), stable income, manageable monthly debt, and no history of delinquencies or bankruptcy. The behavioral profile indicates good liquidity, strong savings habits, and low debt dependence. While the loan purpose ('vacation') is discretionary, similar past cases with non-critical purposes ('other') were approved under medium-risk interest rates (case IDs: [114000010], [119003794], [204002285]). The applicant's moderate risk score (0.5905) justifies approval with adjusted terms to align with their financial stability.",
+  "interest_rate": 0.109,
+  "loan_term": 30
+}

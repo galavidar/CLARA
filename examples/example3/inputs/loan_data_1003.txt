@@ -1,0 +1,14 @@
+loan_data={
+            "loan_amount": 40000,
+            "loan_term": 48,
+            "job_title": 'Financial Manager',
+            "job_tenure": 1,
+            "home_status": 'OWN',
+            "annual_income": 120000,
+            "loan_purpose": 'debt consolidation',
+            "monthly_debt": 3000,
+            "delinquencies": 'no',
+            "credit_score": 580,
+            "accounts": 14,
+            "bankruptcy": 'yes',
+        }

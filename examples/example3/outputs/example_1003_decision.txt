@@ -1,0 +1,6 @@
+{
+  "decision": "rejected",
+  "reason": "The applicant's risk score of 0.828 suggests high credit risk, primarily due to a prior bankruptcy and low credit score (580). While the applicant has stable income, high savings behavior, and no signs of liquidity stress, these positive attributes are not sufficient to mitigate the negative impact of bankruptcy history and high monthly debt ($3000) relative to income. Additionally, past cases with similar risk scores and loan purposes (debt consolidation), such as [582000406, 581004486, 582000788, 634000897, 634004037], were consistently rejected. The loan amount requested ($40,000) is significantly higher than the amounts requested in past cases, further increasing the financial risk.",
+  "interest_rate": null,
+  "loan_term": null
+}

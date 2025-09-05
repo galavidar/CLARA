@@ -1,0 +1,8 @@
+comment_inputs = {
+                    'banker_comments': "Seems like a stable applicant. I would lean to approve",
+                    'risk_tolerance': "medium",
+                }
+action_on_decision = 'generate_report'
+action_on_report = 'edit_regenerate_report'
+editing_comments = 'There is not enough consideration given to the decision to shorten the loan term, please expand on the motivation for this. Also, please beef up the conclusion.'
+action_on_regeneration = 'finish'

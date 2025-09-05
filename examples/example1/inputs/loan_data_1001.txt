@@ -1,0 +1,14 @@
+loan_data={
+            "loan_amount": 50000,
+            "loan_term": 60,
+            "job_title": 'Software Engineer',
+            "job_tenure": 2,
+            "home_status": 'RENT',
+            "annual_income": 72000,
+            "loan_purpose": 'house',
+            "monthly_debt": 300,
+            "delinquencies": 'no',
+            "credit_score": 720,
+            "accounts": 5,
+            "bankruptcy": 'no',
+        }

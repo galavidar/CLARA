@@ -1,0 +1,10 @@
+comment_inputs = {
+                    'banker_comments': "Although a high earner, seems to have high debt and a history of financial mismanagement . I am unsure about this one",
+                    'risk_tolerance': "high",
+                }
+action_on_decision = 'generate_report'
+action_on_report = 'edit_regenerate_report'
+editing_comments = 'Please change the date to 05/09/2025'
+action_on_regeneration = 'edit_regenerate_report'
+editing_comments = 'Thanks, it's quite a long report. Please make it more concise'
+action_on_regeneration = 'finish'

@@ -1,0 +1,6 @@
+comment_inputs = {
+                    'banker_comments': "A junior software developer that is looking to buy a home. Low base salary owing to lack of experience, potential for future growth.",
+                    'risk_tolerance': "medium",
+                }
+action_on_decision = 'generate_report'
+action_on_report = 'finish'

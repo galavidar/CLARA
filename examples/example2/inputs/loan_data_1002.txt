@@ -1,0 +1,14 @@
+loan_data={
+            "loan_amount": 10000,
+            "loan_term": 36,
+            "job_title": 'nurse',
+            "job_tenure": 8,
+            "home_status": 'MORTGAGE',
+            "annual_income": 66000,
+            "loan_purpose": 'vacation',
+            "monthly_debt": 1000,
+            "delinquencies": 'no',
+            "credit_score": 660,
+            "accounts": 8,
+            "bankruptcy": 'no',
+        }
