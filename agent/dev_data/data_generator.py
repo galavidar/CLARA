@@ -16,7 +16,7 @@ DAYS = 90  # 3 months
 OUTPUT_DIR = output_dir
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 fake = Faker()
-random.seed(18)
+random.seed(154)
 
 # ------------------- MAPPINGS -------------------
 merchant_category_map = {
@@ -63,7 +63,7 @@ def get_amount_for_category(category):
 def generate_user_data(user_id):
     start_date = datetime(2023, 1, 1)
     balance = random.uniform(1000, 10000)
-    base_salary = round(random.uniform(3000, 7000), 2)
+    base_salary = round(random.uniform(2000, 10000), 2)
     salary_day = random.randint(1, 5)
     interest_day = random.randint(20, 28)
 

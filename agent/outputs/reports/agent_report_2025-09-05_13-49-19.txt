@@ -1,0 +1,94 @@
+# **Loan Decision Report**
+
+---
+
+## **Applicant Request Overview**
+
+**Loan Amount:** $40,000  
+**Loan Term:** 48 months  
+**Purpose:** Debt Consolidation  
+**Employment:** Financial Manager (Job Tenure: 1 year)  
+**Home Status:** Owner  
+**Annual Income:** $120,000  
+
+Date of Report: **05/09/2025**
+
+---
+
+### **Behavioural Profile & Financial Summary**
+
+#### **Behavioural Profile Overview**
+
+1. **Positive Attributes:**
+   - **Stable Income:** Month-to-month income shows low volatility (income std: $270.71).  
+   - **Savings Habits:** High savings rate (56.16%) with disciplined behavior, despite recent negative savings trend.  
+   - **Liquidity Stability:** No overdraft usage and responsible credit management (credit card payment ratio > 1).  
+   - **Prudent Spending:** Low discretionary spending share (28.97%), indicating balanced financial choices.  
+2. **Risks:**
+   - **Sector Concentration:** Spending is heavily concentrated in Electronics and Travel, increasing vulnerability to specific financial shocks.  
+
+#### **Key Financial Metrics**
+
+- **Debt-to-Income (DTI) Ratio:**  
+   Monthly debt ($3,000) to monthly income ($10,000) results in a **DTI of 30%.** While within acceptable limits, it represents a sizeable obligation relative to income.
+
+- **Credit Score:**  
+   The applicant's score of **580** is subprime and suggests heightened credit risk.
+
+- **Bankruptcy History:**  
+   Previous bankruptcy significantly impacts creditworthiness, increasing perceived risk despite positive behavioral improvements.
+
+- **Risk Score:**  
+   The calculated risk score is **0.828**, placing the applicant in a high-risk category. Similar cases with comparable risk scores and purposes (debt consolidation) have been consistently rejected (case examples: [582000406, 581004486, 582000788, 634000897, 634004037]).
+
+- **Loan Amount Requested:**  
+   The $40,000 request is substantially higher than the amounts typically approved for similar risk profiles.
+
+---
+
+### **Interest Rate & Installment Analysis**
+
+#### **Interest Rate:**  
+Given the rejection decision, no interest rate is offered.
+
+#### **Hypothetical Monthly Installments:**  
+If approved with a competitive interest rate of **8.5%**, the monthly payment would approximate **$978.46** over 48 months.
+
+---
+
+### **Final Decision**
+
+#### **Decision:** **Rejected**  
+
+#### **Reasoning:**  
+The applicant's loan request has been rejected based on the following considerations:
+
+1. **High Credit Risk:**  
+   - **Bankruptcy History:** Prior financial insolvency introduces significant credit risk, despite positive improvements in savings and income stability.  
+   - **Subprime Credit Score:** A score of **580** signals elevated default risk.  
+
+2. **Debt Burden & Loan Amount:**  
+   - Monthly debt payments of $3,000 represent a substantial obligation relative to disposable income.  
+   - Requested loan amount of $40,000 exceeds historical precedent for similar high-risk profiles.
+
+3. **Risk Score:**  
+   - The applicant’s calculated risk score (**0.828**) places them squarely in the high-risk bracket. Historical loan records confirm consistent rejection for cases with similar risk scores and loan purposes (debt consolidation).  
+
+While the applicant displays disciplined financial behaviors (e.g., saving habits, stable income, low discretionary spending), these attributes are insufficient to offset the heightened risk posed by bankruptcy history, subprime credit score, and significant debt obligations.
+
+---
+
+### **Summary Evaluation**
+
+The applicant demonstrates some positive financial behaviors, including stable income, prudent spending, and consistent savings practices. However, overriding concerns—such as prior bankruptcy, low credit score, significant monthly debt, and elevated risk score—present substantial credit risk exposure. Furthermore, the requested loan amount exacerbates financial risk, as similar cases were historically rejected.
+
+Approval of this loan application would impose undue risk, and future reconsideration should be contingent on improved credit history, reduced debt-to-income ratio, and sustained financial stability over time.
+
+---
+
+**Prepared By:**  
+Financial Reporting Agent  
+Bank Internal Documentation  
+**Date:** **05/09/2025**
+
+---

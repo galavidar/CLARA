@@ -214,7 +214,6 @@ elif st.session_state.page == "report":
 # --- REPORT EDIT PAGE ---
 elif st.session_state.page == "report_edit":
     st.title("✏️ Edit & Regenerate Report")
-    st.subheader("Existing Report")
     st.write(st.session_state.generated_report)
 
     st.subheader("Add Your Comments")

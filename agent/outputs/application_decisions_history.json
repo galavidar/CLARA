@@ -1,81 +1,61 @@
 [
   {
-    "user_id": "0acabf60-accf-40ec-b4ef-8112661bc7d2",
+    "user_id": "a0035794-62ad-4fb8-a51d-9a705907e843",
     "loan_data": {
-      "loan_amount": 100000,
-      "loan_term": 48,
-      "job_title": "hairdresser",
-      "job_tenure": 7,
+      "loan_amount": 50000,
+      "loan_term": 60,
+      "job_title": "Software Engineer",
+      "job_tenure": 2,
       "home_status": "RENT",
-      "annual_income": 96000,
+      "annual_income": 72000,
       "loan_purpose": "house",
-      "monthly_debt": 1000,
+      "monthly_debt": 300,
       "delinquencies": "no",
-      "credit_score": 690,
-      "accounts": 9,
+      "credit_score": 720,
+      "accounts": 5,
       "bankruptcy": "no"
     },
-    "decision": "accepted",
-    "LLM_motivation": "The applicant exhibits strengths including income stability, absence of delinquencies, a moderate credit score (690), and strong savings habits. While there are risk indicators such as negative financial trends and spending category concentration, these are mitigated by their ability to manage savings and maintain liquidity. Similar past cases [228003472, 214003086, 96004968] demonstrate acceptance of applicants with lower income, comparable or worse credit scores, and higher debt-to-income ratios, provided the terms aligned with the risk profile. To reduce exposure, adjustments to loan terms have been made."
+    "decision": "rejected",
+    "LLM_motivation": "The applicant's risk score (0.8367) is high, indicating elevated credit risk. While the credit score (720) and strong savings habit are positive factors, the applicant's income trend is negative, and expense volatility is high, suggesting financial instability. Additionally, the loan amount ($50,000) and term (60 months) are substantially larger and longer than those of similar approved cases, which could exacerbate repayment risk. Referenced similar cases [217001619, 193003043] involved lower risk scores, higher incomes, and quantities within a more manageable range."
   }
 ][
   {
-    "user_id": "aea4e6cd-789f-4e6c-8ddc-4e721b3a6853",
+    "user_id": "70c72888-9302-42d3-92c1-2c8c322df8a0",
     "loan_data": {
-      "loan_amount": 1100000,
-      "loan_term": 34,
-      "job_title": "hairdresser",
+      "loan_amount": 10000,
+      "loan_term": 36,
+      "job_title": "nurse",
+      "job_tenure": 8,
+      "home_status": "MORTGAGE",
+      "annual_income": 66000,
+      "loan_purpose": "vacation",
+      "monthly_debt": 1000,
+      "delinquencies": "no",
+      "credit_score": 660,
+      "accounts": 8,
+      "bankruptcy": "no"
+    },
+    "decision": "accepted",
+    "LLM_motivation": "The applicant demonstrates strong financial metrics, including a high savings rate (54.7%), stable income, manageable monthly debt, and no history of delinquencies or bankruptcy. The behavioral profile indicates good liquidity, strong savings habits, and low debt dependence. While the loan purpose ('vacation') is discretionary, similar past cases with non-critical purposes ('other') were approved under medium-risk interest rates (case IDs: [114000010], [119003794], [204002285]). The applicant's moderate risk score (0.5905) justifies approval with adjusted terms to align with their financial stability."
+  }
+][
+  {
+    "user_id": "2505c32d-b2b7-4846-acb4-0c077ccb6d5a",
+    "loan_data": {
+      "loan_amount": 40000,
+      "loan_term": 48,
+      "job_title": "Financial Manager",
       "job_tenure": 1,
       "home_status": "OWN",
-      "annual_income": 1334000,
-      "loan_purpose": "major purchase",
-      "monthly_debt": 4040,
-      "delinquencies": "yes",
-      "credit_score": 830,
-      "accounts": 7,
+      "annual_income": 120000,
+      "loan_purpose": "debt consolidation",
+      "monthly_debt": 3000,
+      "delinquencies": "no",
+      "credit_score": 580,
+      "accounts": 14,
       "bankruptcy": "yes"
     },
     "decision": "rejected",
-    "LLM_motivation": "The applicant has a very high risk score (0.9999997745594524), indicating an extremely high risk of default. Additional concerning factors include a recent bankruptcy, delinquencies, and extremely high loan requested relative to income and financial profiles. Past cases such as [80003507] and [198004905] show similarly high-risk applicants with lower amounts requested were accepted but ultimately charged off or did not fully sustain payments. This, combined with the applicant's lack of long-term financial stability (only 1 year of job tenure and concentration risk in spending), suggests rejection is prudent."
-  }
-][
-  {
-    "user_id": "f8ab6cd0-24e5-40de-93b3-6eb520e23387",
-    "loan_data": {
-      "loan_amount": 23000,
-      "loan_term": 24,
-      "job_title": "teacher",
-      "job_tenure": 43,
-      "home_status": "NONE",
-      "annual_income": 48000,
-      "loan_purpose": "car",
-      "monthly_debt": 250,
-      "delinquencies": "no",
-      "credit_score": 750,
-      "accounts": 4,
-      "bankruptcy": "no"
-    },
-    "decision": "accepted",
-    "LLM_motivation": "The applicant has a strong financial profile with a high credit score (750), a stable job with 43 years of tenure, no delinquencies or signs of bankruptcy, and a healthy savings rate (45.22%). The discretionary spending share is low (21.75%), and income is stable with positive growth potential. Compared to similar past cases [140004123, 178002590], which involved teachers with stable income and high credit scores, loans were accepted at rates of 7.39% and 7.07%. Adjustments to the interest rate and loan term are recommended to better align with this applicant’s risk score (0.468), which is lower than those referenced cases."
-  }
-][
-  {
-    "user_id": "141d21b2-48a4-4c02-a5e9-2ec67131f6da",
-    "loan_data": {
-      "loan_amount": 1800,
-      "loan_term": 6,
-      "job_title": "Dog walker",
-      "job_tenure": 1,
-      "home_status": "RENT",
-      "annual_income": 24000,
-      "loan_purpose": "education",
-      "monthly_debt": 200,
-      "delinquencies": "no",
-      "credit_score": 700,
-      "accounts": 6,
-      "bankruptcy": "no"
-    },
-    "decision": "accepted",
-    "LLM_motivation": "The applicant's financial metrics, including a moderate risk score (0.31) and stable income, suggest that they are capable of managing the requested loan. However, high expense volatility and declining savings trends introduce notable financial risk. Referenced past cases [128001010, 185000078, 108001635] indicate that applicants with similar profiles and moderate risk scores were approved with slightly higher interest rates and more cautious loan terms. Adjustments to the interest rate aim to mitigate risks associated with the applicant's declining savings trend."
+    "LLM_motivation": "The applicant's risk score of 0.828 suggests high credit risk, primarily due to a prior bankruptcy and low credit score (580). While the applicant has stable income, high savings behavior, and no signs of liquidity stress, these positive attributes are not sufficient to mitigate the negative impact of bankruptcy history and high monthly debt ($3000) relative to income. Additionally, past cases with similar risk scores and loan purposes (debt consolidation), such as [582000406, 581004486, 582000788, 634000897, 634004037], were consistently rejected. The loan amount requested ($40,000) is significantly higher than the amounts requested in past cases, further increasing the financial risk."
   }
 ]
