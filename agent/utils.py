@@ -3,8 +3,6 @@ from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, API_VERSION, CHA
 from langchain_openai import AzureChatOpenAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 import os
-
-import json
 import re
 
 def normalize_json(obj):
@@ -133,3 +131,44 @@ def get_model(open_ai_model:str="gpt-4o-mini"):
         )
     
     return chat_model
+
+def normalize_markdown(obj):
+    """
+    Normalize input into a Markdown string safe for Streamlit's st.markdown().
+    
+    Handles:
+    - Already a string: returned as-is if valid Markdown.
+    - Strings with fenced code blocks (```markdown ... ```): unwraps the block.
+    - Dicts with keys like {"type": "markdown", "content": "..."}: extracts content.
+    - Lists of strings/dicts: joins them with newlines.
+    - Any other object: coerces to string.
+    """
+
+    # Case 1: Already a string
+    if isinstance(obj, str):
+        s = obj.strip()
+
+        # If string looks like ```markdown ... ```
+        match = re.match(r"```(?:markdown)?\s*(.*?)\s*```", s, flags=re.DOTALL | re.IGNORECASE)
+        if match:
+            return match.group(1).strip()
+
+        return s
+
+    # Case 2: Dict-like input
+    if isinstance(obj, dict):
+        # Handle JSON-style "markdown objects"
+        if "content" in obj:
+            return str(obj["content"]).strip()
+        if "markdown" in obj:
+            return str(obj["markdown"]).strip()
+        # Fallback: pretty-print dict as JSON inside a code block
+        return "```json\n" + json.dumps(obj, indent=2, ensure_ascii=False) + "\n```"
+
+    # Case 3: List-like input
+    if isinstance(obj, (list, tuple)):
+        parts = [normalize_markdown(x) for x in obj]
+        return "\n\n".join(parts)
+
+    # Case 4: Unexpected type → just string
+    return str(obj)

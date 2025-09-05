@@ -5,7 +5,7 @@ import pandas as pd
 import uuid
 from clara_agents_pipeline import LoanEligibilityChain
 from report_generator_agent import generate_loan_report
-from utils import normalize_json
+from utils import normalize_json, normalize_markdown
 
 if "applications" not in st.session_state:
     st.session_state.applications = []
@@ -146,7 +146,7 @@ elif st.session_state.page == "processing":
         outcome = decision['decision']
         st.session_state.behavioral_profiles = result["behavioral_profiles"]
         st.session_state.user_features = result["user_features"]
-        st.session_state.generated_report = result["final_report"]
+        st.session_state.generated_report = normalize_markdown(result["final_report"])
 
     user_id = str(uuid.uuid4())  # unique ID for each applicant
     application_record = {
@@ -226,19 +226,20 @@ elif st.session_state.page == "report_edit":
     st.session_state.user_features = normalize_json(st.session_state.user_features)
     st.session_state.behavioral_profiles = normalize_json(st.session_state.behavioral_profiles)
     if st.button("🔄 Regenerate Report"):
-        decision = st.session_state.decision
-        user_comments = f"{st.session_state.user_comments}. The previous report was this: {st.session_state.generated_report}"
-        report_output = generate_loan_report(
-            st.session_state.loan_data,
-            st.session_state.behavioral_profiles,
-            st.session_state.user_features,
-            decision['interest_rate'],
-            decision['loan_term'],
-            decision,
-            decision['risk_score'],
-            user_comments
-        )
-        st.session_state.generated_report = report_output
-        st.session_state.user_comments = ""  # clear after use
+        with st.spinner("Regenerating the report, please wait..."):
+            decision = st.session_state.decision
+            user_comments = f"{st.session_state.user_comments}. The previous report was this: {st.session_state.generated_report}"
+            report_output = generate_loan_report(
+                st.session_state.loan_data,
+                st.session_state.behavioral_profiles,
+                st.session_state.user_features,
+                decision['interest_rate'],
+                decision['loan_term'],
+                decision,
+                decision['risk_score'],
+                user_comments
+            )
+            st.session_state.generated_report = report_output
+            st.session_state.user_comments = ""  # clear after use
         go_to("report")
         st.rerun()
