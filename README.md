@@ -69,8 +69,9 @@ The agents communicate through a **LangChain pipeline**, making the process iter
 
 ## ▶️ Running CLARA
 
-Run the Streamlit app:
+Make sure you are in the agent directory, and then run the Streamlit app:
 ```bash
+cd agent
 streamlit run clara_app.py
 ```
 Click on the link in the terminal for a locally hosted page.
@@ -81,6 +82,22 @@ That's all! Easy-peasy.
 - In order for CLARA to run, you will need labelled card transactions and bank statements in csv format. See the 'examples' directory for a sample upload.
 - On startup, the page will take a few seconds to render. Please be patient.
 - Once the application is submitted, the pipeline takes a couple of minutes to run and complete. Please be very patient. You can always track the progress in the terminal, or via the outputs.
+
+## 📮 Outputs
+- Each agent outputs their reponses into a dedicated .txt file in the agent/outputs/directory.
+- The streamlit interface displays the decision, a short motivation, and a generated report.
+- The output files contain only the outputs from the three example cases (testing outputs were deleted).
+- The total_tokens.txt file (in the tokens_count directory) contains all tokens used in the development of the project, but the running token log is found in the agent/outputs directory.
+
+### 📕 Examples 
+Each example directory contains an input folder with the following:
+  - 2 generated labelled csv files, (bank and card) containing the applicant's transactional data, to be uploaded to the streamlit interface.
+  - A loan_data.txt file, outlining the manual inputs for the streamlit application form.
+  - A comments.txt file, outlining the banker comments for the streamlit input, and the actions taken following the decision (report regeneration, comments, etc.).
+To replicate the outputs, fill out the streamlit form with the same inputs, upload the csv files, copy the banker comments into the text box, and select the given risk tolerance. Then, follow the instructions laid out in the comments.txt file.
+
+The outputs folder contains the final decision that is displayed on the streamlit interface, and the reports that were generated (several in the case of a regeneration request). The specific responses and decisions of each micro-agent can be found in the appropriate output file in the outputs directory. 
+
 
 ## 📊 Data
 
@@ -116,6 +133,7 @@ CLARA/
 │   │   ├── risk_model.pkl         # Risk categorization model
 │   │   └── [preprocessing artifacts]
 │   ├── clara_agents_pipeline.py    # Main pipeline orchestration
+│   ├── clara_app.py               # Streamlit web interface
 │   ├── behavioural_agent.py       # Behavioural financial features analysis
 │   ├── decision_agent.py          # Final loan decision logic incl. RAG & RAG validation
 │   ├── evaluator_agent.py         # Quality assurance agent
@@ -125,9 +143,8 @@ CLARA/
 │   ├── prompts.py                 # LLM prompt templates
 │   ├── token_logger.py            # API usage tracking
 │   └── utils.py                   # Shared utilities
-├── examples/                      # Example inputs (csvs/txt) and outputs for streamlit testing
+├── examples/                      # Example inputs (csvs/txt) and outputs for testing
 ├── tokens_count/                  # Token usage monitoring (copy from agent/outputs)
-├── clara_app.py                   # Streamlit web interface
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
 ```
