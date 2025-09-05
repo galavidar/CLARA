@@ -4,14 +4,19 @@ import random
 from faker import Faker
 from datetime import datetime, timedelta
 from collections import defaultdict
+from pathlib import Path
 
+current_dir = Path(__file__).parent        
+root_dir = current_dir.parent.parent  
+output_dir = root_dir / "examples" / "example3" / "inputs"
+output_dir.mkdir(parents=True, exist_ok=True)
 # ------------------- CONFIG -------------------
-NUM_USERS = 5  # Change to 1000+ if needed
+NUM_USERS = 1  # Change to 1000+ if needed
 DAYS = 90  # 3 months
-OUTPUT_DIR = 'synthetic_users'
+OUTPUT_DIR = output_dir
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 fake = Faker()
-random.seed(42)
+random.seed(18)
 
 # ------------------- MAPPINGS -------------------
 merchant_category_map = {
@@ -163,7 +168,7 @@ def generate_user_data(user_id):
 # ------------------- RUN SCRIPT -------------------
 
 
-for user_id in range(1, NUM_USERS + 1):
+for user_id in range(1003, NUM_USERS + 1003):
     generate_user_data(user_id)
 
 print(f"Done! {NUM_USERS} users generated in '{OUTPUT_DIR}' folder.")
